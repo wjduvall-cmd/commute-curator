@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-07T12:00:00-07:00",
+  "built_at": "2026-07-08T14:19:14.026Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -12,8 +12,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Marathon technical interviews with the actual scientists and founders building fusion reactors, AI, and everything adjacent.",
-      "taxonomy_node_ids": ["engineering/energy-fusion"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -27,8 +31,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "The widest bench in fusion/fission podcasting -- a new reactor architecture or company nearly every episode.",
-      "taxonomy_node_ids": ["engineering/energy-fusion"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -42,8 +50,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "The most technically dense engineering-tour podcast in English -- stellarators, magnets, superconductivity, no hand-holding.",
-      "taxonomy_node_ids": ["engineering/energy-fusion", "science/materials"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "ended",
       "explicit": null,
       "source": "carried_over_from_session"
@@ -57,8 +70,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Shorter founder interviews across the clean-energy startup landscape, fusion included.",
-      "taxonomy_node_ids": ["engineering/energy-fusion"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -72,8 +89,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Energy-transition analyst digs into the engineering and market mechanics of new power technologies.",
-      "taxonomy_node_ids": ["engineering/energy-fusion"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -87,8 +108,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "How deep-tech founders take a lab result to a company -- fusion and hard-tech leadership stories.",
-      "taxonomy_node_ids": ["engineering/energy-fusion", "business/startups"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion",
+        "business/startups"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -102,8 +128,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "CBC's long-running ideas documentary strand -- occasionally lands on fusion, energy, and technology with a narrative, current-affairs voice.",
-      "taxonomy_node_ids": ["engineering/energy-fusion"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -117,8 +147,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Reliable general-audience explainer show -- easy entry points into metallurgy, materials, and technology history topics.",
-      "taxonomy_node_ids": ["science/materials", "history/technology"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "science/materials",
+        "history/technology"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -132,8 +167,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "The dedicated materials-science show -- history, commercialization, and characterization of the stuff things are made of.",
-      "taxonomy_node_ids": ["science/materials"],
-      "archetype_fit": ["stretch", "deep-learn"],
+      "taxonomy_node_ids": [
+        "science/materials"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -147,8 +187,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "B2B semiconductor-fab panel talk -- precision process control that rhymes with reactor-grade manufacturing.",
-      "taxonomy_node_ids": ["engineering/precision-mfg"],
-      "archetype_fit": ["stretch", "deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -162,8 +207,14 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "UK precision-machining trade show -- interviews with the people who design, build, and operate CNC and aerospace-grade equipment.",
-      "taxonomy_node_ids": ["engineering/precision-mfg", "science/materials"],
-      "archetype_fit": ["stretch", "deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg",
+        "science/materials"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -177,8 +228,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Product-engineering war stories, CAD to tooling to production, on everything from medical devices to a coffee tamper.",
-      "taxonomy_node_ids": ["engineering/precision-mfg", "craft/diy-home"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -192,8 +248,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "The benchmark long-form documentary history show -- multi-hour rise-and-fall sagas with real engineering and military detail.",
-      "taxonomy_node_ids": ["history/military-ancient", "history/technology"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "history/military-ancient",
+        "history/technology"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -207,8 +268,13 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Sandbrook and Holland's conversational history juggernaut -- broad chronological coverage, strong narrative pacing.",
-      "taxonomy_node_ids": ["history/technology", "history/military-ancient"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "history/technology",
+        "history/military-ancient"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -222,8 +288,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Conan's real-friendship-with-guests premise -- consistently the warmest, easiest hang in the catalog.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -237,8 +307,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Bateman, Hayes, and Arnett's surprise-guest hang -- low pressure, high chemistry.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -252,8 +326,12 @@
       "apple_genre": null,
       "episode_count": null,
       "editorial_note": "Three real brothers answering advice questions with pure absurdism -- zero stakes, guaranteed laughs.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": null,
       "explicit": null,
       "source": "carried_over_from_session"
@@ -267,8 +345,12 @@
       "apple_genre": "Management",
       "episode_count": 530,
       "editorial_note": "Machine-shop leadership talk -- how precision shops actually quote, hire, and scale, from people who run them.",
-      "taxonomy_node_ids": ["engineering/precision-mfg"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -282,8 +364,12 @@
       "apple_genre": "Business",
       "episode_count": 459,
       "editorial_note": "Two shop owners talking CNC economics, tooling choices, and the unglamorous daily grind of running a machine shop.",
-      "taxonomy_node_ids": ["engineering/precision-mfg"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -297,8 +383,12 @@
       "apple_genre": "Business",
       "episode_count": 283,
       "editorial_note": "Metrology and quality-control nerdery -- measurement uncertainty and inspection for people who care about tenths of a thousandth.",
-      "taxonomy_node_ids": ["engineering/precision-mfg"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "engineering/precision-mfg"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -312,8 +402,12 @@
       "apple_genre": "Science",
       "episode_count": 136,
       "editorial_note": "Materials Research Society's news show -- quick, credentialed hits on new-materials breakthroughs across biomaterials, quantum, and energy.",
-      "taxonomy_node_ids": ["science/materials"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "science/materials"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -327,8 +421,12 @@
       "apple_genre": "Chemistry",
       "episode_count": 100,
       "editorial_note": "Panel conversations on how engineered materials quietly reshape everyday industries -- broad rather than deep.",
-      "taxonomy_node_ids": ["science/materials"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "science/materials"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": "ended",
       "explicit": false,
       "source": "itunes_verified"
@@ -342,8 +440,12 @@
       "apple_genre": "History",
       "episode_count": 12,
       "editorial_note": "The gold standard for narrative military history -- multi-hour, meticulously researched sagas, ancient through modern.",
-      "taxonomy_node_ids": ["history/military-ancient"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "history/military-ancient"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": null,
       "explicit": false,
       "source": "itunes_verified"
@@ -357,8 +459,13 @@
       "apple_genre": "History",
       "episode_count": 743,
       "editorial_note": "History Hit's flagship ancient-world show -- Tristan Hughes runs down a civilization, battle, or discovery with an academic guest.",
-      "taxonomy_node_ids": ["history/military-ancient"],
-      "archetype_fit": ["narrative", "deep-learn"],
+      "taxonomy_node_ids": [
+        "history/military-ancient"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -372,8 +479,12 @@
       "apple_genre": "History",
       "episode_count": 359,
       "editorial_note": "Ancient history and mythology told with storyteller's pacing rather than a lecture's.",
-      "taxonomy_node_ids": ["history/military-ancient"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "history/military-ancient"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -387,8 +498,12 @@
       "apple_genre": "History",
       "episode_count": 131,
       "editorial_note": "Chronological deep dive through Greek military and political history, Bronze Age through Roman conquest.",
-      "taxonomy_node_ids": ["history/military-ancient"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "history/military-ancient"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "ended",
       "explicit": false,
       "source": "itunes_verified"
@@ -402,8 +517,13 @@
       "apple_genre": "Science",
       "episode_count": 100,
       "editorial_note": "Bite-sized (5-minute) stories of inventions and the people behind them -- good filler between longer picks.",
-      "taxonomy_node_ids": ["history/technology"],
-      "archetype_fit": ["stretch", "comfort"],
+      "taxonomy_node_ids": [
+        "history/technology"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "comfort"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -417,8 +537,13 @@
       "apple_genre": "History",
       "episode_count": 67,
       "editorial_note": "Where engineering and history collide -- from the Golden Gate Bridge to the Boston Molasses Flood.",
-      "taxonomy_node_ids": ["history/technology"],
-      "archetype_fit": ["deep-learn", "narrative"],
+      "taxonomy_node_ids": [
+        "history/technology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
       "cadence_hint": "ended",
       "explicit": false,
       "source": "itunes_verified"
@@ -432,8 +557,13 @@
       "apple_genre": "Technology",
       "episode_count": 215,
       "editorial_note": "3-5 hour definitive company histories with real primary research -- deep-tech business strategy done properly.",
-      "taxonomy_node_ids": ["business/startups", "history/technology"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "business/startups",
+        "history/technology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -447,8 +577,12 @@
       "apple_genre": "Entrepreneurship",
       "episode_count": 448,
       "editorial_note": "David Senra reads founder biographies and pulls out the operating lessons -- obsessive, opinionated, prolific.",
-      "taxonomy_node_ids": ["business/startups"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "business/startups"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -462,8 +596,12 @@
       "apple_genre": "Technology",
       "episode_count": 1442,
       "editorial_note": "Jason Calacanis's long-running startup news and interview show -- a pulse check on where venture money is flowing.",
-      "taxonomy_node_ids": ["business/startups"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "business/startups"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -477,8 +615,13 @@
       "apple_genre": "Technology",
       "episode_count": 37,
       "editorial_note": "VC-hosted show on frontier technology -- AI, robotics, and the energy/hard-science startups behind them.",
-      "taxonomy_node_ids": ["business/startups", "engineering/energy-fusion"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "business/startups",
+        "engineering/energy-fusion"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -492,8 +635,12 @@
       "apple_genre": "Investing",
       "episode_count": 1478,
       "editorial_note": "Harry Stebbings' venture-capital interview marathon -- useful for the funding and market-dynamics side of deep tech.",
-      "taxonomy_node_ids": ["business/startups"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "business/startups"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -507,8 +654,13 @@
       "apple_genre": "Music Interviews",
       "episode_count": 115,
       "editorial_note": "One guitar builder interviewing another -- bracing, wood selection, and the small decisions that make an instrument sing.",
-      "taxonomy_node_ids": ["craft/instrument-making"],
-      "archetype_fit": ["deep-learn", "stretch"],
+      "taxonomy_node_ids": [
+        "craft/instrument-making"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
       "cadence_hint": "monthly",
       "explicit": false,
       "source": "itunes_verified"
@@ -522,8 +674,12 @@
       "apple_genre": "Music Interviews",
       "episode_count": 542,
       "editorial_note": "Long-running guitar-culture interviews that regularly drift into build technique and lutherie history.",
-      "taxonomy_node_ids": ["craft/instrument-making"],
-      "archetype_fit": ["stretch"],
+      "taxonomy_node_ids": [
+        "craft/instrument-making"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -537,8 +693,12 @@
       "apple_genre": "Music History",
       "episode_count": 49,
       "editorial_note": "The craft and history of violin making, from historic Cremonese workshops to modern luthiers.",
-      "taxonomy_node_ids": ["craft/instrument-making"],
-      "archetype_fit": ["narrative"],
+      "taxonomy_node_ids": [
+        "craft/instrument-making"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
       "cadence_hint": null,
       "explicit": false,
       "source": "itunes_verified"
@@ -552,8 +712,12 @@
       "apple_genre": "Performing Arts",
       "episode_count": 102,
       "editorial_note": "Piano technicians and rebuilders talk tuning, regulation, and instrument restoration in real technical depth.",
-      "taxonomy_node_ids": ["craft/instrument-making"],
-      "archetype_fit": ["deep-learn"],
+      "taxonomy_node_ids": [
+        "craft/instrument-making"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
       "cadence_hint": "ended",
       "explicit": false,
       "source": "itunes_verified"
@@ -567,8 +731,13 @@
       "apple_genre": "Hobbies",
       "episode_count": 100,
       "editorial_note": "Eclectic, low-key DIY -- home fixes, workshop tips, cooking, and gardening in short practical bursts.",
-      "taxonomy_node_ids": ["craft/diy-home"],
-      "archetype_fit": ["comfort", "stretch"],
+      "taxonomy_node_ids": [
+        "craft/diy-home"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "stretch"
+      ],
       "cadence_hint": "biweekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -582,8 +751,12 @@
       "apple_genre": "Home & Garden",
       "episode_count": 1242,
       "editorial_note": "Call-in home-improvement radio energy -- practical answers to real renovation and repair questions.",
-      "taxonomy_node_ids": ["craft/diy-home"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "craft/diy-home"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -597,8 +770,13 @@
       "apple_genre": "Hobbies",
       "episode_count": 620,
       "editorial_note": "Three working woodworkers riffing on tools, technique, and shop mistakes -- funnier than a how-to show has any right to be.",
-      "taxonomy_node_ids": ["craft/diy-home"],
-      "archetype_fit": ["comfort", "stretch"],
+      "taxonomy_node_ids": [
+        "craft/diy-home"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "stretch"
+      ],
       "cadence_hint": "monthly",
       "explicit": false,
       "source": "itunes_verified"
@@ -612,8 +790,13 @@
       "apple_genre": "Hobbies",
       "episode_count": 386,
       "editorial_note": "Fine Woodworking magazine's staff panel answering listener questions with real technique depth.",
-      "taxonomy_node_ids": ["craft/diy-home"],
-      "archetype_fit": ["deep-learn", "comfort"],
+      "taxonomy_node_ids": [
+        "craft/diy-home"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
       "cadence_hint": "monthly",
       "explicit": false,
       "source": "itunes_verified"
@@ -627,8 +810,12 @@
       "apple_genre": "Comedy",
       "episode_count": 72,
       "editorial_note": "Amy Poehler catching up with famous friends -- warm, unhurried, zero homework required.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -642,8 +829,12 @@
       "apple_genre": "Comedy Interviews",
       "episode_count": 399,
       "editorial_note": "Two old SNL/showbiz friends swapping stories and characters -- easy, silly, industry-insider hang.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
@@ -657,8 +848,402 @@
       "apple_genre": "Stand-Up",
       "episode_count": 334,
       "editorial_note": "Andrew Santino and Bobby Lee roasting each other -- spikier energy than the other comfort picks for days that need more jolt.",
-      "taxonomy_node_ids": ["comedy/casual-hangs"],
-      "archetype_fit": ["comfort"],
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "gastropod",
+      "title": "Gastropod",
+      "apple_collection_id": 918896288,
+      "feed_url": "https://feeds.megaphone.fm/VMP6255701211",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/86/b8/2f86b835-3646-79db-508b-3dfe2ab5c57f/mza_7794159422468204289.jpeg/600x600bb.jpg",
+      "apple_genre": "Food",
+      "episode_count": 291,
+      "editorial_note": "Two science journalists dissect food chemistry and history -- a stretch pick for engineering minds.",
+      "taxonomy_node_ids": [
+        "food/cooking-science"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-bbq-central-show",
+      "title": "The BBQ Central Show",
+      "apple_collection_id": 1412947410,
+      "feed_url": "https://feeds.blubrry.com/feeds/bbqcentral.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b6/ae/a7/b6aea743-7a14-dd74-7297-552d4225b7d4/mza_12416154268561529211.jpg/600x600bb.jpg",
+      "apple_genre": "Food",
+      "episode_count": 1846,
+      "editorial_note": "Long-running BBQ radio show with pitmasters and technique talk -- the answer to a barbecue request.",
+      "taxonomy_node_ids": [
+        "food/cooking-science"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "black-box-down",
+      "title": "Black Box Down",
+      "apple_collection_id": 1503540842,
+      "feed_url": "https://feeds.megaphone.fm/blackboxdown",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/a4/6d/76/a46d7680-e413-8e4b-a188-911b14774738/mza_10934758751055584416.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 150,
+      "editorial_note": "Two hosts dissect major aviation disasters and the engineering fixes that followed each one.",
+      "taxonomy_node_ids": [
+        "aviation/accidents"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "flight-safety-detectives",
+      "title": "Flight Safety Detectives",
+      "apple_collection_id": 1477655202,
+      "feed_url": "https://feeds.simplecast.com/Wz3NUatb",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/a4/5a/d3a45a3c-d254-9e7c-ec02-2fa924091f83/mza_3114558249847592794.jpeg/600x600bb.jpg",
+      "apple_genre": "Aviation",
+      "episode_count": 335,
+      "editorial_note": "Former NTSB investigators break down real crash investigations and the safety systems behind them.",
+      "taxonomy_node_ids": [
+        "aviation/accidents"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "this-podcast-will-kill-you",
+      "title": "This Podcast Will Kill You",
+      "apple_collection_id": 1299915173,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e0709a39-232b-4483-8e4f-b24c0111ae2c/64b4c224-562e-4b2f-9f31-b24c0111ae53/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 293,
+      "editorial_note": "Two epidemiologists cover one disease a week -- biology, history, and how outbreaks actually spread.",
+      "taxonomy_node_ids": [
+        "medicine/biology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "two-scientists-walk-into-a-bar",
+      "title": "Two Scientists Walk Into a Bar",
+      "apple_collection_id": 1163432306,
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:256626891/sounds.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3b/05/d4/3b05d4a1-674b-df85-6c89-a5db183bd4d6/mza_6969913091258002714.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 56,
+      "editorial_note": "Genentech researchers translate frontier biology -- AI drug discovery, gene therapy, cancer -- into plain talk.",
+      "taxonomy_node_ids": [
+        "medicine/biology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "lingthusiasm",
+      "title": "Lingthusiasm - A podcast that's enthusiastic about linguistics",
+      "apple_collection_id": 1186056137,
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:237055046/sounds.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/76/cf/ad/76cfad4d-692b-aa33-d43f-76aa0bc54338/mza_14324813511257672417.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 117,
+      "editorial_note": "Two linguists dig into how language actually works, from grammar structure to internet slang.",
+      "taxonomy_node_ids": [
+        "linguistics/language"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-allusionist",
+      "title": "The Allusionist",
+      "apple_collection_id": 957430475,
+      "feed_url": "https://rss.art19.com/the-allusionist",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/ee/57/d2ee5738-0ae8-cb97-2a15-8cefab5598c0/mza_18103885882368855276.jpeg/600x600bb.jpg",
+      "apple_genre": "Arts",
+      "episode_count": 251,
+      "editorial_note": "Helen Zaltzman on the strange histories tangled up inside ordinary words and phrases.",
+      "taxonomy_node_ids": [
+        "linguistics/language"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "narrative"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "science-for-sport-podcast",
+      "title": "Science for Sport Podcast",
+      "apple_collection_id": 1506431005,
+      "feed_url": "https://feeds.fireside.fm/scienceforsport/rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/d1/ce/2f/d1ce2fc5-acd9-6780-ec02-08e05123ad99/mza_11239183095122157429.jpg/600x600bb.jpg",
+      "apple_genre": "Education",
+      "episode_count": 326,
+      "editorial_note": "Applied sports-science interviews on the physiology and engineering behind elite athletic performance.",
+      "taxonomy_node_ids": [
+        "sports/biomechanics"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "just-fly-performance-podcast",
+      "title": "Just Fly Performance Podcast",
+      "apple_collection_id": 1121047188,
+      "feed_url": "https://feeds.podcastmirror.com/just-fly-performance",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/bf/31/2a/bf312a79-6f03-6b36-101c-b39a3624ae7b/mza_17594812248167925708.jpeg/600x600bb.jpg",
+      "apple_genre": "Fitness",
+      "episode_count": 300,
+      "editorial_note": "Long-form coaching interviews on the biomechanics of speed, power, and athletic movement.",
+      "taxonomy_node_ids": [
+        "sports/biomechanics"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-outlaw-ocean",
+      "title": "The Outlaw Ocean",
+      "apple_collection_id": 1641743797,
+      "feed_url": "https://www.cbc.ca/podcasting/includes/outlawocean.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/20/a0/63/20a06386-3541-7eed-8889-b30f3d565449/mza_10915069505959056021.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 19,
+      "editorial_note": "Investigative reporting from the world's most lawless waters -- crime, labor, and geopolitics at sea.",
+      "taxonomy_node_ids": [
+        "nature/ocean-science"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-sound-aquatic",
+      "title": "The Sound Aquatic",
+      "apple_collection_id": 1565876835,
+      "feed_url": "https://feed.podbean.com/soundaquatic/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/c8/88/f6/c888f6a7-9aec-3b61-1f41-71b9466eb283/mza_16970995618975324032.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 6,
+      "editorial_note": "Short, well-produced series on how marine animals use sound to navigate and communicate.",
+      "taxonomy_node_ids": [
+        "nature/ocean-science"
+      ],
+      "archetype_fit": [
+        "stretch"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "song-exploder",
+      "title": "Song Exploder",
+      "apple_collection_id": 788236947,
+      "feed_url": "https://feed.songexploder.net/SongExploder",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/7b/35/057b3588-c74c-0334-d8ef-c6b8166d4afc/mza_12324100546486323942.jpg/600x600bb.jpg",
+      "apple_genre": "Music",
+      "episode_count": 369,
+      "editorial_note": "Musicians take one song apart, track by track, to show exactly how it was built.",
+      "taxonomy_node_ids": [
+        "music/theory-production"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "switched-on-pop",
+      "title": "Switched on Pop",
+      "apple_collection_id": 934552872,
+      "feed_url": "https://feeds.megaphone.fm/switchedonpop",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/4a/87/8c/4a878cc7-0b12-dc80-93b0-c2ce08d5dd0c/mza_8267236680144001404.jpeg/600x600bb.jpg",
+      "apple_genre": "Music Commentary",
+      "episode_count": 542,
+      "editorial_note": "Musicologists analyze pop hits for the theory and production choices that make them work.",
+      "taxonomy_node_ids": [
+        "music/theory-production"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "my-favorite-theorem",
+      "title": "My Favorite Theorem",
+      "apple_collection_id": 1262231136,
+      "feed_url": "https://kpknudson.com/my-favorite-theorem?format=rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/5d/28/98/5d28982a-7fc4-59e7-7d74-9707b6d45c81/mza_808230165933535031.png/600x600bb.jpg",
+      "apple_genre": "Mathematics",
+      "episode_count": 96,
+      "editorial_note": "Mathematicians pick a favorite theorem and explain why it delights them, no lecture required.",
+      "taxonomy_node_ids": [
+        "math/puzzles"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "99-percent-invisible",
+      "title": "99% Invisible",
+      "apple_collection_id": 394775318,
+      "feed_url": "https://feeds.simplecast.com/BqbsxVfO",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/d0/35/79d035ea-9043-b43e-7380-33cd47bd968b/mza_2606971010425550919.jpg/600x600bb.jpg",
+      "apple_genre": "Design",
+      "episode_count": 812,
+      "editorial_note": "Roman Mars's design-and-infrastructure show -- the hidden systems and decisions behind the built world.",
+      "taxonomy_node_ids": [
+        "architecture/infrastructure"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-worlds-best-construction-podcast",
+      "title": "The World's Best Construction Podcast",
+      "apple_collection_id": 1635354647,
+      "feed_url": "https://feeds.acast.com/public/shows/62b4512727ff1c00137a1caf",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d1/8d/15/d18d15c0-ce12-312d-fdae-6d58179572d3/mza_17731699531660745375.jpeg/600x600bb.jpg",
+      "apple_genre": "Design",
+      "episode_count": 196,
+      "editorial_note": "The B1M's hosts riff on megaprojects, skyscrapers, and infrastructure news from around the world.",
+      "taxonomy_node_ids": [
+        "architecture/infrastructure"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "spit-and-twitches-animal-cognition",
+      "title": "Spit and Twitches: The Animal Cognition Podcast",
+      "apple_collection_id": 1015557071,
+      "feed_url": "https://feeds.feedburner.com/SpitAndTwitchesTheAnimalCognitionPodcast",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/c3/ca/ed/c3caeddc-304a-ec4f-ce5a-848c8cf5361a/mza_5199943751913908942.jpg/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 25,
+      "editorial_note": "Researchers discuss their own animal-cognition studies -- parrots, primates, spiders, and beyond.",
+      "taxonomy_node_ids": [
+        "nature/animal-cognition"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ologies-with-alie-ward",
+      "title": "Ologies with Alie Ward",
+      "apple_collection_id": 1278815517,
+      "feed_url": "https://feeds.simplecast.com/FO6kxYGj",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/4e/42/444e42f6-1ce8-1e7b-2d50-4ed506c27004/mza_18370866018545460916.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 519,
+      "editorial_note": "Alie Ward interviews an expert '-ologist' each week on one absurdly specific scientific niche.",
+      "taxonomy_node_ids": [
+        "nature/animal-cognition"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "spycast",
+      "title": "SpyCast",
+      "apple_collection_id": 201680433,
+      "feed_url": "https://feeds.megaphone.fm/spycast",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8b/ef/54/8bef54df-87de-d35e-dffc-9e5b7a69a077/mza_1037153440664024317.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 752,
+      "editorial_note": "International Spy Museum's official show -- tradecraft, Cold War history, and modern espionage tech.",
+      "taxonomy_node_ids": [
+        "espionage/cold-war-tech"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"

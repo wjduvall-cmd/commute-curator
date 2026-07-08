@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-07T14:00:00-07:00",
+  "built_at": "2026-07-08T14:19:14.026Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -12,7 +12,9 @@
       "release_date": "2026-05-29",
       "duration_min": 182,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "A Fermilab physicist on antimatter, dark energy, and the hunt for one final theory."
     },
     {
@@ -25,7 +27,9 @@
       "release_date": "2026-05-06",
       "duration_min": 264,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "How FFmpeg's engineers built the codec quietly running every video on the internet."
     },
     {
@@ -38,7 +42,9 @@
       "release_date": "2025-11-17",
       "duration_min": 165,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "Helion's CEO explains the plasma physics behind a fusion plant promised by 2028."
     },
     {
@@ -51,7 +57,9 @@
       "release_date": "2024-10-10",
       "duration_min": 47,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "A former Navy diver turned nuclear engineering department head on training the next generation."
     },
     {
@@ -64,7 +72,9 @@
       "release_date": "2024-04-18",
       "duration_min": 72,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "YouTuber Kyle Hill on touring the Dresden nuclear plant and fixing nuclear's PR problem."
     },
     {
@@ -77,7 +87,10 @@
       "release_date": "2023-06-16",
       "duration_min": 76,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion", "science/materials"],
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
       "hook": "A historian of science traces three centuries of how the West learned to see nature."
     },
     {
@@ -90,7 +103,10 @@
       "release_date": "2021-01-04",
       "duration_min": 115,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion", "science/materials"],
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
       "hook": "MIT's Jacopo Buongiorno on the next-generation reactors racing to beat climate change."
     },
     {
@@ -103,7 +119,10 @@
       "release_date": "2022-02-06",
       "duration_min": 91,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion", "science/materials"],
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
       "hook": "The graphite block built to absorb the full force of the LHC's particle beam."
     },
     {
@@ -116,7 +135,9 @@
       "release_date": "2026-07-03",
       "duration_min": 56,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6d/f5/79/6df579b2-e716-1907-d000-305018e792a4/mza_14670425412905577992.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "Scaling EV charging past its biggest blocker: renters without a private driveway."
     },
     {
@@ -129,7 +150,9 @@
       "release_date": "2026-05-20",
       "duration_min": 64,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6d/f5/79/6df579b2-e716-1907-d000-305018e792a4/mza_14670425412905577992.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "A 30-year semiconductor veteran now 3D-prints multi-material batteries instead of chips."
     },
     {
@@ -142,7 +165,9 @@
       "release_date": "2026-07-01",
       "duration_min": 38,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "Stardust Solutions' plan to disperse three million tons of reflective material into the sky."
     },
     {
@@ -155,7 +180,9 @@
       "release_date": "2026-05-28",
       "duration_min": 48,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "A startup is building AI data centers on 85-meter steel nodes anchored at sea."
     },
     {
@@ -168,7 +195,9 @@
       "release_date": "2026-05-21",
       "duration_min": 41,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "What it actually takes to scale fusion power past a single net-energy headline."
     },
     {
@@ -181,7 +210,10 @@
       "release_date": "2026-06-09",
       "duration_min": 59,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d9/7a/ca/d97acaa7-7646-8f6b-0cde-91a53600c658/mza_15311886742849519582.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion", "business/startups"],
+      "topics": [
+        "engineering/energy-fusion",
+        "business/startups"
+      ],
       "hook": "A robotics researcher argues the real innovation engine in deep tech is the lab itself."
     },
     {
@@ -194,7 +226,10 @@
       "release_date": "2026-04-21",
       "duration_min": 64,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8d/84/51/8d845189-47f1-f334-376d-2fe0f737415b/mza_10042864584469554243.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion", "business/startups"],
+      "topics": [
+        "engineering/energy-fusion",
+        "business/startups"
+      ],
       "hook": "After 12 years inside TSMC and Samsung, he now grows graphene at wafer scale."
     },
     {
@@ -207,7 +242,9 @@
       "release_date": "2026-07-07",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "David Suzuki's 1989 broadcast imagined 2039 — how close did it get?"
     },
     {
@@ -220,7 +257,9 @@
       "release_date": "2026-07-06",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "Oil writer Don Gillmor calls petroleum less a substance than a religion nobody can quit."
     },
     {
@@ -233,7 +272,9 @@
       "release_date": "2026-06-25",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
-      "topics": ["engineering/energy-fusion"],
+      "topics": [
+        "engineering/energy-fusion"
+      ],
       "hook": "James Watt needed one weird number to sell steam engines: 33,000 foot-pounds a minute."
     },
     {
@@ -246,7 +287,10 @@
       "release_date": "2026-07-07",
       "duration_min": 46,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
-      "topics": ["science/materials", "history/technology"],
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
       "hook": "During the Cold War, the USSR raced not to space but eight miles straight down."
     },
     {
@@ -259,7 +303,10 @@
       "release_date": "2026-07-02",
       "duration_min": 37,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
-      "topics": ["science/materials", "history/technology"],
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
       "hook": "The 1964 Alaska quake was the second largest ever recorded — this is that story."
     },
     {
@@ -272,7 +319,10 @@
       "release_date": "2026-06-19",
       "duration_min": 44,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
-      "topics": ["science/materials", "history/technology"],
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
       "hook": "Physicists have chased a working fusion reactor for decades — where the science stands now."
     },
     {
@@ -285,7 +335,9 @@
       "release_date": "2026-06-30",
       "duration_min": 44,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "A self-driving lab screens a hundred new alloys a day with almost no scientist input."
     },
     {
@@ -298,7 +350,9 @@
       "release_date": "2024-10-09",
       "duration_min": 56,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "The Steel Founders' Society untangles why you actually know nothing about steel."
     },
     {
@@ -311,7 +365,9 @@
       "release_date": "2025-01-10",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "Cool a metal fast enough — a million degrees a second — and it becomes glass."
     },
     {
@@ -324,7 +380,9 @@
       "release_date": "2026-02-17",
       "duration_min": 28,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dc/9a/bf/dc9abfbc-ce8b-094f-1a50-e9d2b4a69816/mza_15244253184536318128.png/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "proteanTecs' CEO on monitoring chip health from data centers to quantum, in real time."
     },
     {
@@ -337,7 +395,9 @@
       "release_date": "2026-01-19",
       "duration_min": 23,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dc/9a/bf/dc9abfbc-ce8b-094f-1a50-e9d2b4a69816/mza_15244253184536318128.png/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "PDF Solutions' CEO on how 3D-ICs are about to reshape the chip supply chain."
     },
     {
@@ -350,7 +410,10 @@
       "release_date": "2026-06-29",
       "duration_min": 28,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/c2/3b/2fc23bf0-4faa-2f41-a4bf-779df0f16e8d/mza_12518032609716077037.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg", "science/materials"],
+      "topics": [
+        "engineering/precision-mfg",
+        "science/materials"
+      ],
       "hook": "Clifford Jacobs has forged steel into Apache helicopter parts since 1919."
     },
     {
@@ -363,7 +426,10 @@
       "release_date": "2026-06-22",
       "duration_min": 22,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/c2/3b/2fc23bf0-4faa-2f41-a4bf-779df0f16e8d/mza_12518032609716077037.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg", "science/materials"],
+      "topics": [
+        "engineering/precision-mfg",
+        "science/materials"
+      ],
       "hook": "Freudenberg's seals run gearboxes and robots for 20,000 hours before anyone notices them."
     },
     {
@@ -376,7 +442,10 @@
       "release_date": "2026-07-03",
       "duration_min": 49,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg", "craft/diy-home"],
+      "topics": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
       "hook": "A mechanical engineer on the gap between what engineering school teaches and what industry needs."
     },
     {
@@ -389,7 +458,10 @@
       "release_date": "2026-06-26",
       "duration_min": 50,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg", "craft/diy-home"],
+      "topics": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
       "hook": "The 19-year engineering journey behind the world's first electronic espresso tamper."
     },
     {
@@ -402,7 +474,10 @@
       "release_date": "2026-05-15",
       "duration_min": 47,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg", "craft/diy-home"],
+      "topics": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
       "hook": "A 30-year FEA analyst on the mistakes that quietly wreck your simulation results."
     },
     {
@@ -415,7 +490,10 @@
       "release_date": "2025-11-12",
       "duration_min": 329,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/46/9e/43/469e4395-b874-1d8a-9812-96807299b494/mza_6651306928992793735.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient", "history/technology"],
+      "topics": [
+        "history/military-ancient",
+        "history/technology"
+      ],
       "hook": "How the Achaemenid Persian Empire rose from a ruined world to rule millions."
     },
     {
@@ -428,7 +506,10 @@
       "release_date": "2024-12-05",
       "duration_min": 241,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/49/25/b7/4925b708-dbc2-4ae3-529f-317d8f43fa0e/mza_1958831086190497954.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient", "history/technology"],
+      "topics": [
+        "history/military-ancient",
+        "history/technology"
+      ],
       "hook": "The Mongol Empire's rise across the Eurasian steppe, told across two long episodes."
     },
     {
@@ -441,7 +522,10 @@
       "release_date": "2021-06-14",
       "duration_min": 185,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/cd/d8/13/cdd813b3-edf4-da9d-b906-9926643dd6c8/mza_15725672231807341766.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient", "history/technology"],
+      "topics": [
+        "history/military-ancient",
+        "history/technology"
+      ],
       "hook": "The Assyrians built an empire of iron out of the lowlands of northern Iraq."
     },
     {
@@ -454,7 +538,10 @@
       "release_date": "2026-07-05",
       "duration_min": 76,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
-      "topics": ["history/technology", "history/military-ancient"],
+      "topics": [
+        "history/technology",
+        "history/military-ancient"
+      ],
       "hook": "How Alexander Hamilton went from impoverished orphan to a fatal duel with Aaron Burr."
     },
     {
@@ -467,7 +554,10 @@
       "release_date": "2026-05-03",
       "duration_min": 76,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
-      "topics": ["history/technology", "history/military-ancient"],
+      "topics": [
+        "history/technology",
+        "history/military-ancient"
+      ],
       "hook": "How wine built civilization — from Homer's Odyssey to Julius Caesar's conquests."
     },
     {
@@ -480,7 +570,10 @@
       "release_date": "2026-06-16",
       "duration_min": 61,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
-      "topics": ["history/technology", "history/military-ancient"],
+      "topics": [
+        "history/technology",
+        "history/military-ancient"
+      ],
       "hook": "How Mussolini used the 1934 World Cup as a fascist propaganda machine."
     },
     {
@@ -493,7 +586,9 @@
       "release_date": "2026-07-06",
       "duration_min": 57,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Danny McBride on pitching his Halloween sequel directly to John Carpenter."
     },
     {
@@ -506,7 +601,9 @@
       "release_date": "2026-05-18",
       "duration_min": 67,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Josh Groban on his breakout moment: singing with Celine Dion at the Grammys, age 16."
     },
     {
@@ -519,7 +616,9 @@
       "release_date": "2026-06-01",
       "duration_min": 63,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Andrew Scott on playing every single part in a one-man stage adaptation of Vanya."
     },
     {
@@ -532,7 +631,9 @@
       "release_date": "2026-07-06",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Ike Barinholtz on hustling, college bottle service, and a chaotic Southwest flight home."
     },
     {
@@ -545,7 +646,9 @@
       "release_date": "2026-05-18",
       "duration_min": 61,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Sting on digital silence, noblesse oblige, and why it's cool to say you like jazz."
     },
     {
@@ -558,7 +661,9 @@
       "release_date": "2026-03-16",
       "duration_min": 64,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Cillian Murphy on law school, rock and roll, and choosing energy over perfection."
     },
     {
@@ -571,7 +676,9 @@
       "release_date": "2026-07-06",
       "duration_min": 61,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Three brothers celebrate America's 250th with William Henry Harrison and secret jugglers."
     },
     {
@@ -584,7 +691,9 @@
       "release_date": "2026-02-09",
       "duration_min": 56,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Episode 800: the McElroys reveal their real faces after 16 years as 'Da Gooberman.'"
     },
     {
@@ -597,7 +706,9 @@
       "release_date": "2026-05-25",
       "duration_min": 57,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Turning precious childhood memories into content and negotiating a contract with a goose."
     },
     {
@@ -610,7 +721,9 @@
       "release_date": "2026-07-06",
       "duration_min": 51,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "After two layoffs, he decided a machine shop was actually the safer bet."
     },
     {
@@ -623,7 +736,9 @@
       "release_date": "2026-06-15",
       "duration_min": 52,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "Two brothers started a machine shop with one Tormach in a one-car garage."
     },
     {
@@ -636,7 +751,9 @@
       "release_date": "2026-04-13",
       "duration_min": 46,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "A 21-year-old is building an aerospace machine shop one sleepless night at a time."
     },
     {
@@ -649,7 +766,9 @@
       "release_date": "2026-06-26",
       "duration_min": 53,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/77/a4/bc/77a4bc8a-76f6-e612-da13-050262cbdbae/mza_5516773433192487976.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "Two shop owners test low-temperature alloys and lock down a factory automation system."
     },
     {
@@ -662,7 +781,9 @@
       "release_date": "2026-04-10",
       "duration_min": 51,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/77/a4/bc/77a4bc8a-76f6-e612-da13-050262cbdbae/mza_5516773433192487976.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "Two machinists use Claude to write CNC programs and manage purchase orders."
     },
     {
@@ -675,7 +796,9 @@
       "release_date": "2026-06-12",
       "duration_min": 66,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/19/75/27/197527b1-065b-c766-c04c-8c18e4343cf7/mza_15454274839862355749.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "Machining fidget pistons to a two-tenth-thousandth window on a hobby-grade mill."
     },
     {
@@ -688,7 +811,9 @@
       "release_date": "2026-05-01",
       "duration_min": 116,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/2d/f7/842df75a-7e78-d623-dfa4-7b5f97c110f7/mza_42608506857994530.jpg/600x600bb.jpg",
-      "topics": ["engineering/precision-mfg"],
+      "topics": [
+        "engineering/precision-mfg"
+      ],
       "hook": "He flew C-17s and fixed jets, then built a one-man machine shop in his backyard."
     },
     {
@@ -701,7 +826,9 @@
       "release_date": "2026-06-22",
       "duration_min": 3,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/b2/80/fcb28066-fcdb-d4e8-3014-bf8598d56c24/mza_8464533906158578485.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "3D-printing ceramic fibers gives finer structural control than the decades-old electrospinning method."
     },
     {
@@ -714,7 +841,9 @@
       "release_date": "2025-10-06",
       "duration_min": 4,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/b2/80/fcb28066-fcdb-d4e8-3014-bf8598d56c24/mza_8464533906158578485.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "A one-step method to make samarium cobalt magnets without the usual energy-hungry process."
     },
     {
@@ -727,7 +856,9 @@
       "release_date": "2023-12-25",
       "duration_min": 39,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/3d/c1/2d/3dc12d7b-192f-76ae-871a-2585a1a45679/mza_4165954840319623046.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "How amateur tennis players' subjective feedback becomes a materials engineering spec."
     },
     {
@@ -740,7 +871,9 @@
       "release_date": "2023-05-22",
       "duration_min": 49,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/3d/c1/2d/3dc12d7b-192f-76ae-871a-2585a1a45679/mza_4165954840319623046.jpg/600x600bb.jpg",
-      "topics": ["science/materials"],
+      "topics": [
+        "science/materials"
+      ],
       "hook": "The physics behind liquid metal that melts right in your hand."
     },
     {
@@ -753,7 +886,9 @@
       "release_date": "2025-12-22",
       "duration_min": 254,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f5/f2/22/f5f2226d-b62e-66d8-73b8-c9c1d8f3e4b1/mza_15278723285476248886.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Attacking the largest empire the world had ever seen — Alexander was 21."
     },
     {
@@ -766,7 +901,9 @@
       "release_date": "2018-07-14",
       "duration_min": 268,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/a1/7a/0e/a17a0ebc-3270-50d1-ff9e-425abfaf3acf/mza_5143021536932795210.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "If there were a Japanese Captain America, this episode is his origin story."
     },
     {
@@ -779,7 +916,9 @@
       "release_date": "2022-03-07",
       "duration_min": 339,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/67/e8/ea/67e8eae2-6f30-33ad-59c5-282f2d9291b8/mza_18392141633718281225.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Centuries of human bondage, economics, and violence in the Atlantic slave trade."
     },
     {
@@ -792,7 +931,9 @@
       "release_date": "2026-07-05",
       "duration_min": 69,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/36/ec/e0/36ece028-df30-aaed-52ca-d95b66695028/mza_13229915621765756170.jpeg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Was the Trojan War myth, memory of a real Bronze Age conflict, or both?"
     },
     {
@@ -805,7 +946,9 @@
       "release_date": "2026-06-25",
       "duration_min": 46,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/a9/50/b6a950a8-b0f1-83db-2b85-81273df8f4a0/mza_12822638117661507030.jpeg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Novelist Ken Follett imagines the Stone Age crews who hauled Stonehenge into place."
     },
     {
@@ -818,7 +961,9 @@
       "release_date": "2026-06-07",
       "duration_min": 45,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/46/2d/3b/462d3b49-3ad4-1c9d-9a35-80acefe8d415/mza_5271271262573493391.jpeg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "How a stone dug up by French soldiers in 1799 unlocked Egypt's hieroglyphs."
     },
     {
@@ -831,7 +976,9 @@
       "release_date": "2026-07-02",
       "duration_min": 98,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/3a/b4/37/3ab4371d-8b31-8d91-758b-cad09fc294e8/mza_249453363545711140.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Before Cleopatra, Mark Antony was married to someone just as formidable: Fulvia."
     },
     {
@@ -844,7 +991,9 @@
       "release_date": "2026-06-04",
       "duration_min": 51,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/3a/b4/37/3ab4371d-8b31-8d91-758b-cad09fc294e8/mza_249453363545711140.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "How changing marriage law created a new class of independent, powerful Roman women."
     },
     {
@@ -857,7 +1006,9 @@
       "release_date": "2026-05-21",
       "duration_min": 99,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/3a/b4/37/3ab4371d-8b31-8d91-758b-cad09fc294e8/mza_249453363545711140.jpg/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "How Augustus used marriage law to strip Roman women of their independence."
     },
     {
@@ -870,7 +1021,9 @@
       "release_date": "2024-09-12",
       "duration_min": 156,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d1/e6/ea/d1e6eaa9-ad5c-d10b-8c03-781854009f2b/mza_13555901365096986505.png/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "How a Persian-backed alliance of four Greek cities turned on Spartan expansion."
     },
     {
@@ -883,7 +1036,9 @@
       "release_date": "2023-01-05",
       "duration_min": 160,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d1/e6/ea/d1e6eaa9-ad5c-d10b-8c03-781854009f2b/mza_13555901365096986505.png/600x600bb.jpg",
-      "topics": ["history/military-ancient"],
+      "topics": [
+        "history/military-ancient"
+      ],
       "hook": "Xenophon marched ten thousand Greek mercenaries out of the heart of the Persian Empire."
     },
     {
@@ -896,7 +1051,9 @@
       "release_date": "2026-07-05",
       "duration_min": 4,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
-      "topics": ["history/technology"],
+      "topics": [
+        "history/technology"
+      ],
       "hook": "Why the tiny force holding water droplets together shapes so much of the physical world."
     },
     {
@@ -909,7 +1066,9 @@
       "release_date": "2026-06-25",
       "duration_min": 4,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
-      "topics": ["history/technology"],
+      "topics": [
+        "history/technology"
+      ],
       "hook": "Meet the physicist who pioneered practical solar energy technology decades ahead of her time."
     },
     {
@@ -922,7 +1081,9 @@
       "release_date": "2024-10-27",
       "duration_min": 63,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/fb/cf/06/fbcf0690-5b34-7158-7b05-ad3872df2e42/mza_8045345893151664664.jpg/600x600bb.jpg",
-      "topics": ["history/technology"],
+      "topics": [
+        "history/technology"
+      ],
       "hook": "Skeletons, spooky season, and the surprisingly engineered history beneath Paris."
     },
     {
@@ -935,7 +1096,9 @@
       "release_date": "2024-10-13",
       "duration_min": 75,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/fb/cf/06/fbcf0690-5b34-7158-7b05-ad3872df2e42/mza_8045345893151664664.jpg/600x600bb.jpg",
-      "topics": ["history/technology"],
+      "topics": [
+        "history/technology"
+      ],
       "hook": "James Eads built the world's first major steel bridge, defying an era of cast iron."
     },
     {
@@ -948,7 +1111,10 @@
       "release_date": "2026-06-22",
       "duration_min": 271,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/41/c0/0941c036-555e-80aa-af76-860826211540/mza_17592569476655460113.jpg/600x600bb.jpg",
-      "topics": ["business/startups", "history/technology"],
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
       "hook": "How Disney became the most successful machine ever built for monetizing nostalgia."
     },
     {
@@ -961,7 +1127,10 @@
       "release_date": "2026-05-18",
       "duration_min": 228,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5f/ce/91/5fce91ea-be85-67a3-5053-62f49c75315f/mza_4700417078932584699.jpg/600x600bb.jpg",
-      "topics": ["business/startups", "history/technology"],
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
       "hook": "Vanguard quietly became the single largest owner of most S&P 500 companies."
     },
     {
@@ -974,7 +1143,10 @@
       "release_date": "2026-04-13",
       "duration_min": 239,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/15/7a/34/157a34e3-d93a-c379-71a9-5ea867627df1/mza_11606811380157897165.jpg/600x600bb.jpg",
-      "topics": ["business/startups", "history/technology"],
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
       "hook": "Ferrari has sold just 330,000 cars in 79 years — that scarcity is the whole business."
     },
     {
@@ -987,7 +1159,9 @@
       "release_date": "2026-06-28",
       "duration_min": 48,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "What David Senra learned rereading the life of Honda's founder, Soichiro Honda."
     },
     {
@@ -1000,7 +1174,9 @@
       "release_date": "2026-05-16",
       "duration_min": 50,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "Kelly Johnson's Skunk Works rules read like a SpaceX manual written 60 years early."
     },
     {
@@ -1013,7 +1189,9 @@
       "release_date": "2026-03-08",
       "duration_min": 41,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "SpaceX launched more mass to orbit in 2025 than every other provider combined."
     },
     {
@@ -1026,7 +1204,9 @@
       "release_date": "2026-07-06",
       "duration_min": 58,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/14/fb/f0/14fbf003-616c-3bc6-58fb-97aae0268ea1/mza_3271236796849344962.jpg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "$100 trillion in global assets runs on armies of accountants patching legacy tools by hand."
     },
     {
@@ -1039,7 +1219,9 @@
       "release_date": "2026-06-27",
       "duration_min": 90,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/56/c3/3a56c353-efc1-9924-18b3-7247d6b666cf/mza_10382347963523284231.jpg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "Sensor-embedded tape now replaces wind tunnels, generating 420 million data points an hour."
     },
     {
@@ -1052,7 +1234,10 @@
       "release_date": "2026-06-30",
       "duration_min": 78,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d9/98/81/d9988115-39bc-833b-74f6-16ce2f789938/mza_17133508082832459430.jpg/600x600bb.jpg",
-      "topics": ["business/startups", "engineering/energy-fusion"],
+      "topics": [
+        "business/startups",
+        "engineering/energy-fusion"
+      ],
       "hook": "Search started as finding pages — AI is turning it into asking, reasoning, and acting."
     },
     {
@@ -1065,7 +1250,10 @@
       "release_date": "2026-04-07",
       "duration_min": 51,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ea/64/b1/ea64b123-ac34-dcd0-10d0-2be589e9f00e/mza_13351455589098294840.jpg/600x600bb.jpg",
-      "topics": ["business/startups", "engineering/energy-fusion"],
+      "topics": [
+        "business/startups",
+        "engineering/energy-fusion"
+      ],
       "hook": "The inventor of the CMOS pixel sensor explains how cameras got small enough for phones."
     },
     {
@@ -1078,7 +1266,9 @@
       "release_date": "2026-06-29",
       "duration_min": 61,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/a6/bd/11a6bd7b-e71d-1f16-e743-23db40910cc9/mza_16794820334528587913.jpeg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "Bloom Energy's CEO argues electricity, not AI models, will decide who wins the AI race."
     },
     {
@@ -1091,7 +1281,9 @@
       "release_date": "2026-05-26",
       "duration_min": 62,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8f/c5/44/8fc5440e-6d0d-f2cd-d128-81c3045b0cc5/mza_10436275173796373237.jpeg/600x600bb.jpg",
-      "topics": ["business/startups"],
+      "topics": [
+        "business/startups"
+      ],
       "hook": "Cerebras just did the largest semiconductor IPO in history — its CEO explains why."
     },
     {
@@ -1104,7 +1296,9 @@
       "release_date": "2026-07-02",
       "duration_min": 57,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/61/85/33/618533ae-ee68-8a43-0da7-c01d2652c700/mza_6282196726920991032.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "A classical guitar maker on the mentorship that shaped his Olympic-ring rosette design."
     },
     {
@@ -1117,7 +1311,9 @@
       "release_date": "2025-12-29",
       "duration_min": 85,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/61/85/33/618533ae-ee68-8a43-0da7-c01d2652c700/mza_6282196726920991032.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "A Finnish luthier's Valve Bucker pickup and guitars built from Arctic birch."
     },
     {
@@ -1130,7 +1326,9 @@
       "release_date": "2026-07-03",
       "duration_min": 40,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a2/43/83/a2438301-5237-b57b-0397-513a28d9f36a/mza_8050638846459341682.jpeg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "A guitarist who studied with Martin Simpson plays electric guitar like a piano."
     },
     {
@@ -1143,7 +1341,9 @@
       "release_date": "2026-05-22",
       "duration_min": 42,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a2/43/83/a2438301-5237-b57b-0397-513a28d9f36a/mza_8050638846459341682.jpeg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "Brad Barr's simple trick makes his guitar drone like a violin."
     },
     {
@@ -1156,7 +1356,9 @@
       "release_date": "2026-02-22",
       "duration_min": 56,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a2/43/83/a2438301-5237-b57b-0397-513a28d9f36a/mza_8050638846459341682.jpeg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "The rise and fall of Micro-Frets, the upstart electric guitar brand of the late '60s."
     },
     {
@@ -1169,7 +1371,9 @@
       "release_date": "2023-03-31",
       "duration_min": 47,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/76/ec/4176ec6d-db4d-34a6-88d4-fc48a2fcf3b5/mza_3307530701491058381.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "Catherine de Medici toured her king son around France to the sound of Amati violins."
     },
     {
@@ -1182,7 +1386,9 @@
       "release_date": "2023-02-02",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/58/9b/ba/589bba90-d7b0-e57d-4909-de95130d988f/mza_7956922095825017314.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "Why Gasparo Bertolotti is considered the first person to ever build a violin."
     },
     {
@@ -1195,7 +1401,9 @@
       "release_date": "2025-09-16",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/93/b9/f3/93b9f37d-2735-9fa4-687a-1c2ec8d79767/mza_11692479255378887365.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "A conductor-pianist on collaborative musicianship and tech-forward keyboards in contemporary opera."
     },
     {
@@ -1208,7 +1416,9 @@
       "release_date": "2024-11-22",
       "duration_min": 61,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a8/6b/a5/a86ba5f9-58cf-bc9f-1362-413f6c4eeab7/mza_8640249022120036466.jpg/600x600bb.jpg",
-      "topics": ["craft/instrument-making"],
+      "topics": [
+        "craft/instrument-making"
+      ],
       "hook": "The Fandrich Vertical Action reinvented how an upright piano's hammers actually respond."
     },
     {
@@ -1221,7 +1431,9 @@
       "release_date": "2026-04-24",
       "duration_min": 32,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/7d/82/8b/7d828b9f-0ec4-d346-e9e5-b47731a86acb/mza_552515355794024318.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "Rick's self-amalgamating tape trick, plus why jet fuel got so expensive."
     },
     {
@@ -1234,7 +1446,9 @@
       "release_date": "2026-03-05",
       "duration_min": 30,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/7d/82/8b/7d828b9f-0ec4-d346-e9e5-b47731a86acb/mza_552515355794024318.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "A free 3D printer, the headaches of getting it running, and building chairs from scratch."
     },
     {
@@ -1247,7 +1461,9 @@
       "release_date": "2026-07-02",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/55/d0/42/55d042d1-d595-0fce-c14a-04e2d4d48505/mza_8757307005226717506.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "How to spot the building materials and greenwashed products quietly making your home sick."
     },
     {
@@ -1260,7 +1476,9 @@
       "release_date": "2026-06-25",
       "duration_min": 46,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/55/d0/42/55d042d1-d595-0fce-c14a-04e2d4d48505/mza_8757307005226717506.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "A Made-in-America artificial stone that installs by driving fasteners straight through its face."
     },
     {
@@ -1273,7 +1491,9 @@
       "release_date": "2026-06-08",
       "duration_min": 28,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/03/77/34/037734a5-38ac-d844-4d1e-f25fb7bfb11f/mza_406931835671098101.jpeg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "Recorded live at a trade show: how Alex Snodgrass became the bandsaw guy."
     },
     {
@@ -1286,7 +1506,9 @@
       "release_date": "2026-03-25",
       "duration_min": 57,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/03/77/34/037734a5-38ac-d844-4d1e-f25fb7bfb11f/mza_406931835671098101.jpeg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "Building a pole lathe and figuring out which sharpening tasks you can actually skip."
     },
     {
@@ -1299,7 +1521,9 @@
       "release_date": "2026-06-27",
       "duration_min": 65,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/eb/1f/ea/eb1feaf2-3356-a81b-b589-980f7f9a3107/mza_4940064301473067456.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "Colonial Williamsburg's head cabinetmaker on working entirely with 18th-century shop methods."
     },
     {
@@ -1312,7 +1536,9 @@
       "release_date": "2026-01-23",
       "duration_min": 70,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/1b/fa/381bfa45-53a0-53ea-189d-d473fdd7d46d/mza_4517137230989547511.jpg/600x600bb.jpg",
-      "topics": ["craft/diy-home"],
+      "topics": [
+        "craft/diy-home"
+      ],
       "hook": "He's hunted and restored vintage hand tools professionally since 1999."
     },
     {
@@ -1325,7 +1551,9 @@
       "release_date": "2026-07-07",
       "duration_min": 73,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Matt Damon on the 2004 Red Sox World Series and getting pranked by George Clooney."
     },
     {
@@ -1338,7 +1566,9 @@
       "release_date": "2026-04-21",
       "duration_min": 65,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Nick Offerman explains why his mustache makes him talk slowly."
     },
     {
@@ -1351,7 +1581,9 @@
       "release_date": "2026-02-03",
       "duration_min": 70,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Carol Burnett, in her 90s, on doing sketch comedy alongside Ray Charles."
     },
     {
@@ -1364,7 +1596,9 @@
       "release_date": "2026-07-02",
       "duration_min": 69,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/5f/1e/c45f1e02-7a76-a6e6-d53d-9705246ed2c1/mza_17162576389956741702.jpeg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Nathan Lane on Christopher Walken, Mouse Hunt, and his years with Mickey Rooney."
     },
     {
@@ -1377,7 +1611,9 @@
       "release_date": "2026-06-25",
       "duration_min": 54,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/5f/1e/c45f1e02-7a76-a6e6-d53d-9705246ed2c1/mza_17162576389956741702.jpeg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Edward Norton on Fight Club, Adam Sandler, and getting stoned with Brad Pitt in Venice."
     },
     {
@@ -1390,7 +1626,9 @@
       "release_date": "2026-07-06",
       "duration_min": 62,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/26/c8/b026c805-1a24-55ea-cff3-d0329d2338ce/mza_11376115143280052758.jpeg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Bobby is distressed, and Andrew Santino has thoughts about it."
     },
     {
@@ -1403,8 +1641,580 @@
       "release_date": "2026-06-22",
       "duration_min": 71,
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/26/c8/b026c805-1a24-55ea-cff3-d0329d2338ce/mza_11376115143280052758.jpeg/600x600bb.jpg",
-      "topics": ["comedy/casual-hangs"],
+      "topics": [
+        "comedy/casual-hangs"
+      ],
       "hook": "Eric Andre goes deep into Korean culture with Bobby and Andrew."
+    },
+    {
+      "id": "gastropod--bringing-home-the-bacon",
+      "show": "Gastropod",
+      "title": "Bringing Home the Bacon: From Shakespeare to the Baconator",
+      "apple_collection_id": 918896288,
+      "apple_track_id": 1000773909875,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bringing-home-the-bacon-from-shakespeare-to-the-baconator/id918896288?i=1000773909875&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/86/b8/2f86b835-3646-79db-508b-3dfe2ab5c57f/mza_7794159422468204289.jpeg/600x600bb.jpg",
+      "topics": [
+        "food/cooking-science"
+      ],
+      "hook": "Why bacon was reviled for centuries before becoming America's favorite breakfast meat."
+    },
+    {
+      "id": "gastropod--what-the-shell-lobster",
+      "show": "Gastropod",
+      "title": "What the Shell? Cracking the Lobster's Mysteries",
+      "apple_collection_id": 918896288,
+      "apple_track_id": 1000771878864,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/what-the-shell-cracking-the-lobsters-mysteries/id918896288?i=1000771878864&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/86/b8/2f86b835-3646-79db-508b-3dfe2ab5c57f/mza_7794159422468204289.jpeg/600x600bb.jpg",
+      "topics": [
+        "food/cooking-science"
+      ],
+      "hook": "Cracking open the biology behind the New England lobster roll's favorite ingredient."
+    },
+    {
+      "id": "the-bbq-central-show--grant-pinkerton",
+      "show": "The BBQ Central Show",
+      "title": "Grant Pinkerton: Pinkerton's Barbecue",
+      "apple_collection_id": 1412947410,
+      "apple_track_id": 1000774953268,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/grant-pinkerton-pinkertons-barbecue/id1412947410?i=1000774953268&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b6/ae/a7/b6aea743-7a14-dd74-7297-552d4225b7d4/mza_12416154268561529211.jpg/600x600bb.jpg",
+      "topics": [
+        "food/cooking-science"
+      ],
+      "hook": "A Houston pitmaster on running one of Texas's most respected barbecue joints."
+    },
+    {
+      "id": "the-bbq-central-show--steven-raichlen",
+      "show": "The BBQ Central Show",
+      "title": "Steven Raichlen Is A Man On Fire! Emma Nguyen Just Wins!",
+      "apple_collection_id": 1412947410,
+      "apple_track_id": 1000768683757,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/steven-raichlen-is-a-man-on-fire-emma-nguyen-just-wins/id1412947410?i=1000768683757&uo=4",
+      "release_date": "2026-05-20",
+      "duration_min": 60,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b6/ae/a7/b6aea743-7a14-dd74-7297-552d4225b7d4/mza_12416154268561529211.jpg/600x600bb.jpg",
+      "topics": [
+        "food/cooking-science"
+      ],
+      "hook": "Barbecue Bible author Steven Raichlen talks smoke, fire, and grilling technique on air."
+    },
+    {
+      "id": "black-box-down--potomac-river",
+      "show": "Black Box Down",
+      "title": "Frozen Flight Crashes In the Potomac River",
+      "apple_collection_id": 1503540842,
+      "apple_track_id": 1000615063774,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/frozen-flight-crashes-in-the-potomac-river/id1503540842?i=1000615063774&uo=4",
+      "release_date": "2023-06-01",
+      "duration_min": 62,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/a4/6d/76/a46d7680-e413-8e4b-a188-911b14774738/mza_10934758751055584416.jpg/600x600bb.jpg",
+      "topics": [
+        "aviation/accidents"
+      ],
+      "hook": "Air Florida Flight 90 crashed into the frozen Potomac, leaving only six survivors."
+    },
+    {
+      "id": "black-box-down--hardover-rudder",
+      "show": "Black Box Down",
+      "title": "Pilots Fight Hardover Rudder to Regain Control of Aircraft",
+      "apple_collection_id": 1503540842,
+      "apple_track_id": 1000611500243,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pilots-fight-hardover-rudder-to-regain-control-of-aircraft/id1503540842?i=1000611500243&uo=4",
+      "release_date": "2023-05-04",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/a4/6d/76/a46d7680-e413-8e4b-a188-911b14774738/mza_10934758751055584416.jpg/600x600bb.jpg",
+      "topics": [
+        "aviation/accidents"
+      ],
+      "hook": "Northwest Flight 85's rudder jammed mid-flight, forcing a terrifying uncontrolled bank."
+    },
+    {
+      "id": "flight-safety-detectives--evtol-challenges",
+      "show": "Flight Safety Detectives",
+      "title": "eVTOL Aircraft Face Critical Technical Challenges - Episode 329",
+      "apple_collection_id": 1477655202,
+      "apple_track_id": 1000768733968,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/evtol-aircraft-face-critical-technical-challenges-episode/id1477655202?i=1000768733968&uo=4",
+      "release_date": "2026-05-20",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/a4/5a/d3a45a3c-d254-9e7c-ec02-2fa924091f83/mza_3114558249847592794.jpeg/600x600bb.jpg",
+      "topics": [
+        "aviation/accidents"
+      ],
+      "hook": "A safety-certification engineer on the real technical hurdles facing flying air taxis."
+    },
+    {
+      "id": "flight-safety-detectives--behind-the-scenes-investigation",
+      "show": "Flight Safety Detectives",
+      "title": "Behind the Scenes of a Real Aviation Accident Investigation - Episode 323",
+      "apple_collection_id": 1477655202,
+      "apple_track_id": 1000760256692,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/behind-the-scenes-of-a-real/id1477655202?i=1000760256692&uo=4",
+      "release_date": "2026-04-08",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/a4/5a/d3a45a3c-d254-9e7c-ec02-2fa924091f83/mza_3114558249847592794.jpeg/600x600bb.jpg",
+      "topics": [
+        "aviation/accidents"
+      ],
+      "hook": "Former NTSB investigators walk through day one of a real crash investigation."
+    },
+    {
+      "id": "this-podcast-will-kill-you--histoplasmosis",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 210 Histoplasmosis: Bats, birds, and budding yeast",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000768521666,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-210-histoplasmosis-bats-birds-and-budding-yeast/id1299915173?i=1000768521666&uo=4",
+      "release_date": "2026-05-19",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "A fungal lung infection spread by bats and birds is quietly becoming common."
+    },
+    {
+      "id": "this-podcast-will-kill-you--oropouche-virus",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 206 Oropouche Virus: More than a smidge worrisome",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000759986626,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-206-oropouche-virus-more-than-a-smidge-worrisome/id1299915173?i=1000759986626&uo=4",
+      "release_date": "2026-04-07",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "A little-known virus spreads through biting midges instead of mosquitoes or ticks."
+    },
+    {
+      "id": "two-scientists-walk-into-a-bar--wild-world-of-eyeballs",
+      "show": "Two Scientists Walk Into a Bar",
+      "title": "S7E01: The Wild World of Eyeballs",
+      "apple_collection_id": 1163432306,
+      "apple_track_id": 1000755955261,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s7e01-the-wild-world-of-eyeballs/id1163432306?i=1000755955261&uo=4",
+      "release_date": "2026-03-17",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3b/05/d4/3b05d4a1-674b-df85-6c89-a5db183bd4d6/mza_6969913091258002714.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Scientists pushing the boundaries of vision treatment open a new season on eyeballs."
+    },
+    {
+      "id": "two-scientists-walk-into-a-bar--ai-antibiotics",
+      "show": "Two Scientists Walk Into a Bar",
+      "title": "S6E02: AI and the Quest for New Antibiotics",
+      "apple_collection_id": 1163432306,
+      "apple_track_id": 1000708447260,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s6e02-ai-and-the-quest-for-new-antibiotics/id1163432306?i=1000708447260&uo=4",
+      "release_date": "2025-05-14",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3b/05/d4/3b05d4a1-674b-df85-6c89-a5db183bd4d6/mza_6969913091258002714.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Nearly a decade after sounding the antibiotic-resistance alarm, AI joins the search."
+    },
+    {
+      "id": "lingthusiasm--on-the-nose",
+      "show": "Lingthusiasm",
+      "title": "109: On the nose - How the nose shapes language",
+      "apple_collection_id": 1186056137,
+      "apple_track_id": 1000732227129,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/109-on-the-nose-how-the-nose-shapes-language/id1186056137?i=1000732227129&uo=4",
+      "release_date": "2025-10-17",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/76/cf/ad/76cfad4d-692b-aa33-d43f-76aa0bc54338/mza_14324813511257672417.jpg/600x600bb.jpg",
+      "topics": [
+        "linguistics/language"
+      ],
+      "hook": "How your nose shapes both spoken language and the grammar of signed language."
+    },
+    {
+      "id": "lingthusiasm--hotdog-sandwich-definitions",
+      "show": "Lingthusiasm",
+      "title": "106: Is a hotdog a sandwich? The problem with definitions",
+      "apple_collection_id": 1186056137,
+      "apple_track_id": 1000717827636,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/106-is-a-hotdog-a-sandwich-the-problem-with-definitions/id1186056137?i=1000717827636&uo=4",
+      "release_date": "2025-07-18",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/76/cf/ad/76cfad4d-692b-aa33-d43f-76aa0bc54338/mza_14324813511257672417.jpg/600x600bb.jpg",
+      "topics": [
+        "linguistics/language"
+      ],
+      "hook": "Burritos, ravioli, and ice cream sandwiches expose a messy problem of definitions."
+    },
+    {
+      "id": "the-allusionist--suburbia",
+      "show": "The Allusionist",
+      "title": "226. Suburbia",
+      "apple_collection_id": 957430475,
+      "apple_track_id": 1000763986862,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/226-suburbia/id957430475?i=1000763986862&uo=4",
+      "release_date": "2026-04-27",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/ee/57/d2ee5738-0ae8-cb97-2a15-8cefab5598c0/mza_18103885882368855276.jpeg/600x600bb.jpg",
+      "topics": [
+        "linguistics/language"
+      ],
+      "hook": "A social historian unpacks the loaded, contradictory meanings packed into one word."
+    },
+    {
+      "id": "the-allusionist--banned-books",
+      "show": "The Allusionist",
+      "title": "218. Banned Books",
+      "apple_collection_id": 957430475,
+      "apple_track_id": 1000730793649,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/218-banned-books/id957430475?i=1000730793649&uo=4",
+      "release_date": "2025-10-07",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/ee/57/d2ee5738-0ae8-cb97-2a15-8cefab5598c0/mza_18103885882368855276.jpeg/600x600bb.jpg",
+      "topics": [
+        "linguistics/language"
+      ],
+      "hook": "The American Library Association's president on what book banning looks like now."
+    },
+    {
+      "id": "science-for-sport-podcast--joe-truman",
+      "show": "Science for Sport Podcast",
+      "title": "Joe Truman: Training of a GB Track Sprinter",
+      "apple_collection_id": 1506431005,
+      "apple_track_id": 1000772725851,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/joe-truman-training-of-a-gb-track-sprinter/id1506431005?i=1000772725851&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 24,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/d1/ce/2f/d1ce2fc5-acd9-6780-ec02-08e05123ad99/mza_11239183095122157429.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "A GB track sprinter on a decade climbing British Cycling's talent pathway."
+    },
+    {
+      "id": "science-for-sport-podcast--acceleration-plyometrics",
+      "show": "Science for Sport Podcast",
+      "title": "Acceleration, Plyometrics and the Transfer to Performance",
+      "apple_collection_id": 1506431005,
+      "apple_track_id": 1000767138202,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/acceleration-plyometrics-and-the-transfer-to-performance/id1506431005?i=1000767138202&uo=4",
+      "release_date": "2026-05-11",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/d1/ce/2f/d1ce2fc5-acd9-6780-ec02-08e05123ad99/mza_11239183095122157429.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "An Olympic bobsled medalist on what plyometrics actually transfer to performance."
+    },
+    {
+      "id": "just-fly-performance-podcast--scott-leech",
+      "show": "Just Fly Performance Podcast",
+      "title": "522: Scott Leech on Constraint-Led Speed Training, AI, and the Future of Coaching",
+      "apple_collection_id": 1121047188,
+      "apple_track_id": 1000775171338,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/522-scott-leech-on-constraint-led-speed-training-ai/id1121047188?i=1000775171338&uo=4",
+      "release_date": "2026-07-02",
+      "duration_min": 82,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/bf/31/2a/bf312a79-6f03-6b36-101c-b39a3624ae7b/mza_17594812248167925708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "Training athletes with constraints and games instead of rigid drills, plus AI."
+    },
+    {
+      "id": "just-fly-performance-podcast--chris-chase",
+      "show": "Just Fly Performance Podcast",
+      "title": "515: Chris Chase on Plyometrics, Deceleration and Tendon Resilience",
+      "apple_collection_id": 1121047188,
+      "apple_track_id": 1000767755768,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/515-chris-chase-on-plyometrics-deceleration-and/id1121047188?i=1000767755768&uo=4",
+      "release_date": "2026-05-14",
+      "duration_min": 102,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/bf/31/2a/bf312a79-6f03-6b36-101c-b39a3624ae7b/mza_17594812248167925708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "An NBA performance coach on tendon resilience and the biomechanics of landing."
+    },
+    {
+      "id": "the-outlaw-ocean--repo-man-of-the-seas",
+      "show": "The Outlaw Ocean",
+      "title": "S2 E4: The repo man of the seas",
+      "apple_collection_id": 1641743797,
+      "apple_track_id": 1000710458421,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s2-e4-the-repo-man-of-the-seas/id1641743797?i=1000710458421&uo=4",
+      "release_date": "2025-06-25",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/20/a0/63/20a06386-3541-7eed-8889-b30f3d565449/mza_10915069505959056021.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/ocean-science"
+      ],
+      "hook": "A real-life sea repo man who extracts seized ships from hostile foreign ports."
+    },
+    {
+      "id": "the-outlaw-ocean--the-dark-fleet",
+      "show": "The Outlaw Ocean",
+      "title": "S1 E2: The Dark Fleet",
+      "apple_collection_id": 1641743797,
+      "apple_track_id": 1000581361952,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s1-e2-the-dark-fleet/id1641743797?i=1000581361952&uo=4",
+      "release_date": "2022-10-03",
+      "duration_min": 53,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/20/a0/63/20a06386-3541-7eed-8889-b30f3d565449/mza_10915069505959056021.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/ocean-science"
+      ],
+      "hook": "A 110-day, 10,000-mile chase after Interpol's most wanted illegal fishing ship."
+    },
+    {
+      "id": "the-sound-aquatic--learning-to-speak-whale",
+      "show": "The Sound Aquatic",
+      "title": "Episode 4: Learning to Speak Whale",
+      "apple_collection_id": 1565876835,
+      "apple_track_id": 1000525455512,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-4-learning-to-speak-whale/id1565876835?i=1000525455512&uo=4",
+      "release_date": "2021-06-14",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/c8/88/f6/c888f6a7-9aec-3b61-1f41-71b9466eb283/mza_16970995618975324032.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/ocean-science"
+      ],
+      "hook": "Whale clans pass down their own distinct dialects to calves like a culture."
+    },
+    {
+      "id": "the-sound-aquatic--how-not-to-get-lost",
+      "show": "The Sound Aquatic",
+      "title": "Episode 2: How Not to Get Lost in the Ocean",
+      "apple_collection_id": 1565876835,
+      "apple_track_id": 1000523671523,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-2-how-not-to-get-lost-in-the-ocean/id1565876835?i=1000523671523&uo=4",
+      "release_date": "2021-05-31",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/c8/88/f6/c888f6a7-9aec-3b61-1f41-71b9466eb283/mza_16970995618975324032.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/ocean-science"
+      ],
+      "hook": "How marine animals navigate the ocean using whispers, songs, grunts, and clicks."
+    },
+    {
+      "id": "song-exploder--paul-mccartney-ripples-in-a-pond",
+      "show": "Song Exploder",
+      "title": "Paul McCartney - Ripples in a Pond",
+      "apple_collection_id": 788236947,
+      "apple_track_id": 1000772044807,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/paul-mccartney-ripples-in-a-pond/id788236947?i=1000772044807&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 24,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/7b/35/057b3588-c74c-0334-d8ef-c6b8166d4afc/mza_12324100546486323942.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Paul McCartney breaks down the making of a brand new 2026 song."
+    },
+    {
+      "id": "song-exploder--fleetwood-mac-go-your-own-way",
+      "show": "Song Exploder",
+      "title": "Fleetwood Mac - Go Your Own Way",
+      "apple_collection_id": 788236947,
+      "apple_track_id": 1000732993215,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/fleetwood-mac-go-your-own-way/id788236947?i=1000732993215&uo=4",
+      "release_date": "2025-10-22",
+      "duration_min": 21,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/7b/35/057b3588-c74c-0334-d8ef-c6b8166d4afc/mza_12324100546486323942.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Lindsey Buckingham on writing this song as his band was quietly splitting apart."
+    },
+    {
+      "id": "switched-on-pop--world-cup-music",
+      "show": "Switched on Pop",
+      "title": "Music only the World Cup could make",
+      "apple_collection_id": 934552872,
+      "apple_track_id": 1000774810344,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/music-only-the-world-cup-could-make/id934552872?i=1000774810344&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/4a/87/8c/4a878cc7-0b12-dc80-93b0-c2ce08d5dd0c/mza_8267236680144001404.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Why the World Cup keeps producing its own strange, unrepeatable pop hits."
+    },
+    {
+      "id": "switched-on-pop--jacob-collier",
+      "show": "Switched on Pop",
+      "title": "Jacob Collier can make anyone sing",
+      "apple_collection_id": 934552872,
+      "apple_track_id": 1000755732838,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jacob-collier-can-make-anyone-sing/id934552872?i=1000755732838&uo=4",
+      "release_date": "2026-03-17",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/4a/87/8c/4a878cc7-0b12-dc80-93b0-c2ce08d5dd0c/mza_8267236680144001404.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "A musician fluent in western harmony, negative harmony, and microtonalism at once."
+    },
+    {
+      "id": "my-favorite-theorem--kyne-santos",
+      "show": "My Favorite Theorem",
+      "title": "Episode 95 - Kyne Santos",
+      "apple_collection_id": 1262231136,
+      "apple_track_id": 1000709277551,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-95-kyne-santos/id1262231136?i=1000709277551&uo=4",
+      "release_date": "2025-05-21",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/5d/28/98/5d28982a-7fc4-59e7-7d74-9707b6d45c81/mza_808230165933535031.png/600x600bb.jpg",
+      "topics": [
+        "math/puzzles"
+      ],
+      "hook": "A drag queen and math educator on why she loves the Fundamental Theorem of Calculus."
+    },
+    {
+      "id": "my-favorite-theorem--sarah-hart",
+      "show": "My Favorite Theorem",
+      "title": "Episode 86 - Sarah Hart",
+      "apple_collection_id": 1262231136,
+      "apple_track_id": 1000621810472,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-86-sarah-hart/id1262231136?i=1000621810472&uo=4",
+      "release_date": "2023-07-20",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/5d/28/98/5d28982a-7fc4-59e7-7d74-9707b6d45c81/mza_808230165933535031.png/600x600bb.jpg",
+      "topics": [
+        "math/puzzles"
+      ],
+      "hook": "A mathematician traces the hidden cycloid curve lurking inside Moby-Dick."
+    },
+    {
+      "id": "99-percent-invisible--the-mapl-test",
+      "show": "99% Invisible",
+      "title": "The MAPL Test",
+      "apple_collection_id": 394775318,
+      "apple_track_id": 1000769712289,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-mapl-test/id394775318?i=1000769712289&uo=4",
+      "release_date": "2026-06-02",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/d0/35/79d035ea-9043-b43e-7380-33cd47bd968b/mza_2606971010425550919.jpg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "A quirky radio rule that quietly reshaped who gets heard in Canadian music."
+    },
+    {
+      "id": "99-percent-invisible--roboump",
+      "show": "99% Invisible",
+      "title": "RoboUmp Hits the Big Leagues",
+      "apple_collection_id": 394775318,
+      "apple_track_id": 1000760085839,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/roboump-hits-the-big-leagues/id394775318?i=1000760085839&uo=4",
+      "release_date": "2026-04-14",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/d0/35/79d035ea-9043-b43e-7380-33cd47bd968b/mza_2606971010425550919.jpg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "Umpires blow 34,000 calls a year -- can automated strike zones fix that?"
+    },
+    {
+      "id": "the-worlds-best-construction-podcast--norway-mega-tunnel",
+      "show": "The World's Best Construction Podcast",
+      "title": "Norway is Building The World's Deepest Mega-Tunnel - #193",
+      "apple_collection_id": 1635354647,
+      "apple_track_id": 1000772200581,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/norway-is-building-the-worlds-deepest-mega-tunnel-193/id1635354647?i=1000772200581&uo=4",
+      "release_date": "2026-06-11",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d1/8d/15/d18d15c0-ce12-312d-fdae-6d58179572d3/mza_17731699531660745375.jpeg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "Norway is boring the world's deepest tunnel straight through solid bedrock."
+    },
+    {
+      "id": "the-worlds-best-construction-podcast--chernobyl-dome",
+      "show": "The World's Best Construction Podcast",
+      "title": "How Teams Are Working to Fix Chernobyl's Dome - #187",
+      "apple_collection_id": 1635354647,
+      "apple_track_id": 1000764739553,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-teams-are-working-to-fix-chernobyls-dome-187/id1635354647?i=1000764739553&uo=4",
+      "release_date": "2026-04-30",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d1/8d/15/d18d15c0-ce12-312d-fdae-6d58179572d3/mza_17731699531660745375.jpeg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "Inside the ongoing engineering fight to keep Chernobyl's reactor dome from failing."
+    },
+    {
+      "id": "ologies-with-alie-ward--nudibranchology",
+      "show": "Ologies with Alie Ward",
+      "title": "Nudibranchology (GLAMOROUS SEA SLUGS) with Jessica Goodheart and Terry Gosliner",
+      "apple_collection_id": 1278815517,
+      "apple_track_id": 1000758599606,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/nudibranchology-glamorous-sea-slugs-with-jessica/id1278815517?i=1000758599606&uo=4",
+      "release_date": "2026-04-01",
+      "duration_min": 84,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/4e/42/444e42f6-1ce8-1e7b-2d50-4ed506c27004/mza_18370866018545460916.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/animal-cognition"
+      ],
+      "hook": "Sea slugs with stolen weaponry, tiny eyes, and fluid gender -- glamorous biology."
+    },
+    {
+      "id": "ologies-with-alie-ward--zoohoplology",
+      "show": "Ologies with Alie Ward",
+      "title": "Zoohoplology (ANIMAL DEFENSES) with Ted Stankowich",
+      "apple_collection_id": 1278815517,
+      "apple_track_id": 1000750457432,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/zoohoplology-animal-defenses-with-ted-stankowich/id1278815517?i=1000750457432&uo=4",
+      "release_date": "2026-02-19",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/4e/42/444e42f6-1ce8-1e7b-2d50-4ed506c27004/mza_18370866018545460916.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/animal-cognition"
+      ],
+      "hook": "An evolutionary biologist on why armadillos curl up and skunks just stink."
+    },
+    {
+      "id": "spycast--weather-report-that-changed-history",
+      "show": "SpyCast",
+      "title": "The Weather Report that Changed History",
+      "apple_collection_id": 201680433,
+      "apple_track_id": 1000770757527,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-weather-report-that-changed-history/id201680433?i=1000770757527&uo=4",
+      "release_date": "2026-06-02",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8b/ef/54/8bef54df-87de-d35e-dffc-9e5b7a69a077/mza_1037153440664024317.jpg/600x600bb.jpg",
+      "topics": [
+        "espionage/cold-war-tech"
+      ],
+      "hook": "The secret weather forecast that decided whether D-Day would happen at all."
+    },
+    {
+      "id": "spycast--cia-lost-nuclear-device-india",
+      "show": "SpyCast",
+      "title": "When the CIA Lost a Nuclear Device in India",
+      "apple_collection_id": 201680433,
+      "apple_track_id": 1000755751981,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/when-the-cia-lost-a-nuclear-device-in-india/id201680433?i=1000755751981&uo=4",
+      "release_date": "2026-03-17",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8b/ef/54/8bef54df-87de-d35e-dffc-9e5b7a69a077/mza_1037153440664024317.jpg/600x600bb.jpg",
+      "topics": [
+        "espionage/cold-war-tech"
+      ],
+      "hook": "The CIA lost a plutonium-powered spy device high on a Himalayan peak."
     }
   ]
 }
