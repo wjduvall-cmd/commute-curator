@@ -34,6 +34,12 @@ App Review notes distinguishing offline podcast downloads from rippers (guidelin
 **R10 — Competitive re-assessment triggers, pre-committed.**
 Competitor feature demos change nothing unless: Spotify starts honoring negative feedback signals, or Apple ships a personalized drive/commute mode. Quarterly watchlist per 01-competitive-landscape §6. (Anti-demoralization rule from the pre-mortem.)
 
+**R11 — Intro-skip, the compliant way (user request 2026-07-08).** 📱
+Automated ad detection/stripping is permanently rejected (hard constraint #3 + legal memo precedent). Ship instead in the iOS app: (a) per-show *user-configured* "skip first N seconds" (Pocket Casts precedent), (b) "start at first content chapter" via publisher-provided chapter markers, gated on `chapters_reliable` and not `dai_suspected`. Any ad-adjacent feature request triggers legal review.
+
+**R12 — Free-text series assembly ("give me a series about fusion").**
+Shipped v1 on web (keyword+alias scoring over the pool, persisted quests with progress). When the key lands, the same input posts to the curation engine for semantic series assembly with pedagogical ordering; ships in the iOS app as a first-class feature.
+
 ## Changed priorities
 
 **P1 — Pipeline quality and iOS audio spike jump the queue.** Everything else (web polish, marketing, growth thinking) is downstream of R1 passing and M0 surviving its timebox.
