@@ -17,6 +17,7 @@ import { env } from "../config/env";
 const MIGRATIONS_DIR = path.resolve(__dirname, "..", "..", "migrations");
 
 async function main(): Promise<void> {
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- MIGRATIONS_DIR is a hardcoded repo-relative path built from __dirname; not external input.
   const files = fs
     .readdirSync(MIGRATIONS_DIR)
     .filter((f) => f.endsWith(".sql"))
@@ -45,6 +46,7 @@ async function main(): Promise<void> {
         console.log(`skip (already applied): ${file}`);
         continue;
       }
+      // eslint-disable-next-line security/detect-non-literal-fs-filename -- `file` comes from readdirSync(MIGRATIONS_DIR) above (a hardcoded local dir), filtered to *.sql; not external input.
       const sql = fs.readFileSync(path.join(MIGRATIONS_DIR, file), "utf-8");
       console.log(`applying: ${file}`);
       await client.query("begin");
@@ -54,7 +56,7 @@ async function main(): Promise<void> {
         await client.query("commit");
       } catch (err) {
         await client.query("rollback");
-        throw new Error(`migration ${file} failed: ${(err as Error).message}`);
+        throw new Error(`migration ${file} failed: ${(err as Error).message}`, { cause: err });
       }
     }
     console.log("all migrations applied.");

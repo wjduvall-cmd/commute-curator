@@ -13,7 +13,7 @@ export function createEnricher(): Enricher {
   if (env.anthropicDryRun) {
     return new StubEnricher();
   }
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  // eslint-disable-next-line @typescript-eslint/no-require-imports -- intentional sync lazy-load so requiring this module never pulls in the Anthropic SDK (see file header comment); switching to dynamic import() would force createEnricher to become async and ripple through every call site.
   const { AnthropicEnricher } = require("./AnthropicEnricher") as typeof import("./AnthropicEnricher");
   return new AnthropicEnricher();
 }

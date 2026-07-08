@@ -18,9 +18,11 @@ const BACKEND_LOCAL_ENV = path.resolve(__dirname, "..", "..", ".env");
 // Load repo-root .env first (primary per project brief), then allow an
 // optional backend/.env.local to override for local-only experimentation.
 // Neither file is required to exist — everything below degrades gracefully.
+// eslint-disable-next-line security/detect-non-literal-fs-filename -- REPO_ROOT_ENV is a hardcoded path built from __dirname; not external input.
 if (fs.existsSync(REPO_ROOT_ENV)) {
   dotenv.config({ path: REPO_ROOT_ENV });
 }
+// eslint-disable-next-line security/detect-non-literal-fs-filename -- BACKEND_LOCAL_ENV is a hardcoded path built from __dirname; not external input.
 if (fs.existsSync(BACKEND_LOCAL_ENV)) {
   dotenv.config({ path: BACKEND_LOCAL_ENV, override: true });
 }

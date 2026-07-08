@@ -15,6 +15,7 @@ import { parseFeed } from "../feeds/parser";
 const FIXTURES_DIR = path.resolve(__dirname, "..", "..", "fixtures", "feeds");
 
 function main(): void {
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- FIXTURES_DIR is a hardcoded repo-relative path built from __dirname; not external input.
   const files = fs
     .readdirSync(FIXTURES_DIR)
     .filter((f) => f.endsWith(".xml"))
@@ -30,6 +31,7 @@ function main(): void {
   let totalNullDurations = 0;
 
   for (const file of files) {
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- `file` comes from readdirSync(FIXTURES_DIR) above (a hardcoded local dir), filtered to *.xml; not external input.
     const xml = fs.readFileSync(path.join(FIXTURES_DIR, file), "utf-8");
     const feed = parseFeed(xml);
     const nullDurations = feed.episodes.filter((e) => e.duration.seconds === null).length;

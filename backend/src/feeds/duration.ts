@@ -36,6 +36,7 @@ export function normalizeDuration(raw: string | number | null | undefined): Norm
   }
 
   // HH:MM:SS or MM:SS or even just "SS" with colons, possibly with leading/trailing junk stripped
+  // eslint-disable-next-line security/detect-unsafe-regex -- false positive: every repetition is bounded ({1,3}/{1,2}), anchored, non-overlapping — no catastrophic-backtracking shape; also exercised by test/property/duration.property.test.ts with 200 random inputs per run with no slowdown.
   const colonMatch = rawString.match(/^(\d{1,3}):(\d{1,2})(?::(\d{1,2}))?$/);
   if (colonMatch) {
     const a = parseInt(colonMatch[1] ?? "0", 10);

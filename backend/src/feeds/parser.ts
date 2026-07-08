@@ -184,7 +184,7 @@ export function parseFeed(xmlBody: string): ParsedFeed {
   const explicit = parseExplicit(textOf(channel["itunes:explicit"]));
   const newFeedUrl = textOf(channel["itunes:new-feed-url"]);
 
-  let image: string | null = null;
+  let image: string | null;
   if (isPlainObject(channel.image)) {
     image = textOf(channel.image.url) ?? attrOf(channel.image, "href");
   } else {

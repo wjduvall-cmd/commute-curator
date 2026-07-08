@@ -58,6 +58,7 @@ function parseArgs(argv: string[]): CliArgs {
 }
 
 function loadTaxonomy(taxonomyPath: string) {
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- taxonomyPath is a local CLI flag (--taxonomy) the developer running this script passes themselves, defaulting to a hardcoded repo path; never network/user input.
   const raw = fs.readFileSync(taxonomyPath, "utf-8");
   return TaxonomyFileSchema.parse(JSON.parse(raw));
 }
@@ -67,13 +68,17 @@ function loadDefaultCandidates(): NormalizedCandidate[] {
   const candidates: NormalizedCandidate[] = [];
 
   const fusionPath = path.join(researchDir, "fusion-candidates.md");
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- fusionPath is built from REPO_ROOT (derived from __dirname) + hardcoded segments, not external input.
   if (fs.existsSync(fusionPath)) {
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- same fusionPath as above.
     const md = fs.readFileSync(fusionPath, "utf-8");
     candidates.push(...extractCandidatesFromMarkdown(md, "fusion-candidates.md", "deep-learn"));
   }
 
   const otherPath = path.join(researchDir, "other-slot-candidates.md");
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- otherPath is built from REPO_ROOT (derived from __dirname) + hardcoded segments, not external input.
   if (fs.existsSync(otherPath)) {
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- same otherPath as above.
     const md = fs.readFileSync(otherPath, "utf-8");
     candidates.push(...extractCandidatesFromMarkdown(md, "other-slot-candidates.md", null));
   }
@@ -82,6 +87,7 @@ function loadDefaultCandidates(): NormalizedCandidate[] {
 }
 
 function loadCandidatesFromFile(candidatesPath: string, defaultArchetype: string | null): NormalizedCandidate[] {
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- candidatesPath is a local CLI flag (--candidates) the developer running this script passes themselves; never network/user input.
   const raw = fs.readFileSync(candidatesPath, "utf-8");
   const parsed: unknown = JSON.parse(raw);
   const archetype = defaultArchetype as import("../types/session").Archetype | null;
@@ -124,7 +130,9 @@ async function main(): Promise<void> {
     enricher
   });
 
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- args.outPath is a local CLI flag (--out) the developer running this script passes themselves, defaulting to a hardcoded repo path; never network/user input.
   fs.mkdirSync(path.dirname(args.outPath), { recursive: true });
+  // eslint-disable-next-line security/detect-non-literal-fs-filename -- same args.outPath as above.
   fs.writeFileSync(args.outPath, JSON.stringify(result.session, null, 2) + "\n", "utf-8");
 
   console.log(`  session written: ${args.outPath}`);

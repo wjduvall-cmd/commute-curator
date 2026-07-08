@@ -72,10 +72,11 @@ export function sanitizeHtmlToText(input: string | null | undefined): string {
   // small iteration cap — real feeds never nest this deep, the cap just
   // bounds worst-case pathological input.
   for (let i = 0; i < 5; i++) {
-    const decoded = decodeEntities(text);
+    const prev = text;
+    const decoded = decodeEntities(prev);
     const stripped = decoded.replace(/<[^>]*>/g, " ");
     text = stripped;
-    if (stripped === decoded) break;
+    if (stripped === prev) break;
   }
   // Safety net: never let a bare angle bracket (one that didn't form a full
   // <tag> above, e.g. a lone "&lt;" with no matching "&gt;") reach output.

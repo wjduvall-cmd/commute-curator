@@ -139,7 +139,9 @@ function parseWithRetry<T>(schema: z.ZodType<T>, raw: string): T {
     // Single retry point per corner case 32; in a full implementation this
     // would re-invoke the model with the validation error appended. Here we
     // surface a clear error for the caller's dead-letter handling.
-    throw new Error(`LLM output failed schema validation (no retry available in this build): ${(err as Error).message}`);
+    throw new Error(`LLM output failed schema validation (no retry available in this build): ${(err as Error).message}`, {
+      cause: err
+    });
   }
 }
 
