@@ -24,11 +24,6 @@ const SPLATTER_SIZE = 12;
 const SEEN_WINDOW = 36;     // splatter ids excluded from re-sampling
 const CONTINUE_MAX_AGE_H = 72;
 
-const BRANCH_COLORS = {
-  engineering: "#4c9aff", science: "#b07ce8", history: "#e8a04c",
-  craft: "#56c58f", business: "#4cc9c0", comedy: "#e87ca0",
-};
-
 const $ = (sel, el = document) => el.querySelector(sel);
 
 /* All catalog data flows through innerHTML templates; escape every
@@ -37,6 +32,17 @@ const $ = (sel, el = document) => el.querySelector(sel);
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+/* Scheme-check any URL that lands in href/src. esc() stops markup injection
+   but not javascript: URLs; this closes that hole before sessions ever come
+   from live RSS data. */
+function safeUrl(u) {
+  try {
+    const p = new URL(u);
+    if (p.protocol === "https:" || p.protocol === "http:") return u;
+  } catch (_) {}
+  return "#";
 }
 
 /* ---------- storage helpers ---------- */
@@ -179,7 +185,7 @@ function renderContinue() {
     <span class="chip">Continue</span>
     ${starBtn(c.id)}
     <div class="head">
-      ${c.artwork_url ? `<img class="art" src="${esc(c.artwork_url)}" alt="" loading="lazy">` : ""}
+      ${c.artwork_url ? `<img class="art" src="${esc(safeUrl(c.artwork_url))}" alt="" loading="lazy">` : ""}
       <div>
         <p class="show">${esc(c.show)}</p>
         <h2>${esc(c.title)}</h2>
@@ -187,8 +193,8 @@ function renderContinue() {
     </div>
     <p class="fit">Picking back up where you left off — your app remembers the spot.</p>
     <div class="btns">
-      <a class="primary" href="${l.apple}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Apple Podcasts" data-ctx="continue">Resume</a>
-      <a href="${l.overcast}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Overcast" data-ctx="continue">Overcast</a>
+      <a class="primary" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Apple Podcasts" data-ctx="continue">Resume</a>
+      <a href="${esc(safeUrl(l.overcast))}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Overcast" data-ctx="continue">Overcast</a>
       <button class="done" id="continue-done">Done with it ✓</button>
     </div>
   </article>`;
@@ -291,15 +297,14 @@ function renderSplatter() {
   if (!state.splatter.length) { el.innerHTML = ""; return; }
   el.innerHTML = state.splatter.map(item => {
     const l = links(item);
-    const dot = BRANCH_COLORS[branchOf(item)] || "var(--text-dim)";
     return `<div class="sp-item">
-      ${item.artwork_url ? `<img class="sp-art" src="${esc(item.artwork_url)}" alt="" loading="lazy">` : `<div class="sp-art"></div>`}
+      ${item.artwork_url ? `<img class="sp-art" src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : `<div class="sp-art"></div>`}
       <div class="sp-info">
         <p class="sp-hook">${esc(item.hook || item.title)}</p>
-        <p class="sp-meta"><span class="dot" style="background:${dot}"></span>${esc(item.show)} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
+        <p class="sp-meta"><span class="dot dot-${esc(branchOf(item))}"></span>${esc(item.show)} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
       </div>
       ${starBtn(item.id)}
-      <a class="go" href="${l.apple}" target="_blank" rel="noopener"
+      <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
          data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="splatter${item._explore ? "-explore" : ""}">Play</a>
     </div>`;
   }).join("");
@@ -324,7 +329,7 @@ function renderSavedShelf() {
           <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
         </div>
         ${starBtn(item.id)}
-        <a class="go" href="${l.apple}" target="_blank" rel="noopener"
+        <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
            data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="saved">Play</a>
       </div>`;
     }).join("")}
@@ -361,7 +366,7 @@ function renderInterests() {
 function playButtons(item, ctx) {
   const l = links(item);
   const mk = (href, label, cls) =>
-    `<a class="${cls}" href="${href}" target="_blank" rel="noopener"
+    `<a class="${cls}" href="${esc(safeUrl(href))}" target="_blank" rel="noopener"
         data-ev="picked" data-ep="${item.id}" data-app="${label}" data-ctx="${ctx}">${label}</a>`;
   return `<div class="btns">
     ${mk(l.apple, "Apple Podcasts", "primary")}
@@ -385,7 +390,7 @@ function renderCard(card) {
     <span class="chip">${card.archetype_label}</span>
     ${starBtn(id)}
     <div class="head">
-      ${ep.artwork_url ? `<img class="art" src="${esc(ep.artwork_url)}" alt="" loading="lazy">` : ""}
+      ${ep.artwork_url ? `<img class="art" src="${esc(safeUrl(ep.artwork_url))}" alt="" loading="lazy">` : ""}
       <div>
         <p class="show">${esc(ep.show)}</p>
         <h2>${esc(ep.title)}</h2>
@@ -419,7 +424,7 @@ function renderFusionTour() {
               <div class="s">${esc(ep.show)} · ${fmtDur(ep.duration_min)}</div>
             </div>
             ${starBtn(id)}
-            <a class="go" href="${l.apple}" target="_blank" rel="noopener"
+            <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
                data-ev="picked" data-ep="${id}" data-app="Apple Podcasts" data-ctx="fusion-tour">Play</a>
           </div>`;
         }).join("")}

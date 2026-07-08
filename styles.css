@@ -225,7 +225,13 @@ button.shuffle:active { transform: rotate(20deg) scale(0.95); }
 .sp-info { flex: 1; min-width: 0; }
 .sp-hook { margin: 0; font-size: 0.92rem; font-weight: 600; line-height: 1.35; }
 .sp-meta { margin: 4px 0 0; font-size: 0.76rem; color: var(--text-dim); display: flex; align-items: center; gap: 6px; }
-.sp-meta .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; display: inline-block; }
+.sp-meta .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; display: inline-block; background: var(--text-dim); }
+.dot-engineering { background: var(--deep-learn) !important; }
+.dot-science { background: var(--stretch) !important; }
+.dot-history { background: var(--narrative) !important; }
+.dot-craft { background: var(--comfort) !important; }
+.dot-business { background: #4cc9c0 !important; }
+.dot-comedy { background: #e87ca0 !important; }
 .sp-meta .wild { color: var(--stretch); font-weight: 700; }
 .sp-item a.go {
   flex: none;
