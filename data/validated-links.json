@@ -1,0 +1,265 @@
+{
+  "checked_at": "2026-07-08T04:35:00Z",
+  "podlink_episode_format": "show-level only",
+  "podlink_note": "pod.link collection URLs attempted but rate-limited (429 errors); format appears to support collection IDs only. Episode-level format with episodeGuid could not be verified.",
+  "overcast_ok": false,
+  "overcast_note": "overcast.fm URL requires authentication/login to access; cannot verify without account",
+  "episodes": {
+    "lex-353-whyte": {
+      "apple_track_id": 1000595885259,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1434243584?i=1000595885259",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "duration_min_confirmed": 194,
+      "verified": true,
+      "notes": "Verified: Dennis Whyte episode on Lex Fridman Podcast, January 21, 2023"
+    },
+    "lex-485-kirtley": {
+      "apple_track_id": 1000737133630,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1434243584?i=1000737133630",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "duration_min_confirmed": 165,
+      "verified": false,
+      "notes": "Track ID not spot-verified due to focus on other episodes"
+    },
+    "titans-378-ma": {
+      "apple_track_id": 1000595310246,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1331598443?i=1000595310246",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 55,
+      "verified": true,
+      "notes": "Verified: Tammy Ma episode on Titans of Nuclear, January 18, 2023"
+    },
+    "titans-403-tae": {
+      "apple_track_id": 1000613997341,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1331598443?i=1000613997341",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 60,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "titans-zap-levitt": {
+      "apple_track_id": 1000526273477,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1331598443?i=1000526273477",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 79,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "titans-391-solomon": {
+      "apple_track_id": 1000608252757,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1331598443?i=1000608252757",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 42,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "omegatau-312-w7x": {
+      "apple_track_id": 1000437810265,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id350159142?i=1000437810265",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "duration_min_confirmed": 208,
+      "verified": true,
+      "notes": "Verified: Wendelstein 7-X episode on omega tau, May 11, 2019"
+    },
+    "omegatau-285-superconductivity": {
+      "apple_track_id": 1000413296110,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id350159142?i=1000413296110",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "duration_min_confirmed": 171,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "cleantechies-216-thea": {
+      "apple_track_id": 1000723533213,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1555107027?i=1000723533213",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6d/f5/79/6df579b2-e716-1907-d000-305018e792a4/mza_14670425412905577992.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 32,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "catalyst-pacific-fusion": {
+      "apple_track_id": 1000768899584,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1593204897?i=1000768899584",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "duration_min_confirmed": 41,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "l2m-tokamak-energy": {
+      "apple_track_id": 1000710979894,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1745548847?i=1000710979894",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/61/cc/b761cc9f-7ad2-39bf-f055-214edfab8a9a/mza_9718301860875244049.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 62,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "cbc-general-fusion": {
+      "apple_track_id": 1000760722598,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id151485663?i=1000760722598",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 54,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "sysk-damascus-steel": {
+      "apple_track_id": 1000526392608,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id278981407?i=1000526392608",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 37,
+      "verified": true,
+      "notes": "Verified: Damascus Steel episode on Stuff You Should Know, June 22, 2021"
+    },
+    "materialism-textiles-space": {
+      "apple_track_id": 1000766028702,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1448663986?i=1000766028702",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 38,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "insidechips-semi-mfg": {
+      "apple_track_id": 1000745776887,
+      "episode_guid": "bc68cf67-45a4-4e54-9d93-c34f5bc3b830",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/big-changes-ahead-for-semiconductor-manufacturing/id1809409412?i=1000745776887&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dc/9a/bf/dc9abfbc-ce8b-094f-1a50-e9d2b4a69816/mza_15244253184536318128.png/600x600bb.jpg",
+      "duration_min_confirmed": 23,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Big Changes Ahead For Semiconductor Manufacturing, Jan 19 2026"
+    },
+    "mtdcnc-forging": {
+      "apple_track_id": 1000774763010,
+      "episode_guid": "61560317-f29a-43c8-977c-a9249c8ebe34",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/forging-has-been-around-for-centuries-and-it-still/id1833238020?i=1000774763010&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/c2/3b/2fc23bf0-4faa-2f41-a4bf-779df0f16e8d/mza_12518032609716077037.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 28,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Forging episode, Jun 29 2026"
+    },
+    "being-engineer-tamper": {
+      "apple_track_id": 1000774328056,
+      "episode_guid": "Buzzsprout-19378446",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s7e27-daniel-kurnianto-the-engineering-journey-behind/id1508222292?i=1000774328056&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 50,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Daniel Kurnianto electronic coffee tamper episode, Jun 26 2026"
+    },
+    "foc-assyrians": {
+      "apple_track_id": 1000525464222,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1449884495?i=1000525464222",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/0a/06/85/0a0685c1-86d4-6f5d-27e4-75e1771d0bae/mza_3060333100547218575.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 185,
+      "verified": true,
+      "notes": "Verified: The Assyrians – Empire of Iron on Fall of Civilizations, June 14, 2021"
+    },
+    "foc-sumerians": {
+      "apple_track_id": 1000454904678,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1449884495?i=1000454904678",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/0a/06/85/0a0685c1-86d4-6f5d-27e4-75e1771d0bae/mza_3060333100547218575.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 150,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "foc-han-dynasty": {
+      "apple_track_id": 1000466500359,
+      "episode_guid": null,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/id1449884495?i=1000466500359",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/0a/06/85/0a0685c1-86d4-6f5d-27e4-75e1771d0bae/mza_3060333100547218575.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 174,
+      "verified": false,
+      "notes": "Track ID not spot-verified"
+    },
+    "trih-netherlands-revolt": {
+      "apple_track_id": 1000770763682,
+      "episode_guid": "c35f4598-0daa-42d3-bfbd-cbc0a6b2db0c",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-netherlands-the-revolt-that-made-the-modern-world-part-4/id1537788786?i=1000770763682&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 70,
+      "verified": true,
+      "notes": "Resolved from iTunes API: The Netherlands episode on The Rest Is History, Jun 17 2026"
+    },
+    "trih-washington-1": {
+      "apple_track_id": 1000774338328,
+      "episode_guid": "ee35685b-de81-469e-a8c8-e4f60cbf9ba9",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/washington-hero-of-the-revolution-part-1/id1537788786?i=1000774338328&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 76,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Washington Hero of Revolution episode on The Rest Is History, Jun 28 2026"
+    },
+    "conan-mcbride-returns": {
+      "apple_track_id": 1000774391237,
+      "episode_guid": "0b7cc06c-4b2a-4157-997d-5b44e9d39cba",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/danny-mcbride-returns/id1438054347?i=1000774391237&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 57,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Danny McBride Returns on Conan O'Brien, Jul 6 2026"
+    },
+    "conan-groban": {
+      "apple_track_id": 1000772390072,
+      "episode_guid": "474f7c59-5285-46e4-bf34-eb483bfda7e8",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/josh-groban/id1438054347?i=1000772390072&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 63,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Josh Groban on Conan O'Brien, Jun 22 2026"
+    },
+    "smartless-emma-thompson": {
+      "apple_track_id": 1000773313623,
+      "episode_guid": "3f535a56-fe2f-4ae1-b30c-11a84a4adebd",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/emma-thompson/id1521578868?i=1000773313623&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 58,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Emma Thompson on SmartLess, Jun 29 2026"
+    },
+    "smartless-jlo": {
+      "apple_track_id": 1000771350764,
+      "episode_guid": "3f0a43d3-2f4c-41d0-9af9-996027a96191",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jennifer-lopez/id1521578868?i=1000771350764&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 65,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Jennifer Lopez on SmartLess, Jun 15 2026"
+    },
+    "mbmbam-821": {
+      "apple_track_id": 1000775678299,
+      "episode_guid": "d94f3bd2-9ae9-413e-8dcb-bdb782cf1840",
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mbmbam-821-time-lost-is-cool-lost/id367330921?i=1000775678299&uo=4",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
+      "duration_min_confirmed": 61,
+      "verified": true,
+      "notes": "Resolved from iTunes API: Time Lost is Cool Lost on MBMBAM, Jul 6 2026"
+    }
+  },
+  "verification_summary": {
+    "total_episodes": 25,
+    "episodes_with_resolved_track_ids": 10,
+    "episodes_with_existing_track_ids": 15,
+    "episodes_fully_verified": 13,
+    "episodes_with_episode_guids": 10,
+    "universal_link_status": {
+      "apple_podcasts_urls": "All 25 episodes have valid trackViewUrl constructed",
+      "pod_link_collection": "Rate limited (429) - could not test collection URLs; format appears show-level only",
+      "pod_link_episode_format": "Could not test episode-level format due to rate limiting",
+      "overcast": "Could not verify - requires authentication to access"
+    }
+  }
+}
