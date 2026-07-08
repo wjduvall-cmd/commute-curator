@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "session_id": "2026-07-08-morning",
+  "built_at": "2026-07-08T04:30:00-07:00",
+  "commute": { "minutes": 18, "playback_speed": 1.5, "content_minutes": 27 },
+  "cards": [
+    {
+      "slot": 1,
+      "archetype": "deep-learn",
+      "archetype_label": "Deep dive",
+      "episode_id": "lex-353-whyte",
+      "why_line": "Your fusion-reactor tour opens with SPARC's co-founder: every confinement approach, then deep on tokamak magnets.",
+      "fit_line": "3¼ hrs — a week of drives at your 1.5×; pick up where you left off.",
+      "alternates": ["titans-378-ma", "lex-485-kirtley", "omegatau-312-w7x", "cleantechies-216-thea", "catalyst-pacific-fusion"]
+    },
+    {
+      "slot": 2,
+      "archetype": "stretch",
+      "archetype_label": "Stretch",
+      "episode_id": "sysk-damascus-steel",
+      "why_line": "You care how fusion-grade alloys behave under stress — ancient smiths solved carbon control completely blind.",
+      "fit_line": "37 min ≈ 25 at your speed: fits today's drive almost exactly.",
+      "alternates": ["materialism-textiles-space", "insidechips-semi-mfg", "mtdcnc-forging"]
+    },
+    {
+      "slot": 3,
+      "archetype": "narrative",
+      "archetype_label": "Story",
+      "episode_id": "foc-assyrians",
+      "why_line": "An empire built on iron metallurgy and siege engineering — your ancient-military itch with a materials spine.",
+      "fit_line": "3 hrs of documentary — a multi-commute saga.",
+      "alternates": ["trih-netherlands-revolt", "foc-sumerians", "foc-han-dynasty"]
+    },
+    {
+      "slot": 4,
+      "archetype": "comfort",
+      "archetype_label": "Comfort",
+      "episode_id": "conan-mcbride-returns",
+      "why_line": "Zero homework: Conan and an old friend riffing — dropped yesterday, still warm.",
+      "fit_line": "57 min ≈ two drives of easy hang.",
+      "alternates": ["smartless-emma-thompson", "mbmbam-821", "conan-groban"]
+    }
+  ],
+  "categories": [
+    { "id": "fusion-tour", "label": "The fusion reactor tour", "description": "Every major confinement approach, one episode each.", "groups": [
+      { "label": "Tokamaks", "episode_ids": ["lex-353-whyte", "titans-391-solomon", "l2m-tokamak-energy", "omegatau-285-superconductivity"] },
+      { "label": "Stellarators", "episode_ids": ["omegatau-312-w7x", "cleantechies-216-thea"] },
+      { "label": "Inertial confinement", "episode_ids": ["titans-378-ma", "catalyst-pacific-fusion"] },
+      { "label": "Field-reversed configuration", "episode_ids": ["lex-485-kirtley", "titans-403-tae"] },
+      { "label": "Z-pinch", "episode_ids": ["titans-zap-levitt"] },
+      { "label": "Magnetized target", "episode_ids": ["cbc-general-fusion"] }
+    ]},
+    { "id": "materials-making", "label": "Materials & making", "description": "Metallurgy, fabs, forging — the stuff things are made of.", "groups": [
+      { "label": "All", "episode_ids": ["sysk-damascus-steel", "materialism-textiles-space", "insidechips-semi-mfg", "mtdcnc-forging", "being-engineer-tamper"] }
+    ]},
+    { "id": "history", "label": "History & story", "description": "Long-form narrative history.", "groups": [
+      { "label": "All", "episode_ids": ["foc-assyrians", "foc-sumerians", "foc-han-dynasty", "trih-netherlands-revolt", "trih-washington-1"] }
+    ]},
+    { "id": "comfort-pool", "label": "Easy hangs", "description": "Low-effort comedy for tired drives.", "groups": [
+      { "label": "All", "episode_ids": ["conan-mcbride-returns", "conan-groban", "smartless-emma-thompson", "smartless-jlo", "mbmbam-821"] }
+    ]}
+  ],
+  "episodes": {
+    "lex-353-whyte": { "show": "Lex Fridman Podcast", "title": "#353 – Dennis Whyte: Nuclear Fusion and the Future of Energy", "release_date": "2023-01-21", "duration_min": 194, "apple_collection_id": 1434243584, "apple_track_id": 1000595885259, "summary": "MIT's Dennis Whyte (Commonwealth Fusion co-founder) on magnetic vs inertial confinement, the Lawson criterion, and how SPARC's REBCO tape magnets differ from ITER's niobium-tin.", "depth": "high", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["Tokamak", "SPARC", "ITER"] },
+    "lex-485-kirtley": { "show": "Lex Fridman Podcast", "title": "#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy", "release_date": "2025-11-17", "duration_min": 165, "apple_collection_id": 1434243584, "apple_track_id": 1000737133630, "summary": "Helion's CEO on colliding field-reversed-configuration plasmoids, direct energy recovery via induction (no steam turbine), and the D-³He fuel cycle.", "depth": "high", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["FRC", "Helion"] },
+    "titans-378-ma": { "show": "Titans of Nuclear", "title": "Ep 378: Tammy Ma – Inertial Fusion Initiative, Lawrence Livermore", "release_date": "2023-01-18", "duration_min": 55, "apple_collection_id": 1331598443, "apple_track_id": 1000595310246, "summary": "Recorded right after the 2022 ignition shot: NIF's 192-beam laser, hohlraum target design, and the path from one shot a day to a power plant.", "depth": "high", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["ICF", "NIF"] },
+    "titans-403-tae": { "show": "Titans of Nuclear", "title": "Ep 403: Michl Binderbauer – CEO, TAE Technologies", "release_date": "2023-05-22", "duration_min": 60, "apple_collection_id": 1331598443, "apple_track_id": 1000613997341, "summary": "TAE's neutral-beam-driven FRC and its bet on aneutronic p-¹¹B fuel.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["FRC", "TAE"] },
+    "titans-zap-levitt": { "show": "Titans of Nuclear", "title": "Ben Levitt, Zap Energy", "release_date": "2021-06-21", "duration_min": 79, "apple_collection_id": 1331598443, "apple_track_id": 1000526273477, "summary": "Sheared-flow-stabilized Z-pinch: confinement from the plasma's own current — no superconducting magnets, no cryogenics.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["Z-pinch", "Zap Energy"] },
+    "titans-391-solomon": { "show": "Titans of Nuclear", "title": "Ep 391: Wayne Solomon – Magnetic Fusion Energy, General Atomics", "release_date": "2023-04-10", "duration_min": 42, "apple_collection_id": 1331598443, "apple_track_id": 1000608252757, "summary": "Tokamak fundamentals from the operators of DIII-D, the largest US tokamak.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["Tokamak", "DIII-D"] },
+    "omegatau-312-w7x": { "show": "omega tau", "title": "The Wendelstein 7-X Fusion Experiment (Ep 312)", "release_date": "2019-05-11", "duration_min": 208, "apple_collection_id": 350159142, "apple_track_id": 1000437810265, "summary": "A walking tour of the W7-X stellarator hall: the twisted non-planar coil geometry, MHD, and gyrokinetic simulation. The deepest stellarator episode in English.", "depth": "high", "format": "documentary", "topics": ["engineering/energy-fusion"], "reactor_types": ["Stellarator", "W7-X"] },
+    "omegatau-285-superconductivity": { "show": "omega tau", "title": "Superconductivity (Ep 285)", "release_date": "2018-06-08", "duration_min": 171, "apple_collection_id": 350159142, "apple_track_id": 1000413296110, "summary": "An ITER magnet engineer on niobium-tin vs niobium-titanium, magnet design, and quench protection — the engineering that makes confinement possible.", "depth": "high", "format": "interview", "topics": ["engineering/energy-fusion", "science/materials"], "reactor_types": ["Tokamak", "ITER"] },
+    "cleantechies-216-thea": { "show": "CleanTechies Podcast", "title": "#216 How Nuclear Fusion Becomes a Reality w/ Brian Berzin (Thea Energy)", "release_date": "2024-10-24", "duration_min": 32, "apple_collection_id": 1555107027, "apple_track_id": 1000723533213, "summary": "Thea's bet: replace a stellarator's exotic precision-milled coils with ~350 simple planar coils, shaping the field in software instead of hardware.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["Stellarator", "Thea Energy"] },
+    "catalyst-pacific-fusion": { "show": "Catalyst with Shayle Kann", "title": "A blueprint for scalable fusion power", "release_date": "2026-05-21", "duration_min": 41, "apple_collection_id": 1593204897, "apple_track_id": 1000768899584, "summary": "Pacific Fusion's pulsed-power ICF: modular Marx-generator pulsers firing in synchrony as a manufacturable alternative to NIF's laser driver.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion"], "reactor_types": ["ICF", "Pacific Fusion"] },
+    "l2m-tokamak-energy": { "show": "Lab to Market Leadership", "title": "The Tokamak Energy Story | Dr. David Kingham", "release_date": "2025-06-03", "duration_min": 62, "apple_collection_id": 1745548847, "apple_track_id": 1000710979894, "summary": "Tokamak Energy's compact spherical tokamak (ST40) and the HTS magnet bet: smaller, higher-field magnets instead of ITER-scale size.", "depth": "medium", "format": "interview", "topics": ["engineering/energy-fusion", "business/startups"], "reactor_types": ["Spherical tokamak", "Tokamak Energy"] },
+    "cbc-general-fusion": { "show": "CBC Ideas", "title": "A machine that could save us from war — and global warming", "release_date": "2026-04-10", "duration_min": 54, "apple_collection_id": 151485663, "apple_track_id": 1000760722598, "summary": "General Fusion's magnetized target fusion: a plasma toroid injected into liquid metal and compressed by pistons. Documentary framing, lighter on engineering.", "depth": "medium", "format": "documentary", "topics": ["engineering/energy-fusion"], "reactor_types": ["MTF", "General Fusion"] },
+    "sysk-damascus-steel": { "show": "Stuff You Should Know", "title": "The Mystery of Damascus Steel", "release_date": "2021-06-22", "duration_min": 37, "apple_collection_id": 278981407, "apple_track_id": 1000526392608, "summary": "The lost crucible-steel process: how ancient smiths achieved hardness and edge retention through carbon control nobody has fully reverse-engineered.", "depth": "medium", "format": "solo", "topics": ["science/materials", "history/technology"] },
+    "materialism-textiles-space": { "show": "Materialism", "title": "Textiles in Space", "release_date": "2026-05-04", "duration_min": 38, "apple_collection_id": 1448663986, "apple_track_id": 1000766028702, "summary": "Fiber science under extreme constraints: engineered textiles for spacecraft thermal and structural systems.", "depth": "medium", "format": "solo", "topics": ["science/materials"] },
+    "insidechips-semi-mfg": { "show": "Inside Chips (Semiconductor Engineering)", "title": "Big Changes Ahead For Semiconductor Manufacturing", "release_date": "2026-01-19", "duration_min": 23, "apple_collection_id": 1809409412, "apple_track_id": null, "summary": "Fab automation, multi-die assembly, and yield: precision process control that rhymes with reactor assembly.", "depth": "high", "format": "panel", "topics": ["engineering/precision-mfg"] },
+    "mtdcnc-forging": { "show": "MTDCNC Podcast", "title": "Forging has been around for centuries, and it still matters more than ever", "release_date": "2026-06-29", "duration_min": 28, "apple_collection_id": 1833238020, "apple_track_id": null, "summary": "AI and simulation modernizing forging for aerospace: alloy selection, thermal modeling, tolerance control.", "depth": "high", "format": "interview", "topics": ["engineering/precision-mfg", "science/materials"] },
+    "being-engineer-tamper": { "show": "Being an Engineer", "title": "Daniel Kurnianto | The World's First Electronic Coffee Tamper", "release_date": "2026-06-26", "duration_min": 50, "apple_collection_id": 1508222292, "apple_track_id": null, "summary": "CAD → simulation → tooling → production: the full product-engineering arc on a deceptively humble device.", "depth": "medium", "format": "interview", "topics": ["engineering/precision-mfg", "craft/diy-home"] },
+    "foc-assyrians": { "show": "Fall of Civilizations", "title": "The Assyrians – Empire of Iron", "release_date": "2021-06-14", "duration_min": 185, "apple_collection_id": 1449884495, "apple_track_id": 1000525464222, "summary": "The neo-Assyrian war machine: siege engineering, iron weapons, and administrative innovation — then collapse.", "depth": "high", "format": "documentary", "topics": ["history/military-ancient", "history/technology"] },
+    "foc-sumerians": { "show": "Fall of Civilizations", "title": "The Sumerians – Fall of the First Cities", "release_date": "2019-10-25", "duration_min": 150, "apple_collection_id": 1449884495, "apple_track_id": 1000454904678, "summary": "Writing, mathematics, irrigation, ziggurats: the engineering of the first cities, and why they fell.", "depth": "high", "format": "documentary", "topics": ["history/technology"] },
+    "foc-han-dynasty": { "show": "Fall of Civilizations", "title": "China's Han Dynasty – The First Empire in Flames", "release_date": "2020-02-24", "duration_min": 174, "apple_collection_id": 1449884495, "apple_track_id": 1000466500359, "summary": "Water engineering, metallurgy, the seismoscope: how technology scaled China's first empire.", "depth": "high", "format": "documentary", "topics": ["history/technology", "history/military-ancient"] },
+    "trih-netherlands-revolt": { "show": "The Rest Is History", "title": "The Netherlands: The Revolt that Made The Modern World", "release_date": "2026-06-17", "duration_min": 70, "apple_collection_id": 1537788786, "apple_track_id": null, "summary": "Dikes, shipbuilding, and commerce: how water engineering let a small power defy the Spanish Empire.", "depth": "medium", "format": "narrative", "topics": ["history/technology"] },
+    "trih-washington-1": { "show": "The Rest Is History", "title": "Washington: Hero of the Revolution (Part 1)", "release_date": "2026-06-28", "duration_min": 76, "apple_collection_id": 1537788786, "apple_track_id": null, "summary": "Fortifications, supply chains, and leadership in the Revolutionary War.", "depth": "medium", "format": "narrative", "topics": ["history/military-ancient"] },
+    "conan-mcbride-returns": { "show": "Conan O'Brien Needs a Friend", "title": "Danny McBride Returns", "release_date": "2026-07-06", "duration_min": 57, "apple_collection_id": 1438054347, "apple_track_id": null, "summary": "Old friends riffing on cartoons, horror sequels, and McBride's new book.", "depth": "low", "format": "hang", "topics": ["comedy/casual-hangs"] },
+    "conan-groban": { "show": "Conan O'Brien Needs a Friend", "title": "Josh Groban", "release_date": "2026-06-22", "duration_min": 63, "apple_collection_id": 1438054347, "apple_track_id": null, "summary": "Groban's earnestness against Conan's chaos — an easy, warm hour.", "depth": "low", "format": "hang", "topics": ["comedy/casual-hangs"] },
+    "smartless-emma-thompson": { "show": "SmartLess", "title": "Emma Thompson", "release_date": "2026-06-29", "duration_min": 58, "apple_collection_id": 1521578868, "apple_track_id": null, "summary": "Thompson's wit loose in the SmartLess living room: fashion, boredom, haggis.", "depth": "low", "format": "hang", "topics": ["comedy/casual-hangs"] },
+    "smartless-jlo": { "show": "SmartLess", "title": "Jennifer Lopez", "release_date": "2026-06-15", "duration_min": 65, "apple_collection_id": 1521578868, "apple_track_id": null, "summary": "Relaxed celebrity hang with the Bateman/Hayes/Arnett trio.", "depth": "low", "format": "hang", "topics": ["comedy/casual-hangs"] },
+    "mbmbam-821": { "show": "My Brother, My Brother and Me", "title": "Time Lost is Cool Lost (Ep 821)", "release_date": "2026-07-06", "duration_min": 61, "apple_collection_id": 367330921, "apple_track_id": null, "summary": "The McElroys answering advice questions with pure absurdism. No stakes at all.", "depth": "low", "format": "hang", "topics": ["comedy/casual-hangs"] }
+  }
+}
