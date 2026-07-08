@@ -56,8 +56,11 @@ function lsSet(key, value) {
 
 function logEvent(type, payload) {
   const events = lsGet("cp_events", []);
-  events.push({ ts: new Date().toISOString(), type, payload });
-  lsSet("cp_events", events.slice(-500));
+  const builder = state.session?.builder || "unknown";
+  events.push({ ts: new Date().toISOString(), type, builder, payload });
+  // 5000-event buffer: this is the retention telemetry until a durable
+  // /events endpoint exists (REQUIREMENTS-DELTA R2) — don't let it wrap.
+  lsSet("cp_events", events.slice(-5000));
 }
 
 /* ---------- interests ---------- */

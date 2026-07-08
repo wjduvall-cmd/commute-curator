@@ -63,7 +63,23 @@ export function sanitizeHtmlToText(input: string | null | undefined): string {
   // Strip all remaining tags.
   text = text.replace(/<[^>]*>/g, " ");
 
-  text = decodeEntities(text);
+  // Decode entities, then re-strip any tags the decoding revealed. Feeds can
+  // entity-encode markup (e.g. "&lt;script&gt;") — decoding that naively
+  // would hand back live "<...>" text, defeating the whole point of this
+  // sanitizer (see docs/research/ai-workflow-recommendations.md 1.2.5 on
+  // feed-controlled markup becoming stored XSS downstream). Some feeds even
+  // double-encode ("&amp;lt;"), so loop decode+strip to a fixed point with a
+  // small iteration cap — real feeds never nest this deep, the cap just
+  // bounds worst-case pathological input.
+  for (let i = 0; i < 5; i++) {
+    const decoded = decodeEntities(text);
+    const stripped = decoded.replace(/<[^>]*>/g, " ");
+    text = stripped;
+    if (stripped === decoded) break;
+  }
+  // Safety net: never let a bare angle bracket (one that didn't form a full
+  // <tag> above, e.g. a lone "&lt;" with no matching "&gt;") reach output.
+  text = text.replace(/[<>]/g, "");
 
   // Collapse whitespace: multiple spaces -> one, multiple blank lines -> one.
   text = text
