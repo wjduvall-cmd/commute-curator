@@ -20,7 +20,8 @@ const state = {
 
 const EXPLORATION_SHARE = 0.3;
 const SPLATTER_SIZE = 12;
-const SEEN_WINDOW = 36;     // splatter ids excluded from re-sampling
+const SEEN_WINDOW = 100;    // recently-shown ids excluded from re-sampling (cards + splatter)
+const BRANCH_MEMORY = 8;    // recently-dealt branches get deprioritized
 const CONTINUE_MAX_AGE_H = 72;
 
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -239,26 +240,42 @@ function whyFor(id, item) {
   return curated ? curated.why_line : (item.hook || "");
 }
 
+function rememberSeen(ids) {
+  const seen = lsGet("cp_seen", []).filter(id => !ids.includes(id)).concat(ids);
+  lsSet("cp_seen", seen.slice(-SEEN_WINDOW));
+}
+
 function buildCards() {
   const pool = fullPool();
   const history = new Set(pickedHistory());
+  const seen = new Set(lsGet("cp_seen", []));
   const byBranch = {};
   pool.forEach(i => { (byBranch[branchOf(i)] = byBranch[branchOf(i)] || []).push(i); });
 
+  // Branches dealt recently sink so refreshes rotate topics instead of
+  // re-dealing the same high-interest branches over and over.
+  const recentBranches = lsGet("cp_recent_branches", []);
   const rankedBranches = Object.keys(byBranch)
     .map(b => {
       const avg = byBranch[b].reduce((s, i) => s + interestScore(i), 0) / byBranch[b].length;
-      return { b, s: avg + (Math.random() - 0.5) * 0.7 };
+      const penalty = recentBranches.includes(b) ? 0.35 : 0;
+      return { b, s: avg + (Math.random() - 0.5) * 0.7 - penalty };
     })
     .sort((x, y) => y.s - x.s)
     .map(x => x.b);
 
   state.cardSlots = rankedBranches.slice(0, 4).map((branch, i) => {
     const items = byBranch[branch];
-    const fresh = items.filter(it => !history.has(it.id)).sort(() => Math.random() - 0.5);
-    const stale = items.filter(it => history.has(it.id));
-    return { slot: i + 1, branch, chain: fresh.concat(stale), idx: 0 };
+    // Three tiers: never-seen first, then seen-but-unplayed, then played.
+    const unseen = items.filter(it => !history.has(it.id) && !seen.has(it.id)).sort(() => Math.random() - 0.5);
+    const seenNotPlayed = items.filter(it => !history.has(it.id) && seen.has(it.id)).sort(() => Math.random() - 0.5);
+    const played = items.filter(it => history.has(it.id));
+    return { slot: i + 1, branch, chain: unseen.concat(seenNotPlayed, played), idx: 0 };
   });
+
+  const dealtBranches = state.cardSlots.map(sl => sl.branch);
+  lsSet("cp_recent_branches", recentBranches.concat(dealtBranches).slice(-BRANCH_MEMORY));
+  rememberSeen(state.cardSlots.map(sl => sl.chain[0]?.id).filter(Boolean));
 }
 
 /* ---------- the splatter ---------- */
@@ -321,8 +338,7 @@ function sampleSplatter() {
   }
 
   // Remember what was shown so next load skews new
-  const seenArr = lsGet("cp_seen", []).concat(ordered.map(i => i.id));
-  lsSet("cp_seen", seenArr.slice(-SEEN_WINDOW));
+  rememberSeen(ordered.map(i => i.id));
 
   ordered.forEach(i => snapshot(i.id, i));
   return ordered;
@@ -432,6 +448,121 @@ function renderCard(slotObj) {
     ${playButtons(item, `card-${slotObj.branch}`)}
     ${chain.length > 1 ? `<button class="swap" data-slot="${slotObj.slot}">show me something different here</button>` : ""}
   </article>`;
+}
+
+/* ---------- series builder + search ----------
+   v1 is keyword scoring over the local pool. When the backend brain comes
+   online (Anthropic key), the same input posts the free-text ask to the
+   curation engine for real semantic series assembly — this UI stays. */
+
+const STOPWORDS = new Set(["a","an","the","about","series","of","on","for","me","my","give","build","make","with","to","and","or","in","podcast","podcasts","episode","episodes","show","shows","some","something","want","i","please","that","stuff","things"]);
+
+const ALIASES = {
+  bbq: ["barbecue", "grill"], barbeque: ["barbecue"],
+  cooking: ["food", "culinary"], rome: ["roman"], ww2: ["war"],
+  plane: ["aviation", "aircraft"], planes: ["aviation", "aircraft"],
+  car: ["automotive"], cars: ["automotive"], ocean: ["sea", "marine"],
+};
+
+function tokenize(q) {
+  const base = q.toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length > 1 && !STOPWORDS.has(w));
+  const expanded = new Set(base);
+  base.forEach(w => (ALIASES[w] || []).forEach(a => expanded.add(a)));
+  return [...expanded];
+}
+
+function scoreMatch(item, tokens) {
+  const title = item.title.toLowerCase();
+  const hook = (item.hook || "").toLowerCase();
+  const show = item.show.toLowerCase();
+  const topics = (item.topics || []).join(" ").toLowerCase();
+  let s = 0;
+  for (const t of tokens) {
+    if (topics.includes(t)) s += 3;
+    if (title.includes(t)) s += 2;
+    if (hook.includes(t)) s += 1.5;
+    if (show.includes(t)) s += 1;
+  }
+  return s;
+}
+
+function epRowHtml(item, ctx, prefix = "") {
+  const l = links(item);
+  return `<div class="ep-row">
+    ${prefix}
+    <div class="info">
+      <div class="t">${esc(item.title)}</div>
+      <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
+    </div>
+    ${starBtn(item.id)}
+    <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
+       data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="${ctx}">Play</a>
+  </div>`;
+}
+
+function questList() { return lsGet("cp_quests", []); }
+
+function buildQuest(query) {
+  const tokens = tokenize(query);
+  if (!tokens.length) return null;
+  const scored = fullPool()
+    .map(i => ({ i, s: scoreMatch(i, tokens) }))
+    .filter(x => x.s >= 2)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, 10);
+  if (scored.length < 2) return null;
+  const quest = {
+    id: "q" + Date.now(),
+    query: query.trim(),
+    item_ids: scored.map(x => x.i.id),
+    created: new Date().toISOString(),
+  };
+  lsSet("cp_quests", [quest, ...questList()].slice(0, 5));
+  return quest;
+}
+
+function renderQuests() {
+  const el = $("#quest-body");
+  const all = questList();
+  if (!all.length) { el.innerHTML = ""; return; }
+  fullPool(); // ensure itemIndex is populated
+  const history = new Set(pickedHistory());
+  el.innerHTML = all.map(q => {
+    const items = q.item_ids.map(id => state.itemIndex[id]).filter(Boolean);
+    if (!items.length) return "";
+    const nextIdx = items.findIndex(i => !history.has(i.id));
+    return `<details class="cat" ${q === all[0] ? "open" : ""}>
+      <summary><span>“${esc(q.query)}”<span class="desc">${items.length}-part series · ${items.filter(i => history.has(i.id)).length} played</span></span></summary>
+      ${items.map((item, i) => epRowHtml(item, "series",
+        `<span class="q-num ${i === nextIdx ? "next" : ""}">${i + 1}</span>`)).join("")}
+      <div class="q-actions"><button class="q-remove" data-quest="${q.id}">remove this series</button></div>
+    </details>`;
+  }).join("");
+  bindPickLogging(el);
+  bindStars(el);
+  el.querySelectorAll(".q-remove").forEach(btn => {
+    btn.addEventListener("click", () => {
+      lsSet("cp_quests", questList().filter(q => q.id !== btn.dataset.quest));
+      logEvent("quest_removed", { quest_id: btn.dataset.quest });
+      renderQuests();
+    });
+  });
+}
+
+function renderSearch(query) {
+  const el = $("#search-results");
+  const tokens = tokenize(query);
+  if (!tokens.length) { el.innerHTML = ""; return; }
+  const results = fullPool()
+    .map(i => ({ i, s: scoreMatch(i, tokens) }))
+    .filter(x => x.s > 0)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, 20);
+  el.innerHTML = results.length
+    ? results.map(x => epRowHtml(x.i, "search")).join("")
+    : `<p class="int-note">Nothing in the pool matches — the catalog grows all the time.</p>`;
+  bindPickLogging(el);
+  bindStars(el);
 }
 
 /* ---------- pinned fusion tour ---------- */
@@ -553,6 +684,33 @@ async function init() {
     state.splatter = sampleSplatter();
     logEvent("reshuffled_splatter", {});
     renderSplatter();
+  });
+
+  renderQuests();
+  $("#quest-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const query = $("#quest-input").value.trim();
+    if (!query) return;
+    const quest = buildQuest(query);
+    logEvent("quest_built", { query, found: quest ? quest.item_ids.length : 0 });
+    if (quest) {
+      $("#quest-input").value = "";
+      renderQuests();
+    } else {
+      $("#quest-body").innerHTML =
+        `<p class="int-note">Couldn't find enough in today's pool for that — try different words. (This gets much smarter once the curation brain is online.)</p>` +
+        $("#quest-body").innerHTML;
+    }
+  });
+
+  let searchTimer;
+  $("#search").addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      const q = $("#search").value.trim();
+      renderSearch(q);
+      if (q.length > 2) logEvent("searched", { query: q });
+    }, 180);
   });
 }
 

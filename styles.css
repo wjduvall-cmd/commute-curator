@@ -248,6 +248,55 @@ button.shuffle:active { transform: rotate(20deg) scale(0.95); }
   font-size: 0.82rem; font-weight: 600;
 }
 
+.quest-form { display: flex; gap: 8px; margin-bottom: 12px; }
+.quest-form input, input#search {
+  flex: 1;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+}
+.quest-form button {
+  flex: none;
+  min-width: 76px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+}
+input#search { margin-bottom: 10px; }
+#search-results .ep-row {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin-bottom: 6px;
+}
+.q-num {
+  flex: none;
+  width: 26px; height: 26px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  font-size: 0.78rem; font-weight: 700;
+  color: var(--text-dim);
+}
+.q-num.next { background: var(--deep-learn); border-color: var(--deep-learn); color: #fff; }
+.q-actions { padding: 8px 16px 14px; }
+.q-remove {
+  background: none; border: none;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  text-decoration: underline; text-underline-offset: 3px;
+  cursor: pointer; padding: 0;
+}
+
 .int-body { padding: 4px 16px 14px; }
 .int-row { display: flex; align-items: center; gap: 12px; padding: 7px 0; }
 .int-label { flex: 0 0 44%; font-size: 0.85rem; }
