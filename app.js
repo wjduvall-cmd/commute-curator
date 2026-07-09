@@ -406,7 +406,11 @@ function renderSavedShelf() {
 function renderInterests() {
   const el = $("#interests-body");
   if (!state.taxonomy) { el.innerHTML = ""; return; }
-  el.innerHTML = leafNodes().map(n => `
+  // Only show sliders for topics that actually have content in the pool —
+  // the taxonomy also carries breadth-tier branches (true crime, news,
+  // kids...) that would render as dead sliders here.
+  const poolTopics = new Set(fullPool().flatMap(i => i.topics || []));
+  el.innerHTML = leafNodes().filter(n => poolTopics.has(n.id)).map(n => `
     <label class="int-row">
       <span class="int-label">${esc(n.label)}</span>
       <input type="range" min="0" max="100" value="${Math.round((state.interests[n.id] ?? 0.5) * 100)}" data-node="${n.id}">

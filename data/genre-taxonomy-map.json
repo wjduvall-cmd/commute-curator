@@ -1,0 +1,1301 @@
+{
+  "version": 1,
+  "built_at": "2026-07-09T22:59:19.073Z",
+  "map": {
+    "Science": {
+      "topics": [
+        "science"
+      ],
+      "confidence": "medium"
+    },
+    "Natural Sciences": {
+      "topics": [
+        "science",
+        "nature"
+      ],
+      "confidence": "medium"
+    },
+    "Life Sciences": {
+      "topics": [
+        "medicine/biology",
+        "science",
+        "nature"
+      ],
+      "confidence": "high"
+    },
+    "Earth Sciences": {
+      "topics": [
+        "nature/earth-science",
+        "science"
+      ],
+      "confidence": "high"
+    },
+    "Physics": {
+      "topics": [
+        "science/physics"
+      ],
+      "confidence": "high"
+    },
+    "Chemistry": {
+      "topics": [
+        "science/chemistry"
+      ],
+      "confidence": "high"
+    },
+    "Mathematics": {
+      "topics": [
+        "math"
+      ],
+      "confidence": "high"
+    },
+    "Astronomy": {
+      "topics": [
+        "space",
+        "science"
+      ],
+      "confidence": "high"
+    },
+    "Nature": {
+      "topics": [
+        "nature"
+      ],
+      "confidence": "high"
+    },
+    "Medicine": {
+      "topics": [
+        "medicine"
+      ],
+      "confidence": "high"
+    },
+    "Social Sciences": {
+      "topics": [
+        "psychology",
+        "society",
+        "economics"
+      ],
+      "confidence": "medium"
+    },
+    "Technology": {
+      "topics": [
+        "computing",
+        "engineering"
+      ],
+      "confidence": "medium"
+    },
+    "Tech News": {
+      "topics": [
+        "news/tech",
+        "computing"
+      ],
+      "confidence": "high"
+    },
+    "News": {
+      "topics": [
+        "news"
+      ],
+      "confidence": "medium"
+    },
+    "Daily News": {
+      "topics": [
+        "news/daily"
+      ],
+      "confidence": "high"
+    },
+    "News Commentary": {
+      "topics": [
+        "news/commentary"
+      ],
+      "confidence": "high"
+    },
+    "Politics": {
+      "topics": [
+        "news/politics"
+      ],
+      "confidence": "high"
+    },
+    "Government": {
+      "topics": [
+        "society/government",
+        "news/politics"
+      ],
+      "confidence": "medium"
+    },
+    "Business News": {
+      "topics": [
+        "news",
+        "business"
+      ],
+      "confidence": "high"
+    },
+    "Sports News": {
+      "topics": [
+        "sports",
+        "news"
+      ],
+      "confidence": "high"
+    },
+    "Entertainment News": {
+      "topics": [
+        "tv-film",
+        "news"
+      ],
+      "confidence": "medium"
+    },
+    "Business": {
+      "topics": [
+        "business"
+      ],
+      "confidence": "medium"
+    },
+    "Entrepreneurship": {
+      "topics": [
+        "business/startups",
+        "business/founders"
+      ],
+      "confidence": "high"
+    },
+    "Investing": {
+      "topics": [
+        "economics/markets",
+        "business"
+      ],
+      "confidence": "high"
+    },
+    "Management": {
+      "topics": [
+        "business/management"
+      ],
+      "confidence": "high"
+    },
+    "Marketing": {
+      "topics": [
+        "business/marketing"
+      ],
+      "confidence": "high"
+    },
+    "Careers": {
+      "topics": [
+        "business/careers"
+      ],
+      "confidence": "high"
+    },
+    "Non-Profit": {
+      "topics": [
+        "business/non-profit",
+        "society"
+      ],
+      "confidence": "medium"
+    },
+    "Comedy": {
+      "topics": [
+        "comedy"
+      ],
+      "confidence": "medium"
+    },
+    "Stand-Up": {
+      "topics": [
+        "comedy/stand-up"
+      ],
+      "confidence": "high"
+    },
+    "Improv": {
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "confidence": "high"
+    },
+    "Comedy Interviews": {
+      "topics": [
+        "comedy/interviews"
+      ],
+      "confidence": "high"
+    },
+    "Comedy Fiction": {
+      "topics": [
+        "fiction/comedy",
+        "comedy"
+      ],
+      "confidence": "high"
+    },
+    "Fiction": {
+      "topics": [
+        "fiction"
+      ],
+      "confidence": "medium"
+    },
+    "Science Fiction": {
+      "topics": [
+        "fiction/sci-fi"
+      ],
+      "confidence": "high"
+    },
+    "Drama": {
+      "topics": [
+        "fiction/drama"
+      ],
+      "confidence": "high"
+    },
+    "TV & Film": {
+      "topics": [
+        "tv-film"
+      ],
+      "confidence": "medium"
+    },
+    "Film Reviews": {
+      "topics": [
+        "tv-film/reviews"
+      ],
+      "confidence": "high"
+    },
+    "TV Reviews": {
+      "topics": [
+        "tv-film/reviews"
+      ],
+      "confidence": "high"
+    },
+    "Film Interviews": {
+      "topics": [
+        "tv-film/interviews"
+      ],
+      "confidence": "high"
+    },
+    "Film History": {
+      "topics": [
+        "tv-film/history",
+        "history"
+      ],
+      "confidence": "high"
+    },
+    "After Shows": {
+      "topics": [
+        "tv-film/after-shows"
+      ],
+      "confidence": "high"
+    },
+    "Animation & Manga": {
+      "topics": [
+        "tv-film/animation"
+      ],
+      "confidence": "high"
+    },
+    "Music": {
+      "topics": [
+        "music"
+      ],
+      "confidence": "medium"
+    },
+    "Music History": {
+      "topics": [
+        "music",
+        "history"
+      ],
+      "confidence": "high"
+    },
+    "Music Interviews": {
+      "topics": [
+        "music"
+      ],
+      "confidence": "high"
+    },
+    "Music Commentary": {
+      "topics": [
+        "music"
+      ],
+      "confidence": "high"
+    },
+    "Arts": {
+      "topics": [
+        "culture"
+      ],
+      "confidence": "medium"
+    },
+    "Visual Arts": {
+      "topics": [
+        "culture/art"
+      ],
+      "confidence": "high"
+    },
+    "Performing Arts": {
+      "topics": [
+        "culture/performing-arts"
+      ],
+      "confidence": "high"
+    },
+    "Design": {
+      "topics": [
+        "culture/design"
+      ],
+      "confidence": "high"
+    },
+    "Fashion & Beauty": {
+      "topics": [
+        "culture/fashion"
+      ],
+      "confidence": "high"
+    },
+    "Books": {
+      "topics": [
+        "culture/books"
+      ],
+      "confidence": "high"
+    },
+    "History": {
+      "topics": [
+        "history"
+      ],
+      "confidence": "medium"
+    },
+    "Society & Culture": {
+      "topics": [
+        "society",
+        "culture"
+      ],
+      "confidence": "low"
+    },
+    "Documentary": {
+      "topics": [
+        "society",
+        "culture"
+      ],
+      "confidence": "low"
+    },
+    "Personal Journals": {
+      "topics": [
+        "personal-journals"
+      ],
+      "confidence": "low"
+    },
+    "Relationships": {
+      "topics": [
+        "relationships"
+      ],
+      "confidence": "high"
+    },
+    "Sexuality": {
+      "topics": [
+        "health/sexuality",
+        "relationships"
+      ],
+      "confidence": "medium"
+    },
+    "Philosophy": {
+      "topics": [
+        "philosophy"
+      ],
+      "confidence": "high"
+    },
+    "Places & Travel": {
+      "topics": [
+        "travel"
+      ],
+      "confidence": "high"
+    },
+    "Language Learning": {
+      "topics": [
+        "education/language-learning",
+        "linguistics/language"
+      ],
+      "confidence": "high"
+    },
+    "Religion & Spirituality": {
+      "topics": [
+        "religion"
+      ],
+      "confidence": "medium"
+    },
+    "Religion": {
+      "topics": [
+        "religion"
+      ],
+      "confidence": "medium"
+    },
+    "Spirituality": {
+      "topics": [
+        "religion/spirituality"
+      ],
+      "confidence": "high"
+    },
+    "Christianity": {
+      "topics": [
+        "religion/christianity"
+      ],
+      "confidence": "high"
+    },
+    "Buddhism": {
+      "topics": [
+        "religion/buddhism"
+      ],
+      "confidence": "high"
+    },
+    "Judaism": {
+      "topics": [
+        "religion/judaism"
+      ],
+      "confidence": "high"
+    },
+    "Islam": {
+      "topics": [
+        "religion/islam"
+      ],
+      "confidence": "high"
+    },
+    "Hinduism": {
+      "topics": [
+        "religion/hinduism"
+      ],
+      "confidence": "high"
+    },
+    "Kids & Family": {
+      "topics": [
+        "kids-family"
+      ],
+      "confidence": "medium"
+    },
+    "Stories for Kids": {
+      "topics": [
+        "kids-family/stories"
+      ],
+      "confidence": "high"
+    },
+    "Education for Kids": {
+      "topics": [
+        "kids-family/education"
+      ],
+      "confidence": "high"
+    },
+    "Parenting": {
+      "topics": [
+        "kids-family/parenting"
+      ],
+      "confidence": "high"
+    },
+    "Pets & Animals": {
+      "topics": [
+        "nature/pets"
+      ],
+      "confidence": "high"
+    },
+    "Education": {
+      "topics": [
+        "education"
+      ],
+      "confidence": "low"
+    },
+    "Courses": {
+      "topics": [
+        "education/courses"
+      ],
+      "confidence": "low"
+    },
+    "How To": {
+      "topics": [
+        "education/how-to"
+      ],
+      "confidence": "low"
+    },
+    "Self-Improvement": {
+      "topics": [
+        "education/self-improvement",
+        "psychology"
+      ],
+      "confidence": "medium"
+    },
+    "Health & Fitness": {
+      "topics": [
+        "health"
+      ],
+      "confidence": "medium"
+    },
+    "Mental Health": {
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "confidence": "high"
+    },
+    "Fitness": {
+      "topics": [
+        "health/fitness"
+      ],
+      "confidence": "high"
+    },
+    "Nutrition": {
+      "topics": [
+        "health/nutrition",
+        "food"
+      ],
+      "confidence": "high"
+    },
+    "Alternative Health": {
+      "topics": [
+        "health/alternative"
+      ],
+      "confidence": "high"
+    },
+    "Sports": {
+      "topics": [
+        "sports"
+      ],
+      "confidence": "medium"
+    },
+    "Soccer": {
+      "topics": [
+        "sports/soccer"
+      ],
+      "confidence": "high"
+    },
+    "Football": {
+      "topics": [
+        "sports/football"
+      ],
+      "confidence": "high"
+    },
+    "Baseball": {
+      "topics": [
+        "sports/baseball"
+      ],
+      "confidence": "high"
+    },
+    "Basketball": {
+      "topics": [
+        "sports/basketball"
+      ],
+      "confidence": "high"
+    },
+    "Hockey": {
+      "topics": [
+        "sports/hockey"
+      ],
+      "confidence": "high"
+    },
+    "Cricket": {
+      "topics": [
+        "sports/cricket"
+      ],
+      "confidence": "high"
+    },
+    "Rugby": {
+      "topics": [
+        "sports/rugby"
+      ],
+      "confidence": "high"
+    },
+    "Tennis": {
+      "topics": [
+        "sports/tennis"
+      ],
+      "confidence": "high"
+    },
+    "Golf": {
+      "topics": [
+        "sports/golf"
+      ],
+      "confidence": "high"
+    },
+    "Wrestling": {
+      "topics": [
+        "sports/wrestling"
+      ],
+      "confidence": "high"
+    },
+    "Volleyball": {
+      "topics": [
+        "sports/volleyball"
+      ],
+      "confidence": "high"
+    },
+    "Fantasy Sports": {
+      "topics": [
+        "sports/fantasy"
+      ],
+      "confidence": "high"
+    },
+    "Swimming": {
+      "topics": [
+        "sports/endurance",
+        "health/fitness"
+      ],
+      "confidence": "high"
+    },
+    "Running": {
+      "topics": [
+        "sports/endurance",
+        "health/fitness"
+      ],
+      "confidence": "high"
+    },
+    "Wilderness": {
+      "topics": [
+        "adventure/exploration",
+        "nature"
+      ],
+      "confidence": "high"
+    },
+    "Leisure": {
+      "topics": [
+        "hobbies"
+      ],
+      "confidence": "low"
+    },
+    "Hobbies": {
+      "topics": [
+        "hobbies"
+      ],
+      "confidence": "low"
+    },
+    "Games": {
+      "topics": [
+        "gaming",
+        "hobbies"
+      ],
+      "confidence": "medium"
+    },
+    "Video Games": {
+      "topics": [
+        "gaming"
+      ],
+      "confidence": "high"
+    },
+    "Crafts": {
+      "topics": [
+        "craft"
+      ],
+      "confidence": "high"
+    },
+    "Home & Garden": {
+      "topics": [
+        "craft/diy-home"
+      ],
+      "confidence": "high"
+    },
+    "Automotive": {
+      "topics": [
+        "automotive"
+      ],
+      "confidence": "high"
+    },
+    "Aviation": {
+      "topics": [
+        "aviation"
+      ],
+      "confidence": "high"
+    },
+    "Food": {
+      "topics": [
+        "food"
+      ],
+      "confidence": "high"
+    },
+    "True Crime": {
+      "topics": [
+        "true-crime"
+      ],
+      "confidence": "high"
+    }
+  },
+  "new_nodes": [
+    {
+      "id": "news",
+      "parent": null,
+      "label": "News & Current Affairs",
+      "apple_anchor": "News",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "true-crime",
+      "parent": null,
+      "label": "True Crime",
+      "apple_anchor": "True Crime",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion",
+      "parent": null,
+      "label": "Religion & Spirituality",
+      "apple_anchor": "Religion & Spirituality",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "kids-family",
+      "parent": null,
+      "label": "Kids & Family",
+      "apple_anchor": "Kids & Family",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "fiction",
+      "parent": null,
+      "label": "Fiction & Audio Drama",
+      "apple_anchor": "Fiction",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film",
+      "parent": null,
+      "label": "TV & Film",
+      "apple_anchor": "TV & Film",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health",
+      "parent": null,
+      "label": "Health & Fitness",
+      "apple_anchor": "Health & Fitness",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "education",
+      "parent": null,
+      "label": "Education",
+      "apple_anchor": "Education",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "personal-journals",
+      "parent": null,
+      "label": "Personal Journals",
+      "apple_anchor": "Society & Culture > Personal Journals",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "relationships",
+      "parent": null,
+      "label": "Relationships",
+      "apple_anchor": "Society & Culture > Relationships",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "hobbies",
+      "parent": null,
+      "label": "Hobbies & Leisure",
+      "apple_anchor": "Leisure",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "travel",
+      "parent": null,
+      "label": "Travel & Places",
+      "apple_anchor": "Society & Culture > Places & Travel",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "news/politics",
+      "parent": "news",
+      "label": "Politics",
+      "apple_anchor": "News > Politics",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "news/daily",
+      "parent": "news",
+      "label": "Daily News",
+      "apple_anchor": "News > Daily News",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "news/commentary",
+      "parent": "news",
+      "label": "News Commentary",
+      "apple_anchor": "News > News Commentary",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "news/tech",
+      "parent": "news",
+      "label": "Tech News",
+      "apple_anchor": "News > Tech News",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/christianity",
+      "parent": "religion",
+      "label": "Christianity",
+      "apple_anchor": "Religion & Spirituality > Christianity",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/buddhism",
+      "parent": "religion",
+      "label": "Buddhism",
+      "apple_anchor": "Religion & Spirituality > Buddhism",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/judaism",
+      "parent": "religion",
+      "label": "Judaism",
+      "apple_anchor": "Religion & Spirituality > Judaism",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/islam",
+      "parent": "religion",
+      "label": "Islam",
+      "apple_anchor": "Religion & Spirituality > Islam",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/hinduism",
+      "parent": "religion",
+      "label": "Hinduism",
+      "apple_anchor": "Religion & Spirituality > Hinduism",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "religion/spirituality",
+      "parent": "religion",
+      "label": "Spirituality",
+      "apple_anchor": "Religion & Spirituality > Spirituality",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "kids-family/stories",
+      "parent": "kids-family",
+      "label": "Stories for Kids",
+      "apple_anchor": "Kids & Family > Stories for Kids",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "kids-family/education",
+      "parent": "kids-family",
+      "label": "Education for Kids",
+      "apple_anchor": "Kids & Family > Education for Kids",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "kids-family/parenting",
+      "parent": "kids-family",
+      "label": "Parenting",
+      "apple_anchor": "Kids & Family > Parenting",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "fiction/sci-fi",
+      "parent": "fiction",
+      "label": "Science Fiction",
+      "apple_anchor": "Fiction > Science Fiction",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "fiction/drama",
+      "parent": "fiction",
+      "label": "Drama",
+      "apple_anchor": "Fiction > Drama",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "fiction/comedy",
+      "parent": "fiction",
+      "label": "Comedy Fiction",
+      "apple_anchor": "Fiction > Comedy Fiction",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film/reviews",
+      "parent": "tv-film",
+      "label": "Film & TV Reviews",
+      "apple_anchor": "TV & Film > Film Reviews",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film/interviews",
+      "parent": "tv-film",
+      "label": "Film Interviews",
+      "apple_anchor": "TV & Film > Film Interviews",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film/history",
+      "parent": "tv-film",
+      "label": "Film History",
+      "apple_anchor": "TV & Film > Film History",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film/after-shows",
+      "parent": "tv-film",
+      "label": "After Shows",
+      "apple_anchor": "TV & Film > After Shows",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "tv-film/animation",
+      "parent": "tv-film",
+      "label": "Animation & Manga",
+      "apple_anchor": "TV & Film > Animation & Manga",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health/mental",
+      "parent": "health",
+      "label": "Mental Health",
+      "apple_anchor": "Health & Fitness > Mental Health",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health/fitness",
+      "parent": "health",
+      "label": "Fitness",
+      "apple_anchor": "Health & Fitness > Fitness",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health/nutrition",
+      "parent": "health",
+      "label": "Nutrition",
+      "apple_anchor": "Health & Fitness > Nutrition",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health/alternative",
+      "parent": "health",
+      "label": "Alternative Health",
+      "apple_anchor": "Health & Fitness > Alternative Health",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "health/sexuality",
+      "parent": "health",
+      "label": "Sexuality",
+      "apple_anchor": "Health & Fitness > Sexuality",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "education/language-learning",
+      "parent": "education",
+      "label": "Language Learning",
+      "apple_anchor": "Education > Language Learning",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "education/how-to",
+      "parent": "education",
+      "label": "How To",
+      "apple_anchor": "Education > How To",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "education/courses",
+      "parent": "education",
+      "label": "Courses",
+      "apple_anchor": "Education > Courses",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "education/self-improvement",
+      "parent": "education",
+      "label": "Self-Improvement",
+      "apple_anchor": "Education > Self-Improvement",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "business/careers",
+      "parent": "business",
+      "label": "Careers",
+      "apple_anchor": "Business > Careers",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "business/management",
+      "parent": "business",
+      "label": "Management",
+      "apple_anchor": "Business > Management",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "business/marketing",
+      "parent": "business",
+      "label": "Marketing",
+      "apple_anchor": "Business > Marketing",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "business/non-profit",
+      "parent": "business",
+      "label": "Non-Profit",
+      "apple_anchor": "Business > Non-Profit",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "society/government",
+      "parent": "society",
+      "label": "Government",
+      "apple_anchor": "Government",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "comedy/stand-up",
+      "parent": "comedy",
+      "label": "Stand-Up",
+      "apple_anchor": "Comedy > Stand-Up",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "comedy/interviews",
+      "parent": "comedy",
+      "label": "Comedy Interviews",
+      "apple_anchor": "Comedy > Comedy Interviews",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/books",
+      "parent": "culture",
+      "label": "Books",
+      "apple_anchor": "Arts > Books",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/design",
+      "parent": "culture",
+      "label": "Design",
+      "apple_anchor": "Arts > Design",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/fashion",
+      "parent": "culture",
+      "label": "Fashion & Beauty",
+      "apple_anchor": "Arts > Fashion & Beauty",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/performing-arts",
+      "parent": "culture",
+      "label": "Performing Arts",
+      "apple_anchor": "Arts > Performing Arts",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/pets",
+      "parent": "nature",
+      "label": "Pets & Animals",
+      "apple_anchor": "Kids & Family > Pets & Animals",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "science/physics",
+      "parent": "science",
+      "label": "Physics",
+      "apple_anchor": "Science > Physics",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/soccer",
+      "parent": "sports",
+      "label": "Soccer",
+      "apple_anchor": "Sports > Soccer",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/football",
+      "parent": "sports",
+      "label": "Football",
+      "apple_anchor": "Sports > Football",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/baseball",
+      "parent": "sports",
+      "label": "Baseball",
+      "apple_anchor": "Sports > Baseball",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/basketball",
+      "parent": "sports",
+      "label": "Basketball",
+      "apple_anchor": "Sports > Basketball",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/hockey",
+      "parent": "sports",
+      "label": "Hockey",
+      "apple_anchor": "Sports > Hockey",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/cricket",
+      "parent": "sports",
+      "label": "Cricket",
+      "apple_anchor": "Sports > Cricket",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/rugby",
+      "parent": "sports",
+      "label": "Rugby",
+      "apple_anchor": "Sports > Rugby",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/tennis",
+      "parent": "sports",
+      "label": "Tennis",
+      "apple_anchor": "Sports > Tennis",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/golf",
+      "parent": "sports",
+      "label": "Golf",
+      "apple_anchor": "Sports > Golf",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/wrestling",
+      "parent": "sports",
+      "label": "Wrestling",
+      "apple_anchor": "Sports > Wrestling",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/volleyball",
+      "parent": "sports",
+      "label": "Volleyball",
+      "apple_anchor": "Sports > Volleyball",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/fantasy",
+      "parent": "sports",
+      "label": "Fantasy Sports",
+      "apple_anchor": "Sports > Fantasy Sports",
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    }
+  ]
+}
