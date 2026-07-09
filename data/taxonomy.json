@@ -325,6 +325,159 @@
       "weight": 0.5,
       "confidence": 0.3,
       "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "space",
+      "parent": null,
+      "label": "Space",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "space/rockets",
+      "parent": "space",
+      "label": "Rockets",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "computing",
+      "parent": null,
+      "label": "Computing",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "computing/history",
+      "parent": "computing",
+      "label": "History",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "economics",
+      "parent": null,
+      "label": "Economics",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "economics/markets",
+      "parent": "economics",
+      "label": "Markets",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "psychology",
+      "parent": null,
+      "label": "Psychology",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "psychology/decision-making",
+      "parent": "psychology",
+      "label": "Decision Making",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/earth-science",
+      "parent": "nature",
+      "label": "Earth Science",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "engineering/disasters",
+      "parent": "engineering",
+      "label": "Disasters",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "automotive",
+      "parent": null,
+      "label": "Automotive",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "automotive/racing",
+      "parent": "automotive",
+      "label": "Racing",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "engineering/energy-grid",
+      "parent": "engineering",
+      "label": "Energy Grid",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "philosophy",
+      "parent": null,
+      "label": "Philosophy",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "philosophy/ideas",
+      "parent": "philosophy",
+      "label": "Ideas",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "craft/photography",
+      "parent": "craft",
+      "label": "Photography",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "craft/filmmaking",
+      "parent": "craft",
+      "label": "Filmmaking",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
     }
   ],
   "episode_attributes": {
