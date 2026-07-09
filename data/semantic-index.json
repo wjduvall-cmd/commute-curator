@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T06:01:01.686Z",
+  "built_at": "2026-07-09T06:16:02.773Z",
   "concepts": {
     "fusion": {
       "terms": [
@@ -2463,6 +2463,362 @@
       "related": [
         "science",
         "storytelling"
+      ]
+    },
+    "dinosaurs": {
+      "terms": [
+        "dinosaurs",
+        "dinosaur",
+        "paleontology",
+        "fossils",
+        "fossil",
+        "tyrannosaurs",
+        "sauropods",
+        "hadrosaurs",
+        "mosasaurs",
+        "extinction",
+        "asteroid-impact",
+        "triassic",
+        "cretaceous",
+        "petrified-forest",
+        "prehistoric"
+      ],
+      "topics": [
+        "nature/paleontology"
+      ],
+      "related": [
+        "earth-science",
+        "geology",
+        "animals",
+        "biology"
+      ]
+    },
+    "archaeology": {
+      "terms": [
+        "archaeology",
+        "archaeologists",
+        "excavation",
+        "artifacts",
+        "digs",
+        "hominins",
+        "human-evolution",
+        "taung-child",
+        "monte-verde",
+        "pompeii",
+        "prehistory",
+        "angkor-wat",
+        "machu-picchu",
+        "skeletons",
+        "dating-methods",
+        "monuments"
+      ],
+      "topics": [
+        "history/archaeology"
+      ],
+      "related": [
+        "ancient-history",
+        "history",
+        "egypt",
+        "geology"
+      ]
+    },
+    "weather": {
+      "terms": [
+        "weather",
+        "meteorology",
+        "meteorologists",
+        "storms",
+        "storm",
+        "hurricanes",
+        "hurricane",
+        "tornadoes",
+        "tornado",
+        "cyclones",
+        "tropical-cyclones",
+        "hail",
+        "storm-chasing",
+        "storm-tracking",
+        "weather-forecasting",
+        "forecasting",
+        "radar",
+        "national-weather-service",
+        "extreme-weather"
+      ],
+      "topics": [
+        "nature/weather"
+      ],
+      "related": [
+        "climate",
+        "earth-science",
+        "disasters",
+        "science"
+      ]
+    },
+    "mythology": {
+      "terms": [
+        "mythology",
+        "myths",
+        "myth",
+        "legends",
+        "legend",
+        "folklore",
+        "fairy-tales",
+        "folk-customs",
+        "folk-cures",
+        "norse-mythology",
+        "greek-mythology",
+        "hawaiian-mythology",
+        "czech-folklore",
+        "tricksters",
+        "dragons",
+        "valhalla",
+        "brothers-grimm",
+        "curses",
+        "superstition"
+      ],
+      "topics": [
+        "culture/mythology"
+      ],
+      "related": [
+        "storytelling",
+        "history",
+        "books",
+        "language"
+      ]
+    },
+    "art": {
+      "terms": [
+        "art",
+        "art-history",
+        "painting",
+        "paintings",
+        "painters",
+        "artists",
+        "museums",
+        "galleries",
+        "performance-art",
+        "conceptual-art",
+        "pop-art",
+        "contemporary-art",
+        "protest-art",
+        "art-theft",
+        "frida-kahlo",
+        "andy-warhol",
+        "norman-rockwell",
+        "botticelli",
+        "renaissance"
+      ],
+      "topics": [
+        "culture/art"
+      ],
+      "related": [
+        "photography",
+        "filmmaking",
+        "history",
+        "storytelling"
+      ]
+    },
+    "classical-music": {
+      "terms": [
+        "classical-music",
+        "classical",
+        "symphony",
+        "symphonies",
+        "composers",
+        "composer",
+        "orchestra",
+        "orchestral",
+        "baroque",
+        "ballet",
+        "choral-music",
+        "music-history",
+        "liszt",
+        "mozart",
+        "honegger",
+        "lili-boulanger",
+        "gabrieli",
+        "guillaume-du-fay",
+        "diaghilev"
+      ],
+      "topics": [
+        "music/classical"
+      ],
+      "related": [
+        "music",
+        "music-theory",
+        "instruments",
+        "opera"
+      ]
+    },
+    "opera": {
+      "terms": [
+        "opera",
+        "operas",
+        "arias",
+        "aria",
+        "singers",
+        "soprano",
+        "libretto",
+        "bizet",
+        "carmen",
+        "gounod",
+        "mozart",
+        "voyager-golden-record"
+      ],
+      "topics": [
+        "music/classical"
+      ],
+      "related": [
+        "classical-music",
+        "music",
+        "storytelling",
+        "celebrities"
+      ]
+    },
+    "endurance": {
+      "terms": [
+        "endurance",
+        "triathlon",
+        "running",
+        "runners",
+        "cycling",
+        "cyclists",
+        "marathon",
+        "gravel-racing",
+        "zone-2",
+        "hrv",
+        "aerobic-development",
+        "polarized-training",
+        "hydration",
+        "nutrition",
+        "supplements",
+        "taurine",
+        "creatine",
+        "sodium",
+        "wearables",
+        "physiology"
+      ],
+      "topics": [
+        "sports/endurance"
+      ],
+      "related": [
+        "training",
+        "sports",
+        "sports-science",
+        "longevity"
+      ]
+    },
+    "maritime": {
+      "terms": [
+        "maritime",
+        "shipwrecks",
+        "shipwreck",
+        "ships",
+        "ship",
+        "naval-battle",
+        "triremes",
+        "whaling",
+        "ferries",
+        "ferry",
+        "salamis",
+        "lake-erie",
+        "war-of-1812",
+        "shipbuilding",
+        "sailors",
+        "seafaring"
+      ],
+      "topics": [
+        "transport/maritime"
+      ],
+      "related": [
+        "ocean",
+        "naval-war",
+        "disasters",
+        "ancient-history"
+      ]
+    },
+    "trains": {
+      "terms": [
+        "trains",
+        "train",
+        "railroads",
+        "railroad",
+        "railways",
+        "railway",
+        "locomotives",
+        "locomotive",
+        "steam-engine",
+        "subway",
+        "transit",
+        "rail",
+        "canadian-pacific",
+        "richard-peacock"
+      ],
+      "topics": [
+        "transport/trains"
+      ],
+      "related": [
+        "infrastructure",
+        "engineering-history",
+        "history",
+        "engineering"
+      ]
+    },
+    "workshop": {
+      "terms": [
+        "workshop",
+        "jigs",
+        "jig",
+        "veneer",
+        "face-frames",
+        "wood-movement",
+        "grain-matching",
+        "finishing",
+        "track-saw",
+        "benchcrafted",
+        "lie-nielsen",
+        "handworks",
+        "roycroft",
+        "arts-and-crafts",
+        "shop-tips"
+      ],
+      "topics": [
+        "craft/woodworking"
+      ],
+      "related": [
+        "woodworking",
+        "diy",
+        "craftsmanship"
+      ]
+    },
+    "llms": {
+      "terms": [
+        "llms",
+        "llm",
+        "chatgpt",
+        "openai",
+        "rag",
+        "retrieval",
+        "diffusion-models",
+        "foundation-models",
+        "ai-agents",
+        "agents",
+        "mcp",
+        "kubernetes",
+        "image-generation",
+        "self-driving",
+        "world-models",
+        "flux",
+        "enterprise"
+      ],
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "related": [
+        "ai",
+        "machine-learning",
+        "computing",
+        "programming"
       ]
     }
   },

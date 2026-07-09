@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T06:01:01.686Z",
+  "built_at": "2026-07-09T06:16:02.773Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -3077,6 +3077,772 @@
       "research",
       "interview",
       "explainer"
+    ],
+    "i-know-dino--brusatte-birds": [
+      "dinosaurs",
+      "paleontology",
+      "birds",
+      "extinction",
+      "asteroid-impact",
+      "evolution",
+      "steve-brusatte",
+      "interview"
+    ],
+    "i-know-dino--tyrannosaur-tooth": [
+      "dinosaurs",
+      "paleontology",
+      "tyrannosaurs",
+      "hadrosaurs",
+      "fossils",
+      "science",
+      "explainer"
+    ],
+    "i-know-dino--sauropod-shindig": [
+      "dinosaurs",
+      "paleontology",
+      "sauropods",
+      "fossils",
+      "embryos",
+      "new-species",
+      "science"
+    ],
+    "common-descent--vipers": [
+      "vipers",
+      "snakes",
+      "anatomy",
+      "evolution",
+      "paleontology",
+      "biology",
+      "explainer",
+      "deep-dive"
+    ],
+    "common-descent--gharials": [
+      "gharials",
+      "crocodiles",
+      "fossils",
+      "evolution",
+      "paleontology",
+      "biology",
+      "explainer",
+      "deep-dive"
+    ],
+    "common-descent--sea-turtles": [
+      "sea-turtles",
+      "ocean",
+      "evolution",
+      "paleontology",
+      "fossils",
+      "marine-biology",
+      "explainer",
+      "deep-dive"
+    ],
+    "palaeocast--dinosaurs-50-fossils": [
+      "dinosaurs",
+      "fossils",
+      "paleontology",
+      "museums",
+      "science",
+      "interview",
+      "storytelling"
+    ],
+    "palaeocast--petrified-forest": [
+      "petrified-forest",
+      "fossils",
+      "paleontology",
+      "triassic",
+      "national-parks",
+      "geology",
+      "interview"
+    ],
+    "palaeocast--freshwater-mosasaurs": [
+      "mosasaurs",
+      "fossils",
+      "paleontology",
+      "cretaceous",
+      "chemistry",
+      "food-webs",
+      "interview",
+      "technical"
+    ],
+    "the-archaeology-show--monte-verde": [
+      "archaeology",
+      "monte-verde",
+      "prehistory",
+      "chile",
+      "dating-methods",
+      "research",
+      "explainer"
+    ],
+    "the-archaeology-show--timelines-1450": [
+      "archaeology",
+      "angkor-wat",
+      "machu-picchu",
+      "constantinople",
+      "monuments",
+      "history",
+      "explainer"
+    ],
+    "the-archaeology-show--hominin-structures": [
+      "archaeology",
+      "hominins",
+      "pompeii",
+      "peru",
+      "prehistory",
+      "excavation",
+      "explainer"
+    ],
+    "the-dirt-podcast--taung-child": [
+      "archaeology",
+      "taung-child",
+      "human-evolution",
+      "hominins",
+      "fossils",
+      "prehistory",
+      "storytelling"
+    ],
+    "the-dirt-podcast--get-to-work": [
+      "archaeology",
+      "skeletons",
+      "labor",
+      "ancient-egypt",
+      "neanderthals",
+      "social-history",
+      "explainer"
+    ],
+    "the-dirt-podcast--specific-hats": [
+      "archaeology",
+      "shipwrecks",
+      "textiles",
+      "18th-century",
+      "maritime",
+      "quirky",
+      "explainer"
+    ],
+    "storm-front-freaks--james-spann": [
+      "weather",
+      "meteorology",
+      "storms",
+      "storm-tracking",
+      "james-spann",
+      "broadcasting",
+      "alabama",
+      "interview"
+    ],
+    "storm-front-freaks--mike-bettes": [
+      "weather",
+      "meteorology",
+      "hurricanes",
+      "broadcasting",
+      "journalism",
+      "careers",
+      "interview"
+    ],
+    "storm-front-freaks--matthew-cappucci": [
+      "weather",
+      "meteorology",
+      "tornadoes",
+      "storm-chasing",
+      "hail",
+      "extreme-weather",
+      "interview"
+    ],
+    "weather-geeks--hurricane-scale": [
+      "weather",
+      "hurricanes",
+      "tropical-cyclones",
+      "meteorology",
+      "simulation",
+      "science",
+      "explainer"
+    ],
+    "weather-geeks--climate-beat": [
+      "weather",
+      "climate",
+      "science-journalism",
+      "journalism",
+      "reporting",
+      "interview"
+    ],
+    "weather-geeks--nws-director": [
+      "weather",
+      "meteorology",
+      "weather-forecasting",
+      "national-weather-service",
+      "leadership",
+      "interview"
+    ],
+    "ams-on-the-air--presidents-day-storm": [
+      "weather",
+      "meteorology",
+      "storms",
+      "cyclones",
+      "research",
+      "retrospective",
+      "interview"
+    ],
+    "ams-on-the-air--doppler-on-wheels": [
+      "weather",
+      "tornadoes",
+      "radar",
+      "meteorology",
+      "storm-chasing",
+      "karen-kosiba",
+      "interview"
+    ],
+    "myths-and-legends--maui": [
+      "mythology",
+      "folklore",
+      "maui",
+      "hawaiian-mythology",
+      "tricksters",
+      "storytelling",
+      "narrative"
+    ],
+    "myths-and-legends--czech-dragon": [
+      "mythology",
+      "folklore",
+      "czech-folklore",
+      "dragons",
+      "folk-cures",
+      "storytelling",
+      "narrative"
+    ],
+    "myths-and-legends--norse-old-man": [
+      "mythology",
+      "folklore",
+      "norse-mythology",
+      "valhalla",
+      "heroes",
+      "storytelling",
+      "narrative"
+    ],
+    "our-fake-history--midnight-ride": [
+      "paul-revere",
+      "american-revolution",
+      "american-history",
+      "mythology",
+      "myth-busting",
+      "longfellow",
+      "storytelling"
+    ],
+    "our-fake-history--macbeth-curse": [
+      "macbeth",
+      "shakespeare",
+      "theater",
+      "curses",
+      "superstition",
+      "myth-busting",
+      "storytelling"
+    ],
+    "our-fake-history--snow-white": [
+      "snow-white",
+      "fairy-tales",
+      "brothers-grimm",
+      "folklore",
+      "germany",
+      "myth-busting",
+      "storytelling"
+    ],
+    "folklore-and-fiction--conspiracy-theory": [
+      "folklore",
+      "conspiracy-theories",
+      "narrative",
+      "culture",
+      "storytelling",
+      "explainer"
+    ],
+    "folklore-and-fiction--folk-custom": [
+      "folklore",
+      "folk-customs",
+      "culture",
+      "community",
+      "tradition",
+      "explainer"
+    ],
+    "artcurious--abramovic-ulay": [
+      "art",
+      "art-history",
+      "performance-art",
+      "marina-abramovic",
+      "romance",
+      "storytelling"
+    ],
+    "artcurious--kahlo-rivera": [
+      "art",
+      "art-history",
+      "painting",
+      "frida-kahlo",
+      "diego-rivera",
+      "romance",
+      "storytelling"
+    ],
+    "artcurious--art-thief": [
+      "art",
+      "art-theft",
+      "museums",
+      "michael-finkel",
+      "books",
+      "interview",
+      "storytelling"
+    ],
+    "the-lonely-palette--rockwell": [
+      "art",
+      "art-history",
+      "painting",
+      "norman-rockwell",
+      "american-history",
+      "democracy",
+      "explainer"
+    ],
+    "the-lonely-palette--botticelli-venus": [
+      "art",
+      "art-history",
+      "painting",
+      "botticelli",
+      "renaissance",
+      "explainer"
+    ],
+    "the-lonely-palette--kruger": [
+      "art",
+      "art-history",
+      "contemporary-art",
+      "barbara-kruger",
+      "protest-art",
+      "explainer"
+    ],
+    "a-piece-of-work--writing-on-wall": [
+      "art",
+      "art-history",
+      "conceptual-art",
+      "sol-lewitt",
+      "museums",
+      "explainer"
+    ],
+    "a-piece-of-work--warhol": [
+      "art",
+      "art-history",
+      "andy-warhol",
+      "pop-art",
+      "self-promotion",
+      "explainer"
+    ],
+    "sticky-notes--honegger-3": [
+      "classical-music",
+      "symphony",
+      "honegger",
+      "composers",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "sticky-notes--liszt-faust": [
+      "classical-music",
+      "symphony",
+      "liszt",
+      "faust",
+      "music-analysis",
+      "music-history",
+      "explainer"
+    ],
+    "sticky-notes--lili-boulanger": [
+      "classical-music",
+      "lili-boulanger",
+      "composers",
+      "choral-music",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "aria-code--gounod-romeo": [
+      "opera",
+      "classical-music",
+      "gounod",
+      "arias",
+      "singers",
+      "music-analysis",
+      "storytelling"
+    ],
+    "aria-code--bizet-carmen": [
+      "opera",
+      "classical-music",
+      "bizet",
+      "carmen",
+      "arias",
+      "culture",
+      "music-analysis",
+      "storytelling"
+    ],
+    "aria-code--mozart-queen-night": [
+      "opera",
+      "classical-music",
+      "mozart",
+      "arias",
+      "nasa",
+      "voyager-golden-record",
+      "music-analysis",
+      "storytelling"
+    ],
+    "music-history-monday--diaghilev": [
+      "classical-music",
+      "music-history",
+      "diaghilev",
+      "ballet",
+      "ballets-russes",
+      "storytelling"
+    ],
+    "music-history-monday--gabrieli-venice": [
+      "classical-music",
+      "music-history",
+      "gabrieli",
+      "venice",
+      "baroque",
+      "storytelling"
+    ],
+    "music-history-monday--first-composer": [
+      "classical-music",
+      "music-history",
+      "composers",
+      "guillaume-du-fay",
+      "medieval",
+      "renaissance",
+      "storytelling"
+    ],
+    "that-triathlon-show--kolie-moore": [
+      "triathlon",
+      "cycling",
+      "endurance",
+      "training",
+      "zone-2",
+      "creatine",
+      "sports-science",
+      "interview"
+    ],
+    "that-triathlon-show--polarized-pyramidal": [
+      "triathlon",
+      "endurance",
+      "training",
+      "polarized-training",
+      "research",
+      "sports-science",
+      "interview"
+    ],
+    "that-triathlon-show--lifetime-hours": [
+      "triathlon",
+      "endurance",
+      "training",
+      "aerobic-development",
+      "physiology",
+      "sports-science",
+      "interview"
+    ],
+    "fast-talk--sodium-guide": [
+      "endurance",
+      "nutrition",
+      "sodium",
+      "hydration",
+      "athletes",
+      "physiology",
+      "sports-science",
+      "interview"
+    ],
+    "fast-talk--fat-vs-carb": [
+      "endurance",
+      "nutrition",
+      "diet",
+      "athletes",
+      "sports-science",
+      "debate",
+      "explainer"
+    ],
+    "fast-talk--gravel-racing": [
+      "cycling",
+      "gravel-racing",
+      "racing",
+      "endurance",
+      "tactics",
+      "athletes",
+      "interview"
+    ],
+    "physiology-endurance-running--hrv-altini": [
+      "running",
+      "endurance",
+      "hrv",
+      "wearables",
+      "physiology",
+      "research",
+      "sports-science",
+      "interview"
+    ],
+    "physiology-endurance-running--reading-papers": [
+      "running",
+      "endurance",
+      "research",
+      "science",
+      "myth-busting",
+      "sports-science",
+      "explainer"
+    ],
+    "physiology-endurance-running--taurine": [
+      "running",
+      "endurance",
+      "taurine",
+      "supplements",
+      "heat",
+      "physiology",
+      "sports-science",
+      "explainer"
+    ],
+    "shipwrecks-and-sea-dogs--lake-erie": [
+      "maritime",
+      "naval-battle",
+      "war-of-1812",
+      "lake-erie",
+      "ships",
+      "military-history",
+      "storytelling"
+    ],
+    "shipwrecks-and-sea-dogs--herald-free-enterprise": [
+      "maritime",
+      "shipwrecks",
+      "ferries",
+      "disaster",
+      "engineering-failures",
+      "investigation",
+      "storytelling"
+    ],
+    "shipwrecks-and-sea-dogs--wreck-of-mentor": [
+      "maritime",
+      "shipwrecks",
+      "whaling",
+      "palau",
+      "rescue",
+      "19th-century",
+      "interview",
+      "storytelling"
+    ],
+    "maritime-history-podcast--trireme-101": [
+      "maritime",
+      "triremes",
+      "ancient-greece",
+      "ancient-history",
+      "ships",
+      "shipbuilding",
+      "deep-dive",
+      "explainer"
+    ],
+    "maritime-history-podcast--salamis": [
+      "maritime",
+      "salamis",
+      "naval-battle",
+      "ancient-greece",
+      "persia",
+      "themistocles",
+      "military-history",
+      "deep-dive",
+      "storytelling"
+    ],
+    "the-roundhouse--civil-war-railroads": [
+      "trains",
+      "railroads",
+      "civil-war",
+      "logistics",
+      "military-history",
+      "american-history",
+      "interview"
+    ],
+    "the-roundhouse--canadian-pacific": [
+      "trains",
+      "railroads",
+      "canadian-pacific",
+      "canada",
+      "immigration",
+      "history",
+      "interview"
+    ],
+    "the-roundhouse--bernie-wagenblast": [
+      "trains",
+      "transit",
+      "subway",
+      "new-york",
+      "journalism",
+      "careers",
+      "interview"
+    ],
+    "railway-mania--richard-peacock": [
+      "trains",
+      "railroads",
+      "locomotives",
+      "steam-engine",
+      "richard-peacock",
+      "history",
+      "interview"
+    ],
+    "railway-mania--american-articulation": [
+      "trains",
+      "railroads",
+      "locomotives",
+      "steam-engine",
+      "american-history",
+      "19th-century",
+      "interview"
+    ],
+    "woodshop-life--making-jigs": [
+      "woodworking",
+      "jigs",
+      "grain-matching",
+      "track-saw",
+      "tools",
+      "tips",
+      "practical",
+      "advice"
+    ],
+    "woodshop-life--fixing-boo-boos": [
+      "woodworking",
+      "veneer",
+      "wood-movement",
+      "repair",
+      "tips",
+      "practical",
+      "advice"
+    ],
+    "woodshop-life--face-frames": [
+      "woodworking",
+      "face-frames",
+      "cabinetmaking",
+      "finishing",
+      "tolerances",
+      "tips",
+      "practical",
+      "advice"
+    ],
+    "mwa-woodworking--jameel-abraham": [
+      "woodworking",
+      "hand-tools",
+      "benchcrafted",
+      "handworks",
+      "craftsmanship",
+      "tools",
+      "interview"
+    ],
+    "mwa-woodworking--deneb-puchalski": [
+      "woodworking",
+      "hand-tools",
+      "lie-nielsen",
+      "teaching",
+      "craftsmanship",
+      "interview",
+      "deep-dive"
+    ],
+    "mwa-woodworking--brian-brace": [
+      "woodworking",
+      "furniture-making",
+      "arts-and-crafts",
+      "roycroft",
+      "craftsmanship",
+      "tradition",
+      "interview"
+    ],
+    "practical-ai--black-forest-labs": [
+      "ai",
+      "image-generation",
+      "diffusion-models",
+      "flux",
+      "machine-learning",
+      "startups",
+      "interview",
+      "technical"
+    ],
+    "practical-ai--mcp-kubernetes": [
+      "ai",
+      "ai-agents",
+      "mcp",
+      "kubernetes",
+      "enterprise",
+      "software",
+      "interview",
+      "technical"
+    ],
+    "practical-ai--comma-ai": [
+      "ai",
+      "self-driving",
+      "open-source",
+      "robotics",
+      "simulation",
+      "world-models",
+      "interview",
+      "technical"
+    ],
+    "twiml-ai--rag-tax-law": [
+      "ai",
+      "rag",
+      "llms",
+      "law",
+      "machine-learning",
+      "interview",
+      "technical"
+    ],
+    "twiml-ai--relational-foundation-models": [
+      "ai",
+      "machine-learning",
+      "foundation-models",
+      "databases",
+      "enterprise",
+      "interview",
+      "technical"
+    ],
+    "twiml-ai--diffusion-llms": [
+      "ai",
+      "llms",
+      "diffusion-models",
+      "machine-learning",
+      "research",
+      "interview",
+      "technical"
+    ],
+    "robot-brains--jitendra-malik": [
+      "ai",
+      "robotics",
+      "machine-learning",
+      "sensorimotor",
+      "berkeley",
+      "research",
+      "interview"
+    ],
+    "robot-brains--john-schulman": [
+      "ai",
+      "chatgpt",
+      "openai",
+      "llms",
+      "machine-learning",
+      "john-schulman",
+      "interview"
+    ],
+    "robot-talk--robot-doctor": [
+      "robotics",
+      "surgery",
+      "medicine",
+      "ethics",
+      "regulation",
+      "interview",
+      "live"
+    ],
+    "robot-talk--haptics-okamura": [
+      "robotics",
+      "haptics",
+      "teleoperation",
+      "soft-robotics",
+      "stanford",
+      "research",
+      "interview"
+    ],
+    "robot-talk--robotic-blacksmiths": [
+      "robotics",
+      "ai",
+      "manufacturing",
+      "metallurgy",
+      "aerospace",
+      "startups",
+      "interview"
     ]
   }
 }
