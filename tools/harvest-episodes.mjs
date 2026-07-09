@@ -63,7 +63,11 @@ function parseFeed(xml) {
     return {
       guid: text(typeof it.guid === "object" ? it.guid["#text"] ?? it.guid : it.guid),
       title: text(it.title),
-      published_at: it.pubDate ? new Date(it.pubDate).toISOString().slice(0, 10) : null,
+      published_at: (() => {
+        // malformed pubDates exist in real feeds — never let one kill a show
+        try { const d = new Date(it.pubDate); return isNaN(d) ? null : d.toISOString().slice(0, 10); }
+        catch (_) { return null; }
+      })(),
       duration_min: normDuration(it["itunes:duration"]),
       enclosure_url: enc["@_url"] ?? null,
       link: text(it.link),
