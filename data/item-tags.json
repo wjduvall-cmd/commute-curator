@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T05:44:43.835Z",
+  "built_at": "2026-07-09T06:01:01.686Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -2244,6 +2244,839 @@
       "analog",
       "tv",
       "interview"
+    ],
+    "radiolab--this-is-your-brain-on-hormones": [
+      "hormones",
+      "brain",
+      "menstrual-cycle",
+      "cognition",
+      "neuroscience",
+      "science-journalism",
+      "documentary",
+      "storytelling"
+    ],
+    "radiolab--this-american-roach": [
+      "cockroaches",
+      "insects",
+      "phobia",
+      "biology",
+      "history",
+      "science-journalism",
+      "documentary",
+      "storytelling"
+    ],
+    "radiolab--the-resistance-of-a-cow": [
+      "cows",
+      "dairy",
+      "power-lines",
+      "electricity",
+      "animal-behavior",
+      "mystery",
+      "science-journalism",
+      "investigation",
+      "storytelling"
+    ],
+    "science-vs--raw-milk-secret-superfood": [
+      "raw-milk",
+      "milk",
+      "food-safety",
+      "nutrition",
+      "myth-busting",
+      "science",
+      "explainer"
+    ],
+    "science-vs--caffeine-how-much-is-too-much": [
+      "caffeine",
+      "coffee",
+      "sleep",
+      "health",
+      "myth-busting",
+      "science",
+      "explainer"
+    ],
+    "science-vs--ibogaine-a-miracle-psychedelic": [
+      "ibogaine",
+      "psychedelics",
+      "addiction",
+      "drug-safety",
+      "medicine",
+      "myth-busting",
+      "science",
+      "explainer"
+    ],
+    "unexplainable--are-we-all-living-in-an-enormous-black-hole": [
+      "black-holes",
+      "cosmology",
+      "universe",
+      "physics",
+      "mystery",
+      "science-journalism",
+      "explainer"
+    ],
+    "unexplainable--risky-business": [
+      "risk",
+      "risk-perception",
+      "fear",
+      "psychology",
+      "decision-making",
+      "science-journalism",
+      "explainer"
+    ],
+    "unexplainable--should-we-really-kill-all-the-lanternflies": [
+      "lanternflies",
+      "invasive-species",
+      "insects",
+      "entomology",
+      "ecology",
+      "science-journalism",
+      "explainer"
+    ],
+    "how-i-built-this--catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-p": [
+      "founders",
+      "entrepreneurship",
+      "cereal",
+      "keto",
+      "food",
+      "consumer-products",
+      "startups",
+      "interview",
+      "storytelling"
+    ],
+    "how-i-built-this--e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-bu": [
+      "founders",
+      "entrepreneurship",
+      "cosmetics",
+      "brands",
+      "consumer-products",
+      "business",
+      "interview",
+      "storytelling"
+    ],
+    "how-i-built-this--starr-restaurants-stephen-starr-how-a-non-foodie-built-thriv": [
+      "founders",
+      "entrepreneurship",
+      "restaurants",
+      "hospitality",
+      "food",
+      "business",
+      "interview",
+      "storytelling"
+    ],
+    "business-wars--universal-vs-disney-the-battle-for-orlando-a-kingdom-invaded": [
+      "disney",
+      "universal",
+      "theme-parks",
+      "orlando",
+      "competition",
+      "business-history",
+      "documentary",
+      "storytelling"
+    ],
+    "business-wars--encore-cruise-ship-wars-anchors-aweigh": [
+      "cruise-ships",
+      "cruise-lines",
+      "ships",
+      "tourism",
+      "competition",
+      "business-history",
+      "documentary",
+      "storytelling"
+    ],
+    "business-wars--chobani-the-yogurt-that-ate-america-nothing-but-good": [
+      "chobani",
+      "yogurt",
+      "food",
+      "startups",
+      "competition",
+      "business-history",
+      "documentary",
+      "storytelling"
+    ],
+    "masters-of-scale--how-to-build-breakout-products-with-mark-pincus-and-reid-hof": [
+      "mark-pincus",
+      "reid-hoffman",
+      "zynga",
+      "product-design",
+      "games",
+      "founders",
+      "startups",
+      "business",
+      "interview"
+    ],
+    "masters-of-scale--pioneers-of-ai-reid-hoffman-says-the-ai-race-is-not-a-cage-m": [
+      "reid-hoffman",
+      "ai",
+      "competition",
+      "technology",
+      "strategy",
+      "business",
+      "interview"
+    ],
+    "masters-of-scale--ibm-s-10-billion-bet-on-what-comes-after-ai": [
+      "ibm",
+      "ai",
+      "quantum",
+      "enterprise",
+      "ceo",
+      "strategy",
+      "business",
+      "interview"
+    ],
+    "we-have-ways-of-making-you-talk--north-african-odyssey-blood-on-the-sand-part-2": [
+      "world-war-2",
+      "north-africa",
+      "desert-war",
+      "military-history",
+      "storytelling",
+      "narrative",
+      "banter"
+    ],
+    "we-have-ways-of-making-you-talk--operation-barbarossa-countdown-part-4": [
+      "world-war-2",
+      "operation-barbarossa",
+      "eastern-front",
+      "hitler",
+      "soviet-union",
+      "military-history",
+      "storytelling",
+      "narrative"
+    ],
+    "we-have-ways-of-making-you-talk--naval-battle-of-narvik-plans-and-schemes-part-1": [
+      "world-war-2",
+      "narvik",
+      "naval-battle",
+      "navy",
+      "norway",
+      "military-history",
+      "storytelling",
+      "narrative"
+    ],
+    "unauthorized-history-pacific-war--holding-the-door-open-the-battles-towards-bataan-episode-606": [
+      "world-war-2",
+      "pacific-war",
+      "bataan",
+      "philippines",
+      "navy",
+      "submarines",
+      "military-history",
+      "interview",
+      "storytelling"
+    ],
+    "unauthorized-history-pacific-war--disaster-at-clark-field-air-raid-philippines-1941-episode-60": [
+      "world-war-2",
+      "pacific-war",
+      "philippines",
+      "air-raid",
+      "aviation",
+      "disaster",
+      "military-history",
+      "storytelling"
+    ],
+    "unauthorized-history-pacific-war--shipbuilding-and-fleet-repair-in-the-pto-with-sal-mercoglian": [
+      "world-war-2",
+      "pacific-war",
+      "shipbuilding",
+      "fleet-repair",
+      "navy",
+      "logistics",
+      "military-history",
+      "interview",
+      "storytelling"
+    ],
+    "history-of-wwii-podcast--episode-636-no-mercy-no-quarter-given": [
+      "world-war-2",
+      "pacific-war",
+      "guadalcanal",
+      "combat",
+      "japan",
+      "military-history",
+      "deep-dive",
+      "storytelling"
+    ],
+    "history-of-wwii-podcast--episode-635-battle-of-alligator-creek": [
+      "world-war-2",
+      "pacific-war",
+      "guadalcanal",
+      "japan",
+      "military-history",
+      "deep-dive",
+      "storytelling"
+    ],
+    "history-of-wwii-podcast--episode-632-battle-of-savo-island": [
+      "world-war-2",
+      "pacific-war",
+      "naval-battle",
+      "guadalcanal",
+      "navy",
+      "japan",
+      "military-history",
+      "deep-dive",
+      "storytelling"
+    ],
+    "the-war-on-cars--sidewalk-nation": [
+      "sidewalks",
+      "pedestrians",
+      "cities",
+      "urbanism",
+      "law",
+      "policy",
+      "explainer"
+    ],
+    "the-war-on-cars--rethinking-criminal-consequences-for-drivers-who-kill": [
+      "road-safety",
+      "traffic-violence",
+      "drivers",
+      "justice",
+      "cities",
+      "urbanism",
+      "policy",
+      "interview"
+    ],
+    "the-war-on-cars--changing-lanes": [
+      "brooklyn",
+      "street-design",
+      "road-safety",
+      "activism",
+      "cities",
+      "urbanism",
+      "storytelling"
+    ],
+    "strong-towns-podcast--the-deadly-road-design-we-keep-defending": [
+      "road-safety",
+      "street-design",
+      "pedestrians",
+      "traffic-engineering",
+      "cities",
+      "urbanism",
+      "policy",
+      "explainer"
+    ],
+    "strong-towns-podcast--what-s-the-housing-crisis-beneath-the-housing-crisis": [
+      "housing",
+      "housing-crisis",
+      "land-use",
+      "economics",
+      "cities",
+      "urbanism",
+      "policy",
+      "explainer"
+    ],
+    "strong-towns-podcast--how-inner-city-highways-bankrupt-downtowns-and-how-we-rebuil": [
+      "highways",
+      "downtowns",
+      "cities",
+      "urbanism",
+      "economics",
+      "data",
+      "infrastructure",
+      "explainer"
+    ],
+    "talking-headways--episode-194-mondays-at-the-overhead-wire-family-friendly-cit": [
+      "cities",
+      "urbanism",
+      "families",
+      "urban-planning",
+      "cars",
+      "traffic",
+      "banter"
+    ],
+    "talking-headways--episode-583-the-transit-abundance-playbook": [
+      "transit",
+      "public-transit",
+      "abundance",
+      "urban-planning",
+      "cities",
+      "urbanism",
+      "policy",
+      "interview"
+    ],
+    "talking-headways--episode-193-mondays-at-the-overhead-wire-henry-george-s-urba": [
+      "henry-george",
+      "land-tax",
+      "economics",
+      "19th-century",
+      "history",
+      "cities",
+      "urbanism",
+      "explainer"
+    ],
+    "chemistry-world-podcast--an-update-on-the-strait-of-hormuz-and-potential-explosives-a": [
+      "chemistry",
+      "geopolitics",
+      "explosives",
+      "antarctica",
+      "shipping",
+      "science-news",
+      "explainer"
+    ],
+    "chemistry-world-podcast--a-warning-for-us-science-and-wool-s-chemical-versatility-the": [
+      "chemistry",
+      "wool",
+      "materials",
+      "science-funding",
+      "science-news",
+      "explainer"
+    ],
+    "chemistry-world-podcast--quantum-computing-and-a-mysterious-contaminant-in-microplast": [
+      "chemistry",
+      "quantum",
+      "microplastics",
+      "contamination",
+      "research",
+      "science-news",
+      "explainer"
+    ],
+    "distillations--the-history-of-clinical-trials-from-fake-exorcisms-to-testin": [
+      "clinical-trials",
+      "medicine",
+      "medical-history",
+      "history-of-science",
+      "documentary",
+      "storytelling"
+    ],
+    "distillations--agnes-pockels-and-the-kitchen-sink-myth": [
+      "agnes-pockels",
+      "surface-chemistry",
+      "chemistry",
+      "women-in-science",
+      "history-of-science",
+      "storytelling"
+    ],
+    "distillations--gene-therapy-s-dark-ages": [
+      "gene-therapy",
+      "genetics",
+      "medicine",
+      "medical-history",
+      "history-of-science",
+      "scandal",
+      "storytelling"
+    ],
+    "tiny-matters--fireworks-over-millennia-from-battlefields-and-royal-display": [
+      "fireworks",
+      "pyrotechnics",
+      "chemistry",
+      "history",
+      "sustainability",
+      "explainer",
+      "storytelling"
+    ],
+    "tiny-matters--collisions-in-space-satellites-space-debris-and-the-quest-to": [
+      "space-debris",
+      "satellites",
+      "space",
+      "orbit",
+      "chemistry",
+      "explainer"
+    ],
+    "tiny-matters--the-challenger-disaster-how-a-nasa-tragedy-led-to-a-safer-ar": [
+      "challenger",
+      "nasa",
+      "space-shuttle",
+      "disaster",
+      "safety-engineering",
+      "artemis",
+      "space",
+      "storytelling",
+      "explainer"
+    ],
+    "the-sharp-end-podcast--ep-126-mountain-rescue-in-the-bugaboos-zach-watson": [
+      "climbing",
+      "mountain-rescue",
+      "bugaboos",
+      "mountains",
+      "preparation",
+      "survival",
+      "interview",
+      "storytelling"
+    ],
+    "the-sharp-end-podcast--ep-125-the-way-out-a-true-story-of-survival-in-the-heart-of-": [
+      "backcountry-skiing",
+      "rockies",
+      "mountains",
+      "survival",
+      "rescue",
+      "tragedy",
+      "interview",
+      "storytelling"
+    ],
+    "the-sharp-end-podcast--ep-124-climbing-liberty-ridge-lessons-learned-from-a-challen": [
+      "climbing",
+      "mountaineering",
+      "rainier",
+      "mountains",
+      "survival",
+      "decision-making",
+      "interview",
+      "storytelling"
+    ],
+    "the-enormocast--enormocast-326-julia-cassou-telling-true-stories": [
+      "climbing",
+      "journalism",
+      "true-stories",
+      "writing",
+      "storytelling",
+      "interview"
+    ],
+    "the-enormocast--enormocast-323-cole-brauer-every-day-the-sea": [
+      "sailing",
+      "solo-sailing",
+      "ocean",
+      "ocean-racing",
+      "endurance",
+      "solitude",
+      "interview",
+      "storytelling"
+    ],
+    "the-enormocast--enormocast-318-babsi-zangerl-10-years-later": [
+      "climbing",
+      "free-climbing",
+      "athletes",
+      "career",
+      "retrospective",
+      "interview"
+    ],
+    "alpinist--kelsey-gray-a-world-of-routes": [
+      "climbing",
+      "route-development",
+      "alaska",
+      "mountains",
+      "exploration",
+      "interview"
+    ],
+    "alpinist--alita-contreras-woman-warrior": [
+      "climbing",
+      "colombia",
+      "women-climbers",
+      "identity",
+      "documentary",
+      "storytelling"
+    ],
+    "alpinist--will-moss-one-step-further": [
+      "climbing",
+      "el-capitan",
+      "big-wall",
+      "endurance",
+      "youth",
+      "interview",
+      "storytelling"
+    ],
+    "designer-notes--designer-notes-96-owen-mahoney": [
+      "game-design",
+      "video-games",
+      "free-to-play",
+      "nexon",
+      "game-industry",
+      "business",
+      "interview"
+    ],
+    "designer-notes--designer-notes-94-charles-cecil-part-2": [
+      "game-design",
+      "video-games",
+      "adventure-games",
+      "digital-distribution",
+      "career",
+      "interview"
+    ],
+    "designer-notes--designer-notes-92-paul-kilduff-taylor": [
+      "game-design",
+      "video-games",
+      "indie-games",
+      "frozen-synapse",
+      "strategy-games",
+      "interview"
+    ],
+    "game-design-round-table--revisiting-civ-7": [
+      "game-design",
+      "video-games",
+      "civilization",
+      "strategy-games",
+      "critique",
+      "banter"
+    ],
+    "game-design-round-table--season-rpg-exploring-the-success-behind-neon-odyssey-with-mi": [
+      "game-design",
+      "rpg",
+      "kickstarter",
+      "narrative-design",
+      "games",
+      "interview"
+    ],
+    "game-design-round-table--listener-questions-ai-and-the-future-of-game-design": [
+      "game-design",
+      "ai",
+      "creativity",
+      "ethics",
+      "games",
+      "banter"
+    ],
+    "clockwork-game-design-podcast--the-rpg-report-and-the-worst-things-in-rpgs": [
+      "game-design",
+      "rpg",
+      "video-games",
+      "critique",
+      "opinion",
+      "explainer"
+    ],
+    "clockwork-game-design-podcast--rpg-questions-and-trails-in-the-sky-fc": [
+      "game-design",
+      "rpg",
+      "video-games",
+      "trails-in-the-sky",
+      "critique",
+      "deep-dive"
+    ],
+    "clockwork-game-design-podcast--clockwork-game-design-podcast-the-final-fantasy-episode": [
+      "game-design",
+      "rpg",
+      "video-games",
+      "final-fantasy",
+      "critique",
+      "deep-dive"
+    ],
+    "huberman-lab--raising-a-dog-and-mastering-calm-assertive-energy-cesar-mill": [
+      "dogs",
+      "dog-training",
+      "behavior",
+      "psychology",
+      "neuroscience",
+      "cesar-millan",
+      "interview"
+    ],
+    "huberman-lab--movement-practice-to-strengthen-your-mind-body-connection-id": [
+      "movement",
+      "mind-body",
+      "training",
+      "coaching",
+      "fitness",
+      "neuroscience",
+      "interview"
+    ],
+    "huberman-lab--science-of-attraction-compatibility-and-romance-dr-paul-east": [
+      "attraction",
+      "romance",
+      "relationships",
+      "compatibility",
+      "psychology",
+      "science",
+      "interview"
+    ],
+    "the-matt-walker-podcast--142-how-memory-affects-sleep": [
+      "sleep",
+      "memory",
+      "brain",
+      "neuroscience",
+      "science",
+      "explainer"
+    ],
+    "the-matt-walker-podcast--141-the-daylight-mistake": [
+      "sleep",
+      "daylight",
+      "circadian",
+      "eyes",
+      "alertness",
+      "neuroscience",
+      "explainer"
+    ],
+    "the-matt-walker-podcast--140-tired-but-wired": [
+      "sleep",
+      "insomnia",
+      "hyperarousal",
+      "brain",
+      "neuroscience",
+      "advice",
+      "explainer"
+    ],
+    "the-peter-attia-drive--building-strength-and-muscle-mass-how-to-optimize-training-n": [
+      "strength-training",
+      "muscle",
+      "longevity",
+      "nutrition",
+      "protein",
+      "training",
+      "medicine",
+      "explainer"
+    ],
+    "the-peter-attia-drive--397-endometriosis-and-adenomyosis-diagnosis-fertility-reprod": [
+      "endometriosis",
+      "fertility",
+      "womens-health",
+      "reproductive-health",
+      "medicine",
+      "interview",
+      "technical"
+    ],
+    "the-peter-attia-drive--395-brain-lipidology-understanding-apoe-cholesterol-homeosta": [
+      "alzheimers",
+      "cholesterol",
+      "apoe",
+      "brain",
+      "lipids",
+      "genetics",
+      "medicine",
+      "longevity",
+      "interview",
+      "technical"
+    ],
+    "strict-scrutiny--scotus-just-barely-preserves-birthright-citizenship": [
+      "supreme-court",
+      "law",
+      "courts",
+      "birthright-citizenship",
+      "citizenship",
+      "campaign-finance",
+      "politics",
+      "explainer"
+    ],
+    "strict-scrutiny--scotus-kills-independent-agencies-expands-presidential-power": [
+      "supreme-court",
+      "law",
+      "courts",
+      "executive-power",
+      "agencies",
+      "politics",
+      "explainer"
+    ],
+    "strict-scrutiny--breaking-scotus-greenlights-trump-s-cruel-immigration-polici": [
+      "supreme-court",
+      "law",
+      "courts",
+      "immigration",
+      "rulings",
+      "politics",
+      "explainer"
+    ],
+    "amicus-dahlia-lithwick--bad-history-will-kill-america": [
+      "supreme-court",
+      "law",
+      "courts",
+      "legal-history",
+      "rulings",
+      "citizenship",
+      "interview"
+    ],
+    "amicus-dahlia-lithwick--a-constitutional-travesty-narrowly-avoided": [
+      "supreme-court",
+      "law",
+      "courts",
+      "birthright-citizenship",
+      "campaign-finance",
+      "rulings",
+      "explainer"
+    ],
+    "amicus-dahlia-lithwick--the-roberts-court-shows-its-true-colors": [
+      "supreme-court",
+      "law",
+      "courts",
+      "john-roberts",
+      "immigration",
+      "race",
+      "explainer"
+    ],
+    "5-4-podcast--trump-v-barbara": [
+      "supreme-court",
+      "law",
+      "courts",
+      "executive-power",
+      "critique",
+      "banter"
+    ],
+    "5-4-podcast--250-years-of-bad-decisions-scotus-the-civil-war-and-the-end-": [
+      "supreme-court",
+      "law",
+      "courts",
+      "civil-war",
+      "reconstruction",
+      "american-history",
+      "legal-history",
+      "storytelling"
+    ],
+    "5-4-podcast--the-most-destructive-chief-justice-in-my-lifetime-dissecting": [
+      "supreme-court",
+      "law",
+      "courts",
+      "john-roberts",
+      "legal-history",
+      "critique",
+      "interview"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--mike-stein-and-pete-jones-of-lost-lagers-look-back-at-americ": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "lagers",
+      "beer-history",
+      "american-history",
+      "interview",
+      "storytelling"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--the-post-s-nick-tedeschi-brews-flavorful-low-abv-beers-for-g": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "low-abv",
+      "food-pairing",
+      "flavor",
+      "interview"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--wynn-whisenhunt-of-wondrous-makes-better-beer-by-doing-less": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "simplicity",
+      "technique",
+      "interview"
+    ],
+    "experimental-brewing--episode-210-bob-and-denny-take-belgium-part-2": [
+      "beer",
+      "brewing",
+      "homebrewing",
+      "belgian-beer",
+      "tradition",
+      "interview",
+      "banter"
+    ],
+    "experimental-brewing--episode-207-fonio-fonio-what-the-heck-are-you-fonio": [
+      "beer",
+      "brewing",
+      "homebrewing",
+      "fonio",
+      "grains",
+      "experimentation",
+      "banter"
+    ],
+    "experimental-brewing--episode-203-27-years-of-experience-in-norcal": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "california",
+      "careers",
+      "interview"
+    ],
+    "fermup--101-sandor-katz": [
+      "fermentation",
+      "fermented-foods",
+      "sandor-katz",
+      "food",
+      "technique",
+      "interview"
+    ],
+    "fermup--100-bill-shurtleff": [
+      "fermentation",
+      "tofu",
+      "miso",
+      "soy",
+      "food-history",
+      "books",
+      "interview"
+    ],
+    "fermup--93-researching-fermentation": [
+      "fermentation",
+      "food-science",
+      "chemistry",
+      "microbes",
+      "research",
+      "interview",
+      "explainer"
     ]
   }
 }
