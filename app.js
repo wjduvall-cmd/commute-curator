@@ -13,6 +13,8 @@ const state = {
   taxonomy: null,
   discover: null,
   interests: {},
+  semantic: null,           // data/semantic-index.json — compiled query brain
+  itemTags: null,           // data/item-tags.json — per-episode tag sets
   cardSlots: [],            // the four dealt cards: {slot, branch, chain, idx}
   splatter: [],
   itemIndex: {},            // id -> snapshot (everything rendered this load)
@@ -471,17 +473,70 @@ function tokenize(q) {
   return [...expanded];
 }
 
-function scoreMatch(item, tokens) {
+/* ---- the query interpreter ----
+   The "lightweight model" is compiled, not called: a frontier model built
+   data/semantic-index.json (concept clusters + modifiers) and
+   data/item-tags.json (per-episode tags) offline; at runtime we interpret
+   the ask against that index — modifier words become filters ("short and
+   funny" -> duration<=30 + comedy), concept words expand into their whole
+   term cluster ("bbq" -> barbecue, grilling, smoking, brisket...). Falls
+   back to plain tokens + ALIASES when the index files are absent. */
+
+function interpretQuery(q) {
+  const tokens = tokenize(q);
+  const filters = [];
+  const termWeights = new Map();
+  const topicBoosts = new Set();
+  const addTerm = (t, w) => termWeights.set(t, Math.max(termWeights.get(t) || 0, w));
+
+  const mods = state.semantic?.modifiers || {};
+  const concepts = state.semantic?.concepts || {};
+
+  for (const tok of tokens) {
+    if (mods[tok]) { filters.push(mods[tok]); continue; }
+    addTerm(tok, 1);
+    for (const [cid, c] of Object.entries(concepts)) {
+      if (!c.terms?.includes(tok)) continue;
+      c.terms.forEach(t => addTerm(t, 0.9));
+      (c.topics || []).forEach(t => topicBoosts.add(t));
+      (c.related || []).forEach(rid => {
+        const rc = concepts[rid];
+        if (rc) rc.terms?.forEach(t => addTerm(t, 0.45));
+      });
+    }
+  }
+  return { termWeights, filters, topicBoosts };
+}
+
+function passesFilters(item, filters) {
+  for (const f of filters) {
+    if (f.type === "duration_max" && !(item.duration_min && item.duration_min <= f.value)) return false;
+    if (f.type === "duration_min" && !(item.duration_min && item.duration_min >= f.value)) return false;
+    if (f.type === "branch" && !f.value.includes(branchOf(item))) return false;
+    if (f.type === "recency_days") {
+      const d = new Date(item.release_date || 0);
+      if ((Date.now() - d.getTime()) / 86400000 > f.value) return false;
+    }
+  }
+  return true;
+}
+
+function scoreMatch(item, interp) {
   const title = item.title.toLowerCase();
   const hook = (item.hook || "").toLowerCase();
   const show = item.show.toLowerCase();
   const topics = (item.topics || []).join(" ").toLowerCase();
+  const tags = state.itemTags?.tags?.[item.id] || [];
   let s = 0;
-  for (const t of tokens) {
-    if (topics.includes(t)) s += 3;
-    if (title.includes(t)) s += 2;
-    if (hook.includes(t)) s += 1.5;
-    if (show.includes(t)) s += 1;
+  for (const [t, w] of interp.termWeights) {
+    if (tags.some(tag => tag.includes(t))) s += 2.5 * w;
+    if (topics.includes(t)) s += 3 * w;
+    if (title.includes(t)) s += 2 * w;
+    if (hook.includes(t)) s += 1.5 * w;
+    if (show.includes(t)) s += 1 * w;
+  }
+  for (const tb of interp.topicBoosts) {
+    if ((item.topics || []).includes(tb)) s += 2;
   }
   return s;
 }
@@ -503,18 +558,18 @@ function epRowHtml(item, ctx, prefix = "") {
 function questList() { return lsGet("cp_quests", []); }
 
 function buildQuest(query) {
-  const tokens = tokenize(query);
-  if (!tokens.length) return null;
-  const scored = fullPool()
-    .map(i => ({ i, s: scoreMatch(i, tokens) }))
-    .filter(x => x.s >= 2)
-    .sort((a, b) => b.s - a.s)
-    .slice(0, 10);
-  if (scored.length < 2) return null;
+  const interp = interpretQuery(query);
+  if (!interp.termWeights.size && !interp.filters.length) return null;
+  const pool = fullPool().filter(i => passesFilters(i, interp.filters));
+  const scored = interp.termWeights.size
+    ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s >= 2).sort((a, b) => b.s - a.s)
+    : pool.map(i => ({ i, s: interestScore(i) })).sort((a, b) => b.s - a.s);
+  const picks = scored.slice(0, 10);
+  if (picks.length < 2) return null;
   const quest = {
     id: "q" + Date.now(),
     query: query.trim(),
-    item_ids: scored.map(x => x.i.id),
+    item_ids: picks.map(x => x.i.id),
     created: new Date().toISOString(),
   };
   lsSet("cp_quests", [quest, ...questList()].slice(0, 5));
@@ -551,11 +606,12 @@ function renderQuests() {
 
 function renderSearch(query) {
   const el = $("#search-results");
-  const tokens = tokenize(query);
-  if (!tokens.length) { el.innerHTML = ""; return; }
-  const results = fullPool()
-    .map(i => ({ i, s: scoreMatch(i, tokens) }))
-    .filter(x => x.s > 0)
+  const interp = interpretQuery(query);
+  if (!interp.termWeights.size && !interp.filters.length) { el.innerHTML = ""; return; }
+  const pool = fullPool().filter(i => passesFilters(i, interp.filters));
+  const results = (interp.termWeights.size
+    ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s > 0)
+    : pool.map(i => ({ i, s: interestScore(i) })))
     .sort((a, b) => b.s - a.s)
     .slice(0, 20);
   el.innerHTML = results.length
@@ -661,10 +717,12 @@ async function init() {
     $("#cards").innerHTML = `<div class="error-box">Couldn't load the session. Check your connection and reload.</div>`;
     return;
   }
-  [state.validated, state.taxonomy, state.discover] = await Promise.all([
+  [state.validated, state.taxonomy, state.discover, state.semantic, state.itemTags] = await Promise.all([
     fetchJson("data/validated-links.json"),
     fetchJson("data/taxonomy.json"),
     fetchJson("data/discover.json"),
+    fetchJson("data/semantic-index.json"),
+    fetchJson("data/item-tags.json"),
   ]);
 
   loadInterests();
