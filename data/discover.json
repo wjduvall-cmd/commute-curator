@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T05:53:24.859Z",
+  "built_at": "2026-07-09T06:10:57.522Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -4603,6 +4603,1266 @@
         "food/fermentation"
       ],
       "hook": "A researcher explains what actually happens, chemically, when food ferments."
+    },
+    {
+      "id": "i-know-dino--brusatte-birds",
+      "show": "I Know Dino: The Big Dinosaur Podcast",
+      "title": "Paleontologist Interviews: Steve Brusatte on How Birds Survived",
+      "apple_collection_id": 960976813,
+      "apple_track_id": 1000770092888,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/paleontologist-interviews-steve-brusatte-on-how-birds/id960976813?i=1000770092888&uo=4",
+      "release_date": "2026-05-28",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/6c/4c/496c4c91-e216-77d6-64a4-8096e6f89f48/mza_14223214653639207080.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Steve Brusatte on the one dinosaur group that outlived the asteroid: birds."
+    },
+    {
+      "id": "i-know-dino--tyrannosaur-tooth",
+      "show": "I Know Dino: The Big Dinosaur Podcast",
+      "title": "A Tyrannosaur Tooth Embedded in a Hadrosaur Skull",
+      "apple_collection_id": 960976813,
+      "apple_track_id": 1000767705182,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-tyrannosaur-tooth-embedded-in-a-hadrosaur-skull/id960976813?i=1000767705182&uo=4",
+      "release_date": "2026-05-13",
+      "duration_min": 81,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/6c/4c/496c4c91-e216-77d6-64a4-8096e6f89f48/mza_14223214653639207080.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "A tyrannosaur left a tooth in an Edmontosaurus skull. It survived."
+    },
+    {
+      "id": "i-know-dino--sauropod-shindig",
+      "show": "I Know Dino: The Big Dinosaur Podcast",
+      "title": "Sauropod Shindig",
+      "apple_collection_id": 960976813,
+      "apple_track_id": 1000750617740,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sauropod-shindig/id960976813?i=1000750617740&uo=4",
+      "release_date": "2026-02-19",
+      "duration_min": 118,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/6c/4c/496c4c91-e216-77d6-64a4-8096e6f89f48/mza_14223214653639207080.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Five new sauropod species, and embryos showing hatchlings started life on all fours."
+    },
+    {
+      "id": "common-descent--vipers",
+      "show": "The Common Descent Podcast",
+      "title": "Episode 247 - Vipers",
+      "apple_collection_id": 1207586509,
+      "apple_track_id": 1000775482784,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-247-vipers/id1207586509?i=1000775482784&uo=4",
+      "release_date": "2026-07-05",
+      "duration_min": 196,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/2d/ad/58/2dad5885-6566-fdd4-6b52-f87b69af3688/mza_3078482384516892224.png/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Head-to-tail anatomy of ambush hunters, and the deep evolutionary history of vipers."
+    },
+    {
+      "id": "common-descent--gharials",
+      "show": "The Common Descent Podcast",
+      "title": "Episode 246 - Gharials",
+      "apple_collection_id": 1207586509,
+      "apple_track_id": 1000773561583,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-246-gharials/id1207586509?i=1000773561583&uo=4",
+      "release_date": "2026-06-21",
+      "duration_min": 144,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/2d/ad/58/2dad5885-6566-fdd4-6b52-f87b69af3688/mza_3078482384516892224.png/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Slender-snouted gharials and the extraordinary long-jawed crocs of the fossil record."
+    },
+    {
+      "id": "common-descent--sea-turtles",
+      "show": "The Common Descent Podcast",
+      "title": "Episode 244 - Sea Turtles",
+      "apple_collection_id": 1207586509,
+      "apple_track_id": 1000769274012,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-244-sea-turtles/id1207586509?i=1000769274012&uo=4",
+      "release_date": "2026-05-24",
+      "duration_min": 148,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/2d/ad/58/2dad5885-6566-fdd4-6b52-f87b69af3688/mza_3078482384516892224.png/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Modern sea turtles, then the ancient lineages that first adapted to the ocean."
+    },
+    {
+      "id": "palaeocast--dinosaurs-50-fossils",
+      "show": "Palaeocast",
+      "title": "A History of Dinosaurs in 50 Fossils",
+      "apple_collection_id": 556959673,
+      "apple_track_id": 1000761648596,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-history-of-dinosaurs-in-50-fossils/id556959673?i=1000761648596&uo=4",
+      "release_date": "2026-04-15",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/90/22/879022e7-e4e6-1325-15f2-f55150a0ab7a/mza_15756898592287997744.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "The Natural History Museum's Paul Barrett tells dinosaur science through fifty key specimens."
+    },
+    {
+      "id": "palaeocast--petrified-forest",
+      "show": "Palaeocast",
+      "title": "Petrified Forest",
+      "apple_collection_id": 556959673,
+      "apple_track_id": 1000755833638,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/petrified-forest/id556959673?i=1000755833638&uo=4",
+      "release_date": "2026-03-17",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/90/22/879022e7-e4e6-1325-15f2-f55150a0ab7a/mza_15756898592287997744.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "The park's lead paleontologist on 20 million years of the Late Triassic."
+    },
+    {
+      "id": "palaeocast--freshwater-mosasaurs",
+      "show": "Palaeocast",
+      "title": "Freshwater Mosasaurs",
+      "apple_collection_id": 556959673,
+      "apple_track_id": 1000740937064,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/freshwater-mosasaurs/id556959673?i=1000740937064&uo=4",
+      "release_date": "2025-12-12",
+      "duration_min": 94,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/90/22/879022e7-e4e6-1325-15f2-f55150a0ab7a/mza_15756898592287997744.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Mosasaur tooth chemistry that forces a rewrite of Late Cretaceous food webs."
+    },
+    {
+      "id": "the-archaeology-show--monte-verde",
+      "show": "The Archaeology Show",
+      "title": "Episode 330: Monte Verde Dethroned?",
+      "apple_collection_id": 1168248976,
+      "apple_track_id": 1000769504688,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/monte-verde-dethroned-ep-330/id1168248976?i=1000769504688&uo=4",
+      "release_date": "2026-05-25",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/63/56/86635691-554e-b600-8c66-c1074a6a661d/mza_10852883160787441689.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "New research challenges Monte Verde's 14,500-year date, and thirty archaeologists push back."
+    },
+    {
+      "id": "the-archaeology-show--timelines-1450",
+      "show": "The Archaeology Show",
+      "title": "Episode 333: Timelines: 1450 - Angkor Wat, Machu Picchu, and Constantinople",
+      "apple_collection_id": 1168248976,
+      "apple_track_id": 1000774879050,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/timelines-1450-angkor-wat-machu-picchu-and/id1168248976?i=1000774879050&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/63/56/86635691-554e-b600-8c66-c1074a6a661d/mza_10852883160787441689.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "Angkor Wat, Machu Picchu, and Constantinople -- three monumental sites, one moment in time."
+    },
+    {
+      "id": "the-archaeology-show--hominin-structures",
+      "show": "The Archaeology Show",
+      "title": "Episode 328: Early Hominin Structures, Pompeii Discoveries, and the Band of Holes in Peru",
+      "apple_collection_id": 1168248976,
+      "apple_track_id": 1000766128506,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/early-hominin-structures-pompeii-discoveries-and-the/id1168248976?i=1000766128506&uo=4",
+      "release_date": "2026-05-04",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/63/56/86635691-554e-b600-8c66-c1074a6a661d/mza_10852883160787441689.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "476,000-year-old worked wood, new Pompeii remains, and Peru's 5,200 aligned pits."
+    },
+    {
+      "id": "the-dirt-podcast--taung-child",
+      "show": "The Dirt Podcast",
+      "title": "It Didn't Come From No Monkey: The Taung Child",
+      "apple_collection_id": 1404606470,
+      "apple_track_id": 1000661415716,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/it-didnt-come-from-no-monkey-the-taung-child/id1404606470?i=1000661415716&uo=4",
+      "release_date": "2024-07-07",
+      "duration_min": 18,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f1/96/33/f1963322-eda5-5c9f-3e79-6e751924c14e/mza_2215059003106526372.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "How a 1924 coincidence surfaced one of humanity's earliest known ancestors."
+    },
+    {
+      "id": "the-dirt-podcast--get-to-work",
+      "show": "The Dirt Podcast",
+      "title": "Get to Work!",
+      "apple_collection_id": 1404606470,
+      "apple_track_id": 1000654880068,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/get-to-work/id1404606470?i=1000654880068&uo=4",
+      "release_date": "2024-05-08",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f1/96/33/f1963322-eda5-5c9f-3e79-6e751924c14e/mza_2215059003106526372.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "What skeletons and monuments reveal about labor, from Egypt to the Neandertals."
+    },
+    {
+      "id": "the-dirt-podcast--specific-hats",
+      "show": "The Dirt Podcast",
+      "title": "Extremely Specific Hats",
+      "apple_collection_id": 1404606470,
+      "apple_track_id": 1000648242823,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/extremely-specific-hats/id1404606470?i=1000648242823&uo=4",
+      "release_date": "2024-03-06",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f1/96/33/f1963322-eda5-5c9f-3e79-6e751924c14e/mza_2215059003106526372.jpg/600x600bb.jpg",
+      "topics": [
+        "history/archaeology"
+      ],
+      "hook": "18th-century knit hats from shipwrecks, and what waterlogged textiles can still tell us."
+    },
+    {
+      "id": "storm-front-freaks--james-spann",
+      "show": "Storm Front Freaks",
+      "title": "WEATHER NETWORK SECRETS with James Spann",
+      "apple_collection_id": 1116866428,
+      "apple_track_id": 1000731467956,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/weather-network-secrets-with-james-spann-246/id1116866428?i=1000731467956&uo=4",
+      "release_date": "2025-10-12",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c5/9e/38/c59e387e-bdf7-92cd-8162-1dad9a4997f2/mza_17431518058263513553.png/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Alabama meteorologist James Spann on running a 24/7 storm-tracking network."
+    },
+    {
+      "id": "storm-front-freaks--mike-bettes",
+      "show": "Storm Front Freaks",
+      "title": "HURRICANE EMMY with Mike Bettes",
+      "apple_collection_id": 1116866428,
+      "apple_track_id": 1000726766034,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/hurricane-emmy-with-mike-bettes-244/id1116866428?i=1000726766034&uo=4",
+      "release_date": "2025-09-14",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c5/9e/38/c59e387e-bdf7-92cd-8162-1dad9a4997f2/mza_17431518058263513553.png/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Weather Channel meteorologist Mike Bettes on a career reporting inside hurricanes."
+    },
+    {
+      "id": "storm-front-freaks--matthew-cappucci",
+      "show": "Storm Front Freaks",
+      "title": "WHAT THE HAIL? with Matthew Cappucci",
+      "apple_collection_id": 1116866428,
+      "apple_track_id": 1000715977563,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/what-the-hail-with-matthew-cappucci-239/id1116866428?i=1000715977563&uo=4",
+      "release_date": "2025-07-06",
+      "duration_min": 88,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c5/9e/38/c59e387e-bdf7-92cd-8162-1dad9a4997f2/mza_17431518058263513553.png/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Weatherperson of the Year Matthew Cappucci on intercepting tornadoes and extreme storms."
+    },
+    {
+      "id": "weather-geeks--hurricane-scale",
+      "show": "Weather Geeks",
+      "title": "The Next Hurricane Scale?",
+      "apple_collection_id": 1373312240,
+      "apple_track_id": 1000775951594,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-next-hurricane-scale/id1373312240?i=1000775951594&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ac/3e/b2/ac3eb254-1388-0ff9-1b40-3bb4a7a9477f/mza_15265358397985929611.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Simulating thousands of storms, and a proposed new tropical cyclone severity scale."
+    },
+    {
+      "id": "weather-geeks--climate-beat",
+      "show": "Weather Geeks",
+      "title": "On the Climate Beat: Reporting a Changing Planet",
+      "apple_collection_id": 1373312240,
+      "apple_track_id": 1000773083349,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/on-the-climate-beat-reporting-a-changing-planet/id1373312240?i=1000773083349&uo=4",
+      "release_date": "2026-06-17",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ac/3e/b2/ac3eb254-1388-0ff9-1b40-3bb4a7a9477f/mza_15265358397985929611.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "AP science reporter Seth Borenstein on turning climate research into public stories."
+    },
+    {
+      "id": "weather-geeks--nws-director",
+      "show": "Weather Geeks",
+      "title": "A Conversation with NWS Director Ken Graham",
+      "apple_collection_id": 1373312240,
+      "apple_track_id": 1000771992116,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-conversation-with-nws-director-ken-graham/id1373312240?i=1000771992116&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ac/3e/b2/ac3eb254-1388-0ff9-1b40-3bb4a7a9477f/mza_15265358397985929611.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "The National Weather Service director on modernizing the agency and its forecasting."
+    },
+    {
+      "id": "ams-on-the-air--presidents-day-storm",
+      "show": "AMS on the Air",
+      "title": "Special Episode: Bosart-Uccellini Presidents' Day Storm",
+      "apple_collection_id": 1349624470,
+      "apple_track_id": 1000552109167,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/special-episode-bosart-uccellini-presidents-day-storm/id1349624470?i=1000552109167",
+      "release_date": "2022-02-24",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/7c/e1/7b/7ce17b72-6429-7267-a678-11f6919e00ac/mza_8555350216165036473.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Two scientists revisit their landmark research on the 1979 Presidents' Day Cyclone."
+    },
+    {
+      "id": "ams-on-the-air--doppler-on-wheels",
+      "show": "AMS on the Air",
+      "title": "In the Path of a Tornado with Karen Kosiba",
+      "apple_collection_id": 1349624470,
+      "apple_track_id": 1000530157621,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/in-the-path-of-a-tornado-with-karen-kosiba/id1349624470?i=1000530157621",
+      "release_date": "2021-07-27",
+      "duration_min": 20,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/7c/e1/7b/7ce17b72-6429-7267-a678-11f6919e00ac/mza_8555350216165036473.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/weather"
+      ],
+      "hook": "Karen Kosiba drives a fleet of Doppler-on-Wheels radar trucks into storms."
+    },
+    {
+      "id": "myths-and-legends--maui",
+      "show": "Myths and Legends",
+      "title": "Maui: Whatever Happened to the Man Who Snared the Sun?",
+      "apple_collection_id": 990897842,
+      "apple_track_id": 1000774957982,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/maui-whatever-happened-to-the-man-who-snared-the-sun/id990897842?i=1000774957982&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/db/81/8e/db818e29-55f8-5343-a185-8db92a0e1981/mza_6705057508729367288.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "The Hawaiian trickster who snared the sun has vanished, and omens are stirring."
+    },
+    {
+      "id": "myths-and-legends--czech-dragon",
+      "show": "Myths and Legends",
+      "title": "Czech folklore: House of the Dragon",
+      "apple_collection_id": 990897842,
+      "apple_track_id": 1000773021991,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/czech-folklore-house-of-the-dragon/id990897842?i=1000773021991&uo=4",
+      "release_date": "2026-06-17",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/db/81/8e/db818e29-55f8-5343-a185-8db92a0e1981/mza_6705057508729367288.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "A Czech tale of superhuman gifts, dragon battles, and increasingly dangerous folk cures."
+    },
+    {
+      "id": "myths-and-legends--norse-old-man",
+      "show": "Myths and Legends",
+      "title": "Norse Mythology: The Old Man and the Stick",
+      "apple_collection_id": 990897842,
+      "apple_track_id": 1000766332098,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/norse-mythology-the-old-man-and-the-stick/id990897842?i=1000766332098&uo=4",
+      "release_date": "2026-05-06",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/db/81/8e/db818e29-55f8-5343-a185-8db92a0e1981/mza_6705057508729367288.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "Heroes in Valhalla make chaos, and Skidi must restore order in Midgard."
+    },
+    {
+      "id": "our-fake-history--midnight-ride",
+      "show": "Our Fake History",
+      "title": "Episode #254 - What Went Down on the Midnight Ride?",
+      "apple_collection_id": 1021703062,
+      "apple_track_id": 1000774897805,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-254-what-went-down-on-the-midnight-ride/id1021703062?i=1000774897805",
+      "release_date": "2026-06-30",
+      "duration_min": 96,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/f4/d7/5af4d750-f640-3800-502b-59797b8cf1ac/mza_1498867679306953233.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "What Paul Revere actually did, and how Longfellow's poem rewrote it."
+    },
+    {
+      "id": "our-fake-history--macbeth-curse",
+      "show": "Our Fake History",
+      "title": "Episode #250 - Is Macbeth Cursed?",
+      "apple_collection_id": 1021703062,
+      "apple_track_id": 1000766311556,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-250-is-macbeth-cursed/id1021703062?i=1000766311556",
+      "release_date": "2026-05-05",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/f4/d7/5af4d750-f640-3800-502b-59797b8cf1ac/mza_1498867679306953233.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "The theatrical curse on Shakespeare's tragedy, and when the belief actually began."
+    },
+    {
+      "id": "our-fake-history--snow-white",
+      "show": "Our Fake History",
+      "title": "Episode #248 - Was There a Real Snow White?",
+      "apple_collection_id": 1021703062,
+      "apple_track_id": 1000760113758,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-248-was-there-a-real-snow-white/id1021703062?i=1000760113758",
+      "release_date": "2026-04-07",
+      "duration_min": 83,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/f4/d7/5af4d750-f640-3800-502b-59797b8cf1ac/mza_1498867679306953233.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "Did the Grimms' Snow White begin with a real German noblewoman?"
+    },
+    {
+      "id": "folklore-and-fiction--conspiracy-theory",
+      "show": "Folklore & Fiction",
+      "title": "Episode 46: What is a conspiracy theory?",
+      "apple_collection_id": 1547328233,
+      "apple_track_id": 1000623006704,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-46-what-is-a-conspiracy-theory/id1547328233?i=1000623006704",
+      "release_date": "2023-12-31",
+      "duration_min": 18,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/66/9d/f9/669df985-c514-5f52-9e5b-a0ee6fee422f/mza_15700984164930545441.png/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "A folklorist treats conspiracy theories as a narrative genre worth analyzing."
+    },
+    {
+      "id": "folklore-and-fiction--folk-custom",
+      "show": "Folklore & Fiction",
+      "title": "Episode 43: What is a folk custom?",
+      "apple_collection_id": 1547328233,
+      "apple_track_id": 1000611385203,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-43-what-is-a-folk-custom/id1547328233?i=1000611385203",
+      "release_date": "2023-12-31",
+      "duration_min": 14,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/66/9d/f9/669df985-c514-5f52-9e5b-a0ee6fee422f/mza_15700984164930545441.png/600x600bb.jpg",
+      "topics": [
+        "culture/mythology"
+      ],
+      "hook": "What a folk custom actually is, and how it works inside a community."
+    },
+    {
+      "id": "artcurious--abramovic-ulay",
+      "show": "ArtCurious Podcast",
+      "title": "Episode #118: Modern Love-Marina Abramovic and Ulay",
+      "apple_collection_id": 1142736861,
+      "apple_track_id": 1000628256967,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-118-modern-love-marina-abramovi%C4%87-and-ulay/id1142736861?i=1000628256967&uo=4",
+      "release_date": "2023-09-18",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/19/85/1119854e-3751-d6eb-f7db-05db20b77c78/mza_7711951324914404642.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "How the romance of two performance artists reshaped their most famous work."
+    },
+    {
+      "id": "artcurious--kahlo-rivera",
+      "show": "ArtCurious Podcast",
+      "title": "Episode #116: Modern Love-Frida Kahlo and Diego Rivera, Part 1",
+      "apple_collection_id": 1142736861,
+      "apple_track_id": 1000625131477,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-116-modern-love-frida-kahlo-and-diego-rivera-part-1/id1142736861?i=1000625131477&uo=4",
+      "release_date": "2023-08-21",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/19/85/1119854e-3751-d6eb-f7db-05db20b77c78/mza_7711951324914404642.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "The turbulent marriage of Frida Kahlo and Diego Rivera, and its mark on 20th-century art."
+    },
+    {
+      "id": "artcurious--art-thief",
+      "show": "ArtCurious Podcast",
+      "title": "Author Interview: Michael Finkel on \"The Art Thief\"",
+      "apple_collection_id": 1142736861,
+      "apple_track_id": 1000618358330,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/author-interview-michael-finkel-on-the-art-thief/id1142736861?i=1000618358330&uo=4",
+      "release_date": "2023-06-26",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/19/85/1119854e-3751-d6eb-f7db-05db20b77c78/mza_7711951324914404642.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Stephane Breitwieser stole 200 artworks from European museums. How, and why."
+    },
+    {
+      "id": "the-lonely-palette--rockwell",
+      "show": "The Lonely Palette",
+      "title": "Ep. 70 - Norman Rockwell's \"Freedom of Speech\" (1943)",
+      "apple_collection_id": 1110780638,
+      "apple_track_id": 1000715714032,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-70-norman-rockwells-freedom-of-speech-1943/id1110780638?i=1000715714032",
+      "release_date": "2025-07-04",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/1b/12/101b1204-dbbc-934e-ef9b-30a1153d134b/mza_16898327166045428548.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "How Rockwell turned a town meeting into an image of American democracy."
+    },
+    {
+      "id": "the-lonely-palette--botticelli-venus",
+      "show": "The Lonely Palette",
+      "title": "Ep. 65 - Sandro Botticelli's \"The Birth of Venus\" (1485-86)",
+      "apple_collection_id": 1110780638,
+      "apple_track_id": 1000682916284,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-65-sandro-botticellis-the-birth-of-venus-1485-86/id1110780638?i=1000682916284",
+      "release_date": "2023-09-12",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/1b/12/101b1204-dbbc-934e-ef9b-30a1153d134b/mza_16898327166045428548.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Why Botticelli's Venus stays iconic even as scholars still argue its meaning."
+    },
+    {
+      "id": "the-lonely-palette--kruger",
+      "show": "The Lonely Palette",
+      "title": "Ep. 64 - Barbara Kruger's \"Untitled (Your Body is a Battleground)\" (1989)",
+      "apple_collection_id": 1110780638,
+      "apple_track_id": 1000682916115,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-64-barbara-krugers-untitled-your-body-is-a/id1110780638?i=1000682916115",
+      "release_date": "2023-08-04",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/1b/12/101b1204-dbbc-934e-ef9b-30a1153d134b/mza_16898327166045428548.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "How a pro-choice protest flyer became one of art's most recognizable images."
+    },
+    {
+      "id": "a-piece-of-work--writing-on-wall",
+      "show": "A Piece of Work",
+      "title": "The Writing on the Wall",
+      "apple_collection_id": 1256553977,
+      "apple_track_id": 1000390826254,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-writing-on-the-wall/id1256553977?i=1000390826254&uo=4",
+      "release_date": "2017-08-09",
+      "duration_min": 21,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8b/89/72/8b89723f-15ea-82ae-8ca3-c1e37142e846/mza_7170972663751800578.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Sol LeWitt's art keeps being made from written instructions, long after his death."
+    },
+    {
+      "id": "a-piece-of-work--warhol",
+      "show": "A Piece of Work",
+      "title": "Andy Warhol's Art of Self-Promotion",
+      "apple_collection_id": 1256553977,
+      "apple_track_id": 1000390564911,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/andy-warhols-art-of-self-promotion/id1256553977?i=1000390564911&uo=4",
+      "release_date": "2017-08-02",
+      "duration_min": 22,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8b/89/72/8b89723f-15ea-82ae-8ca3-c1e37142e846/mza_7170972663751800578.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Warhol's soup cans, and his knack for turning himself into the product."
+    },
+    {
+      "id": "sticky-notes--honegger-3",
+      "show": "Sticky Notes: The Classical Music Podcast",
+      "title": "Arthur Honegger, Symphony No. 3, \"Liturgique\"",
+      "apple_collection_id": 1215386938,
+      "apple_track_id": 1000774193221,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/arthur-honneger-symphony-no-3-liturgique/id1215386938?i=1000774193221&uo=4",
+      "release_date": "2026-06-25",
+      "duration_min": 53,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Honegger's postwar symphony, written as modern man's revolt against barbarism."
+    },
+    {
+      "id": "sticky-notes--liszt-faust",
+      "show": "Sticky Notes: The Classical Music Podcast",
+      "title": "Liszt Faust Symphony",
+      "apple_collection_id": 1215386938,
+      "apple_track_id": 1000767715751,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/liszt-faust-symphony/id1215386938?i=1000767715751&uo=4",
+      "release_date": "2026-05-14",
+      "duration_min": 64,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Liszt's 75-minute Faust symphony and his pioneering thematic-transformation technique."
+    },
+    {
+      "id": "sticky-notes--lili-boulanger",
+      "show": "Sticky Notes: The Classical Music Podcast",
+      "title": "Lili Boulanger: Psalm 130",
+      "apple_collection_id": 1215386938,
+      "apple_track_id": 1000761736309,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lili-boulanger-psalm-130/id1215386938?i=1000761736309&uo=4",
+      "release_date": "2026-04-16",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "A composer who died at 24, and the Psalm setting far beyond her years."
+    },
+    {
+      "id": "aria-code--gounod-romeo",
+      "show": "Aria Code",
+      "title": "Love and Other Drugs: Gounod's Romeo et Juliette",
+      "apple_collection_id": 1442604220,
+      "apple_track_id": 1000641951632,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/love-and-other-drugs-gounods-rom%C3%A9o-et-juliette/id1442604220?i=1000641951632&uo=4",
+      "release_date": "2024-01-17",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/74/4f/0f/744f0fb5-c809-e2bc-c4fd-93c12cfa61aa/mza_13829604431152977285.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Diana Damrau sings the demanding poison aria most productions quietly cut."
+    },
+    {
+      "id": "aria-code--bizet-carmen",
+      "show": "Aria Code",
+      "title": "You Don't Own Me: The Myth and Magic of Bizet's Carmen",
+      "apple_collection_id": 1442604220,
+      "apple_track_id": 1000640409014,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/you-dont-own-me-the-myth-and-magic-of-bizets-carmen/id1442604220?i=1000640409014&uo=4",
+      "release_date": "2024-01-03",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/74/4f/0f/744f0fb5-c809-e2bc-c4fd-93c12cfa61aa/mza_13829604431152977285.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Carmen as both a defiant character and a stereotype of Romani women."
+    },
+    {
+      "id": "aria-code--mozart-queen-night",
+      "show": "Aria Code",
+      "title": "Revisiting Mozart's Queen of the Night: Outrage Out of This World",
+      "apple_collection_id": 1442604220,
+      "apple_track_id": 1000638413247,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/revisiting-mozarts-queen-of-the-night-outrage-out/id1442604220?i=1000638413247&uo=4",
+      "release_date": "2023-12-13",
+      "duration_min": 27,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/74/4f/0f/744f0fb5-c809-e2bc-c4fd-93c12cfa61aa/mza_13829604431152977285.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Why Mozart's Queen of the Night flew aboard NASA's Voyager Golden Record."
+    },
+    {
+      "id": "music-history-monday--diaghilev",
+      "show": "Music History Monday",
+      "title": "Serge Pavlovich Diaghilev",
+      "apple_collection_id": 1390707588,
+      "apple_track_id": 1000665900262,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/serge-pavlovich-diaghilev/id1390707588?i=1000665900262&uo=4",
+      "release_date": "2024-08-19",
+      "duration_min": 19,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/8a/07/22/8a0722a8-e4bd-c875-482d-ce7244fe023b/mza_7770565009869786384.jpg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "The Ballets Russes founder who called himself a great charlatan, con brio."
+    },
+    {
+      "id": "music-history-monday--gabrieli-venice",
+      "show": "Music History Monday",
+      "title": "Giovanni Gabrieli and the Miracle That is Venice!",
+      "apple_collection_id": 1390707588,
+      "apple_track_id": 1000665074666,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/giovanni-gabrieli-and-the-miracle-that-is-venice/id1390707588?i=1000665074666&uo=4",
+      "release_date": "2024-08-12",
+      "duration_min": 22,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/8a/07/22/8a0722a8-e4bd-c875-482d-ce7244fe023b/mza_7770565009869786384.jpg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "How Gabrieli's soul-stirring music helped define the Venetian Baroque."
+    },
+    {
+      "id": "music-history-monday--first-composer",
+      "show": "Music History Monday",
+      "title": "The First Professional Composer",
+      "apple_collection_id": 1390707588,
+      "apple_track_id": 1000664393489,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-first-professional-composer/id1390707588?i=1000664393489&uo=4",
+      "release_date": "2024-08-05",
+      "duration_min": 23,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/8a/07/22/8a0722a8-e4bd-c875-482d-ce7244fe023b/mza_7770565009869786384.jpg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Guillaume Du Fay, and why the idea of a composer barely existed before him."
+    },
+    {
+      "id": "that-triathlon-show--kolie-moore",
+      "show": "That Triathlon Show",
+      "title": "Kolie Moore - Overrated and Underrated Cycling Factors",
+      "apple_collection_id": 1209821045,
+      "apple_track_id": 1000774143872,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/kolie-moore-overrated-and-underrated-factors-for/id1209821045?i=1000774143872",
+      "release_date": "2026-06-25",
+      "duration_min": 100,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/53/7b/a0537b7e-22bb-0f4c-ce13-8b85515690c8/mza_9842357023075081546.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "Zone 2, creatine, and race specificity, ranked overrated to underrated for cyclists."
+    },
+    {
+      "id": "that-triathlon-show--polarized-pyramidal",
+      "show": "That Triathlon Show",
+      "title": "Polarized vs. Pyramidal Training - Arturo Casado, PhD",
+      "apple_collection_id": 1209821045,
+      "apple_track_id": 1000764633754,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/triathlon-science-polarized-vs-pyramidal-training-training/id1209821045?i=1000764633754",
+      "release_date": "2026-04-30",
+      "duration_min": 88,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/53/7b/a0537b7e-22bb-0f4c-ce13-8b85515690c8/mza_9842357023075081546.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "The research on polarized versus pyramidal training, and when each one wins."
+    },
+    {
+      "id": "that-triathlon-show--lifetime-hours",
+      "show": "That Triathlon Show",
+      "title": "Lifetime Training Hours & Aerobic Development - Carson Christen",
+      "apple_collection_id": 1209821045,
+      "apple_track_id": 1000763194658,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lifetime-training-hours-and-long-term-aerobic/id1209821045?i=1000763194658",
+      "release_date": "2026-04-23",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/53/7b/a0537b7e-22bb-0f4c-ce13-8b85515690c8/mza_9842357023075081546.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "How many lifetime training hours it takes to reach your aerobic potential."
+    },
+    {
+      "id": "fast-talk--sodium-guide",
+      "show": "Fast Talk",
+      "title": "Our Definitive Guide to Sodium for Athletes, with Jared Berg",
+      "apple_collection_id": 1490521721,
+      "apple_track_id": 1000775162047,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/our-definitive-guide-to-sodium-for-athletes-with-jared-berg/id1490521721?i=1000775162047",
+      "release_date": "2026-07-02",
+      "duration_min": 81,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/83/5c/44/835c44ca-7d8e-f044-9562-9952adaef507/mza_17747615336144522345.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "The physiology of sodium, and a paradigm shift in athlete hydration science."
+    },
+    {
+      "id": "fast-talk--fat-vs-carb",
+      "show": "Fast Talk",
+      "title": "The High-Fat vs. High-Carb Debate Rages On",
+      "apple_collection_id": 1490521721,
+      "apple_track_id": 1000771147125,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-high-fat-vs-high-carb-debate-rages-on/id1490521721?i=1000771147125",
+      "release_date": "2026-06-04",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/83/5c/44/835c44ca-7d8e-f044-9562-9952adaef507/mza_17747615336144522345.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "Noakes and Burke resume a decades-long fight over the athlete's optimal diet."
+    },
+    {
+      "id": "fast-talk--gravel-racing",
+      "show": "Fast Talk",
+      "title": "How to Successfully Race a Gravel Event with Lauren de Crescenzo",
+      "apple_collection_id": 1490521721,
+      "apple_track_id": 1000773258141,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-successfully-race-a-gravel-event-with/id1490521721?i=1000773258141",
+      "release_date": "2026-06-18",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/83/5c/44/835c44ca-7d8e-f044-9562-9952adaef507/mza_17747615336144522345.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "An Unbound winner breaks down the tactics of racing gravel well."
+    },
+    {
+      "id": "physiology-endurance-running--hrv-altini",
+      "show": "The Physiology of Endurance Running Podcast",
+      "title": "All about HRV - with Marco Altini",
+      "apple_collection_id": 1643125075,
+      "apple_track_id": 1000773041737,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/all-about-hrv-with-marco-altini/id1643125075?i=1000773041737",
+      "release_date": "2026-06-17",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/55/bb/d5/55bbd5f1-ba6c-45df-dfda-0596767f21ae/mza_11148415829583992708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "A leading HRV researcher on measurement, daily use, and the state of wearables."
+    },
+    {
+      "id": "physiology-endurance-running--reading-papers",
+      "show": "The Physiology of Endurance Running Podcast",
+      "title": "Will tilting your bed make you run faster? (and how to critically analyse a paper)",
+      "apple_collection_id": 1643125075,
+      "apple_track_id": 1000771970863,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/will-tilting-your-bed-make-you-run-faster/id1643125075?i=1000771970863",
+      "release_date": "2026-06-10",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/55/bb/d5/55bbd5f1-ba6c-45df-dfda-0596767f21ae/mza_11148415829583992708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "A viral bed-tilting study becomes a lesson in reading research critically."
+    },
+    {
+      "id": "physiology-endurance-running--taurine",
+      "show": "The Physiology of Endurance Running Podcast",
+      "title": "Taurine - the supplement to beat the heat?",
+      "apple_collection_id": 1643125075,
+      "apple_track_id": 1000774941034,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/taurine-the-supplement-to-beat-the-heat/id1643125075?i=1000774941034",
+      "release_date": "2026-07-01",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/55/bb/d5/55bbd5f1-ba6c-45df-dfda-0596767f21ae/mza_11148415829583992708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "Does taurine actually help endurance runners perform in the heat?"
+    },
+    {
+      "id": "shipwrecks-and-sea-dogs--lake-erie",
+      "show": "Shipwrecks and Sea Dogs",
+      "title": "Don't Give Up The Ship: The Battle of Lake Erie",
+      "apple_collection_id": 1640165188,
+      "apple_track_id": 1000775672519,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/dont-give-up-the-ship-the-battle-of-lake-erie/id1640165188?i=1000775672519",
+      "release_date": "2026-07-07",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/6a/6e/a36a6eee-d6fa-4def-65b8-33304a949d54/mza_15180103104043645429.jpeg/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "Commodore Perry's 1813 victory on Lake Erie, battle flag and all."
+    },
+    {
+      "id": "shipwrecks-and-sea-dogs--herald-free-enterprise",
+      "show": "Shipwrecks and Sea Dogs",
+      "title": "90 Seconds to Disaster: The Herald of Free Enterprise",
+      "apple_collection_id": 1640165188,
+      "apple_track_id": 1000772698103,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/90-seconds-to-disaster-the-herald-of-free-enterprise/id1640165188?i=1000772698103",
+      "release_date": "2026-06-16",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/6a/6e/a36a6eee-d6fa-4def-65b8-33304a949d54/mza_15180103104043645429.jpeg/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "Open bow doors capsized a ferry in 90 seconds, killing 193."
+    },
+    {
+      "id": "shipwrecks-and-sea-dogs--wreck-of-mentor",
+      "show": "Shipwrecks and Sea Dogs",
+      "title": "The Wreck of the Mentor w/Eric Jay Dolin",
+      "apple_collection_id": 1640165188,
+      "apple_track_id": 1000771841880,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-wreck-of-the-mentor-w-eric-jay-dolin/id1640165188?i=1000771841880",
+      "release_date": "2026-06-09",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/6a/6e/a36a6eee-d6fa-4def-65b8-33304a949d54/mza_15180103104043645429.jpeg/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "An 1832 whaleship wreck in Palau, captivity, and a dramatic rescue."
+    },
+    {
+      "id": "maritime-history-podcast--trireme-101",
+      "show": "The Maritime History Podcast",
+      "title": "Ep. 030 - Trireme 101",
+      "apple_collection_id": 908005404,
+      "apple_track_id": 1000386128632,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-030-trireme-101-how-to-build-sail-and-ram-and/id908005404?i=1000386128632",
+      "release_date": "2017-06-03",
+      "duration_min": 106,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ee/12/ff/ee12ff8f-f776-46b9-5949-1bf0c5e3392e/mza_4848375488342862302.png/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "How to build, crew, and ram a Greek trireme with 170 oarsmen."
+    },
+    {
+      "id": "maritime-history-podcast--salamis",
+      "show": "The Maritime History Podcast",
+      "title": "Ep. 038 - The Naval Battle at Salamis",
+      "apple_collection_id": 908005404,
+      "apple_track_id": 1000462933088,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-038-the-naval-battle-at-salamis/id908005404?i=1000462933088",
+      "release_date": "2020-01-17",
+      "duration_min": 123,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ee/12/ff/ee12ff8f-f776-46b9-5949-1bf0c5e3392e/mza_4848375488342862302.png/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "Themistocles outmaneuvers the Persian fleet in the narrows at Salamis."
+    },
+    {
+      "id": "the-roundhouse--civil-war-railroads",
+      "show": "The Roundhouse",
+      "title": "166: American Civil War Railroads",
+      "apple_collection_id": 965557666,
+      "apple_track_id": 1000771391383,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/166-american-civil-war-railroads/id965557666?i=1000771391383",
+      "release_date": "2026-05-26",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/16/46/21/16462154-72d2-453e-2b31-e239b8d8d7de/mza_5473076236390767867.jpg/600x600bb.jpg",
+      "topics": [
+        "transport/trains"
+      ],
+      "hook": "How railroads shaped Civil War logistics, with a rail-history society."
+    },
+    {
+      "id": "the-roundhouse--canadian-pacific",
+      "show": "The Roundhouse",
+      "title": "165: Canadian Pacific Railway and the Golden Northwest",
+      "apple_collection_id": 965557666,
+      "apple_track_id": 1000764185675,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/165-canadian-pacific-railway-and-the-golden-northwest/id965557666?i=1000764185675",
+      "release_date": "2026-04-28",
+      "duration_min": 67,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/16/46/21/16462154-72d2-453e-2b31-e239b8d8d7de/mza_5473076236390767867.jpg/600x600bb.jpg",
+      "topics": [
+        "transport/trains"
+      ],
+      "hook": "How Canada's first transcontinental railway shaped immigration and westward expansion."
+    },
+    {
+      "id": "the-roundhouse--bernie-wagenblast",
+      "show": "The Roundhouse",
+      "title": "167: Bernie Wagenblast - Transportation Journalist and Voice-over Artist",
+      "apple_collection_id": 965557666,
+      "apple_track_id": 1000774756791,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/167-bernie-wagenblast-transportation-journalist-and/id965557666?i=1000774756791",
+      "release_date": "2026-06-29",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/16/46/21/16462154-72d2-453e-2b31-e239b8d8d7de/mza_5473076236390767867.jpg/600x600bb.jpg",
+      "topics": [
+        "transport/trains"
+      ],
+      "hook": "The voice of the New York City subway on a career in transit."
+    },
+    {
+      "id": "railway-mania--richard-peacock",
+      "show": "Railway Mania",
+      "title": "Kings of the Steam Age - Richard Peacock (with Anthony Dawson)",
+      "apple_collection_id": 1462809301,
+      "apple_track_id": 1000675307838,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/kings-of-the-steam-age-richard-peacock-with-anthony-dawson/id1462809301?i=1000675307838",
+      "release_date": "2024-11-01",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9a/b0/c2/9ab0c282-12c3-3e81-6eac-43d5c032c262/mza_12176814833401994542.jpg/600x600bb.jpg",
+      "topics": [
+        "transport/trains"
+      ],
+      "hook": "The rise of Richard Peacock, co-founder of locomotive firm Beyer, Peacock."
+    },
+    {
+      "id": "railway-mania--american-articulation",
+      "show": "Railway Mania",
+      "title": "American Articulation (with David Grimshaw)",
+      "apple_collection_id": 1462809301,
+      "apple_track_id": 1000632053703,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/american-articulation-with-david-grimshaw/id1462809301?i=1000632053703",
+      "release_date": "2023-10-20",
+      "duration_min": 68,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9a/b0/c2/9ab0c282-12c3-3e81-6eac-43d5c032c262/mza_12176814833401994542.jpg/600x600bb.jpg",
+      "topics": [
+        "transport/trains"
+      ],
+      "hook": "The earliest American articulated locomotives, back to Horatio Allen in the 1830s."
+    },
+    {
+      "id": "woodshop-life--making-jigs",
+      "show": "Woodshop Life Podcast",
+      "title": "Making Jigs, Color or Grain Match, Angle Madness, and MORE!!!",
+      "apple_collection_id": 1437541488,
+      "apple_track_id": 1000774347976,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/making-jigs-color-or-grain-match-angle-madness-and-more/id1437541488?i=1000774347976&uo=4",
+      "release_date": "2026-06-26",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b3/2a/bb/b32abb08-08a2-18cd-3cd0-ff21b4e67556/mza_14318323082919900905.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Scaling up jigs, matching grain over color, and choosing a track saw."
+    },
+    {
+      "id": "woodshop-life--fixing-boo-boos",
+      "show": "Woodshop Life Podcast",
+      "title": "Fixing Boo Boos, Why Use Veneer?, Wood Movement and MORE!!!",
+      "apple_collection_id": 1437541488,
+      "apple_track_id": 1000772377262,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/fixing-boo-boos-why-use-veneer-wood-movement-and-more/id1437541488?i=1000772377262&uo=4",
+      "release_date": "2026-06-12",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b3/2a/bb/b32abb08-08a2-18cd-3cd0-ff21b4e67556/mza_14318323082919900905.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Repairing a botched mortise, when veneer beats solid wood, and wood movement."
+    },
+    {
+      "id": "woodshop-life--face-frames",
+      "show": "Woodshop Life Podcast",
+      "title": "Face Frames, Rubio Monocoat, Accurate Marking and MORE!!!",
+      "apple_collection_id": 1437541488,
+      "apple_track_id": 1000765515785,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/face-frames-rubio-monocoat-accurate-marking-and-more/id1437541488?i=1000765515785&uo=4",
+      "release_date": "2026-05-01",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b3/2a/bb/b32abb08-08a2-18cd-3cd0-ff21b4e67556/mza_14318323082919900905.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Face-frame assembly for built-ins, measurement tolerances, and finishing with Rubio Monocoat."
+    },
+    {
+      "id": "mwa-woodworking--jameel-abraham",
+      "show": "MWA Podcast - Woodworking Conversations",
+      "title": "MWA610 - Jameel Abraham; Handworks 2026",
+      "apple_collection_id": 502349432,
+      "apple_track_id": 1000771805417,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mwa610-jameel-abraham-handworks-2026/id502349432?i=1000771805417&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 70,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/b8/f4/5db8f408-cb22-1835-9326-0ba4bca7e066/mza_15782888279691799407.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Benchcrafted's Jameel Abraham on the Handworks hand-tool gathering."
+    },
+    {
+      "id": "mwa-woodworking--deneb-puchalski",
+      "show": "MWA Podcast - Woodworking Conversations",
+      "title": "MWA608 - Deneb Puchalski: Lie-Nielsen Toolworks and more",
+      "apple_collection_id": 502349432,
+      "apple_track_id": 1000769582259,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mwa608-deneb-puchalski-lie-nielsen-toolworks-and-more/id502349432?i=1000769582259&uo=4",
+      "release_date": "2026-05-26",
+      "duration_min": 126,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/b8/f4/5db8f408-cb22-1835-9326-0ba4bca7e066/mza_15782888279691799407.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Lie-Nielsen's lead demonstrator on hand tools and teaching the craft."
+    },
+    {
+      "id": "mwa-woodworking--brian-brace",
+      "show": "MWA Podcast - Woodworking Conversations",
+      "title": "MWA606 - Brian Brace: Master Roycroft Artisan",
+      "apple_collection_id": 502349432,
+      "apple_track_id": 1000767317236,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mwa606-brian-brace-master-roycroft-artisan/id502349432?i=1000767317236&uo=4",
+      "release_date": "2026-05-12",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/b8/f4/5db8f408-cb22-1835-9326-0ba4bca7e066/mza_15782888279691799407.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "A Master Roycroft Artisan on Arts & Crafts furniture and its traditions."
+    },
+    {
+      "id": "practical-ai--black-forest-labs",
+      "show": "Practical AI",
+      "title": "Image Generation and Visual Intelligence with Black Forest Labs",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000775138797,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/image-generation-and-visual-intelligence-with-black/id1406537385?i=1000775138797&uo=4",
+      "release_date": "2026-07-02",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/7a/be/727abe96-2e44-d9ac-a6d9-7226372b5eb9/mza_6848050469316823102.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "From diffusion to flow-matching: a Black Forest Labs founder on the FLUX models."
+    },
+    {
+      "id": "practical-ai--mcp-kubernetes",
+      "show": "Practical AI",
+      "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000769976057,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/rebooting-enterprise-ai-with-mcp-and-kubernetes/id1406537385?i=1000769976057&uo=4",
+      "release_date": "2026-05-28",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/7a/be/727abe96-2e44-d9ac-a6d9-7226372b5eb9/mza_6848050469316823102.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Orchestrating many AI agents with MCP, Kubernetes, and identity management."
+    },
+    {
+      "id": "practical-ai--comma-ai",
+      "show": "Practical AI",
+      "title": "Open Source Self-Driving with Comma AI",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000761783139,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/open-source-self-driving-with-comma-ai/id1406537385?i=1000761783139&uo=4",
+      "release_date": "2026-04-16",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/7a/be/727abe96-2e44-d9ac-a6d9-7226372b5eb9/mza_6848050469316823102.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Comma AI on open-source self-driving, robotics simulation, and world models."
+    },
+    {
+      "id": "twiml-ai--rag-tax-law",
+      "show": "The TWIML AI Podcast",
+      "title": "Is RAG Dead? Lessons from Building AI for Tax Law with Alex Bowcut",
+      "apple_collection_id": 1116303051,
+      "apple_track_id": 1000771915185,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/is-rag-dead-lessons-from-building-ai-for-tax-law-with/id1116303051?i=1000771915185&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/e7/85/16e78525-cfa1-a5f6-0ca9-f80dab699c61/mza_5916579879984323845.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Building retrieval-augmented AI for tax law, where every citation must hold up."
+    },
+    {
+      "id": "twiml-ai--relational-foundation-models",
+      "show": "The TWIML AI Podcast",
+      "title": "Relational Foundation Models for Enterprise Data with Jure Leskovec",
+      "apple_collection_id": 1116303051,
+      "apple_track_id": 1000768972285,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/relational-foundation-models-for-enterprise-data-with/id1116303051?i=1000768972285&uo=4",
+      "release_date": "2026-05-21",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/e7/85/16e78525-cfa1-a5f6-0ca9-f80dab699c61/mza_5916579879984323845.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Treating enterprise databases as graphs, training neural nets on raw tables."
+    },
+    {
+      "id": "twiml-ai--diffusion-llms",
+      "show": "The TWIML AI Podcast",
+      "title": "The Race to Production-Grade Diffusion LLMs with Stefano Ermon",
+      "apple_collection_id": 1116303051,
+      "apple_track_id": 1000757597310,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-race-to-production-grade-diffusion-llms-with/id1116303051?i=1000757597310&uo=4",
+      "release_date": "2026-03-26",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/e7/85/16e78525-cfa1-a5f6-0ca9-f80dab699c61/mza_5916579879984323845.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "A diffusion LLM that writes many tokens at once, 5-10x faster."
+    },
+    {
+      "id": "robot-brains--jitendra-malik",
+      "show": "The Robot Brains Podcast",
+      "title": "Jitendra Malik: Building AI from the ground-up, sensorimotor before language",
+      "apple_collection_id": 1559275284,
+      "apple_track_id": 1000624716171,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jitendra-malik-building-ai-from-the-ground-up/id1559275284?i=1000624716171&uo=4",
+      "release_date": "2023-08-17",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/7a/69/10/7a6910b4-e716-4d7c-7cd1-820a71a9d95a/mza_14389524355238016360.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Berkeley's Jitendra Malik argues AI should learn sensorimotor skills before language."
+    },
+    {
+      "id": "robot-brains--john-schulman",
+      "show": "The Robot Brains Podcast",
+      "title": "John Schulman of OpenAI on ChatGPT: invention, capabilities and limitations",
+      "apple_collection_id": 1559275284,
+      "apple_track_id": 1000623331688,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/john-schulman-of-openai-on-chatgpt-invention/id1559275284?i=1000623331688&uo=4",
+      "release_date": "2023-08-03",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/7a/69/10/7a6910b4-e716-4d7c-7cd1-820a71a9d95a/mza_14389524355238016360.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "OpenAI co-founder John Schulman on how ChatGPT was invented and where it breaks."
+    },
+    {
+      "id": "robot-talk--robot-doctor",
+      "show": "Robot Talk",
+      "title": "The robot doctor will see you now - Robot Talk Live",
+      "apple_collection_id": 1533429509,
+      "apple_track_id": 1000774336369,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-robot-doctor-will-see-you-now-robot-talk-live/id1533429509?i=1000774336369&uo=4",
+      "release_date": "2026-06-26",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ad/df/d4/addfd411-bc85-f633-5b0b-24fd3e54746b/mza_11020288050044747333.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Forty years of robot-assisted surgery -- ethics, regulation, and equitable access."
+    },
+    {
+      "id": "robot-talk--haptics-okamura",
+      "show": "Robot Talk",
+      "title": "Collaborative haptic systems - Allison Okamura",
+      "apple_collection_id": 1533429509,
+      "apple_track_id": 1000773401516,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/collaborative-haptic-systems-allison-okamura/id1533429509?i=1000773401516&uo=4",
+      "release_date": "2026-06-19",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ad/df/d4/addfd411-bc85-f633-5b0b-24fd3e54746b/mza_11020288050044747333.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Stanford's Allison Okamura on haptics, teleoperation, and soft robotics."
+    },
+    {
+      "id": "robot-talk--robotic-blacksmiths",
+      "show": "Robot Talk",
+      "title": "Robotic blacksmiths - Edward Mehr",
+      "apple_collection_id": 1533429509,
+      "apple_track_id": 1000772353638,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/robotic-blacksmiths-edward-mehr/id1533429509?i=1000772353638&uo=4",
+      "release_date": "2026-06-12",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ad/df/d4/addfd411-bc85-f633-5b0b-24fd3e54746b/mza_11020288050044747333.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Machina Labs on AI-driven robots that shape metal for aerospace."
     }
   ]
 }

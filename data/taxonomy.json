@@ -604,6 +604,123 @@
       "weight": 0.5,
       "confidence": 0.3,
       "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/paleontology",
+      "parent": "nature",
+      "label": "Paleontology",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "history/archaeology",
+      "parent": "history",
+      "label": "Archaeology",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/weather",
+      "parent": "nature",
+      "label": "Weather",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture",
+      "parent": null,
+      "label": "Culture",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/mythology",
+      "parent": "culture",
+      "label": "Mythology",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/art",
+      "parent": "culture",
+      "label": "Art",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "music/classical",
+      "parent": "music",
+      "label": "Classical",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/endurance",
+      "parent": "sports",
+      "label": "Endurance",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "transport",
+      "parent": null,
+      "label": "Transport",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "transport/maritime",
+      "parent": "transport",
+      "label": "Maritime",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "transport/trains",
+      "parent": "transport",
+      "label": "Trains",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "craft/woodworking",
+      "parent": "craft",
+      "label": "Woodworking",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "engineering/ai-robotics",
+      "parent": "engineering",
+      "label": "Ai Robotics",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
     }
   ],
   "episode_attributes": {

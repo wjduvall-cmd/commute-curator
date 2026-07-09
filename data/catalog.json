@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T05:53:24.859Z",
+  "built_at": "2026-07-09T06:10:57.522Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -2425,6 +2425,594 @@
         "deep-learn"
       ],
       "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "i-know-dino",
+      "title": "I Know Dino: The Big Dinosaur Podcast",
+      "apple_collection_id": 960976813,
+      "feed_url": "https://rss.art19.com/i-know-dino",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/6c/4c/496c4c91-e216-77d6-64a4-8096e6f89f48/mza_14223214653639207080.jpeg/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 766,
+      "editorial_note": "Weekly dinosaur-of-the-day segment plus interviews with working paleontologists -- 700+ episodes since 2013.",
+      "taxonomy_node_ids": [
+        "nature/paleontology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "common-descent",
+      "title": "The Common Descent Podcast",
+      "apple_collection_id": 1207586509,
+      "feed_url": "https://feed.podbean.com/commondescentpodcast/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/2d/ad/58/2dad5885-6566-fdd4-6b52-f87b69af3688/mza_3078482384516892224.png/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 378,
+      "editorial_note": "Two Gray Fossil Site paleontologists trace one lineage per episode across deep time, plus research news.",
+      "taxonomy_node_ids": [
+        "nature/paleontology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "palaeocast",
+      "title": "Palaeocast",
+      "apple_collection_id": 556959673,
+      "feed_url": "https://rss.libsyn.com/shows/38607/destinations/108425.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/90/22/879022e7-e4e6-1325-15f2-f55150a0ab7a/mza_15756898592287997744.jpg/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 244,
+      "editorial_note": "Interviews with the researchers behind new fossil papers and museum collections -- ad-free since 2012.",
+      "taxonomy_node_ids": [
+        "nature/paleontology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-archaeology-show",
+      "title": "The Archaeology Show",
+      "apple_collection_id": 1168248976,
+      "feed_url": "https://feeds.simplecast.com/MGJ78Sv7",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/63/56/86635691-554e-b600-8c66-c1074a6a661d/mza_10852883160787441689.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 345,
+      "editorial_note": "Working CRM archaeologists dissect excavation news and dating controversies as they break.",
+      "taxonomy_node_ids": [
+        "history/archaeology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-dirt-podcast",
+      "title": "The Dirt Podcast",
+      "apple_collection_id": 1404606470,
+      "feed_url": "https://feeds.captivate.fm/the-dirt-podcast/",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f1/96/33/f1963322-eda5-5c9f-3e79-6e751924c14e/mza_2215059003106526372.jpg/600x600bb.jpg",
+      "apple_genre": "Education",
+      "episode_count": 271,
+      "editorial_note": "Two archaeologists start from a single artifact and test what the physical evidence can actually say.",
+      "taxonomy_node_ids": [
+        "history/archaeology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "storm-front-freaks",
+      "title": "Storm Front Freaks",
+      "apple_collection_id": 1116866428,
+      "feed_url": "https://feed.podbean.com/podcast.stormfrontfreaks.com/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c5/9e/38/c59e387e-bdf7-92cd-8162-1dad9a4997f2/mza_17431518058263513553.png/600x600bb.jpg",
+      "apple_genre": "Earth Sciences",
+      "episode_count": 316,
+      "editorial_note": "Meteorologists and storm chasers interview forecasters, hurricane hunters, and tornado researchers; 247 episodes through 2025.",
+      "taxonomy_node_ids": [
+        "nature/weather"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "weather-geeks",
+      "title": "Weather Geeks",
+      "apple_collection_id": 1373312240,
+      "feed_url": "https://rss.art19.com/weather-geeks",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ac/3e/b2/ac3eb254-1388-0ff9-1b40-3bb4a7a9477f/mza_15265358397985929611.jpeg/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 432,
+      "editorial_note": "The Weather Channel's science desk -- climate researchers, forecasters, and NOAA officials on severe-weather mechanics.",
+      "taxonomy_node_ids": [
+        "nature/weather"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ams-on-the-air",
+      "title": "AMS on the Air",
+      "apple_collection_id": 1349624470,
+      "feed_url": "https://feeds.blubrry.com/feeds/ams_on_the_air.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/7c/e1/7b/7ce17b72-6429-7267-a678-11f6919e00ac/mza_8555350216165036473.jpg/600x600bb.jpg",
+      "apple_genre": "Daily News",
+      "episode_count": 42,
+      "editorial_note": "The American Meteorological Society's researcher interviews -- storm forecasting, Doppler fieldwork; ended 2022 but holds up.",
+      "taxonomy_node_ids": [
+        "nature/weather"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "myths-and-legends",
+      "title": "Myths and Legends",
+      "apple_collection_id": 990897842,
+      "feed_url": "https://audioboom.com/channels/5094626.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/db/81/8e/db818e29-55f8-5343-a185-8db92a0e1981/mza_6705057508729367288.jpg/600x600bb.jpg",
+      "apple_genre": "Books",
+      "episode_count": 653,
+      "editorial_note": "Folklore retellings from primary sources -- Norse, Korean, Czech, Hawaiian -- far beyond the Greek staples.",
+      "taxonomy_node_ids": [
+        "culture/mythology"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "our-fake-history",
+      "title": "Our Fake History",
+      "apple_collection_id": 1021703062,
+      "feed_url": "https://rss.art19.com/our-fake-history",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/f4/d7/5af4d750-f640-3800-502b-59797b8cf1ac/mza_1498867679306953233.jpeg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 308,
+      "editorial_note": "Tests popular legends against the historical record -- which curses, rides, and reputations were invented later.",
+      "taxonomy_node_ids": [
+        "culture/mythology"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "folklore-and-fiction",
+      "title": "Folklore & Fiction",
+      "apple_collection_id": 1547328233,
+      "feed_url": "https://feed.podbean.com/folkloreandfictionpodcast/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/66/9d/f9/669df985-c514-5f52-9e5b-a0ee6fee422f/mza_15700984164930545441.png/600x600bb.jpg",
+      "apple_genre": "Education",
+      "episode_count": 51,
+      "editorial_note": "Folklorist Ceallaigh MacCath-Moran defines one folklore concept per episode from academic sources; concluded 2023.",
+      "taxonomy_node_ids": [
+        "culture/mythology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "artcurious",
+      "title": "ArtCurious Podcast",
+      "apple_collection_id": 1142736861,
+      "feed_url": "https://feeds.megaphone.fm/artcuriouspodcast",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/19/85/1119854e-3751-d6eb-f7db-05db20b77c78/mza_7711951324914404642.jpg/600x600bb.jpg",
+      "apple_genre": "Visual Arts",
+      "episode_count": 227,
+      "editorial_note": "Jennifer Dasal on the overlooked and scandalous corners of art history, not just canon highlights.",
+      "taxonomy_node_ids": [
+        "culture/art"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-lonely-palette",
+      "title": "The Lonely Palette",
+      "apple_collection_id": 1110780638,
+      "feed_url": "https://feeds.simplecast.com/tIcKNegX",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/1b/12/101b1204-dbbc-934e-ef9b-30a1153d134b/mza_16898327166045428548.jpg/600x600bb.jpg",
+      "apple_genre": "Visual Arts",
+      "episode_count": 107,
+      "editorial_note": "Art historian Tamar Avishai close-reads one painting per episode, context and reception included.",
+      "taxonomy_node_ids": [
+        "culture/art"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "a-piece-of-work",
+      "title": "A Piece of Work",
+      "apple_collection_id": 1256553977,
+      "feed_url": "https://feeds.simplecast.com/msH5aH4R",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8b/89/72/8b89723f-15ea-82ae-8ca3-c1e37142e846/mza_7170972663751800578.jpeg/600x600bb.jpg",
+      "apple_genre": "Visual Arts",
+      "episode_count": 11,
+      "editorial_note": "MoMA and WNYC's one-season primer -- Abbi Jacobson and curators unpack one modern-art idea per episode.",
+      "taxonomy_node_ids": [
+        "culture/art"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "stretch"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "sticky-notes",
+      "title": "Sticky Notes: The Classical Music Podcast",
+      "apple_collection_id": 1215386938,
+      "feed_url": "https://rss.libsyn.com/shows/94145/destinations/477278.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "apple_genre": "Music",
+      "episode_count": 291,
+      "editorial_note": "Conductor Joshua Weilerstein takes apart one orchestral work per episode, analysis plus composer biography.",
+      "taxonomy_node_ids": [
+        "music/classical"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "aria-code",
+      "title": "Aria Code",
+      "apple_collection_id": 1442604220,
+      "feed_url": "https://feeds.simplecast.com/hiClsTmV",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/74/4f/0f/744f0fb5-c809-e2bc-c4fd-93c12cfa61aa/mza_13829604431152977285.jpeg/600x600bb.jpg",
+      "apple_genre": "Music Interviews",
+      "episode_count": 52,
+      "editorial_note": "WQXR and the Met Opera break down one famous aria per episode with the singers themselves.",
+      "taxonomy_node_ids": [
+        "music/classical"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "music-history-monday",
+      "title": "Music History Monday",
+      "apple_collection_id": 1390707588,
+      "feed_url": "https://feeds.podcastmirror.com/mhm",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/8a/07/22/8a0722a8-e4bd-c875-482d-ce7244fe023b/mza_7770565009869786384.jpg/600x600bb.jpg",
+      "apple_genre": "Music History",
+      "episode_count": 120,
+      "editorial_note": "Musicologist Robert Greenberg pins each week to a date in music history, composer-first.",
+      "taxonomy_node_ids": [
+        "music/classical"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "deep-learn"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "that-triathlon-show",
+      "title": "That Triathlon Show",
+      "apple_collection_id": 1209821045,
+      "feed_url": "https://feeds.simplecast.com/RxABNZH0",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/53/7b/a0537b7e-22bb-0f4c-ce13-8b85515690c8/mza_9842357023075081546.jpg/600x600bb.jpg",
+      "apple_genre": "Sports",
+      "episode_count": 705,
+      "editorial_note": "Mikael Eriksson interviews sport scientists and elite coaches on research-grounded triathlon training.",
+      "taxonomy_node_ids": [
+        "sports/endurance"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "fast-talk",
+      "title": "Fast Talk",
+      "apple_collection_id": 1490521721,
+      "feed_url": "https://feeds.megaphone.fm/FL6957223658",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/83/5c/44/835c44ca-7d8e-f044-9562-9952adaef507/mza_17747615336144522345.jpg/600x600bb.jpg",
+      "apple_genre": "Health & Fitness",
+      "episode_count": 470,
+      "editorial_note": "Physiology-first cycling and running science -- lab researchers on thresholds, fueling, and training mechanics.",
+      "taxonomy_node_ids": [
+        "sports/endurance"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "physiology-endurance-running",
+      "title": "The Physiology of Endurance Running Podcast",
+      "apple_collection_id": 1643125075,
+      "feed_url": "https://anchor.fm/s/b4106940/podcast/rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/55/bb/d5/55bbd5f1-ba6c-45df-dfda-0596767f21ae/mza_11148415829583992708.jpeg/600x600bb.jpg",
+      "apple_genre": "Running",
+      "episode_count": 110,
+      "editorial_note": "Sub-elite marathoners with sport-science training turn new research papers into running takeaways.",
+      "taxonomy_node_ids": [
+        "sports/endurance"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "shipwrecks-and-sea-dogs",
+      "title": "Shipwrecks and Sea Dogs",
+      "apple_collection_id": 1640165188,
+      "feed_url": "https://rss.introcast.io/1640165188/feeds.megaphone.fm/RVS9175208713",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/6a/6e/a36a6eee-d6fa-4def-65b8-33304a949d54/mza_15180103104043645429.jpeg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 186,
+      "editorial_note": "Rich Napolitano narrates maritime disasters and naval battles, whaling wrecks through modern ferry sinkings.",
+      "taxonomy_node_ids": [
+        "transport/maritime"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "maritime-history-podcast",
+      "title": "The Maritime History Podcast",
+      "apple_collection_id": 908005404,
+      "feed_url": "https://rss.libsyn.com/shows/57095/destinations/214336.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ee/12/ff/ee12ff8f-f776-46b9-5949-1bf0c5e3392e/mza_4848375488342862302.png/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 76,
+      "editorial_note": "Chronological maritime history from antiquity -- trireme engineering and naval tactics in long form.",
+      "taxonomy_node_ids": [
+        "transport/maritime"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-roundhouse",
+      "title": "The Roundhouse",
+      "apple_collection_id": 965557666,
+      "feed_url": "http://theroundhousepodcast.com/feed/podcast/",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/16/46/21/16462154-72d2-453e-2b31-e239b8d8d7de/mza_5473076236390767867.jpg/600x600bb.jpg",
+      "apple_genre": "Hobbies",
+      "episode_count": 166,
+      "editorial_note": "Interviews across the railroad industry and its history, Civil War logistics to transcontinental lines.",
+      "taxonomy_node_ids": [
+        "transport/trains"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "railway-mania",
+      "title": "Railway Mania",
+      "apple_collection_id": 1462809301,
+      "feed_url": "https://audioboom.com/channels/4994219.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9a/b0/c2/9ab0c282-12c3-3e81-6eac-43d5c032c262/mza_12176814833401994542.jpg/600x600bb.jpg",
+      "apple_genre": "Hobbies",
+      "episode_count": 39,
+      "editorial_note": "UK railway history with historians and authors -- locomotive engineering, heritage lines, and rail-age drama.",
+      "taxonomy_node_ids": [
+        "transport/trains"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "woodshop-life",
+      "title": "Woodshop Life Podcast",
+      "apple_collection_id": 1437541488,
+      "feed_url": "https://feed.podbean.com/woodshoplifepodcast/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b3/2a/bb/b32abb08-08a2-18cd-3cd0-ff21b4e67556/mza_14318323082919900905.jpg/600x600bb.jpg",
+      "apple_genre": "How To",
+      "episode_count": 100,
+      "editorial_note": "Listener Q&A on real shop problems -- jigs, finishing, veneer, wood movement -- running since 2018.",
+      "taxonomy_node_ids": [
+        "craft/woodworking"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "mwa-woodworking",
+      "title": "MWA Podcast - Woodworking Conversations",
+      "apple_collection_id": 502349432,
+      "feed_url": "https://rss.buzzsprout.com/5339.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/b8/f4/5db8f408-cb22-1835-9326-0ba4bca7e066/mza_15782888279691799407.jpg/600x600bb.jpg",
+      "apple_genre": "Hobbies",
+      "episode_count": 618,
+      "editorial_note": "Long-form conversations with hand-tool makers, chairmakers, and craft-guild figures like Lie-Nielsen and Benchcrafted.",
+      "taxonomy_node_ids": [
+        "craft/woodworking"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "practical-ai",
+      "title": "Practical AI",
+      "apple_collection_id": 1406537385,
+      "feed_url": "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/7a/be/727abe96-2e44-d9ac-a6d9-7226372b5eb9/mza_6848050469316823102.jpg/600x600bb.jpg",
+      "apple_genre": "Technology",
+      "episode_count": 364,
+      "editorial_note": "How AI systems actually get built, scaled, and secured -- engineers over headline commentary.",
+      "taxonomy_node_ids": [
+        "engineering/ai-robotics"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "twiml-ai",
+      "title": "The TWIML AI Podcast",
+      "apple_collection_id": 1116303051,
+      "feed_url": "https://feeds.megaphone.fm/MLN2155636147",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/e7/85/16e78525-cfa1-a5f6-0ca9-f80dab699c61/mza_5916579879984323845.jpeg/600x600bb.jpg",
+      "apple_genre": "Technology",
+      "episode_count": 789,
+      "editorial_note": "Sam Charrington's research-heavy interviews across ML theory, applied engineering, and domain AI since 2016.",
+      "taxonomy_node_ids": [
+        "engineering/ai-robotics"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "robot-brains",
+      "title": "The Robot Brains Podcast",
+      "apple_collection_id": 1559275284,
+      "feed_url": "https://feeds.acast.com/public/shows/the-robot-brains",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/7a/69/10/7a6910b4-e716-4d7c-7cd1-820a71a9d95a/mza_14389524355238016360.jpeg/600x600bb.jpg",
+      "apple_genre": "Technology",
+      "episode_count": 67,
+      "editorial_note": "Berkeley's Pieter Abbeel interviews the researchers building embodied AI; dormant since 2023, still a strong archive.",
+      "taxonomy_node_ids": [
+        "engineering/ai-robotics"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "robot-talk",
+      "title": "Robot Talk",
+      "apple_collection_id": 1533429509,
+      "feed_url": "https://rss.libsyn.com/shows/292433/destinations/2292818.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ad/df/d4/addfd411-bc85-f633-5b0b-24fd3e54746b/mza_11020288050044747333.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 169,
+      "editorial_note": "Weekly interviews with working roboticists on haptics, manipulation, surgery, and manufacturing automation.",
+      "taxonomy_node_ids": [
+        "engineering/ai-robotics"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
     }
