@@ -1,0 +1,943 @@
+{
+  "version": 1,
+  "built_at": "2026-07-09T23:11:19Z",
+  "derivable_schemes": {
+    "overcast": "https://overcast.fm/itunes{apple_id}",
+    "pocketcasts": "https://pca.st/itunes/{apple_id}",
+    "castbox": "https://castbox.fm/vic/{apple_id}",
+    "podlink": "https://pod.link/{apple_id}"
+  },
+  "scheme_verification": {
+    "overcast": "failed: overcast.fm/itunes<id> serves an Overcast login/app shell to server-side fetchers (JS/redirect-gated); show title not confirmable via WebFetch. It is Overcast's documented itunes-redirect subscribe pattern but could not be verified programmatically here.",
+    "pocketcasts": "verified: pca.st/itunes/<id> 302-redirects to pocketcasts.com/podcast/<show-slug>/<uuid>; slug matched the show on every sampled id (1434243584->lex-fridman-podcast, 350159142->omega-tau-english-only, 1513823904->piano-tech-radio-hour).",
+    "castbox": "verified (resolves): castbox.fm/vic/<id> 302s to a Castbox dynamic-link targeting a distinct internal channel per Apple id (genuine per-id lookup; channel numbers correlate with show age: 2009 show->ch4878, 2018->ch1406646, 2020->ch2878635). Final landing is a JS-rendered app page, so the on-page title is not directly fetch-confirmable, but the mapping is real and not a generic fallback.",
+    "podlink": "used-as-source (not a per-app deep link): pod.link/<id> is a valid aggregator landing page, but it is a JS SPA behind a Vercel security checkpoint that 403/429s automated clients and never exposes per-platform destination URLs in static HTML (they resolve via a client-side server action). Could not be scraped for Spotify/YouTube; see note below."
+  },
+  "notes": "Spotify ids were NOT derivable from Apple ids and pod.link could not be scraped (SPA + Vercel security checkpoint returning 403/429; destination URLs never present in static HTML). Per fallback instructions, Spotify ids were resolved via web search (site-scoped to open.spotify.com) for the top 40 shows in catalog order only; all remaining shows are null. 38/40 top shows resolved; 2 have no matching Spotify show (1745548847 'Lab to Market Leadership', 1809409412 'Inside Chips'). Every spotify_show_id was confirmed against a search result whose title matched the show; none were guessed. omega tau (350159142) mapped to the English-only Spotify show (matches its en/mp3 feed_url and the Pocket Casts 'omega-tau-english-only' resolution). YouTube Music urls are null for all shows because pod.link was the only specified source and it was unscrapable.",
+  "shows": {
+    "1434243584": {
+      "spotify_show_id": "2MAi0BvDc6GTFvKFPXnkCL",
+      "spotify_url": "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1331598443": {
+      "spotify_show_id": "0HWsEdbyLQEjNHHk625hWP",
+      "spotify_url": "https://open.spotify.com/show/0HWsEdbyLQEjNHHk625hWP",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "350159142": {
+      "spotify_show_id": "5njC9XoGn6rCYVGX9kZjla",
+      "spotify_url": "https://open.spotify.com/show/5njC9XoGn6rCYVGX9kZjla",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1555107027": {
+      "spotify_show_id": "2NQ1mTLu3FmIRfDzZhfpG2",
+      "spotify_url": "https://open.spotify.com/show/2NQ1mTLu3FmIRfDzZhfpG2",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1593204897": {
+      "spotify_show_id": "4C5Qx3wJn0GeTnDxIVYcAR",
+      "spotify_url": "https://open.spotify.com/show/4C5Qx3wJn0GeTnDxIVYcAR",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1745548847": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "151485663": {
+      "spotify_show_id": "4fPOc0PUGWN4yG83E4SPNR",
+      "spotify_url": "https://open.spotify.com/show/4fPOc0PUGWN4yG83E4SPNR",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "278981407": {
+      "spotify_show_id": "0ofXAdFIQQRsCYj9754UFx",
+      "spotify_url": "https://open.spotify.com/show/0ofXAdFIQQRsCYj9754UFx",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1448663986": {
+      "spotify_show_id": "4ZQEna4EJroxLYteCserNG",
+      "spotify_url": "https://open.spotify.com/show/4ZQEna4EJroxLYteCserNG",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1809409412": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1833238020": {
+      "spotify_show_id": "3oRmJhqhHt4vB51JJ0vSeX",
+      "spotify_url": "https://open.spotify.com/show/3oRmJhqhHt4vB51JJ0vSeX",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1508222292": {
+      "spotify_show_id": "2FsX1P22iZdIbO6uAa8oIJ",
+      "spotify_url": "https://open.spotify.com/show/2FsX1P22iZdIbO6uAa8oIJ",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1449884495": {
+      "spotify_show_id": "44DE64rRpX1cFIQUlqQtvi",
+      "spotify_url": "https://open.spotify.com/show/44DE64rRpX1cFIQUlqQtvi",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1537788786": {
+      "spotify_show_id": "7Cvsbcjhtur7nplC148TWy",
+      "spotify_url": "https://open.spotify.com/show/7Cvsbcjhtur7nplC148TWy",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1438054347": {
+      "spotify_show_id": "3u26tlz7A3WyWRtXliX9a9",
+      "spotify_url": "https://open.spotify.com/show/3u26tlz7A3WyWRtXliX9a9",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1521578868": {
+      "spotify_show_id": "0Yzd0g8NYmn27k2HFNplv7",
+      "spotify_url": "https://open.spotify.com/show/0Yzd0g8NYmn27k2HFNplv7",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "367330921": {
+      "spotify_show_id": "308BQUUnIkoH2UAXJCAt0g",
+      "spotify_url": "https://open.spotify.com/show/308BQUUnIkoH2UAXJCAt0g",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "953541032": {
+      "spotify_show_id": "3qxN382Adh3WBA3S0Mr978",
+      "spotify_url": "https://open.spotify.com/show/3qxN382Adh3WBA3S0Mr978",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1206942864": {
+      "spotify_show_id": "3aTTfHtg6RZV93fgqILOa2",
+      "spotify_url": "https://open.spotify.com/show/3aTTfHtg6RZV93fgqILOa2",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1474857063": {
+      "spotify_show_id": "6XZQMXNIQrVzQFKO6xmdhY",
+      "spotify_url": "https://open.spotify.com/show/6XZQMXNIQrVzQFKO6xmdhY",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1459158254": {
+      "spotify_show_id": "6kbrIoZC8QOl0bBdaqVge3",
+      "spotify_url": "https://open.spotify.com/show/6kbrIoZC8QOl0bBdaqVge3",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1528655613": {
+      "spotify_show_id": "7HDHXy7twN3a5CDzENihQj",
+      "spotify_url": "https://open.spotify.com/show/7HDHXy7twN3a5CDzENihQj",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "173001861": {
+      "spotify_show_id": "72qiPaoDRf8HkGKEChvG5q",
+      "spotify_url": "https://open.spotify.com/show/72qiPaoDRf8HkGKEChvG5q",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1520403988": {
+      "spotify_show_id": "1DQF5Yi3m6LykJDwiy8qxh",
+      "spotify_url": "https://open.spotify.com/show/1DQF5Yi3m6LykJDwiy8qxh",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1348151802": {
+      "spotify_show_id": "143l0W2TsU0qJOw54HVwG5",
+      "spotify_url": "https://open.spotify.com/show/143l0W2TsU0qJOw54HVwG5",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1100563458": {
+      "spotify_show_id": "5K3xjFkYA1Fsl7uDLVfnIG",
+      "spotify_url": "https://open.spotify.com/show/5K3xjFkYA1Fsl7uDLVfnIG",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "121493645": {
+      "spotify_show_id": "0yWazCRMek4k0IHdBQgg4J",
+      "spotify_url": "https://open.spotify.com/show/0yWazCRMek4k0IHdBQgg4J",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1626752040": {
+      "spotify_show_id": "6jAVPDB7yybOTmqpVCVe93",
+      "spotify_url": "https://open.spotify.com/show/6jAVPDB7yybOTmqpVCVe93",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1050462261": {
+      "spotify_show_id": "7Fj0XEuUQLUqoMZQdsLXqp",
+      "spotify_url": "https://open.spotify.com/show/7Fj0XEuUQLUqoMZQdsLXqp",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1141877104": {
+      "spotify_show_id": "7txiovdzPARhjm18NwMUYj",
+      "spotify_url": "https://open.spotify.com/show/7txiovdzPARhjm18NwMUYj",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "315114957": {
+      "spotify_show_id": "6ULQ0ewYf5zmsDgBchlkr9",
+      "spotify_url": "https://open.spotify.com/show/6ULQ0ewYf5zmsDgBchlkr9",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1755173852": {
+      "spotify_show_id": "10ulVhZfGmrp6DLaU7Avch",
+      "spotify_url": "https://open.spotify.com/show/10ulVhZfGmrp6DLaU7Avch",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "958230465": {
+      "spotify_show_id": "3j2KMcZTtgTNBKwtZBMHvl",
+      "spotify_url": "https://open.spotify.com/show/3j2KMcZTtgTNBKwtZBMHvl",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1208172851": {
+      "spotify_show_id": "0qbUo3i0NUVJquQAIR9OWL",
+      "spotify_url": "https://open.spotify.com/show/0qbUo3i0NUVJquQAIR9OWL",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "394447340": {
+      "spotify_show_id": "58lwyc4Z2XVvNgyo5mr0Jg",
+      "spotify_url": "https://open.spotify.com/show/58lwyc4Z2XVvNgyo5mr0Jg",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1670771664": {
+      "spotify_show_id": "4HksJ30ISKvOtfCyno3jbE",
+      "spotify_url": "https://open.spotify.com/show/4HksJ30ISKvOtfCyno3jbE",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1513823904": {
+      "spotify_show_id": "1jiIJEA9pToGft6fdfZaxu",
+      "spotify_url": "https://open.spotify.com/show/1jiIJEA9pToGft6fdfZaxu",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "330291397": {
+      "spotify_show_id": "1j3AIvOi8LjRFE7honnQUS",
+      "spotify_url": "https://open.spotify.com/show/1j3AIvOi8LjRFE7honnQUS",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "869377733": {
+      "spotify_show_id": "04DA818CYTA6rUsx5usxNW",
+      "spotify_url": "https://open.spotify.com/show/04DA818CYTA6rUsx5usxNW",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "251471480": {
+      "spotify_show_id": "7nf5SN2Dck0iZaqxXtx29J",
+      "spotify_url": "https://open.spotify.com/show/7nf5SN2Dck0iZaqxXtx29J",
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "508943027": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1795483480": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1603639502": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1496265971": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "918896288": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1412947410": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1503540842": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1477655202": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1299915173": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1163432306": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1186056137": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "957430475": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1506431005": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1121047188": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1641743797": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1565876835": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "788236947": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "934552872": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1262231136": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "394775318": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1635354647": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1015557071": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1278815517": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "201680433": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1105457520": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1294131221": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "91689834": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1459202600": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1330329512": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1019576853": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "290783428": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1056200096": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "354668519": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1028908750": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "521594713": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1337886873": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1528861092": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1525620301": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "958925354": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1487829595": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1046978749": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1159251584": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1405972616": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1579263731": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1495557562": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1548554104": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "663379413": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1554962073": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "659155419": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "318345767": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "257042117": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1514179611": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "539359582": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "812436884": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "152249110": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1051557000": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1554578197": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1150510297": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1335814741": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1227971746": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1457552694": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1641383288": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "493253759": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1437755068": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "369032477": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "775143271": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1162734003": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "270428918": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1599757941": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1080036452": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "490027390": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1270813772": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "935345158": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "578641256": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1048826488": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1545953110": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1578319619": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1400828889": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1469168641": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "928790786": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1497785843": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1296082082": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1056223392": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "593958494": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "960976813": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1207586509": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "556959673": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1168248976": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1404606470": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1116866428": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1373312240": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1349624470": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "990897842": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1021703062": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1547328233": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1142736861": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1110780638": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1256553977": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1215386938": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1442604220": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1390707588": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1209821045": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1490521721": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1643125075": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1640165188": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "908005404": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "965557666": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1462809301": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1437541488": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "502349432": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1406537385": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1116303051": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1559275284": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    },
+    "1533429509": {
+      "spotify_show_id": null,
+      "spotify_url": null,
+      "youtube_music_url": null,
+      "checked_at": "2026-07-09T23:11:19Z"
+    }
+  }
+}
