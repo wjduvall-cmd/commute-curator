@@ -5,3 +5,6 @@ node_modules/
 *.log
 .DS_Store
 backend/output/
+
+data/catalog-breadth-intl.json
+*.checkpoint

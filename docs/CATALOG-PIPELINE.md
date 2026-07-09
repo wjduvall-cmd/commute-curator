@@ -77,3 +77,11 @@ minutes per full harvest. Expected yield: 110 genres × 200 ≈ 22k chart rows �
   pipeline's job when the key lands, budget-metered, cheapest-first. Genre + chart
   rank are enough signal for the breadth tier until then.
 - **Editorial notes/hooks at scale** — reserved for what actually surfaces to users.
+
+## Breadth tier, batch 2 (international)
+
+`data/catalog-breadth-intl.json.gz` — 121,786 shows from 18 regional Apple top-chart
+sets (fr/de/jp/br/mx/es/it/in/nl/dk/se/za/no/gb/ie/au/nz/ca), zero overlap with the
+US batch, 99.4% with feed URLs. Stored gzipped (76MB raw exceeds repo limits);
+consumers: `zcat` / `zlib.gunzipSync`. Same schema as catalog-breadth.json with
+per-show `region`.
