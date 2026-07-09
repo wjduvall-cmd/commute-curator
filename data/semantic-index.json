@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "built_at": "2026-07-08T22:00:00.000Z",
+  "concepts": {
+    "fusion": {
+      "terms": ["fusion", "tokamak", "stellarator", "plasma", "plasma-physics", "reactor", "ignition", "confinement", "inertial-confinement", "iter", "sparc", "nif", "helion", "frc", "z-pinch", "spherical-tokamak", "magnetized-target", "fusion-energy", "wendelstein-7-x", "pulsed-power"],
+      "topics": ["engineering/energy-fusion"],
+      "related": ["nuclear", "superconductors", "clean-energy", "physics"]
+    },
+    "nuclear": {
+      "terms": ["nuclear", "fission", "reactor", "reactors", "uranium", "radiation", "atomic", "chernobyl", "nuclear-engineering"],
+      "topics": ["engineering/energy-fusion"],
+      "related": ["fusion", "clean-energy", "cold-war"]
+    },
+    "superconductors": {
+      "terms": ["superconductor", "superconductors", "superconductivity", "niobium", "rebco", "hts", "cryogenics"],
+      "topics": ["engineering/energy-fusion", "science/materials"],
+      "related": ["fusion", "magnets", "materials", "physics"]
+    },
+    "magnets": {
+      "terms": ["magnet", "magnets", "magnetic", "samarium-cobalt", "rare-earth", "electromagnets"],
+      "topics": ["science/materials", "engineering/energy-fusion"],
+      "related": ["superconductors", "materials", "fusion"]
+    },
+    "clean-energy": {
+      "terms": ["clean-energy", "renewable", "renewables", "solar", "wind", "batteries", "battery", "ev", "electric-vehicles", "ev-charging", "geoengineering", "decarbonization", "cleantech"],
+      "topics": ["engineering/energy-fusion"],
+      "related": ["energy", "fusion", "climate"]
+    },
+    "energy": {
+      "terms": ["energy", "power", "electricity", "grid", "oil", "petroleum", "fuel", "steam-engine", "horsepower", "power-plants", "fuel-cells"],
+      "topics": ["engineering/energy-fusion"],
+      "related": ["fusion", "nuclear", "clean-energy"]
+    },
+    "climate": {
+      "terms": ["climate", "climate-change", "environment", "environmental", "carbon", "warming", "geoengineering", "atmosphere"],
+      "topics": ["engineering/energy-fusion"],
+      "related": ["clean-energy", "energy", "ocean"]
+    },
+    "space": {
+      "terms": ["space", "rockets", "rocket", "spacex", "orbit", "spacecraft", "satellites", "astronauts", "mars", "moon", "launch"],
+      "topics": ["business/startups"],
+      "related": ["aerospace", "physics", "engineering"]
+    },
+    "ai": {
+      "terms": ["ai", "artificial-intelligence", "machine-learning", "llm", "llms", "claude", "chatgpt", "neural-networks", "automation", "drug-discovery", "self-driving-lab"],
+      "topics": [],
+      "related": ["computing", "robotics", "data-centers", "semiconductors"]
+    },
+    "computing": {
+      "terms": ["computing", "computers", "software", "internet", "code", "programming", "ffmpeg", "video", "codecs", "search", "google", "algorithms", "open-source", "tech", "technology"],
+      "topics": [],
+      "related": ["ai", "semiconductors", "startups"]
+    },
+    "semiconductors": {
+      "terms": ["semiconductors", "semiconductor", "chips", "chip", "silicon", "fabs", "fab", "tsmc", "wafer", "cmos-sensors", "cerebras", "transistors", "chip-manufacturing", "3d-ics"],
+      "topics": ["engineering/precision-mfg", "science/materials"],
+      "related": ["computing", "ai", "manufacturing", "data-centers"]
+    },
+    "robotics": {
+      "terms": ["robotics", "robot", "robots", "drones", "automation"],
+      "topics": ["engineering/precision-mfg"],
+      "related": ["ai", "manufacturing", "engineering"]
+    },
+    "data-centers": {
+      "terms": ["data-centers", "data-center", "datacenter", "cloud", "inference", "servers", "compute"],
+      "topics": [],
+      "related": ["ai", "computing", "energy", "semiconductors"]
+    },
+    "war": {
+      "terms": ["war", "wars", "military", "battle", "battles", "army", "armies", "warfare", "siege", "siege-warfare", "fortifications", "conquest", "soldiers", "military-history", "medieval", "mercenaries"],
+      "topics": ["history/military-ancient"],
+      "related": ["ancient-history", "world-war-2", "espionage", "mongols"]
+    },
+    "ancient-history": {
+      "terms": ["ancient", "antiquity", "ancient-history", "archaeology", "bronze-age", "stone-age", "prehistory", "civilization", "empires", "empire", "ancient-technology", "stonehenge"],
+      "topics": ["history/military-ancient", "history/technology"],
+      "related": ["rome", "greece", "egypt", "mesopotamia"]
+    },
+    "rome": {
+      "terms": ["rome", "roman", "romans", "ancient-rome", "caesar", "julius-caesar", "augustus", "roman-empire", "roman-women", "fulvia", "clodia", "mark-antony", "gladiators"],
+      "topics": ["history/military-ancient"],
+      "related": ["greece", "ancient-history", "war"]
+    },
+    "greece": {
+      "terms": ["greece", "greek", "greeks", "ancient-greece", "sparta", "spartans", "athens", "xenophon", "alexander-the-great", "trojan-war", "troy", "greek-mythology", "corinthian-war"],
+      "topics": ["history/military-ancient"],
+      "related": ["rome", "persia", "ancient-history"]
+    },
+    "egypt": {
+      "terms": ["egypt", "egyptian", "ancient-egypt", "hieroglyphs", "pharaoh", "pharaohs", "pyramids", "rosetta-stone", "cleopatra"],
+      "topics": ["history/military-ancient"],
+      "related": ["ancient-history", "mesopotamia", "greece"]
+    },
+    "mesopotamia": {
+      "terms": ["mesopotamia", "ancient-mesopotamia", "assyrians", "sumerians", "babylon", "babylonian", "iraq", "ziggurats", "cuneiform"],
+      "topics": ["history/military-ancient", "history/technology"],
+      "related": ["ancient-history", "egypt", "persia"]
+    },
+    "persia": {
+      "terms": ["persia", "persian", "persians", "achaemenid", "achaemenid-empire", "iran"],
+      "topics": ["history/military-ancient"],
+      "related": ["greece", "mesopotamia", "ancient-history"]
+    },
+    "mongols": {
+      "terms": ["mongols", "mongol", "genghis", "genghis-khan", "khan", "steppe", "nomads"],
+      "topics": ["history/military-ancient"],
+      "related": ["war", "ancient-history"]
+    },
+    "world-war-2": {
+      "terms": ["ww2", "wwii", "world-war-2", "world-war", "d-day", "pacific-war", "nazis", "hitler", "japan", "blitz", "fascism", "mussolini"],
+      "topics": ["history/military-ancient", "espionage/cold-war-tech"],
+      "related": ["war", "cold-war", "espionage"]
+    },
+    "cold-war": {
+      "terms": ["cold-war", "soviet", "soviets", "soviet-union", "ussr", "kgb", "berlin-wall", "nuclear-weapons", "iron-curtain"],
+      "topics": ["espionage/cold-war-tech"],
+      "related": ["espionage", "world-war-2", "nuclear"]
+    },
+    "espionage": {
+      "terms": ["spy", "spies", "espionage", "intelligence", "cia", "tradecraft", "covert", "secrets", "surveillance", "agents"],
+      "topics": ["espionage/cold-war-tech"],
+      "related": ["cold-war", "world-war-2", "war"]
+    },
+    "metallurgy": {
+      "terms": ["metallurgy", "metal", "metals", "steel", "iron", "alloys", "alloy", "forging", "casting", "foundry", "damascus-steel", "blacksmith", "smelting", "swords", "metallic-glass", "liquid-metals"],
+      "topics": ["science/materials", "engineering/precision-mfg"],
+      "related": ["materials", "manufacturing", "machining"]
+    },
+    "materials": {
+      "terms": ["materials", "materials-science", "graphene", "ceramics", "polymers", "glass", "textiles", "fibers", "nanofibers", "nanomaterials", "composites", "graphite", "materials-testing"],
+      "topics": ["science/materials"],
+      "related": ["metallurgy", "physics", "manufacturing", "superconductors"]
+    },
+    "manufacturing": {
+      "terms": ["manufacturing", "factory", "factories", "production", "assembly", "industrial", "fabrication", "3d-printing", "american-manufacturing", "supply-chain", "yield"],
+      "topics": ["engineering/precision-mfg"],
+      "related": ["machining", "metallurgy", "robotics", "engineering"]
+    },
+    "machining": {
+      "terms": ["machining", "cnc", "machine-shop", "machinist", "lathe", "mill", "milling", "tolerances", "precision", "metrology", "tormach", "cnc-programming", "hobby-machining"],
+      "topics": ["engineering/precision-mfg"],
+      "related": ["manufacturing", "metallurgy", "engineering"]
+    },
+    "cooking": {
+      "terms": ["cooking", "food", "recipes", "cuisine", "chef", "kitchen", "eating", "food-history", "wine", "bacon", "lobster", "seafood", "pork"],
+      "topics": ["food/cooking-science"],
+      "related": ["bbq", "food-science", "coffee"]
+    },
+    "bbq": {
+      "terms": ["bbq", "barbecue", "grilling", "grill", "smoking", "smoker", "brisket", "pitmaster", "pitmasters", "steven-raichlen", "texas"],
+      "topics": ["food/cooking-science"],
+      "related": ["cooking", "food-science"]
+    },
+    "food-science": {
+      "terms": ["food-science", "food-chemistry", "flavor", "fermentation", "nutrition", "gastronomy"],
+      "topics": ["food/cooking-science"],
+      "related": ["cooking", "bbq", "biology"]
+    },
+    "coffee": {
+      "terms": ["coffee", "espresso", "barista", "cafe"],
+      "topics": ["food/cooking-science", "engineering/precision-mfg"],
+      "related": ["cooking", "engineering"]
+    },
+    "aviation": {
+      "terms": ["aviation", "planes", "plane", "airplanes", "aircraft", "flight", "flying", "pilots", "pilot", "boeing", "airline", "airlines", "airports"],
+      "topics": ["aviation/accidents"],
+      "related": ["plane-crashes", "aerospace", "engineering"]
+    },
+    "plane-crashes": {
+      "terms": ["crash", "crashes", "plane-crash", "air-disaster", "ntsb", "crash-investigation", "black-box", "aviation-safety", "mayday", "near-disaster", "rudder-failure", "icing"],
+      "topics": ["aviation/accidents"],
+      "related": ["aviation", "disasters", "engineering"]
+    },
+    "aerospace": {
+      "terms": ["aerospace", "jets", "jet", "helicopters", "helicopter", "evtol", "air-taxis", "skunk-works", "lockheed", "apache-helicopter"],
+      "topics": ["aviation/accidents", "engineering/precision-mfg", "business/startups"],
+      "related": ["aviation", "space", "machining"]
+    },
+    "medicine": {
+      "terms": ["medicine", "medical", "health", "disease", "diseases", "doctors", "drugs", "antibiotics", "antibiotic-resistance", "vaccines", "treatment", "body", "anatomy", "eyes", "vision", "brain"],
+      "topics": ["medicine/biology"],
+      "related": ["biology", "epidemiology", "science"]
+    },
+    "epidemiology": {
+      "terms": ["epidemiology", "pandemic", "outbreak", "outbreaks", "virus", "viruses", "infection", "infections", "pathogens", "fungal-infection", "epidemic", "plague"],
+      "topics": ["medicine/biology"],
+      "related": ["medicine", "biology"]
+    },
+    "biology": {
+      "terms": ["biology", "life", "evolution", "genetics", "gene", "cells", "organisms", "bacteria", "fungi"],
+      "topics": ["medicine/biology", "nature/animal-cognition"],
+      "related": ["animals", "medicine", "ocean", "science"]
+    },
+    "animals": {
+      "terms": ["animals", "animal", "wildlife", "animal-cognition", "animal-communication", "animal-defenses", "whales", "whale-song", "birds", "bats", "dogs", "cats", "parrots", "sea-slugs", "nudibranchs", "skunks", "armadillos", "insects"],
+      "topics": ["nature/animal-cognition", "nature/ocean-science"],
+      "related": ["biology", "ocean"]
+    },
+    "ocean": {
+      "terms": ["ocean", "oceans", "sea", "seas", "marine", "marine-biology", "marine-animals", "maritime", "maritime-crime", "ships", "shipping", "fishing", "illegal-fishing", "underwater", "sailors", "offshore"],
+      "topics": ["nature/ocean-science"],
+      "related": ["animals", "biology", "climate"]
+    },
+    "language": {
+      "terms": ["language", "languages", "linguistics", "words", "word", "grammar", "etymology", "slang", "semantics", "phonetics", "sign-language", "definitions", "vocabulary", "translation"],
+      "topics": ["linguistics/language"],
+      "related": ["books", "storytelling", "history"]
+    },
+    "books": {
+      "terms": ["books", "book", "reading", "literature", "libraries", "censorship", "banned-books", "novels", "writers"],
+      "topics": ["linguistics/language"],
+      "related": ["language", "storytelling"]
+    },
+    "math": {
+      "terms": ["math", "maths", "mathematics", "theorem", "theorems", "calculus", "geometry", "numbers", "puzzles", "equations", "proofs", "cycloid", "statistics"],
+      "topics": ["math/puzzles"],
+      "related": ["physics", "science"]
+    },
+    "physics": {
+      "terms": ["physics", "quantum", "particle-physics", "particles", "antimatter", "dark-energy", "cern", "lhc", "gravity", "relativity", "cosmology", "surface-tension", "theory-of-everything"],
+      "topics": ["engineering/energy-fusion", "science/materials"],
+      "related": ["math", "fusion", "science"]
+    },
+    "music": {
+      "terms": ["music", "songs", "song", "songwriting", "musicians", "bands", "albums", "pop-music", "jazz", "paul-mccartney", "fleetwood-mac"],
+      "topics": ["music/theory-production", "craft/instrument-making"],
+      "related": ["music-theory", "music-production", "instruments"]
+    },
+    "music-theory": {
+      "terms": ["music-theory", "harmony", "melody", "chords", "microtonality", "musicology", "music-analysis", "jacob-collier"],
+      "topics": ["music/theory-production"],
+      "related": ["music", "music-production"]
+    },
+    "music-production": {
+      "terms": ["music-production", "recording", "studio", "producer", "producing", "mixing", "tracks", "synths"],
+      "topics": ["music/theory-production"],
+      "related": ["music", "music-theory"]
+    },
+    "instruments": {
+      "terms": ["instruments", "instrument", "guitar", "guitars", "guitarists", "guitar-making", "violin", "violins", "piano", "pianos", "piano-technology", "lutherie", "luthier", "pickups", "keyboards"],
+      "topics": ["craft/instrument-making"],
+      "related": ["music", "woodworking", "craftsmanship"]
+    },
+    "craftsmanship": {
+      "terms": ["craft", "crafts", "craftsmanship", "artisan", "handmade", "workshop", "technique", "mentorship"],
+      "topics": ["craft/instrument-making", "craft/diy-home"],
+      "related": ["woodworking", "instruments", "diy"]
+    },
+    "woodworking": {
+      "terms": ["woodworking", "wood", "furniture", "furniture-making", "cabinetmaking", "carpentry", "hand-tools", "bandsaw", "pole-lathe", "sharpening", "joinery"],
+      "topics": ["craft/diy-home"],
+      "related": ["diy", "craftsmanship", "instruments"]
+    },
+    "diy": {
+      "terms": ["diy", "home-improvement", "renovation", "repair", "home-repair", "tools", "tool-restoration", "vintage-tools", "tinkering", "garage", "building-materials", "healthy-home"],
+      "topics": ["craft/diy-home"],
+      "related": ["woodworking", "construction", "craftsmanship"]
+    },
+    "construction": {
+      "terms": ["construction", "buildings", "building", "skyscrapers", "megaprojects", "concrete", "architecture", "architects", "stone-veneer", "containment"],
+      "topics": ["architecture/infrastructure"],
+      "related": ["infrastructure", "bridges", "engineering"]
+    },
+    "infrastructure": {
+      "terms": ["infrastructure", "tunnels", "tunnel", "tunnel-boring", "dams", "transit", "urban-planning", "cities", "design", "roads", "underground"],
+      "topics": ["architecture/infrastructure"],
+      "related": ["construction", "bridges", "engineering"]
+    },
+    "bridges": {
+      "terms": ["bridge", "bridges", "civil-engineering", "eads-bridge", "golden-gate"],
+      "topics": ["architecture/infrastructure", "history/technology"],
+      "related": ["construction", "infrastructure", "engineering-history"]
+    },
+    "sports": {
+      "terms": ["sports", "sport", "athletes", "athletics", "football", "soccer", "baseball", "basketball", "nba", "tennis", "racquets", "olympics", "world-cup", "track-cycling", "bobsled", "motorsport", "formula-1", "sports-history", "sports-equipment"],
+      "topics": ["sports/biomechanics"],
+      "related": ["training", "sports-science"]
+    },
+    "training": {
+      "terms": ["training", "coaching", "coach", "workout", "workouts", "plyometrics", "sprinting", "speed", "speed-training", "strength", "conditioning", "acceleration", "deceleration"],
+      "topics": ["sports/biomechanics"],
+      "related": ["sports", "sports-science", "medicine"]
+    },
+    "sports-science": {
+      "terms": ["sports-science", "biomechanics", "performance", "physiology", "tendons", "movement", "kinesiology"],
+      "topics": ["sports/biomechanics"],
+      "related": ["training", "sports", "medicine"]
+    },
+    "startups": {
+      "terms": ["startups", "startup", "founders", "founder", "entrepreneurship", "entrepreneurs", "venture-capital", "vc", "deep-tech", "funding", "young-founders", "innovation"],
+      "topics": ["business/startups"],
+      "related": ["business", "economics", "engineering"]
+    },
+    "business": {
+      "terms": ["business", "companies", "company", "strategy", "ceo", "business-history", "brands", "leadership", "management", "family-business", "careers"],
+      "topics": ["business/startups"],
+      "related": ["startups", "economics"]
+    },
+    "economics": {
+      "terms": ["economics", "economy", "finance", "investing", "money", "markets", "stocks", "index-funds", "ipo", "accounting", "fintech", "trade", "wealth"],
+      "topics": ["business/startups"],
+      "related": ["business", "startups"]
+    },
+    "cars": {
+      "terms": ["cars", "car", "automotive", "ferrari", "honda", "engines", "racing", "motorsport", "driving"],
+      "topics": ["business/startups"],
+      "related": ["engineering", "manufacturing", "sports"]
+    },
+    "comedy": {
+      "terms": ["comedy", "funny", "laugh", "laughs", "humor", "hilarious", "comedians", "comedian", "banter", "hang", "improv", "jokes", "absurdist", "roasting", "sketch-comedy", "silly"],
+      "topics": ["comedy/casual-hangs"],
+      "related": ["celebrities", "storytelling"]
+    },
+    "celebrities": {
+      "terms": ["celebrities", "celebrity", "hollywood", "actors", "actor", "movies", "film", "films", "snl", "acting", "broadway", "theater"],
+      "topics": ["comedy/casual-hangs"],
+      "related": ["comedy", "music"]
+    },
+    "history": {
+      "terms": ["history", "historical", "past", "heritage", "biography", "american-history", "american-revolution", "founding-fathers", "industrial-revolution", "slavery", "18th-century", "19th-century"],
+      "topics": ["history/military-ancient", "history/technology"],
+      "related": ["ancient-history", "engineering-history", "storytelling", "war"]
+    },
+    "engineering-history": {
+      "terms": ["engineering-history", "history-of-technology", "history-of-science", "inventions", "invention", "inventors", "steam-engine", "james-watt", "paris-catacombs"],
+      "topics": ["history/technology"],
+      "related": ["history", "engineering", "infrastructure"]
+    },
+    "science": {
+      "terms": ["science", "scientific", "research", "experiments", "discovery", "scientists", "lab", "labs", "research-labs", "science-communication"],
+      "topics": ["science/materials", "medicine/biology"],
+      "related": ["physics", "biology", "materials", "math"]
+    },
+    "engineering": {
+      "terms": ["engineering", "engineers", "engineer", "mechanical-engineering", "simulation", "fea", "cfd", "cad", "product-design", "prototyping", "sensors", "systems", "engineering-education"],
+      "topics": ["engineering/precision-mfg"],
+      "related": ["manufacturing", "machining", "science", "aerospace"]
+    },
+    "geology": {
+      "terms": ["geology", "earthquakes", "earthquake", "volcanoes", "drilling", "earth", "bedrock", "rocks", "kola-superdeep-borehole", "alaska"],
+      "topics": ["science/materials"],
+      "related": ["disasters", "science", "ocean"]
+    },
+    "disasters": {
+      "terms": ["disasters", "disaster", "catastrophe", "tragedy", "accidents", "chernobyl", "emergency", "survival", "investigation"],
+      "topics": ["aviation/accidents"],
+      "related": ["plane-crashes", "geology", "storytelling"]
+    },
+    "storytelling": {
+      "terms": ["story", "stories", "storytelling", "narrative", "documentary", "saga", "epic", "journalism", "true-crime"],
+      "topics": ["history/military-ancient", "history/technology"],
+      "related": ["history", "ancient-history", "books"]
+    }
+  },
+  "modifiers": {
+    "short": { "type": "duration_max", "value": 30 },
+    "quick": { "type": "duration_max", "value": 30 },
+    "brief": { "type": "duration_max", "value": 30 },
+    "tiny": { "type": "duration_max", "value": 10 },
+    "bite-sized": { "type": "duration_max", "value": 10 },
+    "commute": { "type": "duration_max", "value": 45 },
+    "hour": { "type": "duration_max", "value": 75 },
+    "long": { "type": "duration_min", "value": 90 },
+    "marathon": { "type": "duration_min", "value": 180 },
+    "epic": { "type": "duration_min", "value": 150 },
+    "deep": { "type": "duration_min", "value": 60 },
+    "funny": { "type": "branch", "value": ["comedy"] },
+    "comedy": { "type": "branch", "value": ["comedy"] },
+    "laugh": { "type": "branch", "value": ["comedy"] },
+    "laughs": { "type": "branch", "value": ["comedy"] },
+    "light": { "type": "branch", "value": ["comedy"] },
+    "easy": { "type": "branch", "value": ["comedy"] },
+    "chill": { "type": "branch", "value": ["comedy"] },
+    "relaxing": { "type": "branch", "value": ["comedy"] },
+    "story": { "type": "branch", "value": ["history"] },
+    "stories": { "type": "branch", "value": ["history"] },
+    "narrative": { "type": "branch", "value": ["history"] },
+    "new": { "type": "recency_days", "value": 90 },
+    "recent": { "type": "recency_days", "value": 90 },
+    "latest": { "type": "recency_days", "value": 90 },
+    "fresh": { "type": "recency_days", "value": 90 },
+    "today": { "type": "recency_days", "value": 7 },
+    "yesterday": { "type": "recency_days", "value": 3 }
+  }
+}

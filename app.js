@@ -555,16 +555,37 @@ function epRowHtml(item, ctx, prefix = "") {
   </div>`;
 }
 
+/* Honest filters, graceful empties: if the ask over-constrains (nothing in
+   comedy under 30 min), progressively drop duration then all filters rather
+   than returning a dead end — and say so. */
+function searchWithRelaxation(interp, minScore) {
+  const attempt = (filters) => {
+    const pool = fullPool().filter(i => passesFilters(i, filters));
+    const scored = interp.termWeights.size
+      ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s > minScore)
+      : pool.map(i => ({ i, s: interestScore(i) }));
+    return scored.sort((a, b) => b.s - a.s);
+  };
+  let results = attempt(interp.filters);
+  let relaxed = null;
+  if (!results.length && interp.filters.some(f => f.type.startsWith("duration"))) {
+    results = attempt(interp.filters.filter(f => !f.type.startsWith("duration")));
+    if (results.length) relaxed = "duration";
+  }
+  if (!results.length && interp.filters.length) {
+    results = attempt([]);
+    if (results.length) relaxed = "all";
+  }
+  return { results, relaxed };
+}
+
 function questList() { return lsGet("cp_quests", []); }
 
 function buildQuest(query) {
   const interp = interpretQuery(query);
   if (!interp.termWeights.size && !interp.filters.length) return null;
-  const pool = fullPool().filter(i => passesFilters(i, interp.filters));
-  const scored = interp.termWeights.size
-    ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s >= 2).sort((a, b) => b.s - a.s)
-    : pool.map(i => ({ i, s: interestScore(i) })).sort((a, b) => b.s - a.s);
-  const picks = scored.slice(0, 10);
+  const { results } = searchWithRelaxation(interp, 2);
+  const picks = results.slice(0, 10);
   if (picks.length < 2) return null;
   const quest = {
     id: "q" + Date.now(),
@@ -608,14 +629,15 @@ function renderSearch(query) {
   const el = $("#search-results");
   const interp = interpretQuery(query);
   if (!interp.termWeights.size && !interp.filters.length) { el.innerHTML = ""; return; }
-  const pool = fullPool().filter(i => passesFilters(i, interp.filters));
-  const results = (interp.termWeights.size
-    ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s > 0)
-    : pool.map(i => ({ i, s: interestScore(i) })))
-    .sort((a, b) => b.s - a.s)
-    .slice(0, 20);
-  el.innerHTML = results.length
-    ? results.map(x => epRowHtml(x.i, "search")).join("")
+  const { results, relaxed } = searchWithRelaxation(interp, 0);
+  const top = results.slice(0, 20);
+  const note = relaxed === "duration"
+    ? `<p class="int-note">Nothing in the pool at that length — closest matches:</p>`
+    : relaxed === "all"
+      ? `<p class="int-note">Nothing matched every part of that ask — closest matches:</p>`
+      : "";
+  el.innerHTML = top.length
+    ? note + top.map(x => epRowHtml(x.i, "search")).join("")
     : `<p class="int-note">Nothing in the pool matches — the catalog grows all the time.</p>`;
   bindPickLogging(el);
   bindStars(el);
