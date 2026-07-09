@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-08T22:00:00.000Z",
+  "built_at": "2026-07-09T05:44:43.835Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -1572,6 +1572,678 @@
       "advice",
       "banter",
       "hang"
+    ],
+    "main-engine-cut-off--pam-melroy": [
+      "space",
+      "nasa",
+      "space-shuttle",
+      "astronauts",
+      "space-policy",
+      "leadership",
+      "interview"
+    ],
+    "main-engine-cut-off--ignition": [
+      "space",
+      "nasa",
+      "rockets",
+      "sls",
+      "moon",
+      "space-policy",
+      "explainer"
+    ],
+    "main-engine-cut-off--quantum-space-bridenstine": [
+      "space",
+      "nasa",
+      "jim-bridenstine",
+      "spacecraft",
+      "startups",
+      "business",
+      "interview"
+    ],
+    "off-nominal--stock-tips": [
+      "space",
+      "rockets",
+      "rocket-lab",
+      "spacex",
+      "new-glenn",
+      "space-industry",
+      "banter",
+      "hang"
+    ],
+    "off-nominal--polar-bears-and-penguins": [
+      "space",
+      "rockets",
+      "propulsion",
+      "orbital-mechanics",
+      "moon",
+      "engineering",
+      "banter",
+      "interview"
+    ],
+    "planetary-radio--green-bank-radio-quiet-zone": [
+      "astronomy",
+      "radio-telescopes",
+      "telescopes",
+      "green-bank",
+      "science",
+      "documentary",
+      "storytelling"
+    ],
+    "planetary-radio--dragonfly-titan-engineering": [
+      "space",
+      "titan",
+      "dragonfly",
+      "spacecraft",
+      "nasa",
+      "planetary-science",
+      "engineering",
+      "interview",
+      "technical"
+    ],
+    "planetary-radio--rosalind-franklin-rover": [
+      "mars",
+      "rover",
+      "astrobiology",
+      "space",
+      "drilling",
+      "planetary-science",
+      "interview"
+    ],
+    "advent-of-computing--emul-8ion": [
+      "computing-history",
+      "programming-languages",
+      "retrocomputing",
+      "1970s",
+      "software",
+      "computing",
+      "storytelling"
+    ],
+    "advent-of-computing--what-is-a-programming-language": [
+      "computing-history",
+      "programming-languages",
+      "software",
+      "computing",
+      "math",
+      "1960s",
+      "explainer"
+    ],
+    "corecursive--bitter-lesson-reinforcement-learning": [
+      "ai",
+      "machine-learning",
+      "reinforcement-learning",
+      "computing-history",
+      "psychology",
+      "games",
+      "storytelling"
+    ],
+    "corecursive--pre-training-wall": [
+      "ai",
+      "machine-learning",
+      "llms",
+      "ai-labs",
+      "computing",
+      "technology",
+      "explainer"
+    ],
+    "corecursive--risk-rolls-downhill": [
+      "software",
+      "software-bugs",
+      "computing",
+      "justice",
+      "investigation",
+      "storytelling"
+    ],
+    "software-engineering-daily--sed-news-restricted-models": [
+      "ai",
+      "software",
+      "llms",
+      "developer-tools",
+      "deepmind",
+      "tech-industry",
+      "banter"
+    ],
+    "software-engineering-daily--grafana-ai-observability": [
+      "software",
+      "observability",
+      "grafana",
+      "ai",
+      "developer-tools",
+      "engineering",
+      "interview",
+      "technical"
+    ],
+    "planet-money--summer-school-world-tour": [
+      "economics",
+      "inflation",
+      "markets",
+      "commodities",
+      "education",
+      "explainer",
+      "beginner-friendly",
+      "storytelling"
+    ],
+    "planet-money--college-cheaper": [
+      "economics",
+      "student-loans",
+      "tuition",
+      "universities",
+      "education",
+      "policy",
+      "explainer",
+      "beginner-friendly"
+    ],
+    "planet-money--alien-monopsony": [
+      "economics",
+      "labor-markets",
+      "wages",
+      "monopsony",
+      "hollywood",
+      "explainer",
+      "beginner-friendly"
+    ],
+    "odd-lots--anthropic-jack-clark": [
+      "ai",
+      "anthropic",
+      "economics",
+      "ai-safety",
+      "research",
+      "finance",
+      "interview"
+    ],
+    "odd-lots--jeremy-grantham-bubble": [
+      "investing",
+      "markets",
+      "bubbles",
+      "finance",
+      "economics",
+      "jeremy-grantham",
+      "ai",
+      "interview"
+    ],
+    "odd-lots--grace-shao-chinese-ai": [
+      "ai",
+      "china",
+      "open-source",
+      "manufacturing",
+      "economics",
+      "geopolitics",
+      "interview"
+    ],
+    "freakonomics-radio--universities-trust": [
+      "economics",
+      "universities",
+      "education",
+      "trust",
+      "psychology",
+      "policy",
+      "interview"
+    ],
+    "freakonomics-radio--vanderbilt-winning": [
+      "universities",
+      "education",
+      "leadership",
+      "politics",
+      "economics",
+      "interview"
+    ],
+    "hidden-brain--spiritual-brain-part-2": [
+      "psychology",
+      "spirituality",
+      "meaning",
+      "brain",
+      "mindfulness",
+      "interview",
+      "storytelling"
+    ],
+    "hidden-brain--stepping-out-of-the-shadows": [
+      "psychology",
+      "loss-aversion",
+      "cognitive-bias",
+      "decision-making",
+      "brain",
+      "behavioral-science",
+      "interview"
+    ],
+    "you-are-not-so-smart--misguided": [
+      "psychology",
+      "misinformation",
+      "disinformation",
+      "propaganda",
+      "social-science",
+      "media",
+      "interview"
+    ],
+    "you-are-not-so-smart--conspiracy-theorist-changed-mind": [
+      "psychology",
+      "conspiracy-theories",
+      "persuasion",
+      "engineers",
+      "empathy",
+      "interview",
+      "storytelling"
+    ],
+    "you-are-not-so-smart--positive-rants": [
+      "psychology",
+      "communication",
+      "disagreement",
+      "persuasion",
+      "comedy",
+      "interview"
+    ],
+    "choiceology--depth-of-trust": [
+      "psychology",
+      "decision-making",
+      "trust",
+      "teams",
+      "chile",
+      "mining",
+      "rescue",
+      "storytelling"
+    ],
+    "choiceology--death-by-dashboard": [
+      "psychology",
+      "decision-making",
+      "dashboards",
+      "metrics",
+      "anxiety",
+      "behavioral-science",
+      "storytelling"
+    ],
+    "planetgeo-geology-podcast--room-problem-geochronology": [
+      "geology",
+      "geochronology",
+      "granite",
+      "magma",
+      "earth-science",
+      "explainer",
+      "technical"
+    ],
+    "planetgeo-geology-podcast--rocks-for-the-future": [
+      "geology",
+      "carbon-capture",
+      "critical-minerals",
+      "hydrogen",
+      "mit",
+      "climate",
+      "interview"
+    ],
+    "planetgeo-geology-podcast--granite-wars": [
+      "geology",
+      "granite",
+      "history-of-science",
+      "earth-science",
+      "storytelling",
+      "explainer"
+    ],
+    "geology-bites--moons-magnetic-field": [
+      "moon",
+      "magnetic-field",
+      "geology",
+      "planetary-science",
+      "space",
+      "interview",
+      "technical"
+    ],
+    "geology-bites--dinosaurs-survived-asteroid": [
+      "dinosaurs",
+      "asteroid-impact",
+      "extinction",
+      "fossils",
+      "birds",
+      "evolution",
+      "paleontology",
+      "interview"
+    ],
+    "dont-panic-geocast--philippines-earthquake": [
+      "earthquake",
+      "philippines",
+      "geology",
+      "seismology",
+      "birds",
+      "evolution",
+      "banter"
+    ],
+    "dont-panic-geocast--summer-shorts-gpr": [
+      "geophysics",
+      "ground-penetrating-radar",
+      "geology",
+      "tools",
+      "banter",
+      "casual"
+    ],
+    "well-theres-your-problem--titan-ii-missile-explosion": [
+      "missiles",
+      "nuclear-weapons",
+      "cold-war",
+      "explosion",
+      "disaster",
+      "engineering-failures",
+      "comedy",
+      "funny",
+      "banter"
+    ],
+    "well-theres-your-problem--up-ns-merger": [
+      "railroads",
+      "trains",
+      "mergers",
+      "regulation",
+      "infrastructure",
+      "economics",
+      "comedy",
+      "banter"
+    ],
+    "well-theres-your-problem--alaska-airlines-261": [
+      "aviation",
+      "plane-crash",
+      "maintenance",
+      "alaska-airlines",
+      "disaster",
+      "engineering-failures",
+      "investigation",
+      "comedy",
+      "banter"
+    ],
+    "causality-engineered-network--verruckt-waterslide": [
+      "waterslide",
+      "amusement-parks",
+      "disaster",
+      "engineering-failures",
+      "design-flaws",
+      "safety-engineering",
+      "investigation",
+      "storytelling"
+    ],
+    "causality-engineered-network--oceangate-titan": [
+      "oceangate",
+      "submersibles",
+      "ocean",
+      "disaster",
+      "engineering-failures",
+      "safety-engineering",
+      "investigation",
+      "storytelling"
+    ],
+    "brady-heywood-podcast--miami-bridge-failure-part-3": [
+      "bridges",
+      "bridge-collapse",
+      "miami",
+      "civil-engineering",
+      "disaster",
+      "engineering-failures",
+      "investigation",
+      "technical"
+    ],
+    "brady-heywood-podcast--miami-bridge-failure-part-2": [
+      "bridges",
+      "bridge-collapse",
+      "miami",
+      "civil-engineering",
+      "ntsb",
+      "disaster",
+      "engineering-failures",
+      "investigation",
+      "technical"
+    ],
+    "f1-beyond-the-grid--mattia-binotto-audi": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "audi",
+      "mattia-binotto",
+      "leadership",
+      "interview"
+    ],
+    "f1-beyond-the-grid--laurent-mekies-red-bull": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "red-bull",
+      "engines",
+      "leadership",
+      "interview"
+    ],
+    "tuned-in-hpa--mazda-fd3s-rx7": [
+      "cars",
+      "rotary-engine",
+      "mazda",
+      "turbocharging",
+      "tuning",
+      "racing",
+      "engineering",
+      "interview",
+      "technical"
+    ],
+    "tuned-in-hpa--cad-gateway-to-making-dreams": [
+      "cars",
+      "cad",
+      "fea",
+      "cnc",
+      "suspension",
+      "racing",
+      "engineering",
+      "technical",
+      "interview"
+    ],
+    "tuned-in-hpa--zf-8hp-transmission": [
+      "cars",
+      "transmissions",
+      "drag-racing",
+      "drifting",
+      "tuning",
+      "engineering",
+      "technical",
+      "interview"
+    ],
+    "the-race-f1-podcast--red-bull-upgrade-cadillac-brakes": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "red-bull",
+      "cadillac",
+      "brakes",
+      "aerodynamics",
+      "technical",
+      "explainer"
+    ],
+    "the-race-f1-podcast--norris-ferrari-cornering": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "ferrari",
+      "mercedes",
+      "aerodynamics",
+      "downforce",
+      "technical",
+      "explainer"
+    ],
+    "volts--utilities-distribution-spending": [
+      "grid",
+      "utilities",
+      "electricity",
+      "regulation",
+      "energy",
+      "policy",
+      "interview",
+      "technical"
+    ],
+    "volts--electricity-cheap-abundant-boring": [
+      "batteries",
+      "grid",
+      "electricity",
+      "energy-storage",
+      "energy",
+      "clean-energy",
+      "interview",
+      "deep-dive"
+    ],
+    "volts--electrifying-industrial-steam": [
+      "heat-pumps",
+      "electrification",
+      "industrial-heat",
+      "decarbonization",
+      "energy",
+      "clean-energy",
+      "manufacturing",
+      "interview"
+    ],
+    "energy-gang--why-hard-to-build-energy-projects": [
+      "energy",
+      "infrastructure",
+      "permitting",
+      "megaprojects",
+      "construction",
+      "policy",
+      "interview"
+    ],
+    "energy-gang--new-politics-of-power": [
+      "electricity",
+      "energy",
+      "utilities",
+      "grid",
+      "electricity-bills",
+      "politics",
+      "economics",
+      "explainer"
+    ],
+    "watt-it-takes--zum-ritu-narayan": [
+      "electric-vehicles",
+      "school-buses",
+      "electrification",
+      "transit",
+      "startups",
+      "founders",
+      "clean-energy",
+      "interview"
+    ],
+    "watt-it-takes--thinklabs-josh-wong": [
+      "ai",
+      "grid",
+      "utilities",
+      "software",
+      "startups",
+      "founders",
+      "energy",
+      "interview"
+    ],
+    "philosophize-this--trap-of-modern-cynicism": [
+      "philosophy",
+      "cynicism",
+      "peter-sloterdijk",
+      "society",
+      "ideas",
+      "explainer"
+    ],
+    "philosophize-this--what-philosophers-say-about-lying": [
+      "philosophy",
+      "ethics",
+      "lying",
+      "truth",
+      "morality",
+      "ideas",
+      "explainer"
+    ],
+    "philosophize-this--failure-of-the-modern-university": [
+      "philosophy",
+      "alasdair-macintyre",
+      "universities",
+      "education",
+      "ethics",
+      "ideas",
+      "explainer"
+    ],
+    "partially-examined-life--cs-lewis-mere-christianity": [
+      "philosophy",
+      "cs-lewis",
+      "christianity",
+      "religion",
+      "morality",
+      "ethics",
+      "deep-dive"
+    ],
+    "partially-examined-life--hegel-faith-vs-enlightenment": [
+      "philosophy",
+      "hegel",
+      "enlightenment",
+      "faith",
+      "religion",
+      "deep-dive"
+    ],
+    "philosophy-bites--goldstein-on-mattering": [
+      "philosophy",
+      "meaning",
+      "mattering",
+      "rebecca-goldstein",
+      "ideas",
+      "interview"
+    ],
+    "philosophy-bites--chadha-responsibility-without-selves": [
+      "philosophy",
+      "buddhism",
+      "self",
+      "moral-responsibility",
+      "ethics",
+      "interview"
+    ],
+    "philosophy-bites--veliz-on-prophecy": [
+      "philosophy",
+      "prediction",
+      "prophecy",
+      "persuasion",
+      "ethics",
+      "interview"
+    ],
+    "camera-shake-photography-podcast--rick-friedman-portraits": [
+      "photography",
+      "portraits",
+      "cameras",
+      "photojournalism",
+      "lighting",
+      "technique",
+      "interview"
+    ],
+    "camera-shake-photography-podcast--jefferson-graham-smartphones": [
+      "photography",
+      "smartphones",
+      "cameras",
+      "technology",
+      "journalism",
+      "interview"
+    ],
+    "go-creative-show--jason-mccormick-love-story": [
+      "cinematography",
+      "filmmaking",
+      "movies",
+      "cameras",
+      "color",
+      "aspect-ratio",
+      "interview"
+    ],
+    "go-creative-show--james-whitaker-cinematography": [
+      "cinematography",
+      "filmmaking",
+      "movies",
+      "cameras",
+      "creativity",
+      "budget-filmmaking",
+      "interview"
+    ],
+    "the-cinematography-podcast--christian-sprenger-widows-bay": [
+      "cinematography",
+      "filmmaking",
+      "lighting",
+      "horror",
+      "movies",
+      "tv",
+      "interview"
+    ],
+    "the-cinematography-podcast--peter-konczal-black-rabbit": [
+      "cinematography",
+      "filmmaking",
+      "cameras",
+      "filters",
+      "analog",
+      "tv",
+      "interview"
     ]
   }
 }
