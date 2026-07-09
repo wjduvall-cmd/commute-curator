@@ -37,3 +37,8 @@ Per-topic ADRs live in `docs/adr/`. This file is the chronological record.
 - **ForayKit Swift suite executed for the first time** (new macos-latest CI job): one manifest fix (tools-6-only API), then all tests green. iOS code is now under permanent compile+test protection.
 - **Marketing review 2 (docs/marketing/09)**: R13–R23; iOS v1 table-stakes fixed at six player features; offline shell shipped same-night (service worker; the web app previously white-screened offline). Watchlist: Spotify Prompted Playlists + Snipd AI DJ assessed — R10 triggers NOT fired.
 - **Standing order retained:** with the catalog engine done, the two life-or-death items remain the R1 blind test (waiting on the Anthropic key) and the iOS audio spike (waiting on the Mac).
+
+## 2026-07-09 (scale day)
+
+- **Search ranking overhauled** after "sleep training" surfaced AI content: coverage tiers, contextual concept disambiguation, word-boundary matching for short tokens, document-frequency term weighting. Verified on the failing query + controls.
+- **Two-tier catalog architecture adopted** (docs/CATALOG-PIPELINE.md): curated tier (editorial waves, episode-level) + breadth tier (programmatic). **19,787 shows harvested** across all 110 Apple podcast genres via checkpoint-resumable tools/harvest-catalog.mjs — 99.7% with feed URLs, chart-rank popularity priors, Podcast Index cross-ref fields reserved. Backend seed data; not client-fetched.
