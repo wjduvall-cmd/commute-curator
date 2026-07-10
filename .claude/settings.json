@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node tools/refresh-feeds.mjs*)",
+      "Bash(node -e*)",
+      "Bash(node --check*)",
+      "Bash(npx vitest run*)",
+      "Bash(cd backend && npx vitest run*)",
+      "Bash(git add data/*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git pull --rebase*)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "WebFetch(domain:itunes.apple.com)"
+    ]
+  }
+}

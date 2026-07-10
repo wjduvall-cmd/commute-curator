@@ -62,6 +62,27 @@ function logEvent(type, payload) {
   lsSet("cp_events", events.slice(-5000));
 }
 
+/* Durable telemetry (R2): flush the buffer to the workstation endpoint.
+   Browsers allow HTTPS-page -> http://127.0.0.1 (localhost exception), so
+   this syncs when browsing on the workstation itself; phones keep
+   buffering safely until the HTTPS endpoint upgrade. */
+const EVENTS_ENDPOINT = "http://127.0.0.1:8787/events";
+
+async function trySyncEvents() {
+  try {
+    const events = lsGet("cp_events", []);
+    const since = lsGet("cp_synced_ts", "");
+    const unsynced = events.filter(e => e.ts > since);
+    if (!unsynced.length) return;
+    const res = await fetch(EVENTS_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ profile: profileId(), events: unsynced }),
+    });
+    if (res.ok) lsSet("cp_synced_ts", unsynced[unsynced.length - 1].ts);
+  } catch (_) { /* endpoint unreachable — buffer persists, retry next time */ }
+}
+
 /* ---------- interests / topics ---------- */
 
 function leafNodes() {
@@ -136,6 +157,26 @@ function appleLink(item) {
         : `https://podcasts.apple.com/us/podcast/id${cid}`);
 }
 
+/* Player preference: Apple deep-links to the episode; Pocket Casts has no
+   public episode-URL scheme, so it lands on the show page (verified via
+   data/app-links.json research). */
+function playerPref() { return lsGet("cp_player", "apple"); }
+
+function playLink(item) {
+  if (playerPref() === "pocketcasts") return `https://pca.st/itunes/${item.apple_collection_id}`;
+  return appleLink(item);
+}
+
+/* Family mode (corner-case 28): hide explicit-rated episodes and the comedy
+   branch (older comedy items predate per-episode ratings). */
+function familyMode() { return lsGet("cp_family", false); }
+
+function poolFiltered() {
+  const pool = fullPool();
+  if (!familyMode()) return pool;
+  return pool.filter(i => i.explicit !== true && branchOf(i) !== "comedy");
+}
+
 function fmtDur(min) {
   if (!min) return "";
   return min >= 60 ? `${Math.floor(min / 60)}h ${min % 60}m` : `${min} min`;
@@ -192,7 +233,7 @@ function rememberSeen(ids) {
 }
 
 function buildCards() {
-  const pool = fullPool();
+  const pool = poolFiltered();
   const history = new Set(pickedHistory());
   const seen = new Set(lsGet("cp_seen", []));
   const byBranch = {};
@@ -353,7 +394,7 @@ function scoreMatch(item, interp) {
 
 function searchWithRelaxation(interp, minScore) {
   const attempt = (filters) => {
-    const pool = fullPool().filter(i => passesFilters(i, filters));
+    const pool = poolFiltered().filter(i => passesFilters(i, filters));
     if (!interp.groups.length) {
       return pool.map(i => ({ i, sum: interestScore(i), matched: 0 }))
         .sort((a, b) => b.sum - a.sum);
@@ -450,6 +491,7 @@ function bindPickLogging(scope) {
       if (snap && a.dataset.ctx !== "continue") {
         lsSet("cp_lastpick", { ...snap, ts: new Date().toISOString() });
       }
+      trySyncEvents();
     });
   });
 }
@@ -482,7 +524,7 @@ function bannerHtml() {
   const c = currentContinue();
   if (!c) return "";
   snapshot(c.id, c);
-  return `<a class="banner" href="${esc(safeUrl(appleLink(c)))}" target="_blank" rel="noopener"
+  return `<a class="banner" href="${esc(safeUrl(playLink(c)))}" target="_blank" rel="noopener"
       data-ev="picked" data-ep="${c.id}" data-ctx="continue">
     ${c.artwork_url ? `<img src="${esc(safeUrl(c.artwork_url))}" alt="">` : ""}
     <div class="b-info">
@@ -497,7 +539,7 @@ function miniCard(slot) {
   const item = slot.item;
   const why = whyFor(item.id, item);
   return `<a class="mini-card" data-branch="${esc(slot.branch)}"
-      href="${esc(safeUrl(appleLink(item)))}" target="_blank" rel="noopener"
+      href="${esc(safeUrl(playLink(item)))}" target="_blank" rel="noopener"
       data-ev="picked" data-ep="${item.id}" data-ctx="card-${esc(slot.branch)}">
     ${item.artwork_url ? `<img src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : `<div class="art-ph"></div>`}
     <div class="mc-info">
@@ -565,7 +607,7 @@ function epRow(item, idx, ctx, nextIdx) {
       <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
     </div>
     ${starBtn(item.id)}
-    <a class="go" href="${esc(safeUrl(appleLink(item)))}" target="_blank" rel="noopener"
+    <a class="go" href="${esc(safeUrl(playLink(item)))}" target="_blank" rel="noopener"
        data-ev="picked" data-ep="${item.id}" data-ctx="${ctx}">Play</a>
   </div>`;
 }
@@ -632,6 +674,8 @@ function renderDrawer() {
   $("#drawer-playlists").innerHTML = recent.map(p =>
     `<a class="drawer-item" href="#/playlist/${esc(p.id)}">${esc(p.title)}</a>`).join("")
     || `<p class="drawer-empty">none yet</p>`;
+  $("#family-toggle").textContent = `Family mode: ${familyMode() ? "on" : "off"}`;
+  $("#player-toggle").textContent = `Open in: ${playerPref() === "apple" ? "Apple Podcasts" : "Pocket Casts (show page)"}`;
 }
 
 function openDrawer(open) {
@@ -680,11 +724,25 @@ async function init() {
   state.ready = true;
   route();
   logEvent("session_shown", { session_id: state.session.session_id });
+  trySyncEvents();
 
   $("#menu-btn").addEventListener("click", () => openDrawer($("#drawer").hidden));
   $("#drawer-overlay").addEventListener("click", () => openDrawer(false));
   $("#drawer").addEventListener("click", (e) => {
     if (e.target.closest("a")) openDrawer(false);
+  });
+  $("#family-toggle").addEventListener("click", () => {
+    lsSet("cp_family", !familyMode());
+    logEvent("family_mode", { on: familyMode() });
+    buildCards();
+    renderDrawer();
+    route();
+  });
+  $("#player-toggle").addEventListener("click", () => {
+    lsSet("cp_player", playerPref() === "apple" ? "pocketcasts" : "apple");
+    logEvent("player_pref", { player: playerPref() });
+    renderDrawer();
+    route();
   });
   $("#refresh-btn").addEventListener("click", () => {
     buildCards();

@@ -8,3 +8,4 @@ backend/output/
 
 data/catalog-breadth-intl.json
 *.checkpoint
+data-local/
