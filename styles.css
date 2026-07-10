@@ -45,6 +45,7 @@ body.view-home { overflow: hidden; }
   z-index: 20;
 }
 .topbar h1 { flex: 1; font-size: 1.05rem; margin: 0; letter-spacing: -0.01em; }
+.topbar h1 a { color: var(--text); text-decoration: none; }
 .topbar button {
   width: 42px; height: 42px;
   border: none; border-radius: 10px;

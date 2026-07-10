@@ -377,12 +377,30 @@ function searchWithRelaxation(interp, minScore) {
 
 /* ---------- playlists ---------- */
 
+/* "give me a series about fusion" is a prompt, not a name. Derive a clean
+   title from the meaningful words of the ask. */
+const ACRONYMS = new Set(["ai", "bbq", "ww2", "ww1", "f1", "nasa", "diy", "cia", "fbi", "nfl", "nba", "mlb", "ufc", "tv"]);
+
+function prettyTitle(query) {
+  const raw = query.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  let words = raw.filter(w => !STOPWORDS.has(w));
+  if (!words.length) words = raw;
+  return words.slice(0, 4)
+    .map(w => ACRONYMS.has(w) ? w.toUpperCase() : w[0].toUpperCase() + w.slice(1))
+    .join(" ") || "Playlist";
+}
+
 function playlists() {
   let all = lsGet("cp_playlists", null);
   if (all === null) {
     all = lsGet("cp_quests", []);   // migrate the old key once
     lsSet("cp_playlists", all);
   }
+  let touched = false;
+  for (const p of all) {
+    if (!p.title) { p.title = prettyTitle(p.query || ""); touched = true; }
+  }
+  if (touched) lsSet("cp_playlists", all);
   return all;
 }
 
@@ -405,6 +423,7 @@ function buildPlaylist(query) {
   const playlist = {
     id: "q" + Date.now(),
     query: query.trim(),
+    title: prettyTitle(query),
     item_ids: picks.map(x => x.i.id),
     created: new Date().toISOString(),
     last_played_at: null,
@@ -566,7 +585,7 @@ function renderPlaylistDetail(id) {
       <div class="page-head">
         <a class="back" href="#/">‹</a>
         <div>
-          <h2>“${esc(p.query)}”</h2>
+          <h2>${esc(p.title)}</h2>
           <p class="sub">${items.length}-part playlist · ${played} played</p>
         </div>
       </div>
@@ -595,7 +614,7 @@ function renderPlaylists() {
       ${all.length ? all.map(p => `
         <a class="pl-row" href="#/playlist/${esc(p.id)}">
           <div class="info">
-            <div class="t">“${esc(p.query)}”</div>
+            <div class="t">${esc(p.title)}</div>
             <div class="s">${p.item_ids.length} parts${p.last_played_at ? ` · played ${new Date(p.last_played_at).toLocaleDateString()}` : ""}</div>
           </div>
           <span class="chev">›</span>
@@ -611,7 +630,7 @@ function renderDrawer() {
     .sort((a, b) => (b.last_played_at || b.created).localeCompare(a.last_played_at || a.created))
     .slice(0, 5);
   $("#drawer-playlists").innerHTML = recent.map(p =>
-    `<a class="drawer-item" href="#/playlist/${esc(p.id)}">“${esc(p.query)}”</a>`).join("")
+    `<a class="drawer-item" href="#/playlist/${esc(p.id)}">${esc(p.title)}</a>`).join("")
     || `<p class="drawer-empty">none yet</p>`;
 }
 
