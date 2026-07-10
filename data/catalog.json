@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:03:27.167Z",
+  "built_at": "2026-07-10T00:12:11.091Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -3704,6 +3704,255 @@
       "cadence_hint": null,
       "explicit": false,
       "source": "gap-wave-3"
+    },
+    {
+      "show_id": "this-american-life",
+      "title": "This American Life",
+      "apple_collection_id": 201671138,
+      "feed_url": "https://www.thisamericanlife.org/podcast/rss.xml",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Ira Glass and team build each week around a theme, mixing reported stories with personal narrative.",
+      "taxonomy_node_ids": [
+        "personal-journals",
+        "science/storytelling"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "snap-judgment",
+      "title": "Snap Judgment",
+      "apple_collection_id": 283657561,
+      "feed_url": "https://rss.pdrl.fm/9ba5b0/snap.feed.snapjudgment.org",
+      "apple_genre": "Performing Arts",
+      "editorial_note": "Glynn Washington hosts cinematic first-person stories, scored like radio drama, from storytellers worldwide.",
+      "taxonomy_node_ids": [
+        "science/storytelling",
+        "personal-journals"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-moth",
+      "title": "The Moth",
+      "apple_collection_id": 275699983,
+      "feed_url": "http://feeds.feedburner.com/themothpodcast",
+      "apple_genre": "Performing Arts",
+      "editorial_note": "True stories told live without notes, from the institution that helped define the form.",
+      "taxonomy_node_ids": [
+        "science/storytelling",
+        "culture/performing-arts"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ear-hustle",
+      "title": "Ear Hustle",
+      "apple_collection_id": 1240841298,
+      "feed_url": "https://feeds.earhustlesq.com/earhustlesq",
+      "apple_genre": "Documentary",
+      "editorial_note": "Earlonne Woods and Nigel Poor report daily life inside San Quentin, told by those living it.",
+      "taxonomy_node_ids": [
+        "society",
+        "personal-journals"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": true,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "storycorps",
+      "title": "StoryCorps",
+      "apple_collection_id": 250500859,
+      "feed_url": "https://feeds.npr.org/510200/podcast.xml",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Short, intimate conversations between everyday people, drawn from the largest archive of American voices.",
+      "taxonomy_node_ids": [
+        "personal-journals",
+        "society"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "heavyweight",
+      "title": "Heavyweight",
+      "apple_collection_id": 1150800298,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/afbd76b8-eff2-442a-b938-b28e0126edad/d08826cd-f888-4cd3-b700-b28e0126edbb/podcast.rss",
+      "apple_genre": "Personal Journals",
+      "editorial_note": "Jonathan Goldstein helps people return to a moment from their past they wish had gone differently.",
+      "taxonomy_node_ids": [
+        "personal-journals",
+        "relationships"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": true,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "death-sex-money",
+      "title": "Death, Sex & Money",
+      "apple_collection_id": 870688022,
+      "feed_url": "https://my.slate.com/podcasts/feeds/death-sex-money/",
+      "apple_genre": "Relationships",
+      "editorial_note": "Anna Sale hosts frank conversations about the things we think about but rarely say aloud.",
+      "taxonomy_node_ids": [
+        "personal-journals",
+        "relationships"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "where-should-we-begin",
+      "title": "Where Should We Begin? with Esther Perel",
+      "apple_collection_id": 1237931798,
+      "feed_url": "https://feeds.megaphone.fm/ep-wswb",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Therapist Esther Perel opens her office for real, one-time counseling sessions with anonymous couples.",
+      "taxonomy_node_ids": [
+        "relationships",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "modern-love",
+      "title": "Modern Love",
+      "apple_collection_id": 1065559535,
+      "feed_url": "https://feeds.simplecast.com/eHEJ08b1",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Anna Martin hosts essays and interviews about love in its complicated forms, from the Times column.",
+      "taxonomy_node_ids": [
+        "relationships",
+        "personal-journals"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": true,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "we-can-do-hard-things",
+      "title": "We Can Do Hard Things",
+      "apple_collection_id": 1564530722,
+      "feed_url": "https://feeds.megaphone.fm/wcdht",
+      "apple_genre": "Relationships",
+      "editorial_note": "Glennon Doyle, Abby Wambach and Amanda Doyle talk honestly about hard things, with warmth and candor.",
+      "taxonomy_node_ids": [
+        "relationships",
+        "health/mental"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": true,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "dear-sugars",
+      "title": "Dear Sugars",
+      "apple_collection_id": 950464429,
+      "feed_url": "https://rss.wbur.org/dearsugar/podcast",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Cheryl Strayed and Steve Almond answer letters with radical empathy and hard-won personal honesty.",
+      "taxonomy_node_ids": [
+        "relationships",
+        "personal-journals"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "narrative"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "dear-prudence",
+      "title": "Dear Prudence",
+      "apple_collection_id": 1667640147,
+      "feed_url": "https://feeds.acast.com/public/shows/695d55b2d1ba84fb8f06bd87",
+      "apple_genre": "Relationships",
+      "editorial_note": "Slate advice columnists answer listener letters on family, friendship and love with humor and candor.",
+      "taxonomy_node_ids": [
+        "relationships",
+        "personal-journals"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
     }
   ]
 }

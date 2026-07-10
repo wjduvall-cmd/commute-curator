@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:03:27.167Z",
+  "built_at": "2026-07-10T00:12:11.091Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -5800,6 +5800,301 @@
       "investigation",
       "earwitness",
       "narrative"
+    ],
+    "this-american-life--mistakes-were-made": [
+      "cryonics",
+      "death",
+      "science",
+      "1960s",
+      "reported-story",
+      "this-american-life",
+      "narrative"
+    ],
+    "this-american-life--blackout": [
+      "iran",
+      "war",
+      "internet-blackout",
+      "voice-memos",
+      "journalism",
+      "reported-story",
+      "narrative"
+    ],
+    "this-american-life--call-your-parents": [
+      "family",
+      "parents",
+      "ira-glass",
+      "memory",
+      "interview",
+      "personal-story",
+      "narrative"
+    ],
+    "snap-judgment--deliverance": [
+      "identity",
+      "faith",
+      "coming-out",
+      "first-person",
+      "storytelling",
+      "snap-judgment",
+      "narrative"
+    ],
+    "snap-judgment--something-sacred": [
+      "coast-guard",
+      "hawaii",
+      "hula",
+      "the-unexplained",
+      "storytelling",
+      "narrative"
+    ],
+    "snap-judgment--silence-speaks": [
+      "mime",
+      "dissent",
+      "courage",
+      "first-person",
+      "storytelling",
+      "snap-judgment",
+      "narrative"
+    ],
+    "the-moth--taking-risks": [
+      "risk",
+      "live-storytelling",
+      "moth-radio-hour",
+      "true-stories",
+      "performance",
+      "narrative"
+    ],
+    "the-moth--blindsided": [
+      "surprise",
+      "resilience",
+      "live-storytelling",
+      "true-stories",
+      "personal-story",
+      "narrative"
+    ],
+    "the-moth--american-dreams": [
+      "ambition",
+      "immigration",
+      "live-storytelling",
+      "true-stories",
+      "america",
+      "narrative"
+    ],
+    "ear-hustle--over-and-over": [
+      "prison",
+      "san-quentin",
+      "forgiveness",
+      "reconciliation",
+      "first-person",
+      "documentary",
+      "narrative"
+    ],
+    "ear-hustle--bag-of-skittles": [
+      "prison",
+      "san-quentin",
+      "body-image",
+      "identity",
+      "documentary",
+      "narrative"
+    ],
+    "ear-hustle--songs-of-san-quentin": [
+      "prison",
+      "san-quentin",
+      "music",
+      "creativity",
+      "documentary",
+      "narrative"
+    ],
+    "storycorps--america-meet-america": [
+      "oral-history",
+      "america",
+      "everyday-people",
+      "interview",
+      "storycorps",
+      "narrative"
+    ],
+    "storycorps--love-shines-through": [
+      "pulse-shooting",
+      "lgbtq",
+      "grief",
+      "memory",
+      "oral-history",
+      "narrative"
+    ],
+    "storycorps--what-were-made-of": [
+      "courage",
+      "strangers",
+      "kindness",
+      "oral-history",
+      "everyday-people",
+      "narrative"
+    ],
+    "heavyweight--minneapolis": [
+      "family",
+      "ice",
+      "immigration",
+      "reunion",
+      "personal-story",
+      "heavyweight",
+      "narrative"
+    ],
+    "heavyweight--julia": [
+      "bullying",
+      "school",
+      "reunion",
+      "closure",
+      "personal-story",
+      "narrative"
+    ],
+    "heavyweight--skye": [
+      "friendship",
+      "betrayal",
+      "confrontation",
+      "closure",
+      "personal-story",
+      "narrative"
+    ],
+    "death-sex-money--parent-child-anxiety": [
+      "parenting",
+      "anxiety",
+      "therapy",
+      "mental-health",
+      "interview",
+      "yale"
+    ],
+    "death-sex-money--something-rotten-stanford": [
+      "journalism",
+      "stanford",
+      "academic-misconduct",
+      "college",
+      "interview",
+      "reported-story"
+    ],
+    "death-sex-money--rick-steves-travel": [
+      "travel",
+      "iran",
+      "empathy",
+      "rick-steves",
+      "interview",
+      "fear"
+    ],
+    "where-should-we-begin--mating-in-captivity-20": [
+      "desire",
+      "long-term-relationships",
+      "esther-perel",
+      "intimacy",
+      "live",
+      "relationships"
+    ],
+    "where-should-we-begin--is-this-the-person": [
+      "couples-therapy",
+      "commitment",
+      "relationships",
+      "esther-perel",
+      "breakup",
+      "intimacy"
+    ],
+    "where-should-we-begin--still-in-the-middle": [
+      "family",
+      "divorce",
+      "boundaries",
+      "esther-perel",
+      "couples-therapy",
+      "emotional-labor"
+    ],
+    "modern-love--ask-me-dead-son": [
+      "grief",
+      "parenting",
+      "loss",
+      "memory",
+      "interview",
+      "modern-love"
+    ],
+    "modern-love--eddie-huang": [
+      "identity",
+      "masculinity",
+      "asian-american",
+      "pop-culture",
+      "interview",
+      "modern-love"
+    ],
+    "modern-love--friends-lovers-one-night": [
+      "friendship",
+      "romance",
+      "attraction",
+      "personal-essay",
+      "modern-love",
+      "narrative"
+    ],
+    "we-can-do-hard-things--boundaries-burnout": [
+      "boundaries",
+      "burnout",
+      "self-care",
+      "nedra-glover-tawwab",
+      "mental-health",
+      "interview"
+    ],
+    "we-can-do-hard-things--mothers-sons": [
+      "motherhood",
+      "parenting",
+      "ocean-vuong",
+      "masculinity",
+      "books",
+      "interview"
+    ],
+    "we-can-do-hard-things--surviving-criticism": [
+      "criticism",
+      "resilience",
+      "self-improvement",
+      "glennon-doyle",
+      "confidence",
+      "mental-health"
+    ],
+    "dear-sugars--should-i-stay-or-go": [
+      "relationships",
+      "advice",
+      "rapid-fire",
+      "decisions",
+      "letters",
+      "dear-sugars"
+    ],
+    "dear-sugars--sex-and-aging": [
+      "sex",
+      "aging",
+      "desire",
+      "relationships",
+      "advice",
+      "letters"
+    ],
+    "dear-sugars--change-work-in-progress": [
+      "change",
+      "addiction",
+      "motherhood",
+      "advice",
+      "letters",
+      "dear-sugars"
+    ],
+    "dear-prudence--no-contact-parents": [
+      "family",
+      "estrangement",
+      "advice",
+      "boundaries",
+      "letters",
+      "dear-prudence"
+    ],
+    "dear-prudence--politics-family": [
+      "family",
+      "politics",
+      "dating",
+      "advice",
+      "letters",
+      "dear-prudence"
+    ],
+    "dear-prudence--love-sister-dont-like": [
+      "family",
+      "siblings",
+      "advice",
+      "stepchildren",
+      "letters",
+      "dear-prudence"
     ]
   }
 }
