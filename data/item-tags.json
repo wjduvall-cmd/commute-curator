@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:02:02.527Z",
+  "built_at": "2026-07-10T00:02:26.570Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -5258,6 +5258,286 @@
       "parenting",
       "teens",
       "lisa-damour",
+      "interview"
+    ],
+    "armchair-expert--dave-eggers": [
+      "dave-eggers",
+      "writing",
+      "publishing",
+      "mcsweeneys",
+      "literature",
+      "creativity",
+      "interview"
+    ],
+    "armchair-expert--edward-norton": [
+      "edward-norton",
+      "acting",
+      "filmmaking",
+      "method-acting",
+      "hollywood",
+      "craft",
+      "interview"
+    ],
+    "armchair-expert--olivia-wilde": [
+      "olivia-wilde",
+      "directing",
+      "acting",
+      "filmmaking",
+      "family",
+      "hollywood",
+      "interview"
+    ],
+    "call-her-daddy--emmy-rossum": [
+      "emmy-rossum",
+      "shameless",
+      "acting",
+      "pay-equity",
+      "motherhood",
+      "hollywood",
+      "interview"
+    ],
+    "call-her-daddy--katie-couric": [
+      "katie-couric",
+      "journalism",
+      "broadcasting",
+      "sexism",
+      "grief",
+      "cancer",
+      "interview"
+    ],
+    "call-her-daddy--riley-keough": [
+      "riley-keough",
+      "acting",
+      "family",
+      "addiction",
+      "grief",
+      "hollywood",
+      "interview"
+    ],
+    "this-past-weekend-theo-von--jeff-bridges": [
+      "jeff-bridges",
+      "acting",
+      "music",
+      "spirituality",
+      "hollywood",
+      "storytelling",
+      "interview"
+    ],
+    "this-past-weekend-theo-von--duncan-trussell": [
+      "duncan-trussell",
+      "comedy",
+      "philosophy",
+      "technology",
+      "spirituality",
+      "storytelling",
+      "interview"
+    ],
+    "this-past-weekend-theo-von--matt-rife": [
+      "matt-rife",
+      "stand-up",
+      "comedy",
+      "crowd-work",
+      "family",
+      "storytelling",
+      "interview"
+    ],
+    "wtf-marc-maron--barack-obama": [
+      "barack-obama",
+      "politics",
+      "podcasting",
+      "legacy",
+      "interview",
+      "final-episode"
+    ],
+    "wtf-marc-maron--matt-groening": [
+      "matt-groening",
+      "the-simpsons",
+      "cartooning",
+      "animation",
+      "creativity",
+      "craft",
+      "interview"
+    ],
+    "wtf-marc-maron--jimmy-pardo": [
+      "jimmy-pardo",
+      "podcasting",
+      "stand-up",
+      "comedy",
+      "history",
+      "friendship",
+      "interview"
+    ],
+    "las-culturistas--mindy-kaling": [
+      "mindy-kaling",
+      "pop-culture",
+      "television",
+      "writing",
+      "awards",
+      "comedy",
+      "interview"
+    ],
+    "las-culturistas--darcy-carden": [
+      "darcy-carden",
+      "pop-culture",
+      "acting",
+      "comedy",
+      "television",
+      "music",
+      "interview"
+    ],
+    "las-culturistas--adam-shankman": [
+      "adam-shankman",
+      "filmmaking",
+      "directing",
+      "hairspray",
+      "musicals",
+      "pop-culture",
+      "interview"
+    ],
+    "comedy-bang-bang--jon-hamm-david-wain": [
+      "jon-hamm",
+      "david-wain",
+      "improv",
+      "characters",
+      "comedy",
+      "absurdist",
+      "panel"
+    ],
+    "comedy-bang-bang--zombily-usa": [
+      "erinn-hayes",
+      "improv",
+      "characters",
+      "comedy",
+      "absurdist",
+      "sketch",
+      "panel"
+    ],
+    "comedy-bang-bang--st-louis-live": [
+      "paul-f-tompkins",
+      "improv",
+      "live-show",
+      "characters",
+      "comedy",
+      "absurdist",
+      "panel"
+    ],
+    "2-bears-1-cave--patrice-oneal": [
+      "patrice-oneal",
+      "stand-up",
+      "comedy",
+      "storytelling",
+      "friendship",
+      "hang"
+    ],
+    "2-bears-1-cave--rose-bowl-5k": [
+      "live-show",
+      "comedy",
+      "running",
+      "storytelling",
+      "hang"
+    ],
+    "2-bears-1-cave--ari-shaffir": [
+      "ari-shaffir",
+      "stand-up",
+      "comedy",
+      "storytelling",
+      "hang"
+    ],
+    "how-did-this-get-made--airborne": [
+      "airborne",
+      "bad-movies",
+      "film-comedy",
+      "live-show",
+      "movie-riffing",
+      "panel"
+    ],
+    "how-did-this-get-made--vertical-limit": [
+      "vertical-limit",
+      "bad-movies",
+      "film-comedy",
+      "movie-riffing",
+      "laci-mosley",
+      "panel"
+    ],
+    "how-did-this-get-made--tough-guys-dont-dance": [
+      "tough-guys-dont-dance",
+      "bad-movies",
+      "film-comedy",
+      "norman-mailer",
+      "movie-riffing",
+      "panel"
+    ],
+    "handsome--kristen-kish": [
+      "kristen-kish",
+      "food",
+      "comedy",
+      "storytelling",
+      "friendship",
+      "hang"
+    ],
+    "handsome--samara-weaving": [
+      "samara-weaving",
+      "comedy",
+      "storytelling",
+      "friendship",
+      "hang"
+    ],
+    "handsome--the-beaches": [
+      "the-beaches",
+      "music",
+      "comedy",
+      "queer",
+      "storytelling",
+      "hang"
+    ],
+    "kill-tony--775-joe-rogan": [
+      "joe-rogan",
+      "stand-up",
+      "open-mic",
+      "roast",
+      "live-show",
+      "comedy"
+    ],
+    "kill-tony--773-francisco-ramos": [
+      "francisco-ramos",
+      "stand-up",
+      "open-mic",
+      "roast",
+      "live-show",
+      "comedy"
+    ],
+    "kill-tony--770-tom-segura": [
+      "tom-segura",
+      "sheryl-underwood",
+      "stand-up",
+      "open-mic",
+      "live-show",
+      "comedy"
+    ],
+    "working-it-out-birbiglia--wanda-sykes": [
+      "wanda-sykes",
+      "stand-up",
+      "comedy",
+      "writing",
+      "craft",
+      "interview"
+    ],
+    "working-it-out-birbiglia--phil-lord-chris-miller": [
+      "phil-lord",
+      "chris-miller",
+      "filmmaking",
+      "writing",
+      "creativity",
+      "craft",
+      "interview"
+    ],
+    "working-it-out-birbiglia--fred-armisen": [
+      "fred-armisen",
+      "snl",
+      "sketch",
+      "comedy",
+      "writing",
+      "craft",
       "interview"
     ]
   }

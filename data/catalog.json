@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:02:02.527Z",
+  "built_at": "2026-07-10T00:02:26.570Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -3253,6 +3253,218 @@
       "cadence_hint": "weekly",
       "artwork_url": null,
       "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "armchair-expert",
+      "title": "Armchair Expert with Dax Shepard",
+      "apple_collection_id": 1345682353,
+      "feed_url": "https://rss.art19.com/armchair-expert",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f0/13/8f/f0138f4b-8bc3-0a64-2c11-ef566840f60f/mza_3062409012210474882.jpeg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 1067,
+      "editorial_note": "Dax Shepard's long-form celebrity interviews that keep going until the guest actually opens up.",
+      "taxonomy_node_ids": [
+        "comedy/interviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "call-her-daddy",
+      "title": "Call Her Daddy",
+      "apple_collection_id": 1418960261,
+      "feed_url": "https://feeds.simplecast.com/mKn_QmLS",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/10/91/05109145-8c22-5464-1f20-aaedeab769f8/mza_10276081716633787086.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 598,
+      "editorial_note": "Alex Cooper sits down one-on-one with women who rarely give this candid an interview.",
+      "taxonomy_node_ids": [
+        "comedy/interviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "this-past-weekend-theo-von",
+      "title": "This Past Weekend w/ Theo Von",
+      "apple_collection_id": 1190981360,
+      "feed_url": "https://feeds.megaphone.fm/thispastweekend",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/f6/5a/9cf65abb-f8db-fb7b-984f-b4276a1e8c85/mza_2107148709996282347.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 554,
+      "editorial_note": "Theo Von's Louisiana storytelling turns every guest conversation into a warm, meandering hang.",
+      "taxonomy_node_ids": [
+        "comedy/interviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "wtf-marc-maron",
+      "title": "WTF with Marc Maron Podcast",
+      "apple_collection_id": 329875043,
+      "feed_url": "https://feeds.acast.com/public/shows/62a222737c02140013aa4c03",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/8b/14/d0/8b14d040-414c-92a6-21f8-04fb72d8d926/mza_13560057034834656474.jpeg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 1226,
+      "editorial_note": "The podcast that defined the comedian-interview form -- Maron gets guests to their real stuff.",
+      "taxonomy_node_ids": [
+        "comedy/interviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "las-culturistas",
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang",
+      "apple_collection_id": 1092361338,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f6816727-c503-47ac-a7ac-ae2700391b1e/935c500f-8bb0-436b-ba7f-ae2700391b49/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/25/2e/88/252e88df-e96e-a264-7a32-456dce4a36dd/mza_13164992107952038598.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 566,
+      "editorial_note": "Matt Rogers and Bowen Yang and a guest riff on culture high and low at full volume.",
+      "taxonomy_node_ids": [
+        "comedy/interviews",
+        "culture/pop-culture"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "comedy-bang-bang",
+      "title": "Comedy Bang Bang: The Podcast",
+      "apple_collection_id": 316045799,
+      "feed_url": "https://feeds.simplecast.com/byb4nhvN",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0b/ca/6e/0bca6ee0-0b2b-5df7-edee-4d9d1b2d4e8a/mza_10749952114435066299.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 162,
+      "editorial_note": "Scott Aukerman hosts real guests and improvised characters in the same absurd conversation.",
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "2-bears-1-cave",
+      "title": "2 Bears, 1 Cave with Tom Segura & Bert Kreischer",
+      "apple_collection_id": 1468013270,
+      "feed_url": "https://feeds.megaphone.fm/YMH8516456556",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/6b/83/2a6b830c-da57-31f3-9bc6-eb34b56aaaa7/mza_2112252473885241390.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 333,
+      "editorial_note": "Tom Segura and Bert Kreischer needling each other -- spikier energy for days that need a jolt.",
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "how-did-this-get-made",
+      "title": "How Did This Get Made?",
+      "apple_collection_id": 409287913,
+      "feed_url": "https://feeds.simplecast.com/Ao0C24M8",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/06/00/4b06006c-8936-1653-fc82-132b64441f4f/mza_5523773122723324139.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 378,
+      "editorial_note": "Paul Scheer, June Diane Raphael, and Jason Mantzoukas lovingly tear apart the worst movies ever made.",
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs",
+        "tv-film/reviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "handsome",
+      "title": "Handsome",
+      "apple_collection_id": 1702258458,
+      "feed_url": "https://rss.art19.com/handsome",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/96/1b/e1961bc1-eae4-b488-3b0f-abdc52f06568/mza_18244201912816466457.jpeg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 251,
+      "editorial_note": "Tig Notaro, Mae Martin, and Fortune Feimster answer one listener question and wander delightfully off it.",
+      "taxonomy_node_ids": [
+        "comedy/casual-hangs"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "kill-tony",
+      "title": "KILL TONY",
+      "apple_collection_id": 1042361179,
+      "feed_url": "https://feeds.simplecast.com/JZSQrle9",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a0/ad/df/a0addf99-adce-5a42-a138-81d9f8e4562e/mza_8301528492532104652.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy",
+      "episode_count": 775,
+      "editorial_note": "Live one-minute stand-up sets from unknowns, judged on the spot by Tony Hinchcliffe and famous drop-ins.",
+      "taxonomy_node_ids": [
+        "comedy/stand-up"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "working-it-out-birbiglia",
+      "title": "Mike Birbiglia's Working It Out",
+      "apple_collection_id": 1515419751,
+      "feed_url": "https://feeds.simplecast.com/MTW0B2El",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ef/af/30/efaf301d-6e45-ca17-192e-ef7e66afdcfd/mza_16176505125015117955.jpg/600x600bb.jpg",
+      "apple_genre": "Comedy Interviews",
+      "episode_count": 253,
+      "editorial_note": "Mike Birbiglia and a fellow comedian workshop unfinished jokes and talk honestly about the craft.",
+      "taxonomy_node_ids": [
+        "comedy/stand-up",
+        "comedy/interviews"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
     }
