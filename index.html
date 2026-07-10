@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src https: data:; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
-<title>Foray — today's session</title>
+<title>Foray</title>
 <meta name="theme-color" content="#0d1117">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -16,62 +16,20 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎙️</text></svg>">
 </head>
 <body>
-<div class="wrap">
-  <header class="masthead">
-    <h1>Foray</h1>
-    <p id="built-at">Loading your session…</p>
-  </header>
+<header class="topbar">
+  <button id="menu-btn" aria-label="Menu">☰</button>
+  <h1>Foray</h1>
+  <button id="refresh-btn" aria-label="New suggestions">↻</button>
+</header>
 
-  <main>
-    <div id="continue-slot"></div>
-    <div id="cards" class="cards"></div>
+<div id="drawer-overlay" hidden></div>
+<nav id="drawer" hidden>
+  <a class="drawer-section" href="#/playlists">Playlists</a>
+  <div id="drawer-playlists"></div>
+</nav>
 
-    <div class="refresh-row">
-      <button id="refresh-all" class="refresh">↻ Refresh all four picks</button>
-    </div>
+<main id="view"></main>
 
-    <section class="browse">
-      <div class="splat-head">
-        <div>
-          <h2>The splatter</h2>
-          <p>Interesting stuff, deliberately scattered. Some of it ignores your tastes on purpose.</p>
-        </div>
-        <button id="reshuffle" class="shuffle" aria-label="Reshuffle">🎲</button>
-      </div>
-      <div id="splatter-body"></div>
-    </section>
-
-    <section class="browse">
-      <h2>Build me a series</h2>
-      <p>Say what you want to go deep on — Foray strings episodes into an ordered run.</p>
-      <form id="quest-form" class="quest-form">
-        <input id="quest-input" type="text" placeholder='e.g. "a series about fusion"' autocomplete="off" maxlength="120">
-        <button type="submit">Build</button>
-      </form>
-      <div id="quest-body"></div>
-    </section>
-
-    <section class="browse">
-      <h2>Search</h2>
-      <input id="search" type="search" placeholder='Try "rocket engineering" or "short and funny"…' autocomplete="off">
-      <div id="search-results"></div>
-    </section>
-
-    <section class="browse">
-      <div id="saved-shelf"></div>
-      <div id="fusion-tour"></div>
-      <details class="cat">
-        <summary><span>Tune your interests<span class="desc">Tilt the splatter toward what you're curious about lately.</span></span></summary>
-        <div id="interests-body" class="int-body"></div>
-      </details>
-    </section>
-  </main>
-
-  <footer>
-    <p>Playback happens in your podcast app — Foray never hosts audio.<br>
-    Buttons: Apple Podcasts (iPhone) · Overcast · pod.link (Android &amp; everything else).</p>
-  </footer>
-</div>
 <script src="app.js"></script>
 </body>
 </html>

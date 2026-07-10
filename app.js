@@ -1,11 +1,7 @@
-/* Foray web client v3.
-   - Fresh content every load: card slots rotate through their chains
-     (already-played picks deprioritized), splatter re-samples with a
-     recently-seen exclusion window.
-   - Continue card: your last pick pins to the top while it's plausibly
-     unfinished (longer than one commute), until you mark it done.
-   - Stars: save any episode for later; saving nudges its topics up.
-   - Exploration floor: 30% of every splatter ignores your weights. */
+/* Foray web client v4 — app shell.
+   Views: home (one screen, no scroll: continue banner + 4 suggestions +
+   playlist builder), playlists list, playlist detail. Hash routing.
+   The semantic layer (compiled concepts + tags) powers playlist building. */
 
 const state = {
   session: null,
@@ -13,32 +9,26 @@ const state = {
   taxonomy: null,
   discover: null,
   interests: {},
-  semantic: null,           // data/semantic-index.json — compiled query brain
-  itemTags: null,           // data/item-tags.json — per-episode tag sets
-  cardSlots: [],            // the four dealt cards: {slot, branch, chain, idx}
-  splatter: [],
-  itemIndex: {},            // id -> snapshot (everything rendered this load)
+  semantic: null,
+  itemTags: null,
+  cardSlots: [],            // the four dealt suggestions
+  itemIndex: {},            // id -> snapshot
+  ready: false,
 };
 
-const EXPLORATION_SHARE = 0.3;
-const SPLATTER_SIZE = 12;
-const SEEN_WINDOW = 100;    // recently-shown ids excluded from re-sampling (cards + splatter)
-const BRANCH_MEMORY = 8;    // recently-dealt branches get deprioritized
+const SEEN_WINDOW = 100;
+const BRANCH_MEMORY = 8;
 const CONTINUE_MAX_AGE_H = 72;
 
 const $ = (sel, el = document) => el.querySelector(sel);
 
-/* All catalog data flows through innerHTML templates; escape every
-   data-derived string so a hostile episode title in a feed can never
-   become markup. */
+/* ---------- escaping / urls ---------- */
+
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-/* Scheme-check any URL that lands in href/src. esc() stops markup injection
-   but not javascript: URLs; this closes that hole before sessions ever come
-   from live RSS data. */
 function safeUrl(u) {
   try {
     const p = new URL(u);
@@ -47,7 +37,7 @@ function safeUrl(u) {
   return "#";
 }
 
-/* ---------- storage helpers ---------- */
+/* ---------- storage ---------- */
 
 function lsGet(key, fallback) {
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch (_) { return fallback; }
@@ -69,12 +59,10 @@ function logEvent(type, payload) {
   const events = lsGet("cp_events", []);
   const builder = state.session?.builder || "unknown";
   events.push({ ts: new Date().toISOString(), type, builder, profile: profileId(), payload });
-  // 5000-event buffer: this is the retention telemetry until a durable
-  // /events endpoint exists (REQUIREMENTS-DELTA R2) — don't let it wrap.
   lsSet("cp_events", events.slice(-5000));
 }
 
-/* ---------- interests ---------- */
+/* ---------- interests / topics ---------- */
 
 function leafNodes() {
   return (state.taxonomy?.nodes || []).filter(n => n.parent !== null);
@@ -98,7 +86,7 @@ function boostTopics(topics, amount) {
   saveInterests();
 }
 
-/* ---------- episode / snapshot helpers ---------- */
+/* ---------- pool ---------- */
 
 function episode(id) {
   const ep = state.session.episodes[id];
@@ -127,13 +115,25 @@ function snapshot(id, src) {
   return snap;
 }
 
-function links(item) {
+function fullPool() {
+  const pool = [];
+  const seen = new Set();
+  for (const id of Object.keys(state.session.episodes)) {
+    pool.push(snapshot(id, episode(id)));
+    seen.add(id);
+  }
+  for (const item of (state.discover?.items || [])) {
+    if (!seen.has(item.id)) pool.push(snapshot(item.id, item));
+  }
+  return pool;
+}
+
+function appleLink(item) {
   const cid = item.apple_collection_id;
-  const apple = item.apple_episode_url
+  return item.apple_episode_url
     || (item.apple_track_id
         ? `https://podcasts.apple.com/us/podcast/id${cid}?i=${item.apple_track_id}`
         : `https://podcasts.apple.com/us/podcast/id${cid}`);
-  return { apple, overcast: `https://overcast.fm/itunes${cid}`, podlink: `https://pod.link/${cid}` };
 }
 
 function fmtDur(min) {
@@ -146,10 +146,16 @@ function branchOf(item) {
   return t.split("/")[0] || "other";
 }
 
+function interestScore(item) {
+  const ts = item.topics || [];
+  if (!ts.length) return 0.5;
+  const vals = ts.map(t => state.interests[t] ?? 0.5);
+  return vals.reduce((a, b) => a + b, 0) / vals.length;
+}
+
 /* ---------- stars ---------- */
 
 function savedMap() { return lsGet("cp_saved", {}); }
-
 function isSaved(id) { return id in savedMap(); }
 
 function toggleStar(id) {
@@ -165,7 +171,6 @@ function toggleStar(id) {
     logEvent("saved", { episode_id: id, topics: snap.topics });
   }
   lsSet("cp_saved", saved);
-  renderSavedShelf();
   document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach(b => {
     b.textContent = isSaved(id) ? "★" : "☆";
     b.classList.toggle("on", isSaved(id));
@@ -174,82 +179,12 @@ function toggleStar(id) {
 
 function starBtn(id) {
   const on = isSaved(id);
-  return `<button class="star ${on ? "on" : ""}" data-star="${id}" aria-label="Save for later">${on ? "★" : "☆"}</button>`;
+  return `<button class="star ${on ? "on" : ""}" data-star="${id}" aria-label="Save">${on ? "★" : "☆"}</button>`;
 }
 
-/* ---------- continue card ---------- */
-
-function currentContinue() {
-  const last = lsGet("cp_lastpick", null);
-  if (!last) return null;
-  const ageH = (Date.now() - new Date(last.ts).getTime()) / 3.6e6;
-  const commuteMin = state.session.commute.content_minutes || 27;
-  if (ageH > CONTINUE_MAX_AGE_H) return null;
-  if ((last.duration_min || 0) <= commuteMin + 5) return null; // plausibly finished in one drive
-  return last;
-}
-
-function renderContinue() {
-  const el = $("#continue-slot");
-  const c = currentContinue();
-  if (!c) { el.innerHTML = ""; return; }
-  snapshot(c.id, c);
-  const l = links(c);
-  el.innerHTML = `<article class="card continue">
-    <span class="chip">Continue</span>
-    ${starBtn(c.id)}
-    <div class="head">
-      ${c.artwork_url ? `<img class="art" src="${esc(safeUrl(c.artwork_url))}" alt="" loading="lazy">` : ""}
-      <div>
-        <p class="show">${esc(c.show)}</p>
-        <h2>${esc(c.title)}</h2>
-      </div>
-    </div>
-    <p class="fit">Picking back up where you left off — your app remembers the spot.</p>
-    <div class="btns">
-      <a class="primary" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Apple Podcasts" data-ctx="continue">Resume</a>
-      <a href="${esc(safeUrl(l.overcast))}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Overcast" data-ctx="continue">Overcast</a>
-      <button class="done" id="continue-done">Done with it ✓</button>
-    </div>
-  </article>`;
-  $("#continue-done").addEventListener("click", () => {
-    logEvent("finished", { episode_id: c.id, topics: c.topics });
-    boostTopics(c.topics, 0.05);
-    lsSet("cp_lastpick", null);
-    renderContinue();
-  });
-  bindPickLogging(el);
-  bindStars(el);
-}
-
-/* ---------- the four cards ----------
-   Variety by construction, invisibly: the four cards draw from the whole
-   pool and are guaranteed to span four distinct topic branches, but no
-   category name ever appears in the UI and no slot is owned by a topic.
-   Branch choice is interests-weighted with heavy jitter so every load
-   (and every refresh) deals a different spread. */
+/* ---------- the four suggestions ---------- */
 
 function pickedHistory() { return lsGet("cp_history", []); }
-
-function fullPool() {
-  const pool = [];
-  const seen = new Set();
-  for (const id of Object.keys(state.session.episodes)) {
-    pool.push(snapshot(id, episode(id)));
-    seen.add(id);
-  }
-  for (const item of (state.discover?.items || [])) {
-    if (!seen.has(item.id)) pool.push(snapshot(item.id, item));
-  }
-  return pool;
-}
-
-/* Hand-crafted why-lines survive where they exist (the original curated
-   picks); everything else uses its hook. */
-function whyFor(id, item) {
-  const curated = state.session.cards.find(c => c.episode_id === id);
-  return curated ? curated.why_line : (item.hook || "");
-}
 
 function rememberSeen(ids) {
   const seen = lsGet("cp_seen", []).filter(id => !ids.includes(id)).concat(ids);
@@ -263,10 +198,8 @@ function buildCards() {
   const byBranch = {};
   pool.forEach(i => { (byBranch[branchOf(i)] = byBranch[branchOf(i)] || []).push(i); });
 
-  // Branches dealt recently sink so refreshes rotate topics instead of
-  // re-dealing the same high-interest branches over and over.
   const recentBranches = lsGet("cp_recent_branches", []);
-  const rankedBranches = Object.keys(byBranch)
+  const ranked = Object.keys(byBranch)
     .map(b => {
       const avg = byBranch[b].reduce((s, i) => s + interestScore(i), 0) / byBranch[b].length;
       const penalty = recentBranches.includes(b) ? 0.35 : 0;
@@ -275,218 +208,28 @@ function buildCards() {
     .sort((x, y) => y.s - x.s)
     .map(x => x.b);
 
-  state.cardSlots = rankedBranches.slice(0, 4).map((branch, i) => {
+  state.cardSlots = ranked.slice(0, 4).map((branch, i) => {
     const items = byBranch[branch];
-    // Three tiers: never-seen first, then seen-but-unplayed, then played.
     const unseen = items.filter(it => !history.has(it.id) && !seen.has(it.id)).sort(() => Math.random() - 0.5);
     const seenNotPlayed = items.filter(it => !history.has(it.id) && seen.has(it.id)).sort(() => Math.random() - 0.5);
     const played = items.filter(it => history.has(it.id));
-    return { slot: i + 1, branch, chain: unseen.concat(seenNotPlayed, played), idx: 0 };
-  });
+    const chain = unseen.concat(seenNotPlayed, played);
+    return { slot: i + 1, branch, item: chain[0] || null };
+  }).filter(sl => sl.item);
 
-  const dealtBranches = state.cardSlots.map(sl => sl.branch);
-  lsSet("cp_recent_branches", recentBranches.concat(dealtBranches).slice(-BRANCH_MEMORY));
-  rememberSeen(state.cardSlots.map(sl => sl.chain[0]?.id).filter(Boolean));
+  lsSet("cp_recent_branches", recentBranches.concat(state.cardSlots.map(sl => sl.branch)).slice(-BRANCH_MEMORY));
+  rememberSeen(state.cardSlots.map(sl => sl.item.id));
 }
 
-/* ---------- the splatter ---------- */
-
-function splatterPool() {
-  if (state.discover?.items?.length) return state.discover.items;
-  return Object.keys(state.session.episodes).map(id => snapshot(id, episode(id)));
+/* Hand-crafted why-lines survive where they exist. */
+function whyFor(id, item) {
+  const curated = state.session.cards.find(c => c.episode_id === id);
+  return curated ? curated.why_line : (item.hook || "");
 }
 
-function interestScore(item) {
-  const ts = item.topics || [];
-  if (!ts.length) return 0.5;
-  const vals = ts.map(t => state.interests[t] ?? 0.5);
-  return vals.reduce((a, b) => a + b, 0) / vals.length;
-}
+/* ---------- query interpreter (playlist builder) ---------- */
 
-function sampleSplatter() {
-  let pool = [...splatterPool()];
-  if (!pool.length) return [];
-
-  const seen = new Set(lsGet("cp_seen", []));
-  if (pool.length > SPLATTER_SIZE * 2) {
-    const unseen = pool.filter(i => !seen.has(i.id));
-    if (unseen.length >= SPLATTER_SIZE) pool = unseen;
-  }
-
-  const nExplore = Math.round(SPLATTER_SIZE * EXPLORATION_SHARE);
-  const nWeighted = Math.min(SPLATTER_SIZE - nExplore, pool.length);
-
-  const scored = pool
-    .map(item => ({ item, s: interestScore(item) + (Math.random() - 0.5) * 0.6 }))
-    .sort((a, b) => b.s - a.s);
-
-  const picked = [];
-  const perShow = {};
-  for (const { item } of scored) {
-    if (picked.length >= nWeighted) break;
-    if ((perShow[item.show] || 0) >= 2) continue;
-    picked.push(item);
-    perShow[item.show] = (perShow[item.show] || 0) + 1;
-  }
-
-  const rest = pool.filter(i => !picked.includes(i));
-  for (let k = 0; k < nExplore && rest.length; k++) {
-    const idx = Math.floor(Math.random() * rest.length);
-    const item = rest.splice(idx, 1)[0];
-    if ((perShow[item.show] || 0) >= 2) { k--; continue; }
-    item._explore = true;
-    picked.push(item);
-    perShow[item.show] = (perShow[item.show] || 0) + 1;
-  }
-
-  const remaining = [...picked].sort(() => Math.random() - 0.5);
-  const ordered = [];
-  while (remaining.length) {
-    const prev = ordered[ordered.length - 1];
-    let idx = remaining.findIndex(i => !prev || branchOf(i) !== branchOf(prev));
-    if (idx === -1) idx = 0;
-    ordered.push(remaining.splice(idx, 1)[0]);
-  }
-
-  // Remember what was shown so next load skews new
-  rememberSeen(ordered.map(i => i.id));
-
-  ordered.forEach(i => snapshot(i.id, i));
-  return ordered;
-}
-
-function renderSplatter() {
-  const el = $("#splatter-body");
-  if (!state.splatter.length) { el.innerHTML = ""; return; }
-  el.innerHTML = state.splatter.map(item => {
-    const l = links(item);
-    return `<div class="sp-item">
-      ${item.artwork_url ? `<img class="sp-art" src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : `<div class="sp-art"></div>`}
-      <div class="sp-info">
-        <p class="sp-hook">${esc(item.hook || item.title)}</p>
-        <p class="sp-meta"><span class="dot dot-${esc(branchOf(item))}"></span>${esc(item.show)} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
-      </div>
-      ${starBtn(item.id)}
-      <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
-         data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="splatter${item._explore ? "-explore" : ""}">Play</a>
-    </div>`;
-  }).join("");
-  bindPickLogging(el);
-  bindStars(el);
-}
-
-/* ---------- saved shelf ---------- */
-
-function renderSavedShelf() {
-  const el = $("#saved-shelf");
-  const saved = Object.values(savedMap()).sort((a, b) => (b.saved_at || "").localeCompare(a.saved_at || ""));
-  if (!saved.length) { el.innerHTML = ""; return; }
-  saved.forEach(s => { state.itemIndex[s.id] = s; });
-  el.innerHTML = `<details class="cat" open>
-    <summary><span>Saved for later<span class="desc">${saved.length} starred — saving also teaches your interests.</span></span></summary>
-    ${saved.map(item => {
-      const l = links(item);
-      return `<div class="ep-row">
-        <div class="info">
-          <div class="t">${esc(item.title)}</div>
-          <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
-        </div>
-        ${starBtn(item.id)}
-        <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
-           data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="saved">Play</a>
-      </div>`;
-    }).join("")}
-  </details>`;
-  bindPickLogging(el);
-  bindStars(el);
-}
-
-/* ---------- interests panel ---------- */
-
-function renderInterests() {
-  const el = $("#interests-body");
-  if (!state.taxonomy) { el.innerHTML = ""; return; }
-  // Only show sliders for topics that actually have content in the pool —
-  // the taxonomy also carries breadth-tier branches (true crime, news,
-  // kids...) that would render as dead sliders here.
-  const poolTopics = new Set(fullPool().flatMap(i => i.topics || []));
-  el.innerHTML = leafNodes().filter(n => poolTopics.has(n.id)).map(n => `
-    <label class="int-row">
-      <span class="int-label">${esc(n.label)}</span>
-      <input type="range" min="0" max="100" value="${Math.round((state.interests[n.id] ?? 0.5) * 100)}" data-node="${n.id}">
-    </label>`).join("") +
-    `<p class="int-note">These tilt the cards and the splatter — but surprise is built in and always wins a share. New topics appear on their own.</p>
-     <p class="int-note"><button class="q-remove" id="export-data">copy my listening data</button> — stars, history, and events live in this browser; export before switching devices.</p>`;
-
-  $("#export-data").addEventListener("click", async () => {
-    const dump = {};
-    ["cp_profile_id", "cp_events", "cp_saved", "cp_history", "cp_interests", "cp_quests", "cp_lastpick", "cp_seen"].forEach(k => {
-      dump[k] = lsGet(k, null);
-    });
-    const text = JSON.stringify(dump);
-    try {
-      await navigator.clipboard.writeText(text);
-      $("#export-data").textContent = "copied ✓";
-    } catch (_) {
-      window.prompt("Copy your data:", text);
-    }
-    logEvent("data_exported", { bytes: text.length });
-  });
-
-  el.querySelectorAll("input[type=range]").forEach(input => {
-    input.addEventListener("change", () => {
-      state.interests[input.dataset.node] = Number(input.value) / 100;
-      saveInterests();
-      logEvent("interest_adjusted", { node: input.dataset.node, value: Number(input.value) / 100 });
-      buildCards();
-      state.splatter = sampleSplatter();
-      render();
-    });
-  });
-}
-
-/* ---------- session cards ---------- */
-
-function playButtons(item, ctx) {
-  const l = links(item);
-  const mk = (href, label, cls) =>
-    `<a class="${cls}" href="${esc(safeUrl(href))}" target="_blank" rel="noopener"
-        data-ev="picked" data-ep="${item.id}" data-app="${label}" data-ctx="${ctx}">${label}</a>`;
-  return `<div class="btns">
-    ${mk(l.apple, "Apple Podcasts", "primary")}
-    ${mk(l.overcast, "Overcast", "")}
-    ${mk(l.podlink, "pod.link", "")}
-  </div>`;
-}
-
-function renderCard(slotObj) {
-  const chain = slotObj.chain;
-  if (!chain.length) return "";
-  const item = chain[slotObj.idx % chain.length];
-  const why = whyFor(item.id, item);
-
-  return `<article class="card" data-branch="${esc(slotObj.branch)}">
-    ${starBtn(item.id)}
-    <div class="head">
-      ${item.artwork_url ? `<img class="art" src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : ""}
-      <div>
-        <p class="show">${esc(item.show)}</p>
-        <h2>${esc(item.title)}</h2>
-      </div>
-    </div>
-    <p class="why">${esc(why)}</p>
-    <p class="meta">${fmtDur(item.duration_min)}${item.release_date ? ` · ${esc(item.release_date)}` : ""}</p>
-    ${playButtons(item, `card-${slotObj.branch}`)}
-    ${chain.length > 1 ? `<button class="swap" data-slot="${slotObj.slot}">show me something different here</button>` : ""}
-  </article>`;
-}
-
-/* ---------- series builder + search ----------
-   v1 is keyword scoring over the local pool. When the backend brain comes
-   online (Anthropic key), the same input posts the free-text ask to the
-   curation engine for real semantic series assembly — this UI stays. */
-
-const STOPWORDS = new Set(["a","an","the","about","series","of","on","for","me","my","give","build","make","with","to","and","or","in","podcast","podcasts","episode","episodes","show","shows","some","something","want","i","please","that","stuff","things"]);
+const STOPWORDS = new Set(["a","an","the","about","series","playlist","of","on","for","me","my","give","build","make","with","to","and","or","in","podcast","podcasts","episode","episodes","show","shows","some","something","want","i","please","that","stuff","things"]);
 
 const ALIASES = {
   bbq: ["barbecue", "grill"], barbeque: ["barbecue"],
@@ -502,19 +245,6 @@ function tokenize(q) {
   return [...expanded];
 }
 
-/* ---- the query interpreter ----
-   The "lightweight model" is compiled, not called: a frontier model built
-   data/semantic-index.json (concept clusters + modifiers) and
-   data/item-tags.json (per-episode tags) offline; at runtime we interpret
-   the ask against that index — modifier words become filters ("short and
-   funny" -> duration<=30 + comedy), concept words expand into their whole
-   term cluster ("bbq" -> barbecue, grilling, smoking, brisket...). Falls
-   back to plain tokens + ALIASES when the index files are absent. */
-
-/* Document frequency across the pool's tags: expansion terms that describe
-   half the catalog ("performance", "interview") are useless as evidence and
-   caused cross-domain bleed ("ai training" surfacing sports episodes via
-   the ML concept's generic terms). User-typed words are always exempt. */
 function tagDF(term) {
   if (!state._dfMemo) state._dfMemo = new Map();
   if (state._dfMemo.has(term)) return state._dfMemo.get(term);
@@ -539,9 +269,6 @@ function interpretQuery(q) {
     return true;
   });
 
-  // One term-group per query word; scoring later requires results to cover
-  // ALL groups or sink (fixes "sleep training" surfacing ML-training items
-  // that match nothing sleep-related).
   const groups = contentTokens.map(tok => {
     const terms = new Map([[tok, 1]]);
     const addTerm = (t, w) => terms.set(t, Math.max(terms.get(t) || 0, w));
@@ -549,10 +276,6 @@ function interpretQuery(q) {
 
     for (const [cid, c] of Object.entries(concepts)) {
       if (!c.terms?.includes(tok)) continue;
-      // Contextual disambiguation: an ambiguous word ("training") only gets
-      // a concept's full expansion when the other query words support that
-      // sense — either they appear in the same concept, or in a concept
-      // linked to it. Unsupported senses expand faintly.
       const related = new Set(c.related || []);
       const supported = others.length === 0 || others.some(o => {
         if (c.terms.includes(o)) return true;
@@ -568,8 +291,6 @@ function interpretQuery(q) {
         if (rc) rc.terms?.forEach(t => addTerm(t, wRelated));
       });
     }
-    // Downweight/drop generic expansion terms by document frequency;
-    // the user's own word (weight 1) is never touched.
     for (const [t, w] of [...terms]) {
       if (w >= 1) continue;
       const df = tagDF(t);
@@ -579,7 +300,7 @@ function interpretQuery(q) {
     return { token: tok, terms };
   });
 
-  return { groups, filters, topicBoosts};
+  return { groups, filters, topicBoosts };
 }
 
 function passesFilters(item, filters) {
@@ -602,8 +323,6 @@ function scoreMatch(item, interp) {
   const topics = (item.topics || []).join(" ").toLowerCase();
   const tags = state.itemTags?.tags?.[item.id] || [];
 
-  // Short terms ("ai") must match whole words — substring matching would
-  // hit "trAIning", "brAIn", "spAIn" and poison every result set.
   const hitText = (text, t) =>
     t.length < 4 ? new RegExp("\\b" + t + "\\b").test(text) : text.includes(t);
   const hitTag = (tag, t) =>
@@ -622,39 +341,16 @@ function scoreMatch(item, interp) {
       if (hitText(show, t)) f += 1;
       best = Math.max(best, f * w);
     }
-    // Coverage needs a meaningful hit, not a faint expansion graze.
     if (best >= 1.2) matchedGroups++;
-    // Rarer query words carry more information: "sleep training" should
-    // lean toward the sleep cluster, not whichever word is commonest.
     const df = tagDF(group.token);
     sum += best * (df <= 10 ? 1.35 : df <= 30 ? 1 : 0.75);
   }
-
   for (const tb of interp.topicBoosts) {
     if ((item.topics || []).includes(tb)) sum += 2;
   }
-  // matched is the coverage tier: results matching every word of the ask
-  // strictly outrank partial matches, regardless of raw score.
   return { sum, matched: matchedGroups };
 }
 
-function epRowHtml(item, ctx, prefix = "") {
-  const l = links(item);
-  return `<div class="ep-row">
-    ${prefix}
-    <div class="info">
-      <div class="t">${esc(item.title)}</div>
-      <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
-    </div>
-    ${starBtn(item.id)}
-    <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
-       data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="${ctx}">Play</a>
-  </div>`;
-}
-
-/* Honest filters, graceful empties: if the ask over-constrains (nothing in
-   comedy under 30 min), progressively drop duration then all filters rather
-   than returning a dead end — and say so. */
 function searchWithRelaxation(interp, minScore) {
   const attempt = (filters) => {
     const pool = fullPool().filter(i => passesFilters(i, filters));
@@ -679,109 +375,57 @@ function searchWithRelaxation(interp, minScore) {
   return { results, relaxed };
 }
 
-function questList() { return lsGet("cp_quests", []); }
+/* ---------- playlists ---------- */
 
-function buildQuest(query) {
+function playlists() {
+  let all = lsGet("cp_playlists", null);
+  if (all === null) {
+    all = lsGet("cp_quests", []);   // migrate the old key once
+    lsSet("cp_playlists", all);
+  }
+  return all;
+}
+
+function savePlaylists(all) { lsSet("cp_playlists", all.slice(0, 50)); }
+
+function playlistById(id) { return playlists().find(p => p.id === id); }
+
+function touchPlaylistPlayed(id) {
+  const all = playlists();
+  const p = all.find(x => x.id === id);
+  if (p) { p.last_played_at = new Date().toISOString(); savePlaylists(all); }
+}
+
+function buildPlaylist(query) {
   const interp = interpretQuery(query);
   if (!interp.groups.length && !interp.filters.length) return null;
   const { results } = searchWithRelaxation(interp, 2);
   const picks = results.slice(0, 10);
   if (picks.length < 2) return null;
-  const quest = {
+  const playlist = {
     id: "q" + Date.now(),
     query: query.trim(),
     item_ids: picks.map(x => x.i.id),
     created: new Date().toISOString(),
+    last_played_at: null,
   };
-  lsSet("cp_quests", [quest, ...questList()].slice(0, 5));
-  return quest;
+  savePlaylists([playlist, ...playlists()]);
+  return playlist;
 }
 
-function renderQuests() {
-  const el = $("#quest-body");
-  const all = questList();
-  if (!all.length) { el.innerHTML = ""; return; }
-  fullPool(); // ensure itemIndex is populated
-  const history = new Set(pickedHistory());
-  el.innerHTML = all.map(q => {
-    const items = q.item_ids.map(id => state.itemIndex[id]).filter(Boolean);
-    if (!items.length) return "";
-    const nextIdx = items.findIndex(i => !history.has(i.id));
-    return `<details class="cat" ${q === all[0] ? "open" : ""}>
-      <summary><span>“${esc(q.query)}”<span class="desc">${items.length}-part series · ${items.filter(i => history.has(i.id)).length} played</span></span></summary>
-      ${items.map((item, i) => epRowHtml(item, "series",
-        `<span class="q-num ${i === nextIdx ? "next" : ""}">${i + 1}</span>`)).join("")}
-      <div class="q-actions"><button class="q-remove" data-quest="${q.id}">remove this series</button></div>
-    </details>`;
-  }).join("");
-  bindPickLogging(el);
-  bindStars(el);
-  el.querySelectorAll(".q-remove").forEach(btn => {
-    btn.addEventListener("click", () => {
-      lsSet("cp_quests", questList().filter(q => q.id !== btn.dataset.quest));
-      logEvent("quest_removed", { quest_id: btn.dataset.quest });
-      renderQuests();
-    });
-  });
-}
-
-function renderSearch(query) {
-  const el = $("#search-results");
-  const interp = interpretQuery(query);
-  if (!interp.groups.length && !interp.filters.length) { el.innerHTML = ""; return; }
-  const { results, relaxed } = searchWithRelaxation(interp, 0);
-  const top = results.slice(0, 20);
-  const note = relaxed === "duration"
-    ? `<p class="int-note">Nothing in the pool at that length — closest matches:</p>`
-    : relaxed === "all"
-      ? `<p class="int-note">Nothing matched every part of that ask — closest matches:</p>`
-      : "";
-  el.innerHTML = top.length
-    ? note + top.map(x => epRowHtml(x.i, "search")).join("")
-    : `<p class="int-note">Nothing in the pool matches — the catalog grows all the time.</p>`;
-  bindPickLogging(el);
-  bindStars(el);
-}
-
-/* ---------- pinned fusion tour ---------- */
-
-function renderFusionTour() {
-  const cat = state.session.categories.find(c => c.id === "fusion-tour");
-  if (!cat) return "";
-  return `
-    <details class="cat">
-      <summary><span>${esc(cat.label)}<span class="desc">${esc(cat.description)}</span></span></summary>
-      ${cat.groups.map(g => `
-        <div class="group-label">${esc(g.label)}</div>
-        ${g.episode_ids.map(id => {
-          const ep = episode(id);
-          if (!ep) return "";
-          snapshot(id, ep);
-          const l = links(ep);
-          return `<div class="ep-row">
-            <div class="info">
-              <div class="t">${esc(ep.title)}</div>
-              <div class="s">${esc(ep.show)} · ${fmtDur(ep.duration_min)}</div>
-            </div>
-            ${starBtn(id)}
-            <a class="go" href="${esc(safeUrl(l.apple))}" target="_blank" rel="noopener"
-               data-ev="picked" data-ep="${id}" data-app="Apple Podcasts" data-ctx="fusion-tour">Play</a>
-          </div>`;
-        }).join("")}
-      `).join("")}
-    </details>`;
-}
-
-/* ---------- wiring ---------- */
+/* ---------- shared wiring ---------- */
 
 function bindPickLogging(scope) {
   scope.querySelectorAll("[data-ev='picked']").forEach(a => {
     a.addEventListener("click", () => {
       const id = a.dataset.ep;
-      logEvent("picked", { episode_id: id, app: a.dataset.app, context: a.dataset.ctx });
+      logEvent("picked", { episode_id: id, app: a.dataset.app || "Apple Podcasts", context: a.dataset.ctx });
 
       const history = pickedHistory();
       if (!history.includes(id)) lsSet("cp_history", history.concat(id).slice(-200));
+
+      const m = /^playlist-(.+)$/.exec(a.dataset.ctx || "");
+      if (m) touchPlaylistPlayed(m[1]);
 
       const snap = state.itemIndex[id];
       if (snap && a.dataset.ctx !== "continue") {
@@ -797,34 +441,199 @@ function bindStars(scope) {
     btn._bound = true;
     btn.addEventListener("click", (e) => {
       e.preventDefault();
+      e.stopPropagation();
       toggleStar(btn.dataset.star);
     });
   });
 }
 
-function render() {
-  const s = state.session;
-  $("#built-at").textContent =
-    `Built ${new Date(s.built_at).toLocaleString([], { weekday: "long", hour: "numeric", minute: "2-digit" })}`;
-  renderContinue();
-  $("#cards").innerHTML = (state.cardSlots || []).map(renderCard).join("");
-  $("#fusion-tour").innerHTML = renderFusionTour();
+/* ---------- views ---------- */
 
-  document.querySelectorAll(".swap").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const slot = state.cardSlots.find(sl => sl.slot === Number(btn.dataset.slot));
-      if (slot) slot.idx += 1;
-      logEvent("refreshed_slot", { slot: Number(btn.dataset.slot), branch: slot?.branch });
-      render();
-    });
-  });
-  bindPickLogging($("#cards"));
-  bindStars($("#cards"));
-  bindPickLogging($("#fusion-tour"));
-  bindStars($("#fusion-tour"));
-  renderSplatter();
-  renderSavedShelf();
+function currentContinue() {
+  const last = lsGet("cp_lastpick", null);
+  if (!last) return null;
+  const ageH = (Date.now() - new Date(last.ts).getTime()) / 3.6e6;
+  const commuteMin = state.session.commute.content_minutes || 27;
+  if (ageH > CONTINUE_MAX_AGE_H) return null;
+  if ((last.duration_min || 0) <= commuteMin + 5) return null;
+  return last;
 }
+
+function bannerHtml() {
+  const c = currentContinue();
+  if (!c) return "";
+  snapshot(c.id, c);
+  return `<a class="banner" href="${esc(safeUrl(appleLink(c)))}" target="_blank" rel="noopener"
+      data-ev="picked" data-ep="${c.id}" data-ctx="continue">
+    ${c.artwork_url ? `<img src="${esc(safeUrl(c.artwork_url))}" alt="">` : ""}
+    <div class="b-info">
+      <span class="b-label">Continue</span>
+      <span class="b-title">${esc(c.title)}</span>
+    </div>
+    <button class="b-done" id="banner-done" aria-label="Done with this">✓</button>
+  </a>`;
+}
+
+function miniCard(slot) {
+  const item = slot.item;
+  const why = whyFor(item.id, item);
+  return `<a class="mini-card" data-branch="${esc(slot.branch)}"
+      href="${esc(safeUrl(appleLink(item)))}" target="_blank" rel="noopener"
+      data-ev="picked" data-ep="${item.id}" data-ctx="card-${esc(slot.branch)}">
+    ${item.artwork_url ? `<img src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : `<div class="art-ph"></div>`}
+    <div class="mc-info">
+      <p class="mc-show">${esc(item.show)}${item.duration_min ? ` · ${fmtDur(item.duration_min)}` : ""}</p>
+      <h3>${esc(item.title)}</h3>
+      <p class="mc-hook">${esc(why)}</p>
+    </div>
+    ${starBtn(item.id)}
+  </a>`;
+}
+
+function renderHome() {
+  document.body.className = "view-home";
+  if (!state.cardSlots.length) buildCards();
+  $("#view").innerHTML = `
+    <div class="home">
+      <div id="banner-slot">${bannerHtml()}</div>
+      <div class="cards4">${state.cardSlots.map(miniCard).join("")}</div>
+      <form id="pl-form" autocomplete="off">
+        <input id="pl-input" type="text" maxlength="120" placeholder="build me a playlist…">
+        <button type="submit">Go</button>
+      </form>
+      <p id="pl-note" class="note" hidden></p>
+    </div>`;
+
+  const done = $("#banner-done");
+  if (done) {
+    done.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const c = currentContinue();
+      if (c) {
+        logEvent("finished", { episode_id: c.id, topics: c.topics });
+        boostTopics(c.topics, 0.05);
+      }
+      lsSet("cp_lastpick", null);
+      $("#banner-slot").innerHTML = "";
+    });
+  }
+
+  $("#pl-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const query = $("#pl-input").value.trim();
+    if (!query) return;
+    const p = buildPlaylist(query);
+    logEvent("playlist_built", { query, found: p ? p.item_ids.length : 0 });
+    if (p) {
+      location.hash = "#/playlist/" + p.id;
+    } else {
+      const note = $("#pl-note");
+      note.textContent = "Couldn't find enough for that — try different words.";
+      note.hidden = false;
+    }
+  });
+
+  bindPickLogging($("#view"));
+  bindStars($("#view"));
+}
+
+function epRow(item, idx, ctx, nextIdx) {
+  return `<div class="ep-row">
+    <span class="q-num ${idx === nextIdx ? "next" : ""}">${idx + 1}</span>
+    <div class="info">
+      <div class="t">${esc(item.title)}</div>
+      <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
+    </div>
+    ${starBtn(item.id)}
+    <a class="go" href="${esc(safeUrl(appleLink(item)))}" target="_blank" rel="noopener"
+       data-ev="picked" data-ep="${item.id}" data-ctx="${ctx}">Play</a>
+  </div>`;
+}
+
+function renderPlaylistDetail(id) {
+  document.body.className = "view-page";
+  const p = playlistById(id);
+  if (!p) { $("#view").innerHTML = `<div class="page"><p class="note">Playlist not found.</p></div>`; return; }
+  fullPool(); // populate itemIndex
+  const items = p.item_ids.map(i => state.itemIndex[i]).filter(Boolean);
+  const history = new Set(pickedHistory());
+  const nextIdx = items.findIndex(i => !history.has(i.id));
+  const played = items.filter(i => history.has(i.id)).length;
+
+  $("#view").innerHTML = `
+    <div class="page">
+      <div class="page-head">
+        <a class="back" href="#/">‹</a>
+        <div>
+          <h2>“${esc(p.query)}”</h2>
+          <p class="sub">${items.length}-part playlist · ${played} played</p>
+        </div>
+      </div>
+      ${items.map((item, i) => epRow(item, i, "playlist-" + p.id, nextIdx)).join("")}
+      <button class="danger" id="pl-remove">remove this playlist</button>
+    </div>`;
+
+  $("#pl-remove").addEventListener("click", () => {
+    savePlaylists(playlists().filter(x => x.id !== p.id));
+    logEvent("playlist_removed", { playlist_id: p.id });
+    location.hash = "#/playlists";
+  });
+  bindPickLogging($("#view"));
+  bindStars($("#view"));
+}
+
+function renderPlaylists() {
+  document.body.className = "view-page";
+  const all = playlists();
+  $("#view").innerHTML = `
+    <div class="page">
+      <div class="page-head">
+        <a class="back" href="#/">‹</a>
+        <div><h2>Playlists</h2><p class="sub">${all.length} built</p></div>
+      </div>
+      ${all.length ? all.map(p => `
+        <a class="pl-row" href="#/playlist/${esc(p.id)}">
+          <div class="info">
+            <div class="t">“${esc(p.query)}”</div>
+            <div class="s">${p.item_ids.length} parts${p.last_played_at ? ` · played ${new Date(p.last_played_at).toLocaleDateString()}` : ""}</div>
+          </div>
+          <span class="chev">›</span>
+        </a>`).join("")
+      : `<p class="note">No playlists yet — build one from the home screen.</p>`}
+    </div>`;
+}
+
+/* ---------- drawer ---------- */
+
+function renderDrawer() {
+  const recent = [...playlists()]
+    .sort((a, b) => (b.last_played_at || b.created).localeCompare(a.last_played_at || a.created))
+    .slice(0, 5);
+  $("#drawer-playlists").innerHTML = recent.map(p =>
+    `<a class="drawer-item" href="#/playlist/${esc(p.id)}">“${esc(p.query)}”</a>`).join("")
+    || `<p class="drawer-empty">none yet</p>`;
+}
+
+function openDrawer(open) {
+  $("#drawer").hidden = !open;
+  $("#drawer-overlay").hidden = !open;
+  if (open) renderDrawer();
+}
+
+/* ---------- router ---------- */
+
+function route() {
+  if (!state.ready) return;
+  openDrawer(false);
+  const h = location.hash || "#/";
+  let m;
+  if ((m = /^#\/playlist\/(.+)$/.exec(h))) renderPlaylistDetail(m[1]);
+  else if (h === "#/playlists") renderPlaylists();
+  else renderHome();
+}
+
+/* ---------- init ---------- */
 
 async function fetchJson(path) {
   try {
@@ -836,7 +645,7 @@ async function fetchJson(path) {
 async function init() {
   state.session = await fetchJson("data/session.json");
   if (!state.session) {
-    $("#cards").innerHTML = `<div class="error-box">Couldn't load the session. Check your connection and reload.</div>`;
+    $("#view").innerHTML = `<div class="page"><p class="note">Couldn't load Foray — check your connection and reload.</p></div>`;
     return;
   }
   [state.validated, state.taxonomy, state.discover, state.semantic, state.itemTags] = await Promise.all([
@@ -849,53 +658,26 @@ async function init() {
 
   loadInterests();
   buildCards();
-  state.splatter = sampleSplatter();
-  render();
-  renderInterests();
+  state.ready = true;
+  route();
   logEvent("session_shown", { session_id: state.session.session_id });
 
-  $("#refresh-all").addEventListener("click", () => {
-    buildCards(); // full re-deal: new branches, new picks
+  $("#menu-btn").addEventListener("click", () => openDrawer($("#drawer").hidden));
+  $("#drawer-overlay").addEventListener("click", () => openDrawer(false));
+  $("#drawer").addEventListener("click", (e) => {
+    if (e.target.closest("a")) openDrawer(false);
+  });
+  $("#refresh-btn").addEventListener("click", () => {
+    buildCards();
     logEvent("refreshed_all", {});
-    render();
+    if ((location.hash || "#/") === "#/") renderHome();
+    else location.hash = "#/";
   });
-
-  $("#reshuffle").addEventListener("click", () => {
-    state.splatter = sampleSplatter();
-    logEvent("reshuffled_splatter", {});
-    renderSplatter();
-  });
-
-  renderQuests();
-  $("#quest-form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    const query = $("#quest-input").value.trim();
-    if (!query) return;
-    const quest = buildQuest(query);
-    logEvent("quest_built", { query, found: quest ? quest.item_ids.length : 0 });
-    if (quest) {
-      $("#quest-input").value = "";
-      renderQuests();
-    } else {
-      $("#quest-body").innerHTML =
-        `<p class="int-note">Couldn't find enough in today's pool for that — try different words. (This gets much smarter once the curation brain is online.)</p>` +
-        $("#quest-body").innerHTML;
-    }
-  });
-
-  let searchTimer;
-  $("#search").addEventListener("input", () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      const q = $("#search").value.trim();
-      renderSearch(q);
-      if (q.length > 2) logEvent("searched", { query: q });
-    }, 180);
-  });
+  window.addEventListener("hashchange", route);
 }
 
 init();
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js").catch(() => { /* offline shell is progressive */ });
+  navigator.serviceWorker.register("sw.js").catch(() => { /* progressive */ });
 }
