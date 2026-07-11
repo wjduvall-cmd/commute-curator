@@ -4,9 +4,14 @@ You are running Foray's nightly content refresh, unattended, on the owner's mach
 Work through these steps exactly; be conservative — a broken deploy at 4am is far worse
 than a skipped night. Read CLAUDE.md first (copy rules and principles are binding).
 
-1. **Scan feeds**: run `node tools/refresh-feeds.mjs`. It writes new episodes (default
-   window: last 48h, curated shows only) to `data-local/fresh-pending.json`. The file
-   records its actual `window_hours` — trust the file, not this doc, when auditing.
+1. **Scan feeds**: run `node tools/refresh-feeds.mjs` **in the foreground with a
+   10-minute timeout** (it polls ~200 feeds and takes ~7 minutes; pass timeout 600000).
+   NEVER run it in the background: this session is headless — it ends the moment you
+   finish replying, background tasks die with it, and the whole night is silently lost
+   (this exact failure happened on 2026-07-10/11). Wait for `REFRESH_SCAN_COMPLETE`
+   in the output before proceeding. It writes new episodes (default window: last 48h,
+   curated shows only) to `data-local/fresh-pending.json`; the file records its actual
+   `window_hours` — trust the file, not this doc, when auditing.
 
 2. **If zero pending episodes**: log "nothing new" to `data-local/refresh-log.txt`
    (append one line: date, result) and STOP. Do not commit anything.
