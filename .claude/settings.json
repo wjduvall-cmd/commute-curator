@@ -3,6 +3,7 @@
     "allow": [
       "Bash(node tools/refresh-feeds.mjs*)",
       "Bash(node -e*)",
+      "Bash(node data-local/*)",
       "Bash(node --check*)",
       "Bash(npx vitest run*)",
       "Bash(cd backend && npx vitest run*)",
