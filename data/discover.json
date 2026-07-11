@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T04:43:18.696Z",
+  "built_at": "2026-07-11T17:55:12.829Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -10637,6 +10637,640 @@
         "history/technology"
       ],
       "hook": "Finally sorting out the difference between the UK, Great Britain, and the British Isles.",
+      "explicit": false
+    },
+    {
+      "id": "cbc-ideas--redeeming-swamps",
+      "show": "CBC Ideas",
+      "title": "Redeeming swamps from their wasteland reputation",
+      "apple_collection_id": 151485663,
+      "apple_track_id": 1000776313475,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/redeeming-swamps-from-their-wasteland-reputation/id151485663?i=1000776313475&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Wetlands store more carbon than forests — time to rewrite the swamp's toxic-wasteland story.",
+      "explicit": false
+    },
+    {
+      "id": "stuff-you-should-know--first-road-trip",
+      "show": "Stuff You Should Know",
+      "title": "Selects: The First Road Trip",
+      "apple_collection_id": 278981407,
+      "apple_track_id": 1000776358559,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/selects-the-first-road-trip/id278981407?i=1000776358559&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
+      "hook": "Two men and a dog drive coast to coast before anyone believed cars would last.",
+      "explicit": false
+    },
+    {
+      "id": "being-an-engineer--heylands-lowry-continuous-improvement",
+      "show": "Being an Engineer",
+      "title": "S7E29 Heylands Lowry| Building an Engineering Culture of Continuous Improvement",
+      "apple_collection_id": 1508222292,
+      "apple_track_id": 1000776244317,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s7e29-heylands-lowry-building-an-engineering-culture/id1508222292?i=1000776244317&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
+      "hook": "Lean and Six Sigma veteran Heylands Lowry on building continuous-improvement culture that sticks.",
+      "explicit": false
+    },
+    {
+      "id": "business-of-machining--460-coolant-sensor",
+      "show": "Business of Machining",
+      "title": "#460 Toilet bowl float coolant sensor",
+      "apple_collection_id": 1206942864,
+      "apple_track_id": 1000776211578,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/460-toilet-bowl-float-coolant-sensor/id1206942864?i=1000776211578&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/77/a4/bc/77a4bc8a-76f6-e612-da13-050262cbdbae/mza_5516773433192487976.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "Grimsmo rigs a toilet-bowl float as a coolant sensor, plus NAS and foam machining.",
+      "explicit": false
+    },
+    {
+      "id": "engines-of-our-ingenuity--adams-education",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 1600: Adams’s Education",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000776346572,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-1600-adamss-education/id121493645?i=1000776346572&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "Henry Adams stands between the Virgin and the Dynamo at the 1900 Paris exhibition.",
+      "explicit": false
+    },
+    {
+      "id": "engines-of-our-ingenuity--urban-archaeology",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 1599: Urban Archaeology",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000776219368,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-1599-urban-archaeology/id121493645?i=1000776219368&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "An old privy becomes a window into a city's past — history from a trash bin.",
+      "explicit": false
+    },
+    {
+      "id": "founders--peter-thiel-zero-to-one",
+      "show": "Founders",
+      "title": "#424 Peter Thiel on How to Build a Creative Monopoly",
+      "apple_collection_id": 1141877104,
+      "apple_track_id": 1000776309638,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/424-peter-thiel-on-how-to-build-a-creative-monopoly/id1141877104?i=1000776309638&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Lessons from a third rereading of Peter Thiel's Zero to One on creative monopoly.",
+      "explicit": false
+    },
+    {
+      "id": "this-week-in-startups--farm-robots-reservoir",
+      "show": "This Week in Startups",
+      "title": "Danny Bernstein left Big Tech to fund farm-bots | E2310",
+      "apple_collection_id": 315114957,
+      "apple_track_id": 1000776303718,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/danny-bernstein-left-big-tech-to-fund-farm-bots-e2310/id315114957?i=1000776303718&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/bf/ce/23/bfce2354-2548-00f0-d795-a34404946a6b/mza_10222213905677371023.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Danny Bernstein built an on-farm robotics incubator to automate 110-degree stone-fruit picking.",
+      "explicit": true
+    },
+    {
+      "id": "twenty-minute-vc--arvind-jain-glean",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
+      "apple_collection_id": 958230465,
+      "apple_track_id": 1000776353690,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/20vc-why-openai-and-anthropic-wont-win-the-app-layer/id958230465?i=1000776353690&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c3/86/cf/c386cfa0-6e2e-95e0-1cf1-ca0941c63846/mza_12020680376572829063.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Glean's Arvind Jain argues model labs won't win the app layer — and teams will grow.",
+      "explicit": true
+    },
+    {
+      "id": "gardenfork-radio--dropping-stones",
+      "show": "GardenFork Radio - Eclectic DIY",
+      "title": "Bob and His Dropping Stones Method To Happier People",
+      "apple_collection_id": 330291397,
+      "apple_track_id": 1000776293343,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bob-and-his-dropping-stones-method-to-happier-people/id330291397?i=1000776293343&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/7d/82/8b/7d828b9f-0ec4-d346-e9e5-b47731a86acb/mza_552515355794024318.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/diy-home"
+      ],
+      "hook": "Bob's 'dropping stones' trick for smoother restaurant visits, novel writing, and happier people.",
+      "explicit": false
+    },
+    {
+      "id": "shop-talk-live--jamie-gilgen",
+      "show": "Shop Talk Live - Fine Woodworking",
+      "title": "STL370: Jamie Figures Things Out",
+      "apple_collection_id": 508943027,
+      "apple_track_id": 1000776251952,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/stl370-jamie-figures-things-out/id508943027?i=1000776251952&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 80,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/eb/1f/ea/eb1feaf2-3356-a81b-b589-980f7f9a3107/mza_4940064301473067456.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/diy-home"
+      ],
+      "hook": "Jamie Gilgen on outfitting a small shop with combination machines and vacuum-pressed bent laminations.",
+      "explicit": false
+    },
+    {
+      "id": "99-percent-invisible--billy-possum",
+      "show": "99% Invisible",
+      "title": "100 Objects #8: Billy Possum",
+      "apple_collection_id": 394775318,
+      "apple_track_id": 1000775059035,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/100-objects-8-billy-possum/id394775318?i=1000775059035&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/15/3a/ec/153aecb2-6baa-17e0-6cc7-05ee29d105c6/mza_11420557464017573962.jpg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "After the teddy bear's success, President Taft got a stuffed possum. It flopped.",
+      "explicit": false
+    },
+    {
+      "id": "ologies-with-alie-ward--conversational-psychology",
+      "show": "Ologies with Alie Ward",
+      "title": "Conversational Psychology (CONNECTING WITH OTHERS) with Nicholas Epley",
+      "apple_collection_id": 1278815517,
+      "apple_track_id": 1000776232150,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/conversational-psychology-connecting-with-others/id1278815517?i=1000776232150&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/4e/42/444e42f6-1ce8-1e7b-2d50-4ed506c27004/mza_18370866018545460916.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/animal-cognition"
+      ],
+      "hook": "Behavioral scientist Nicholas Epley on icebreakers, friendship recession, and why texting shortchanges your hormones.",
+      "explicit": true
+    },
+    {
+      "id": "off-nominal--rtgs-promise-rover",
+      "show": "Off-Nominal",
+      "title": "247 - RTGs Don’t Grow on Trees",
+      "apple_collection_id": 1294131221,
+      "apple_track_id": 1000776200263,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/247-rtgs-dont-grow-on-trees/id1294131221?i=1000776200263&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 62,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/8a/3a/c3/8a3ac39d-9739-d1bd-0699-25d89bd74531/mza_6548671454048201085.jpg/600x600bb.jpg",
+      "topics": [
+        "space/rockets"
+      ],
+      "hook": "Jake and Anthony on the nuclear-powered PROMISE rover, Isaacman-era NASA, and Rocket Lab buying Iridium.",
+      "explicit": true
+    },
+    {
+      "id": "planet-money--fake-chanel-realreal",
+      "show": "Planet Money",
+      "title": "Seven allegedly fake Chanel bags vs The RealReal",
+      "apple_collection_id": 290783428,
+      "apple_track_id": 1000776089258,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/seven-allegedly-fake-chanel-bags-vs-the-realreal/id290783428?i=1000776089258&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/0c/e8/6f0ce812-0d69-27e9-12ba-7a7488bdf145/mza_11419987672850189218.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Secondhand luxury boomed on one promise: authentication. Seven allegedly fake Chanel bags test it.",
+      "explicit": false
+    },
+    {
+      "id": "odd-lots--korean-levered-etfs",
+      "show": "Odd Lots",
+      "title": "The Korean Levered ETFs Shaking Markets All Around the World",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000776232498,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-korean-levered-etfs-shaking-markets-all-around/id1056200096?i=1000776232498&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "How Korean retail traders' leveraged single-stock ETFs became big enough to move global markets.",
+      "explicit": false
+    },
+    {
+      "id": "volts--land-value-tax",
+      "show": "Volts",
+      "title": "Want less sprawl and more urban infill? Try a land value tax!",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000776245769,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/want-less-sprawl-and-more-urban-infill-try-a-land-value-tax/id1548554104?i=1000776245769&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 70,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "Property taxes punish building and reward speculation; a land value tax flips the incentive.",
+      "explicit": false
+    },
+    {
+      "id": "the-cinematography-podcast--lyle-vincent-beast-in-me",
+      "show": "The Cinematography Podcast",
+      "title": "Lyle Vincent on lighting the darkness of The Beast in Me",
+      "apple_collection_id": 812436884,
+      "apple_track_id": 1000776330634,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lyle-vincent-on-lighting-the-darkness-of-the-beast-in-me/id812436884?i=1000776330634&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/48/06/54/48065404-97a9-b8be-c4ac-cca360291f66/mza_13428131324207435940.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/photography",
+        "craft/filmmaking"
+      ],
+      "hook": "Lyle Vincent on hard lighting The Beast in Me so shadows fall to true black.",
+      "explicit": true
+    },
+    {
+      "id": "radiolab--the-holy-shiver",
+      "show": "Radiolab",
+      "title": "The Holy Shiver",
+      "apple_collection_id": 152249110,
+      "apple_track_id": 1000776189532,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-holy-shiver/id152249110?i=1000776189532&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/10/af/ed/10afedd7-3750-0d0a-2f14-5fce03aad62b/mza_8704592397113720978.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Why one woman gets goosebumps several times a day — and what the bumps signal.",
+      "explicit": true
+    },
+    {
+      "id": "masters-of-scale--pioneers-of-ai-john-deere-s-ai-vision-for-future-farms",
+      "show": "Masters of Scale",
+      "title": "Pioneers of AI: John Deere's AI vision for future farms",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000776358311,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pioneers-of-ai-john-deeres-ai-vision-for-future-farms/id1227971746?i=1000776358311&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/15/f6/e815f6b1-6192-be26-5a2d-19867075fdd8/mza_14886463499268390135.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "John Deere's CTO on sensors, data, and machine learning driving toward fully autonomous farms.",
+      "explicit": false
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--antony-beevor-downfall-in-berlin",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "Antony Beevor: Downfall In Berlin",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000776188888,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/antony-beevor-downfall-in-berlin/id1457552694?i=1000776188888&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "Antony Beevor on the fall of Berlin: why Eisenhower held back and Soviet rivalry cost lives.",
+      "explicit": false
+    },
+    {
+      "id": "amicus-dahlia-lithwick--the-term-the-court-stopped-pretending",
+      "show": "Amicus With Dahlia Lithwick | Law, justice, and the courts",
+      "title": "The Term the Court Stopped Pretending",
+      "apple_collection_id": 928790786,
+      "apple_track_id": 1000776323438,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-term-the-court-stopped-pretending/id928790786?i=1000776323438&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c8/0d/b9/c80db9d3-cea1-939f-d22a-4826cf74734f/mza_5114303093123986611.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Three legal scholars tally a Supreme Court term that sidelined Congress and embraced hubris.",
+      "explicit": false
+    },
+    {
+      "id": "craft-beer-and-brewing-magazine-podcast--brewing-scientists-shellhammer-chenot-older-hops",
+      "show": "Craft Beer & Brewing Magazine Podcast",
+      "title": "491: Brewing Scientists Tom Shellhammer and Cécile Chenot Are Changing How We Think About Older Hops",
+      "apple_collection_id": 1296082082,
+      "apple_track_id": 1000776264682,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/brewing-scientists-tom-shellhammer-and-c%C3%A9cile-chenot/id1296082082?i=1000776264682&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "Brewing scientists test what warehouse-aged hops can still do two to four years after harvest.",
+      "explicit": true
+    },
+    {
+      "id": "sticky-notes--sibelius-tapiola",
+      "show": "Sticky Notes: The Classical Music Podcast",
+      "title": "Sibelius Tapiola",
+      "apple_collection_id": 1215386938,
+      "apple_track_id": 1000776216385,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sibelius-tapiola/id1215386938?i=1000776216385&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "Inside Tapiola, the brooding forest tone poem Sibelius finished thirty years before his death.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--mindfulness-movement-ims-founders",
+      "show": "10% Happier with Dan Harris",
+      "title": "How a Group of Broke 20-Somethings Accidentally Launched the Mindfulness Movement | Jack Kornfield, Joseph Goldstein and Sharon Salzberg",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000776133284,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-a-group-of-broke-20-somethings/id1087147821?i=1000776133284&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Kornfield, Goldstein, and Salzberg on the broke 20-somethings who built the Insight Meditation Society.",
+      "explicit": false
+    },
+    {
+      "id": "feel-better-live-more--strength-menopause-stacy-sims",
+      "show": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "title": "BITESIZE | What You Need To Know About Strength, Menopause & Healthy Ageing | Dr Stacy Sims #673",
+      "apple_collection_id": 1333552422,
+      "apple_track_id": 1000776098797,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bitesize-what-you-need-to-know-about-strength-menopause/id1333552422?i=1000776098797&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/19/4c/c4194cdf-e055-7325-748f-08c43a0f0de1/mza_6020915391024149869.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "health/nutrition"
+      ],
+      "hook": "Dr Stacy Sims on why exercise advice needs rewriting for menopause and healthy ageing.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--seth-godin-two-questions",
+      "show": "The Mel Robbins Podcast",
+      "title": "How to Build a Better Future: 2 Simple Questions That Uplevel Your Life Immediately",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000776012814,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-build-a-better-future-2-simple-questions/id1646101002?i=1000776012814&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "hook": "Seth Godin gives Mel Robbins two questions that reshape decisions, time, and your future.",
+      "explicit": false
+    },
+    {
+      "id": "happier-gretchen-rubin--design-your-summer-touch",
+      "show": "Happier with Gretchen Rubin",
+      "title": "More Happier: Design Your Summer & Why a Teammate's Touch Can Change an Outcome",
+      "apple_collection_id": 969519520,
+      "apple_track_id": 1000774898153,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/more-happier-design-your-summer-why-a-teammates/id969519520?i=1000774898153&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/23/c8/ba/23c8bae0-763c-f814-a950-a108e1e91ada/mza_7509668650678952832.jpeg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement"
+      ],
+      "hook": "Designing a playful summer, plus research on how teammates' touch lifts athletic performance.",
+      "explicit": false
+    },
+    {
+      "id": "armchair-expert--animal-attack-iii",
+      "show": "Armchair Expert with Dax Shepard",
+      "title": "Armchair Anonymous: Animal Attack III",
+      "apple_collection_id": 1345682353,
+      "apple_track_id": 1000776231595,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/armchair-anonymous-animal-attack-iii/id1345682353?i=1000776231595&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/90/61/70/9061704e-e59c-a6af-d317-3b51263c9cf7/mza_16792081508671743442.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Listeners tell Dax and Monica their wildest animal attack stories.",
+      "explicit": true
+    },
+    {
+      "id": "this-past-weekend-theo-von--cristina-mariani",
+      "show": "This Past Weekend w/ Theo Von",
+      "title": "#668 - Cristina Mariani",
+      "apple_collection_id": 1190981360,
+      "apple_track_id": 1000776332118,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/cristina-mariani/id1190981360?i=1000776332118&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 93,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/b6/2a/b5b62a93-978f-837c-0894-4b1e5c1be454/mza_9717316721855786738.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Comedian Cristina Mariani on Italian childhood bullies, pets' secret thoughts, and summer grandma hugs.",
+      "explicit": true
+    },
+    {
+      "id": "how-did-this-get-made--last-looks-vertical-limit",
+      "show": "How Did This Get Made?",
+      "title": "Last Looks: Vertical Limit",
+      "apple_collection_id": 409287913,
+      "apple_track_id": 1000776215285,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/last-looks-vertical-limit/id409287913?i=1000776215285&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/06/00/4b06006c-8936-1653-fc82-132b64441f4f/mza_5523773122723324139.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs",
+        "tv-film/reviews"
+      ],
+      "hook": "Paul answers your Vertical Limit corrections, from K2 cleanup to afterlife facial hair.",
+      "explicit": true
+    },
+    {
+      "id": "handsome--pretty-little-episode-99",
+      "show": "Handsome",
+      "title": "Pretty Little Episode #99",
+      "apple_collection_id": 1702258458,
+      "apple_track_id": 1000776235117,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pretty-little-episode-99/id1702258458?i=1000776235117&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 24,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/25/47/ca/2547cabd-daec-69ca-7747-52b3b68bf8b5/mza_12546487617850330742.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Mae and Tig define what makes a house a home and rank favorite music videos.",
+      "explicit": true
+    },
+    {
+      "id": "criminal--thats-not-me",
+      "show": "Criminal",
+      "title": "That’s Not Me",
+      "apple_collection_id": 809264944,
+      "apple_track_id": 1000773888809,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/thats-not-me/id809264944?i=1000773888809&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/02/01/7f0201bd-e8fc-ad3a-ad8c-0b0e379f8b40/mza_15789320745383457071.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Porcha Woodruff, eight months pregnant, is arrested for a crime facial recognition pinned on her.",
+      "explicit": false
+    },
+    {
+      "id": "casefile--megumi-yokota",
+      "show": "Casefile True Crime",
+      "title": "Case 346: Megumi Yokota",
+      "apple_collection_id": 998568017,
+      "apple_track_id": 1000775429026,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/case-346-megumi-yokota/id998568017?i=1000775429026&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 83,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/6b/f7/a46bf7e9-0b76-eef9-238d-b70bf2eded91/mza_54642671907953757.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime"
+      ],
+      "hook": "The 1977 disappearance of 13-year-old Megumi Yokota grew into a geopolitical crisis for Japan.",
+      "explicit": true
+    },
+    {
+      "id": "unexplained--s09e27-ted-binion-pt2",
+      "show": "Unexplained",
+      "title": "Season 09 Episode 27: Death in Vegas, the Ted Binion Mystery (Pt. 2 of 3)",
+      "apple_collection_id": 1078112813,
+      "apple_track_id": 1000776322638,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/season-09-episode-27-death-in-vegas-the-ted-binion/id1078112813?i=1000776322638&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4a/4b/14/4a4b1462-cba0-76c4-1bcc-9f47ceeb253a/mza_8576385243974466633.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal"
+      ],
+      "hook": "Ted Binion's tangled Vegas life deepens as Rick Tabish enters the picture.",
+      "explicit": false
+    },
+    {
+      "id": "the-moth--over-my-head",
+      "show": "The Moth",
+      "title": "Over My Head: The Moth Podcast",
+      "apple_collection_id": 275699983,
+      "apple_track_id": 1000776210845,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/over-my-head-the-moth-podcast/id275699983?i=1000776210845&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 20,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/41/bd/4a41bd96-4519-3ec0-d511-b06d47aa12da/mza_4002594628853429371.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling",
+        "culture/performing-arts"
+      ],
+      "hook": "Sink-or-swim stories: a reluctant Scottish dancer and a store clerk supervising troubled youth.",
+      "explicit": false
+    },
+    {
+      "id": "dear-sugars--haunted-by-ghosting",
+      "show": "Dear Sugars",
+      "title": "Repost: Haunted By Ghosting",
+      "apple_collection_id": 950464429,
+      "apple_track_id": 1000776367948,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/repost-haunted-by-ghosting/id950464429?i=1000776367948&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/13/86/7f/13867f22-67b6-49d0-9b74-8eaa458aab0d/mza_10920335765348487691.jpg/600x600bb.jpg",
+      "topics": [
+        "relationships",
+        "personal-journals"
+      ],
+      "hook": "The Sugars on ghosting — why sudden silence wounds, and how the ghosted move on.",
+      "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--wewow-hermit-crabs",
+      "show": "Wow in the World",
+      "title": "WeWow on the Weekend: Boarding School Memories and Hermit Crab Houses!",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000776352092,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/wewow-on-the-weekend-boarding-school-memories-and/id1233834541?i=1000776352092&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 16,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/70/c3/94/70c394e5-9849-a8fd-e3e2-92ed7820ef9e/mza_16063845966091976992.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "Pajamas, boarding school memories, and hermit crab houses on a family variety weekend.",
+      "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--two-whats-rae-wynn-grant",
+      "show": "Wow in the World",
+      "title": "Two Whats?! And A Wow! People Who Wow Edition – Dr. Rae Wynn-Grant – Guess the True Facts about this Wildlife Ecologist, TV Host, and Author!",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000776228123,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/two-whats-and-a-wow-people-who-wow-edition-dr-rae/id1233834541?i=1000776228123&uo=4",
+      "release_date": "2026-07-10",
+      "duration_min": 23,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c0/19/ae/c019ae13-787d-44c3-ad49-8c57c056c421/mza_11565925948913916743.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "Wildlife ecologist Rae Wynn-Grant shares true facts and sneaky fibs for kids to catch.",
       "explicit": false
     }
   ]

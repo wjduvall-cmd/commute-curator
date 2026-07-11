@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T04:43:18.696Z",
+  "built_at": "2026-07-11T17:55:12.829Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -6385,6 +6385,326 @@
       "language",
       "etymology",
       "banter"
+    ],
+    "cbc-ideas--redeeming-swamps": [
+      "wetlands",
+      "ecology",
+      "climate",
+      "nature",
+      "environment",
+      "documentary"
+    ],
+    "stuff-you-should-know--first-road-trip": [
+      "cars",
+      "road-trip",
+      "american-history",
+      "history",
+      "explainer",
+      "1900s"
+    ],
+    "being-an-engineer--heylands-lowry-continuous-improvement": [
+      "manufacturing",
+      "lean-manufacturing",
+      "six-sigma",
+      "engineering",
+      "leadership",
+      "interview",
+      "careers",
+      "culture"
+    ],
+    "business-of-machining--460-coolant-sensor": [
+      "machining",
+      "machine-shop",
+      "manufacturing",
+      "cnc",
+      "banter",
+      "tools",
+      "automation"
+    ],
+    "engines-of-our-ingenuity--adams-education": [
+      "history",
+      "history-of-technology",
+      "bite-sized",
+      "education",
+      "paris",
+      "medieval"
+    ],
+    "engines-of-our-ingenuity--urban-archaeology": [
+      "archaeology",
+      "history",
+      "cities",
+      "bite-sized",
+      "history-of-technology"
+    ],
+    "founders--peter-thiel-zero-to-one": [
+      "startups",
+      "peter-thiel",
+      "monopoly",
+      "business",
+      "founders",
+      "books",
+      "solo"
+    ],
+    "this-week-in-startups--farm-robots-reservoir": [
+      "startups",
+      "robotics",
+      "agriculture",
+      "automation",
+      "venture-capital",
+      "interview",
+      "labor"
+    ],
+    "twenty-minute-vc--arvind-jain-glean": [
+      "ai",
+      "startups",
+      "enterprise",
+      "venture-capital",
+      "interview",
+      "business",
+      "geopolitics"
+    ],
+    "gardenfork-radio--dropping-stones": [
+      "diy",
+      "casual",
+      "banter",
+      "tips",
+      "writing",
+      "quirky"
+    ],
+    "shop-talk-live--jamie-gilgen": [
+      "woodworking",
+      "craft",
+      "tools",
+      "furniture-making",
+      "interview",
+      "technique"
+    ],
+    "99-percent-invisible--billy-possum": [
+      "design",
+      "history",
+      "american-history",
+      "animals",
+      "storytelling",
+      "consumer-products",
+      "1900s"
+    ],
+    "ologies-with-alie-ward--conversational-psychology": [
+      "psychology",
+      "behavioral-science",
+      "friendship",
+      "communication",
+      "mental-health",
+      "interview",
+      "social-skills"
+    ],
+    "off-nominal--rtgs-promise-rover": [
+      "space",
+      "nasa",
+      "rockets",
+      "banter",
+      "space-policy",
+      "rocket-lab",
+      "mars"
+    ],
+    "planet-money--fake-chanel-realreal": [
+      "economics",
+      "luxury",
+      "markets",
+      "explainer",
+      "consumer-products",
+      "journalism",
+      "fashion"
+    ],
+    "odd-lots--korean-levered-etfs": [
+      "markets",
+      "finance",
+      "economics",
+      "etfs",
+      "korea",
+      "interview"
+    ],
+    "volts--land-value-tax": [
+      "land-tax",
+      "urbanism",
+      "housing",
+      "policy",
+      "cities",
+      "economics",
+      "interview"
+    ],
+    "the-cinematography-podcast--lyle-vincent-beast-in-me": [
+      "cinematography",
+      "filmmaking",
+      "lighting",
+      "interview",
+      "television",
+      "craft"
+    ],
+    "radiolab--the-holy-shiver": [
+      "science",
+      "biology",
+      "physiology",
+      "storytelling",
+      "science-journalism",
+      "emotions"
+    ],
+    "masters-of-scale--pioneers-of-ai-john-deere-s-ai-vision-for-future-farms": [
+      "ai",
+      "agriculture",
+      "machine-learning",
+      "automation",
+      "interview",
+      "business",
+      "technology"
+    ],
+    "we-have-ways-of-making-you-talk--antony-beevor-downfall-in-berlin": [
+      "world-war-2",
+      "military-history",
+      "history",
+      "eastern-front",
+      "berlin"
+    ],
+    "amicus-dahlia-lithwick--the-term-the-court-stopped-pretending": [
+      "law",
+      "supreme-court",
+      "courts",
+      "politics",
+      "panel",
+      "rulings"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--brewing-scientists-shellhammer-chenot-older-hops": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "hops",
+      "research",
+      "interview",
+      "food-science"
+    ],
+    "sticky-notes--sibelius-tapiola": [
+      "classical-music",
+      "music-analysis",
+      "composers",
+      "orchestral",
+      "finland",
+      "sibelius"
+    ],
+    "ten-percent-happier--mindfulness-movement-ims-founders": [
+      "mindfulness",
+      "meditation",
+      "buddhism",
+      "spirituality",
+      "interview",
+      "oral-history",
+      "mental-health"
+    ],
+    "feel-better-live-more--strength-menopause-stacy-sims": [
+      "health",
+      "exercise",
+      "menopause",
+      "womens-health",
+      "ageing",
+      "strength-training",
+      "bite-sized"
+    ],
+    "mel-robbins-podcast--seth-godin-two-questions": [
+      "self-improvement",
+      "decision-making",
+      "interview",
+      "advice",
+      "business",
+      "creativity"
+    ],
+    "happier-gretchen-rubin--design-your-summer-touch": [
+      "happiness",
+      "habits",
+      "self-improvement",
+      "advice",
+      "play",
+      "psychology"
+    ],
+    "armchair-expert--animal-attack-iii": [
+      "comedy",
+      "hang",
+      "storytelling",
+      "animals",
+      "funny"
+    ],
+    "this-past-weekend-theo-von--cristina-mariani": [
+      "comedy",
+      "interview",
+      "stand-up",
+      "hang",
+      "funny"
+    ],
+    "how-did-this-get-made--last-looks-vertical-limit": [
+      "comedy",
+      "movies",
+      "bad-movies",
+      "banter",
+      "movie-riffing",
+      "funny"
+    ],
+    "handsome--pretty-little-episode-99": [
+      "comedy",
+      "hang",
+      "banter",
+      "funny",
+      "music"
+    ],
+    "criminal--thats-not-me": [
+      "true-crime",
+      "criminal",
+      "facial-recognition",
+      "technology",
+      "justice",
+      "reported-story"
+    ],
+    "casefile--megumi-yokota": [
+      "true-crime",
+      "casefile",
+      "japan",
+      "missing-persons",
+      "kidnapping",
+      "cold-case",
+      "geopolitics"
+    ],
+    "unexplained--s09e27-ted-binion-pt2": [
+      "mystery",
+      "unexplained",
+      "true-crime",
+      "las-vegas",
+      "serialized"
+    ],
+    "the-moth--over-my-head": [
+      "storytelling",
+      "live-storytelling",
+      "personal-story",
+      "true-stories",
+      "courage"
+    ],
+    "dear-sugars--haunted-by-ghosting": [
+      "relationships",
+      "advice",
+      "dear-sugars",
+      "letters",
+      "emotions"
+    ],
+    "wow-in-the-world--wewow-hermit-crabs": [
+      "kids",
+      "family",
+      "science-for-kids",
+      "curiosity",
+      "animals"
+    ],
+    "wow-in-the-world--two-whats-rae-wynn-grant": [
+      "kids",
+      "family",
+      "game-show",
+      "animals",
+      "science-for-kids",
+      "interactive",
+      "ecology"
     ]
   }
 }
