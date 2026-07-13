@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-12T11:42:01.631Z",
+  "built_at": "2026-07-13T11:45:10.470Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -11336,6 +11336,609 @@
       ],
       "hook": "Maria Georgas shares wild Bachelor-era dating stories, including how she proved her boyfriend was cheating.",
       "explicit": true
+    },
+    {
+      "id": "the-rest-is-history--odyssey-trojan-horse-1",
+      "show": "The Rest Is History",
+      "title": "687. The Odyssey: Hero of the Trojan Horse (Part 1)",
+      "apple_collection_id": 1537788786,
+      "apple_track_id": 1000775966069,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-odyssey-hero-of-the-trojan-horse-part-1/id1537788786?i=1000775966069&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 72,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
+      "topics": [
+        "history/technology",
+        "history/military-ancient"
+      ],
+      "hook": "Tom and Dominic trace Homer's Odyssey and the real places behind Odysseus's trials.",
+      "explicit": false
+    },
+    {
+      "id": "conan-obrien-needs-a-friend--mick-jagger",
+      "show": "Conan O'Brien Needs a Friend",
+      "title": "Mick Jagger",
+      "apple_collection_id": 1438054347,
+      "apple_track_id": 1000774350941,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mick-jagger/id1438054347?i=1000774350941&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 60,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Mick Jagger on six decades of the Stones, Bowie rivalries, and living in the moment.",
+      "explicit": true
+    },
+    {
+      "id": "smartless--olivia-wilde",
+      "show": "SmartLess",
+      "title": "\"Olivia Wilde\"",
+      "apple_collection_id": 1521578868,
+      "apple_track_id": 1000775225909,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/olivia-wilde/id1521578868?i=1000775225909&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Olivia Wilde talks proxy film school, the Rockwell Technique, and pickleball with the SmartLess guys.",
+      "explicit": true
+    },
+    {
+      "id": "making-chips--imts-2026-ai-filter",
+      "show": "Making Chips Podcast for Manufacturing Leaders",
+      "title": "The AI Everyone Will Actually Care About at IMTS 2026, Ep #530",
+      "apple_collection_id": 953541032,
+      "apple_track_id": 1000776578362,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-ai-everyone-will-actually-care-about-at-imts-2026-ep-530/id953541032?i=1000776578362&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "Ryan Kelly sorts IMTS AI claims into three layers so shop owners can filter hype.",
+      "explicit": false
+    },
+    {
+      "id": "engines-of-our-ingenuity--tragedy-of-the-commons",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 1602: The Tragedy of the Commons",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000776544087,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-1602-the-tragedy-of-the-commons/id121493645?i=1000776544087&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "Why shared resources get overused: the tragedy of the commons, revisited.",
+      "explicit": false
+    },
+    {
+      "id": "twenty-minute-vc--wix-avishai-abrahami",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
+      "apple_collection_id": 958230465,
+      "apple_track_id": 1000776559671,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/20vc-wixs-founder-on-what-wall-st-gets-wrong-about/id958230465?i=1000776559671&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/4a/f9/cb4af9a2-5857-c3f1-30d4-14395af9a14f/mza_11350890235230424535.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Wix's CEO on Wall Street's AI fears, Base44's rise, and a buyback disaster.",
+      "explicit": true
+    },
+    {
+      "id": "fly-on-the-wall--collapse-and-controversy",
+      "show": "Fly on the Wall with Dana Carvey and David Spade",
+      "title": "Collapse and Controversy",
+      "apple_collection_id": 1603639502,
+      "apple_track_id": 1000776556724,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/collapse-and-controversy/id1603639502?i=1000776556724&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/5f/1e/c45f1e02-7a76-a6e6-d53d-9705246ed2c1/mza_17162576389956741702.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Dana and David on the US men's collapse, Odyssey controversy, and playing nice guys.",
+      "explicit": true
+    },
+    {
+      "id": "bad-friends--nasa-poops-in-space",
+      "show": "Bad Friends",
+      "title": "Nasa Poops In Space",
+      "apple_collection_id": 1496265971,
+      "apple_track_id": 1000776562166,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/nasa-poops-in-space/id1496265971?i=1000776562166&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 64,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/26/c8/b026c805-1a24-55ea-cff3-d0329d2338ce/mza_11376115143280052758.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Bobby and Andrew riff on how NASA handles pooping in space.",
+      "explicit": true
+    },
+    {
+      "id": "the-allusionist--lingthusionist",
+      "show": "The Allusionist",
+      "title": "231. Lingthusionist",
+      "apple_collection_id": 957430475,
+      "apple_track_id": 1000776563445,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/231-lingthusionist/id957430475?i=1000776563445&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/ee/57/d2ee5738-0ae8-cb97-2a15-8cefab5598c0/mza_18103885882368855276.jpeg/600x600bb.jpg",
+      "topics": [
+        "linguistics/language"
+      ],
+      "hook": "Lauren Gawne of Lingthusiasm on making language podcasts and scary intimidating verbs.",
+      "explicit": true
+    },
+    {
+      "id": "science-for-sport-podcast--bfr-world-cup",
+      "show": "Science for Sport Podcast",
+      "title": "328: Blood Flow Restriction at the World Cup",
+      "apple_collection_id": 1506431005,
+      "apple_track_id": 1000776541668,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/blood-flow-restriction-at-the-world-cup/id1506431005?i=1000776541668&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/d1/ce/2f/d1ce2fc5-acd9-6780-ec02-08e05123ad99/mza_11239183095122157429.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "Dr Warren Bradley on how blood flow restriction fits elite World Cup recovery.",
+      "explicit": false
+    },
+    {
+      "id": "odd-lots--ai-lawyers",
+      "show": "Odd Lots",
+      "title": "Why AI Might Actually Create More Work for Lawyers",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000776561632,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-ai-might-actually-create-more-work-for-lawyers/id1056200096?i=1000776561632&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Law firm chair Gary Wingens on why AI could mean more billable work, not less.",
+      "explicit": false
+    },
+    {
+      "id": "the-race-f1-podcast--refuelling-return-debate",
+      "show": "The Race F1 Podcast",
+      "title": "To refuel or not to refuel - The dilemma hanging over F1's future",
+      "apple_collection_id": 1495557562,
+      "apple_track_id": 1000776565215,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/to-refuel-or-not-to-refuel-the-dilemma-hanging-over/id1495557562?i=1000776565215&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/40/7b/8c/407b8cbe-cd34-d818-ff69-a11bc1d6c690/mza_9877600709441097500.jpeg/600x600bb.jpg",
+      "topics": [
+        "automotive/racing"
+      ],
+      "hook": "Edd Straw and team debate whether lighter V8-era F1 cars should bring back refuelling.",
+      "explicit": false
+    },
+    {
+      "id": "partially-examined-life--cs-lewis-part-two",
+      "show": "The Partially Examined Life Philosophy Podcast",
+      "title": "Ep. 395: C.S. Lewis Argues for Christianity (Part Two)",
+      "apple_collection_id": 318345767,
+      "apple_track_id": 1000776533835,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-395-c-s-lewis-argues-for-christianity-part-two/id318345767?i=1000776533835&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/32/eb/a9/32eba9ac-dfb0-618b-e874-6696c69ea59d/mza_257738567509116492.jpeg/600x600bb.jpg",
+      "topics": [
+        "philosophy/ideas"
+      ],
+      "hook": "The panel takes on Lewis's problem of evil, bios versus zoe, and pride.",
+      "explicit": true
+    },
+    {
+      "id": "partially-examined-life--closereads-hegel-faith",
+      "show": "The Partially Examined Life Philosophy Podcast",
+      "title": "PEL Presents Closereads: Hegel on Faith vs. The Enlightenment (aka PEL#394 pt. 3)",
+      "apple_collection_id": 318345767,
+      "apple_track_id": 1000776461662,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pel-presents-closereads-hegel-on-faith-vs-the/id318345767?i=1000776461662&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/32/eb/a9/32eba9ac-dfb0-618b-e874-6696c69ea59d/mza_257738567509116492.jpeg/600x600bb.jpg",
+      "topics": [
+        "philosophy/ideas"
+      ],
+      "hook": "A close reading of Hegel on how the Enlightenment mischaracterizes faith.",
+      "explicit": true
+    },
+    {
+      "id": "unexplainable--lyric-person-music-person",
+      "show": "Unexplainable",
+      "title": "Are you a lyric person or a music person?",
+      "apple_collection_id": 1554578197,
+      "apple_track_id": 1000776563362,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/are-you-a-lyric-person-or-a-music-person/id1554578197?i=1000776563362&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/87/4d/eb874d60-4424-62df-a136-d5b5f32c451b/mza_11680166435885601347.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Why some listeners latch onto lyrics while others hear only the music.",
+      "explicit": false
+    },
+    {
+      "id": "how-i-built-this--sun-bum-tom-rinks",
+      "show": "How I Built This with Guy Raz",
+      "title": "Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)",
+      "apple_collection_id": 1150510297,
+      "apple_track_id": 1000776558754,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/id1150510297?i=1000776558754&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Tom Rinks turned an obscure sunscreen into Sun Bum's $400 million brand.",
+      "explicit": false
+    },
+    {
+      "id": "strong-towns-podcast--the-transit-tradeoff-no-city-can-escape",
+      "show": "The Strong Towns Podcast",
+      "title": "The Transit Tradeoff No City Can Escape",
+      "apple_collection_id": 369032477,
+      "apple_track_id": 1000776575494,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-transit-tradeoff-no-city-can-escape/id369032477?i=1000776575494&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/63/8c/63638c2a-3e02-dc38-8a26-50a832d39a6f/mza_868145100848425715.jpg/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Jarrett Walker on why cities can't maximize frequency, coverage, and affordability at once.",
+      "explicit": false
+    },
+    {
+      "id": "huberman-lab--memory-cognitive-function-castel",
+      "show": "Huberman Lab",
+      "title": "How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000776562945,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-improve-your-memory-cognitive-function-at-any/id1545953110?i=1000776562945&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 149,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "UCLA memory expert Alan Castel on retrieval practice, false memories, and cognitive aging.",
+      "explicit": false
+    },
+    {
+      "id": "the-matt-walker-podcast--143-love-desire-sex",
+      "show": "The Matt Walker Podcast",
+      "title": "#143 - The Science of Love, Desire, and Sex",
+      "apple_collection_id": 1578319619,
+      "apple_track_id": 1000776558114,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/143-the-science-of-love-desire-and-sex/id1578319619?i=1000776558114&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/3e/6c/5a3e6c8c-6c6f-31eb-6002-0bdaba3ae4f8/mza_5768385804711493809.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Matt breaks love into lust, attraction, and attachment: hormones, dopamine, and oxytocin.",
+      "explicit": true
+    },
+    {
+      "id": "the-peter-attia-drive--alzheimers-dementia-care-devi",
+      "show": "The Peter Attia Drive",
+      "title": "#399 ‒ The evolution of Alzheimer's disease and dementia care: how early detection, personalized treatment, new therapies, and a multimodal approach are changing the landscape | Gayatri Devi, M.D.",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000776538766,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/399-the-evolution-of-alzheimers-disease-and/id1400828889?i=1000776538766&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 117,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Neurologist Gayatri Devi on dementia as a spectrum and personalized Alzheimer's treatment.",
+      "explicit": false
+    },
+    {
+      "id": "strict-scrutiny--long-road-out-of-autocracy",
+      "show": "Strict Scrutiny",
+      "title": "Our Long Road Out of Autocracy",
+      "apple_collection_id": 1469168641,
+      "apple_track_id": 1000776555454,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/our-long-road-out-of-autocracy/id1469168641?i=1000776555454&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 88,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/3f/62/683f6228-b15b-e0de-8c2c-e8c20860ca98/mza_763663699315012405.png/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Kim Lane Scheppele on the captured Supreme Court and what Hungary teaches about autocracy.",
+      "explicit": false
+    },
+    {
+      "id": "happiness-lab--forget-small-talk-go-deep",
+      "show": "The Happiness Lab with Dr. Laurie Santos",
+      "title": "Forget Small Talk: Go Deep Instead",
+      "apple_collection_id": 1474245040,
+      "apple_track_id": 1000776152182,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/forget-small-talk-go-deep-instead/id1474245040?i=1000776152182&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5a/06/61/5a0661c0-aa91-e1f2-bcd7-1787a4ea409e/mza_16329902839176329110.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Claire Eastham swapped small talk for deeper conversations for a month, despite social anxiety.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--mattering-gordon-flett",
+      "show": "10% Happier with Dan Harris",
+      "title": "Perfectionism, Burnout, and Self-Doubt: Break the Loop with the Science of Mattering | Gordon Flett",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000776154412,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/perfectionism-burnout-and-self-doubt-break-the/id1087147821?i=1000776154412&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Gordon Flett on how mattering to a few people beats outperforming everyone.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--dacher-keltner-purpose",
+      "show": "The Mel Robbins Podcast",
+      "title": "Find Your Purpose & Live a Meaningful Life Today with the #1 Happiness Expert",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000776307830,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/find-your-purpose-live-a-meaningful-life-today-with/id1646101002?i=1000776307830&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "hook": "Berkeley's Dacher Keltner shares science-backed ways to feel happier and closer to your purpose.",
+      "explicit": false
+    },
+    {
+      "id": "happier-gretchen-rubin--king-paid-three-books",
+      "show": "Happier with Gretchen Rubin",
+      "title": "Little Happier: Why the King Paid Just as Much for Three Books as He Would Have Paid for Nine",
+      "apple_collection_id": 969519520,
+      "apple_track_id": 1000774214305,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/little-happier-why-the-king-paid-just-as-much-for/id969519520?i=1000774214305&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 3,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b3/95/7d/b3957d02-3748-1119-7241-c16dd0cf4213/mza_1819383823957826117.jpeg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement"
+      ],
+      "hook": "A Roman story about the Sibylline books and the cost of waiting too long.",
+      "explicit": false
+    },
+    {
+      "id": "armchair-expert--jackie-tohn",
+      "show": "Armchair Expert with Dax Shepard",
+      "title": "Jackie Tohn Returns",
+      "apple_collection_id": 1345682353,
+      "apple_track_id": 1000776560510,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jackie-tohn-returns/id1345682353?i=1000776560510&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 121,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f0/13/8f/f0138f4b-8bc3-0a64-2c11-ef566840f60f/mza_3062409012210474882.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Jackie Tohn on her BRCA discovery, genetic testing advocacy, and clawing through Hollywood.",
+      "explicit": true
+    },
+    {
+      "id": "comedy-bang-bang--tooth-hings",
+      "show": "Comedy Bang Bang: The Podcast",
+      "title": "Tooth Hings (Jason Mantzoukas, Paul F. Tompkins, Andy Daly)",
+      "apple_collection_id": 316045799,
+      "apple_track_id": 1000776555430,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/tooth-hings-jason-mantzoukas-paul-f-tompkins-andy-daly/id316045799?i=1000776555430&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 109,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0b/ca/6e/0bca6ee0-0b2b-5df7-edee-4d9d1b2d4e8a/mza_10749952114435066299.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Jason Mantzoukas co-hosts as pretzel salt inspector August Lindt offers travel tips and revelations.",
+      "explicit": true
+    },
+    {
+      "id": "working-it-out-birbiglia--jane-wickline-liva-pierce",
+      "show": "Mike Birbiglia's Working It Out",
+      "title": "218. Jane Wickline and Liva Pierce Return: Comedy Duo Therapy",
+      "apple_collection_id": 1515419751,
+      "apple_track_id": 1000776527711,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/218-jane-wickline-and-liva-pierce-return-comedy-duo-therapy/id1515419751?i=1000776527711&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ef/af/30/efaf301d-6e45-ca17-192e-ef7e66afdcfd/mza_16176505125015117955.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/stand-up",
+        "comedy/interviews"
+      ],
+      "hook": "Jane Wickline and Liva Pierce on two-person musical comedy and creative existential dread.",
+      "explicit": false
+    },
+    {
+      "id": "astonishing-legends--warren-legacy-mckinnell",
+      "show": "Astonishing Legends",
+      "title": "Chris McKinnell and the Warren Legacy",
+      "apple_collection_id": 923527373,
+      "apple_track_id": 1000776487148,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/chris-mckinnell-and-the-warren-legacy/id923527373?i=1000776487148&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 155,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "Ed and Lorraine Warren's grandson shares firsthand stories from inside the family's hauntings.",
+      "explicit": false
+    },
+    {
+      "id": "lore--310-thunderstruck",
+      "show": "Lore",
+      "title": "Lore 310: Thunderstruck",
+      "apple_collection_id": 978052928,
+      "apple_track_id": 1000761588419,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lore-310-thunderstruck/id978052928?i=1000761588419&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "Folklore about lightning and thunder, and the shocking tales people told to survive them.",
+      "explicit": false
+    },
+    {
+      "id": "crime-junkie--warning-roger-hueber",
+      "show": "Crime Junkie",
+      "title": "WARNING: Roger Hueber",
+      "apple_collection_id": 1322200189,
+      "apple_track_id": 1000774843889,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/warning-roger-hueber/id1322200189?i=1000774843889&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime"
+      ],
+      "hook": "A woman vanished days before testifying against her corrections-officer boyfriend; a new witness speaks.",
+      "explicit": false
+    },
+    {
+      "id": "wicked-words--emily-winslow-jane-doe-january",
+      "show": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "title": "Emily Winslow: Jane Doe January",
+      "apple_collection_id": 1538204210,
+      "apple_track_id": 1000776556460,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/emily-winslow-jane-doe-january/id1538204210?i=1000776556460&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 53,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "Crime novelist Emily Winslow investigates her own 1992 rape case in Jane Doe January.",
+      "explicit": true
+    },
+    {
+      "id": "this-american-life--the-test-case",
+      "show": "This American Life",
+      "title": "891: The Test Case",
+      "apple_collection_id": 201671138,
+      "apple_track_id": 1000776388811,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-test-case/id201671138?i=1000776388811&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 72,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dd/c0/ae/ddc0aee7-fe31-2984-a49c-2b015f5ab86c/mza_4590464273934061331.jpg/600x600bb.jpg",
+      "topics": [
+        "personal-journals",
+        "science/storytelling"
+      ],
+      "hook": "Zoe Chace reports from the first federal trial testing whether Antifa is real.",
+      "explicit": true
+    },
+    {
+      "id": "where-should-we-begin--you-slept-with-my-best-friend",
+      "show": "Where Should We Begin? with Esther Perel",
+      "title": "You Slept With My Best Friend",
+      "apple_collection_id": 1237931798,
+      "apple_track_id": 1000775674889,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/you-slept-with-my-best-friend/id1237931798?i=1000775674889&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/99/e4/b3/99e4b36d-4f35-5b43-73d5-f3b50420b90d/mza_4407106950301679051.jpg/600x600bb.jpg",
+      "topics": [
+        "relationships",
+        "psychology"
+      ],
+      "hook": "Esther counsels a couple after a decade-long affair with the wife's best friend surfaces.",
+      "explicit": true
+    },
+    {
+      "id": "wow-in-the-world--thresher-shark-yoga",
+      "show": "Wow in the World",
+      "title": "A Shark Tail: Can a Yoga Class Learn the Secrets of the Thresher Shark?",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000776556785,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-shark-tail-can-a-yoga-class-learn-the/id1233834541?i=1000776556785&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/14/23/e81423c9-74eb-b17c-f85d-d8fe85862ca4/mza_497627077527206384.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "Mindy and Guy Raz turn a yoga class into a thresher shark tail-whip discovery.",
+      "explicit": false
+    },
+    {
+      "id": "twenty-thousand-hertz--eurovision",
+      "show": "Twenty Thousand Hertz",
+      "title": "Eurovision Song Contest: Inside the Gimmicks & Glamour",
+      "apple_collection_id": 1171270672,
+      "apple_track_id": 1000776576965,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/eurovision-song-contest-inside-the-gimmicks-glamour/id1171270672?i=1000776576965&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e0/e3/df/e0e3df0e-ea03-1193-56cf-dc0144d8051f/mza_12926437061841965025.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/design",
+        "music/theory-production"
+      ],
+      "hook": "A crash course in Eurovision's history, gimmicks, and the careers 'nul points' made or ruined.",
+      "explicit": false
+    },
+    {
+      "id": "design-matters--laverne-cox",
+      "show": "Design Matters with Debbie Millman",
+      "title": "Laverne Cox",
+      "apple_collection_id": 328074695,
+      "apple_track_id": 1000776569425,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/laverne-cox/id328074695?i=1000776569425&uo=4",
+      "release_date": "2026-07-13",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bd/84/30/bd843064-237e-a4d1-f770-5acc80c62c18/mza_10023450780288102744.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/design"
+      ],
+      "hook": "Laverne Cox discusses her memoir Transcendent: surviving, healing, and becoming fully yourself.",
+      "explicit": false
     }
   ]
 }

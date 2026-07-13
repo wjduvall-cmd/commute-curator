@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-12T11:42:01.631Z",
+  "built_at": "2026-07-13T11:45:10.470Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -6740,6 +6740,321 @@
       "dating",
       "relationships",
       "interview"
+    ],
+    "the-rest-is-history--odyssey-trojan-horse-1": [
+      "ancient-greece",
+      "homer",
+      "odyssey",
+      "odysseus",
+      "trojan-war",
+      "mythology",
+      "ancient-history",
+      "epic"
+    ],
+    "conan-obrien-needs-a-friend--mick-jagger": [
+      "conan-obrien",
+      "interview",
+      "music-history",
+      "rock",
+      "comedy",
+      "celebrities"
+    ],
+    "smartless--olivia-wilde": [
+      "smartless",
+      "comedy",
+      "interview",
+      "acting",
+      "hollywood",
+      "directing",
+      "celebrities"
+    ],
+    "making-chips--imts-2026-ai-filter": [
+      "manufacturing",
+      "machining",
+      "ai",
+      "ai-adoption",
+      "technology",
+      "industry",
+      "machine-shop"
+    ],
+    "engines-of-our-ingenuity--tragedy-of-the-commons": [
+      "economics",
+      "history-of-science",
+      "ideas",
+      "environment",
+      "engineering-history",
+      "bite-sized"
+    ],
+    "twenty-minute-vc--wix-avishai-abrahami": [
+      "venture-capital",
+      "startups",
+      "ai",
+      "founders",
+      "investing",
+      "tech-industry",
+      "ceo"
+    ],
+    "fly-on-the-wall--collapse-and-controversy": [
+      "comedy",
+      "dana-carvey",
+      "david-spade",
+      "snl",
+      "movies",
+      "pop-culture",
+      "banter"
+    ],
+    "bad-friends--nasa-poops-in-space": [
+      "comedy",
+      "bobby-lee",
+      "andrew-santino",
+      "banter",
+      "casual",
+      "funny",
+      "space"
+    ],
+    "the-allusionist--lingthusionist": [
+      "linguistics",
+      "language",
+      "podcasting",
+      "interview",
+      "words",
+      "grammar"
+    ],
+    "science-for-sport-podcast--bfr-world-cup": [
+      "sports-science",
+      "blood-flow-restriction",
+      "recovery",
+      "football",
+      "world-cup",
+      "physiology",
+      "strength-conditioning"
+    ],
+    "odd-lots--ai-lawyers": [
+      "economics",
+      "ai",
+      "law",
+      "labor-markets",
+      "automation",
+      "markets"
+    ],
+    "the-race-f1-podcast--refuelling-return-debate": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "engines",
+      "regulation",
+      "strategy"
+    ],
+    "partially-examined-life--cs-lewis-part-two": [
+      "philosophy",
+      "christianity",
+      "cs-lewis",
+      "religion",
+      "ethics",
+      "morality",
+      "debate"
+    ],
+    "partially-examined-life--closereads-hegel-faith": [
+      "philosophy",
+      "hegel",
+      "enlightenment",
+      "religion",
+      "faith",
+      "ideas"
+    ],
+    "unexplainable--lyric-person-music-person": [
+      "science",
+      "psychology",
+      "music",
+      "neuroscience",
+      "sound",
+      "science-communication"
+    ],
+    "how-i-built-this--sun-bum-tom-rinks": [
+      "business",
+      "founders",
+      "entrepreneurship",
+      "brands",
+      "consumer-products",
+      "interview",
+      "guy-raz"
+    ],
+    "strong-towns-podcast--the-transit-tradeoff-no-city-can-escape": [
+      "urbanism",
+      "transit",
+      "public-transit",
+      "buses",
+      "cities",
+      "urban-planning",
+      "policy"
+    ],
+    "huberman-lab--memory-cognitive-function-castel": [
+      "neuroscience",
+      "memory",
+      "aging",
+      "psychology",
+      "brain-health",
+      "evidence-based",
+      "science"
+    ],
+    "the-matt-walker-podcast--143-love-desire-sex": [
+      "neuroscience",
+      "relationships",
+      "attachment",
+      "hormones",
+      "sex",
+      "intimacy",
+      "psychology"
+    ],
+    "the-peter-attia-drive--alzheimers-dementia-care-devi": [
+      "medicine",
+      "alzheimers",
+      "dementia",
+      "neuroscience",
+      "longevity",
+      "brain-health",
+      "prevention"
+    ],
+    "strict-scrutiny--long-road-out-of-autocracy": [
+      "law",
+      "supreme-court",
+      "politics",
+      "democracy",
+      "courts",
+      "executive-power"
+    ],
+    "happiness-lab--forget-small-talk-go-deep": [
+      "psychology",
+      "happiness",
+      "anxiety",
+      "communication",
+      "social-skills",
+      "mental-health",
+      "conversation"
+    ],
+    "ten-percent-happier--mattering-gordon-flett": [
+      "psychology",
+      "perfectionism",
+      "burnout",
+      "mental-health",
+      "mattering",
+      "self-esteem",
+      "wellbeing"
+    ],
+    "mel-robbins-podcast--dacher-keltner-purpose": [
+      "self-improvement",
+      "happiness",
+      "purpose",
+      "psychology",
+      "wellbeing",
+      "meaning"
+    ],
+    "happier-gretchen-rubin--king-paid-three-books": [
+      "self-improvement",
+      "ancient-rome",
+      "storytelling",
+      "bite-sized",
+      "decision-making"
+    ],
+    "armchair-expert--jackie-tohn": [
+      "comedy",
+      "interview",
+      "acting",
+      "hollywood",
+      "genetics",
+      "health",
+      "celebrities"
+    ],
+    "comedy-bang-bang--tooth-hings": [
+      "comedy",
+      "improv",
+      "characters",
+      "absurdist",
+      "paul-f-tompkins",
+      "sketch"
+    ],
+    "working-it-out-birbiglia--jane-wickline-liva-pierce": [
+      "comedy",
+      "snl",
+      "musicals",
+      "songwriting",
+      "interview",
+      "creativity",
+      "theater"
+    ],
+    "astonishing-legends--warren-legacy-mckinnell": [
+      "paranormal",
+      "supernatural",
+      "unexplained",
+      "interview",
+      "creepy",
+      "history"
+    ],
+    "lore--310-thunderstruck": [
+      "folklore",
+      "paranormal",
+      "history",
+      "supernatural",
+      "storytelling",
+      "dark-history"
+    ],
+    "crime-junkie--warning-roger-hueber": [
+      "true-crime",
+      "missing-persons",
+      "investigation",
+      "cold-case",
+      "crime-junkie"
+    ],
+    "wicked-words--emily-winslow-jane-doe-january": [
+      "true-crime",
+      "memoir",
+      "interview",
+      "justice",
+      "books",
+      "wicked-words"
+    ],
+    "this-american-life--the-test-case": [
+      "journalism",
+      "this-american-life",
+      "courtroom",
+      "politics",
+      "reported-story",
+      "trial"
+    ],
+    "where-should-we-begin--you-slept-with-my-best-friend": [
+      "relationships",
+      "couples-therapy",
+      "betrayal",
+      "marriage",
+      "esther-perel",
+      "therapy",
+      "grief"
+    ],
+    "wow-in-the-world--thresher-shark-yoga": [
+      "kids",
+      "science-for-kids",
+      "marine-biology",
+      "ocean",
+      "animals",
+      "mindy-thomas",
+      "guy-raz"
+    ],
+    "twenty-thousand-hertz--eurovision": [
+      "music",
+      "pop-culture",
+      "television",
+      "music-history",
+      "culture",
+      "songs"
+    ],
+    "design-matters--laverne-cox": [
+      "interview",
+      "memoir",
+      "lgbtq",
+      "acting",
+      "television",
+      "identity",
+      "culture"
     ]
   }
 }
