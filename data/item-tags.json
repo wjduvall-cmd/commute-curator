@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-13T11:45:10.470Z",
+  "built_at": "2026-07-14T11:47:54.990Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -7055,6 +7055,323 @@
       "television",
       "identity",
       "culture"
+    ],
+    "cbc-ideas--brutalist-architecture": [
+      "architecture",
+      "design",
+      "cities",
+      "housing",
+      "materials",
+      "culture",
+      "documentary"
+    ],
+    "stuff-you-should-know--postpartum-depression": [
+      "explainer",
+      "psychology",
+      "mental-health",
+      "medicine",
+      "parenting",
+      "motherhood",
+      "health"
+    ],
+    "my-brother-my-brother-and-me--822": [
+      "comedy",
+      "banter",
+      "hang",
+      "mcelroy-brothers",
+      "funny",
+      "absurdist"
+    ],
+    "engines-of-our-ingenuity--simple-gifts": [
+      "bite-sized",
+      "ideas",
+      "shakespeare",
+      "theater",
+      "complexity",
+      "engineering",
+      "history"
+    ],
+    "this-week-in-startups--podmeme-viral-tweet": [
+      "startups",
+      "ai",
+      "business",
+      "entrepreneurship",
+      "tech-industry",
+      "podcasting"
+    ],
+    "good-hang-amy-poehler--will-ferrell": [
+      "comedy",
+      "interview",
+      "hang",
+      "celebrities",
+      "snl",
+      "amy-poehler"
+    ],
+    "the-bbq-central-show--best-moments-meathead": [
+      "bbq",
+      "barbecue",
+      "grilling",
+      "food",
+      "bite-sized",
+      "retrospective"
+    ],
+    "this-podcast-will-kill-you--cash-cow-fertility": [
+      "medicine",
+      "health",
+      "fertility",
+      "reproductive-health",
+      "economics",
+      "interview",
+      "ethics"
+    ],
+    "switched-on-pop--song-intros": [
+      "music",
+      "music-analysis",
+      "songwriting",
+      "music-production",
+      "pop"
+    ],
+    "99-percent-invisible--mosquito-hawks": [
+      "history",
+      "aviation",
+      "design",
+      "american-history",
+      "slavery",
+      "storytelling",
+      "invention"
+    ],
+    "spycast--china-cyber-espionage": [
+      "espionage",
+      "china",
+      "intelligence",
+      "geopolitics",
+      "interview",
+      "cybersecurity"
+    ],
+    "software-engineering-daily--aura-production-agents": [
+      "software",
+      "ai",
+      "ai-agents",
+      "observability",
+      "technical",
+      "interview",
+      "open-source"
+    ],
+    "freakonomics-radio--bjarke-ingels-architect": [
+      "architecture",
+      "design",
+      "interview",
+      "creativity",
+      "ideas",
+      "cities"
+    ],
+    "hidden-brain--mental-maps": [
+      "psychology",
+      "neuroscience",
+      "brain",
+      "mental-health",
+      "interview",
+      "mindfulness"
+    ],
+    "energy-gang--la-olympics-clean-energy": [
+      "energy",
+      "clean-energy",
+      "cities",
+      "transit",
+      "olympics",
+      "policy",
+      "infrastructure"
+    ],
+    "masters-of-scale--canva-cameron-adams": [
+      "business",
+      "founders",
+      "ai",
+      "design",
+      "interview",
+      "leadership",
+      "startups"
+    ],
+    "we-have-ways-of-making-you-talk--north-african-odyssey-part-3": [
+      "military-history",
+      "world-war-2",
+      "history",
+      "north-africa",
+      "narrative",
+      "serialized"
+    ],
+    "unauthorized-history-pacific-war--first-attacks-bataan": [
+      "military-history",
+      "pacific-war",
+      "world-war-2",
+      "history",
+      "philippines",
+      "bataan"
+    ],
+    "history-of-wwii-podcast--episode-638-bloodletting-guadalcanal": [
+      "military-history",
+      "world-war-2",
+      "pacific-war",
+      "guadalcanal",
+      "history",
+      "narrative"
+    ],
+    "talking-headways--episode-195-mondays-han-solo-returns": [
+      "urbanism",
+      "cities",
+      "transit",
+      "housing",
+      "policy",
+      "logistics"
+    ],
+    "shipwrecks-and-sea-dogs--uscgc-tampa": [
+      "maritime",
+      "shipwrecks",
+      "history",
+      "world-war-1",
+      "navy",
+      "coast-guard",
+      "narrative"
+    ],
+    "the-roundhouse--big-boy-now-what": [
+      "trains",
+      "railroads",
+      "steam-engine",
+      "bite-sized",
+      "opinion"
+    ],
+    "mwa-woodworking--david-douyard": [
+      "woodworking",
+      "craft",
+      "craftsmanship",
+      "interview",
+      "furniture-making",
+      "tools"
+    ],
+    "zoe-science-nutrition--omega-3-most-replayed": [
+      "nutrition",
+      "health",
+      "supplements",
+      "evidence-based",
+      "science",
+      "bite-sized"
+    ],
+    "sigma-nutrition-radio--supplement-safety-guerrini": [
+      "nutrition",
+      "supplements",
+      "medicine",
+      "health",
+      "pharmacology",
+      "evidence-based",
+      "interview"
+    ],
+    "good-inside-dr-becky--technology-builds-childs-brain": [
+      "parenting",
+      "psychology",
+      "neuroscience",
+      "ai",
+      "child-development",
+      "attachment",
+      "becky-kennedy"
+    ],
+    "ask-lisa-parenting--dream-school-right-college": [
+      "parenting",
+      "teens",
+      "education",
+      "college",
+      "psychology",
+      "lisa-damour",
+      "advice"
+    ],
+    "2-bears-1-cave--lou-reeds-ghost": [
+      "comedy",
+      "hang",
+      "banter",
+      "funny",
+      "tom-segura"
+    ],
+    "how-did-this-get-made--perfect-live-seth-morris": [
+      "comedy",
+      "movies",
+      "bad-movies",
+      "movie-riffing",
+      "live-show",
+      "panel"
+    ],
+    "handsome--will-ferrell-world-cup": [
+      "comedy",
+      "hang",
+      "banter",
+      "funny",
+      "world-cup",
+      "celebrities"
+    ],
+    "kill-tony--776-brian-moses-dave-landau": [
+      "comedy",
+      "stand-up",
+      "open-mic",
+      "live-show",
+      "panel"
+    ],
+    "criminal--murdaugh-do-over": [
+      "true-crime",
+      "law",
+      "courts",
+      "journalism",
+      "interview",
+      "trial"
+    ],
+    "morbid--green-river-killer-part-3": [
+      "true-crime",
+      "serial-killer",
+      "history",
+      "investigation",
+      "serialized",
+      "morbid"
+    ],
+    "dateline--bluegrass-mystery": [
+      "true-crime",
+      "investigation",
+      "missing-persons",
+      "dateline",
+      "journalism"
+    ],
+    "the-moth--choose-your-own-theme": [
+      "storytelling",
+      "live-storytelling",
+      "personal-story",
+      "moth-radio-hour",
+      "anthology"
+    ],
+    "storycorps--stadium-beer-vendor": [
+      "interview",
+      "careers",
+      "everyday-people",
+      "personal-story",
+      "sports"
+    ],
+    "death-sex-money--pet-detective": [
+      "interview",
+      "animals",
+      "dogs",
+      "new-york",
+      "personal-story",
+      "careers"
+    ],
+    "we-can-do-hard-things--free-birds-empty-nests": [
+      "relationships",
+      "family",
+      "advice",
+      "dating",
+      "hang",
+      "glennon-doyle"
+    ],
+    "dissect--flower-boy-last-song-standing": [
+      "music",
+      "music-analysis",
+      "hip-hop",
+      "album",
+      "cole-cuchna",
+      "critique"
     ]
   }
 }
