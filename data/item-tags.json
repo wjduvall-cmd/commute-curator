@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-14T11:47:54.990Z",
+  "built_at": "2026-07-19T11:41:15.712Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -7372,6 +7372,448 @@
       "album",
       "cole-cuchna",
       "critique"
+    ],
+    "cbc-ideas--button-history": [
+      "history-of-technology",
+      "design",
+      "media",
+      "technology",
+      "canada",
+      "ideas",
+      "invention"
+    ],
+    "cbc-ideas--blue-jeans-cost": [
+      "fashion",
+      "textiles",
+      "environment",
+      "sustainability",
+      "canada",
+      "consumer-products",
+      "history"
+    ],
+    "stuff-you-should-know--soul-train": [
+      "music-history",
+      "television",
+      "culture",
+      "1970s",
+      "explainer",
+      "banter",
+      "soul"
+    ],
+    "stuff-you-should-know--white-boy-rick": [
+      "true-crime",
+      "1980s",
+      "drugs",
+      "fbi",
+      "myth-busting",
+      "explainer",
+      "america"
+    ],
+    "being-an-engineer--steve-riley-factory-floor": [
+      "manufacturing",
+      "lean-manufacturing",
+      "continuous-improvement",
+      "operations",
+      "leadership",
+      "careers",
+      "interview",
+      "engineering"
+    ],
+    "making-chips--tim-drinkwater-smart-growth": [
+      "machining",
+      "machine-shop",
+      "manufacturing",
+      "entrepreneurship",
+      "careers",
+      "cnc",
+      "interview",
+      "family-business"
+    ],
+    "business-of-machining--461-diy-metrology": [
+      "machining",
+      "metrology",
+      "measurement",
+      "cnc",
+      "workholding",
+      "tools",
+      "machine-shop",
+      "precision"
+    ],
+    "engines-of-our-ingenuity--hydrogen-1783": [
+      "hydrogen",
+      "history-of-science",
+      "chemistry",
+      "aviation",
+      "18th-century",
+      "invention",
+      "bite-sized"
+    ],
+    "engines-of-our-ingenuity--old-galileo": [
+      "history-of-science",
+      "biography",
+      "physics",
+      "renaissance",
+      "books",
+      "grief",
+      "bite-sized"
+    ],
+    "this-week-in-startups--surgery-bots-mogul": [
+      "startups",
+      "robotics",
+      "surgery",
+      "real-estate",
+      "venture-capital",
+      "fintech",
+      "interview"
+    ],
+    "twenty-minute-vc--fred-turner-curative": [
+      "startups",
+      "founders",
+      "venture-capital",
+      "medicine",
+      "entrepreneurship",
+      "health",
+      "interview"
+    ],
+    "fretboard-journal-guitar-podcast--mark-turley-returns": [
+      "guitar",
+      "electronics",
+      "lutherie",
+      "diy",
+      "craftsmanship",
+      "music",
+      "interview"
+    ],
+    "lingthusiasm--animal-communication-tech": [
+      "linguistics",
+      "animal-communication",
+      "whales",
+      "dogs",
+      "language",
+      "research",
+      "science"
+    ],
+    "just-fly-performance-podcast--kevin-mulcahy-speed": [
+      "sports-science",
+      "speed-training",
+      "constraints-led-training",
+      "coaching",
+      "biomechanics",
+      "athletes",
+      "training",
+      "decision-making"
+    ],
+    "99-percent-invisible--milk-carton-missing-children": [
+      "design",
+      "1980s",
+      "missing-persons",
+      "media",
+      "america",
+      "journalism",
+      "social-history",
+      "family"
+    ],
+    "off-nominal--jason-dunn-outpost": [
+      "space",
+      "spacecraft",
+      "defense",
+      "startups",
+      "aerospace",
+      "manufacturing",
+      "interview"
+    ],
+    "planetary-radio--edge-of-space-time-book-club": [
+      "cosmology",
+      "physics",
+      "books",
+      "particle-physics",
+      "science-communication",
+      "space",
+      "interview"
+    ],
+    "planet-money--world-cup-mls": [
+      "economics",
+      "sports",
+      "world-cup",
+      "business",
+      "media",
+      "america",
+      "markets"
+    ],
+    "odd-lots--fed-independence-menand-tankus": [
+      "economics",
+      "policy",
+      "law",
+      "supreme-court",
+      "markets",
+      "finance",
+      "politics"
+    ],
+    "freakonomics-radio--penicillin-allergy": [
+      "medicine",
+      "immunology",
+      "public-health",
+      "antibiotics",
+      "research",
+      "health",
+      "economics",
+      "explainer"
+    ],
+    "geology-bites--hotspots-fixed": [
+      "geology",
+      "geophysics",
+      "earth-science",
+      "hawaii",
+      "research",
+      "seismology",
+      "interview"
+    ],
+    "the-race-f1-podcast--in-car-insights-spa-friday": [
+      "formula-1",
+      "racing",
+      "motorsport",
+      "cars",
+      "analysis",
+      "panel"
+    ],
+    "the-race-f1-podcast--tech-show-red-bull-rear-wing": [
+      "formula-1",
+      "aerodynamics",
+      "engineering",
+      "motorsport",
+      "red-bull",
+      "technical",
+      "racing",
+      "downforce"
+    ],
+    "partially-examined-life--nem-256-bruce-soord": [
+      "music",
+      "songwriting",
+      "rock",
+      "music-analysis",
+      "guitar",
+      "interview",
+      "music-production"
+    ],
+    "camera-shake-photography-podcast--vincent-versace": [
+      "photography",
+      "cameras",
+      "lighting",
+      "technique",
+      "ai",
+      "art",
+      "craft",
+      "interview"
+    ],
+    "the-cinematography-podcast--eben-bolter-cape-fear": [
+      "cinematography",
+      "filmmaking",
+      "lighting",
+      "television",
+      "cameras",
+      "craft",
+      "interview"
+    ],
+    "radiolab--neither-confirm-nor-deny": [
+      "cold-war",
+      "cia",
+      "espionage",
+      "submarines",
+      "journalism",
+      "law",
+      "history",
+      "storytelling"
+    ],
+    "amicus-dahlia-lithwick--who-owns-the-constitution": [
+      "law",
+      "supreme-court",
+      "democracy",
+      "courts",
+      "politics",
+      "legal-history",
+      "policy"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--jake-watt-wet-hop": [
+      "brewing",
+      "craft-beer",
+      "beer",
+      "hops",
+      "technique",
+      "homebrewing",
+      "flavor",
+      "interview"
+    ],
+    "common-descent--snake-stuff-ali-ashraf": [
+      "snakes",
+      "evolution",
+      "biology",
+      "conservation",
+      "animals",
+      "research",
+      "interview"
+    ],
+    "practical-ai--coreweave-infrastructure": [
+      "ai",
+      "infrastructure",
+      "gpus",
+      "data-centers",
+      "machine-learning",
+      "enterprise",
+      "interview"
+    ],
+    "ten-percent-happier--vikram-gandhi-gurus": [
+      "spirituality",
+      "skeptic",
+      "documentary",
+      "psychology",
+      "religion",
+      "meaning",
+      "interview"
+    ],
+    "happier-gretchen-rubin--summer-reading-hacks": [
+      "books",
+      "habits",
+      "self-improvement",
+      "tips",
+      "happiness",
+      "gretchen-rubin",
+      "advice"
+    ],
+    "armchair-expert--armchair-anonymous-stalking-iii": [
+      "storytelling",
+      "comedy",
+      "banter",
+      "true-crime",
+      "personal-story",
+      "hang",
+      "letters"
+    ],
+    "how-did-this-get-made--thrashin": [
+      "bad-movies",
+      "movie-riffing",
+      "comedy",
+      "1980s",
+      "movies",
+      "panel",
+      "film-comedy"
+    ],
+    "handsome--pretty-little-episode-100": [
+      "comedy",
+      "hang",
+      "lgbtq",
+      "banter",
+      "milestone",
+      "friendship",
+      "stand-up"
+    ],
+    "criminal--125-acres": [
+      "true-crime",
+      "american-history",
+      "slavery",
+      "reconstruction",
+      "justice",
+      "law",
+      "race",
+      "storytelling"
+    ],
+    "casefile--case-347-zahra-baker": [
+      "true-crime",
+      "missing-persons",
+      "murder-investigation",
+      "investigation",
+      "narrative",
+      "courts",
+      "serialized"
+    ],
+    "unexplained--s09e27-ted-binion-pt3": [
+      "true-crime",
+      "unsolved",
+      "las-vegas",
+      "murder",
+      "trial",
+      "investigation",
+      "serialized"
+    ],
+    "dateline--horn-island-nolan-wells": [
+      "true-crime",
+      "dateline",
+      "murder-investigation",
+      "courtroom",
+      "journalism",
+      "forensics",
+      "trial",
+      "investigation"
+    ],
+    "snap-judgment--father-of-the-bride": [
+      "storytelling",
+      "personal-story",
+      "family",
+      "hurricanes",
+      "first-person",
+      "resilience",
+      "narrative"
+    ],
+    "the-moth--hard-talks": [
+      "live-storytelling",
+      "personal-story",
+      "family",
+      "parenting",
+      "careers",
+      "courage",
+      "moth-radio-hour"
+    ],
+    "wow-in-the-world--wewow-baby-photos-worms": [
+      "science-for-kids",
+      "kids",
+      "family",
+      "comedy",
+      "insects",
+      "biology",
+      "stories-for-kids"
+    ],
+    "wow-in-the-world--two-whats-shark": [
+      "science-for-kids",
+      "kids",
+      "family",
+      "game-show",
+      "ocean",
+      "marine-biology",
+      "interactive"
+    ],
+    "the-ancients--odyssey-suitors": [
+      "odyssey",
+      "homer",
+      "odysseus",
+      "greek-mythology",
+      "ancient-greece",
+      "mythology",
+      "interview",
+      "storytelling"
+    ],
+    "founders--merchant-bankers": [
+      "business-history",
+      "banking",
+      "finance",
+      "entrepreneurship",
+      "biography",
+      "rothschilds"
+    ],
+    "call-her-daddy--self-sabotage": [
+      "relationships",
+      "dating",
+      "psychology",
+      "self-improvement",
+      "advice",
+      "careers"
+    ],
+    "this-past-weekend-theo-von--erin-brockovich": [
+      "comedy",
+      "interview",
+      "erin-brockovich",
+      "environment",
+      "activism",
+      "data-centers",
+      "water"
     ]
   }
 }
