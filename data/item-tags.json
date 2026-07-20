@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-19T11:41:15.712Z",
+  "built_at": "2026-07-20T11:44:07.224Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -7814,6 +7814,328 @@
       "activism",
       "data-centers",
       "water"
+    ],
+    "the-rest-is-history--habsburgs-mayerling-part-1": [
+      "history",
+      "european-history",
+      "habsburgs",
+      "austria",
+      "vienna",
+      "scandal",
+      "narrative",
+      "storytelling"
+    ],
+    "conan-obrien-needs-a-friend--molly-shannon-returns": [
+      "comedy",
+      "interview",
+      "conan-obrien",
+      "hang",
+      "acting",
+      "saturday-night-live",
+      "friendship",
+      "funny"
+    ],
+    "smartless--timothy-olyphant": [
+      "comedy",
+      "interview",
+      "smartless",
+      "acting",
+      "hang",
+      "hollywood",
+      "banter"
+    ],
+    "making-chips--532-young-shop-owner": [
+      "manufacturing",
+      "machining",
+      "machine-shop",
+      "cnc",
+      "entrepreneurship",
+      "precision",
+      "medical-devices",
+      "careers"
+    ],
+    "engines-of-our-ingenuity--3388-omar-khayyam": [
+      "history",
+      "science-history",
+      "math",
+      "astronomy",
+      "persia",
+      "bite-sized",
+      "poetry",
+      "biography"
+    ],
+    "twenty-minute-vc--lin-qiao-fireworks": [
+      "startups",
+      "venture-capital",
+      "ai",
+      "inference",
+      "open-source",
+      "interview",
+      "machine-learning",
+      "business"
+    ],
+    "fly-on-the-wall--sick-little-monkeys": [
+      "comedy",
+      "hang",
+      "banter",
+      "saturday-night-live",
+      "funny",
+      "pop-culture"
+    ],
+    "bad-friends--comedy-store-snitch": [
+      "comedy",
+      "bobby-lee",
+      "andrew-santino",
+      "banter",
+      "hang",
+      "stand-up",
+      "funny"
+    ],
+    "science-for-sport-podcast--329-speed-development": [
+      "sports-science",
+      "speed",
+      "strength-conditioning",
+      "american-football",
+      "coaching",
+      "biomechanics",
+      "interview"
+    ],
+    "advent-of-computing--186-maddida": [
+      "computing-history",
+      "computing",
+      "analog-computing",
+      "military-technology",
+      "engineering",
+      "1950s",
+      "storytelling"
+    ],
+    "odd-lots--claude-code-boris-cherny": [
+      "ai",
+      "software",
+      "coding",
+      "anthropic",
+      "startups",
+      "technology",
+      "interview",
+      "markets"
+    ],
+    "the-race-f1-podcast--belgian-gp-2026": [
+      "racing",
+      "formula-1",
+      "motorsport",
+      "panel",
+      "analysis",
+      "ferrari",
+      "mercedes"
+    ],
+    "partially-examined-life--396-peirce-knowledge-part-1": [
+      "philosophy",
+      "epistemology",
+      "pragmatism",
+      "peirce",
+      "ideas",
+      "panel",
+      "technical"
+    ],
+    "unexplainable--dinosaur-mysteries-riley-black": [
+      "science",
+      "paleontology",
+      "dinosaurs",
+      "interview",
+      "research",
+      "biology",
+      "explainer"
+    ],
+    "how-i-built-this--toast-aman-narang": [
+      "startups",
+      "founders",
+      "entrepreneurship",
+      "restaurants",
+      "software",
+      "payments",
+      "interview",
+      "business"
+    ],
+    "strong-towns-podcast--better-block-versus-planning": [
+      "urbanism",
+      "cities",
+      "urban-planning",
+      "streets",
+      "community",
+      "tactical-urbanism",
+      "interview"
+    ],
+    "huberman-lab--accelerate-learning-tommy-wood": [
+      "neuroscience",
+      "learning",
+      "cognition",
+      "brain-health",
+      "neuroplasticity",
+      "interview",
+      "health"
+    ],
+    "the-matt-walker-podcast--144-face-blindness": [
+      "neuroscience",
+      "brain",
+      "perception",
+      "explainer",
+      "psychology",
+      "medicine",
+      "bite-sized"
+    ],
+    "the-peter-attia-drive--400-ama-environmental-pollution": [
+      "medicine",
+      "longevity",
+      "environmental-health",
+      "air-pollution",
+      "research",
+      "health",
+      "prevention"
+    ],
+    "strict-scrutiny--attorney-general-pick": [
+      "law",
+      "courts",
+      "politics",
+      "judiciary",
+      "panel",
+      "policy",
+      "democracy"
+    ],
+    "happiness-lab--men-need-bromance": [
+      "psychology",
+      "friendship",
+      "mental-health",
+      "relationships",
+      "masculinity",
+      "interview",
+      "health"
+    ],
+    "ten-percent-happier--kate-bowler-joyful-anyway": [
+      "mental-health",
+      "psychology",
+      "interview",
+      "meaning",
+      "suffering",
+      "self-improvement",
+      "religion"
+    ],
+    "mel-robbins-podcast--spot-hidden-manipulators": [
+      "psychology",
+      "self-improvement",
+      "manipulation",
+      "relationships",
+      "interview",
+      "research",
+      "mental-health"
+    ],
+    "happier-gretchen-rubin--help-rejecting-complainer": [
+      "self-improvement",
+      "relationships",
+      "advice",
+      "bite-sized",
+      "psychology",
+      "communication",
+      "habits"
+    ],
+    "armchair-expert--geena-davis": [
+      "interview",
+      "acting",
+      "hollywood",
+      "activism",
+      "biography",
+      "film",
+      "personal-story"
+    ],
+    "comedy-bang-bang--the-gun-is-a-pie": [
+      "comedy",
+      "improv",
+      "characters",
+      "absurdist",
+      "funny",
+      "stand-up",
+      "sketch"
+    ],
+    "working-it-out-birbiglia--219-michelle-buteau": [
+      "comedy",
+      "stand-up",
+      "interview",
+      "careers",
+      "writing",
+      "television",
+      "creativity",
+      "personal-story"
+    ],
+    "lore--legends-84-dead-in-the-water": [
+      "folklore",
+      "storytelling",
+      "ocean",
+      "lore",
+      "narrative",
+      "history",
+      "supernatural"
+    ],
+    "crime-junkie--joyce-lepage": [
+      "true-crime",
+      "cold-case",
+      "investigation",
+      "missing-persons",
+      "crime-junkie",
+      "1970s",
+      "narrative"
+    ],
+    "morbid--phantom-stalkers-halifax-hammersmith": [
+      "true-crime",
+      "history",
+      "folklore",
+      "mass-hysteria",
+      "england",
+      "storytelling",
+      "dark-history"
+    ],
+    "wicked-words--eva-benefield-ghost-girl": [
+      "true-crime",
+      "interview",
+      "memoir",
+      "courts",
+      "family",
+      "trial",
+      "personal-story"
+    ],
+    "this-american-life--892-trapped-on-a-bus": [
+      "storytelling",
+      "narrative",
+      "journalism",
+      "personal-story",
+      "this-american-life",
+      "documentary",
+      "reported-story"
+    ],
+    "where-should-we-begin--chatgpt-hurting-my-relationship": [
+      "relationships",
+      "couples-therapy",
+      "esther-perel",
+      "ai",
+      "communication",
+      "therapy",
+      "technology"
+    ],
+    "wow-in-the-world--baby-great-white-shark": [
+      "science-for-kids",
+      "kids",
+      "family",
+      "sharks",
+      "marine-biology",
+      "comedy",
+      "stories-for-kids"
+    ],
+    "design-matters--james-dyson-best-of": [
+      "design",
+      "interview",
+      "invention",
+      "engineering",
+      "product-design",
+      "entrepreneurship",
+      "creativity"
     ]
   }
 }
