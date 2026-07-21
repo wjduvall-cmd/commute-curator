@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-20T11:44:07.224Z",
+  "built_at": "2026-07-21T11:43:48.094Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -8136,6 +8136,303 @@
       "product-design",
       "entrepreneurship",
       "creativity"
+    ],
+    "stuff-you-should-know--tobacco-master-settlement": [
+      "history",
+      "law",
+      "policy",
+      "public-health",
+      "business-history",
+      "american-history",
+      "explainer"
+    ],
+    "my-brother-my-brother-and-me--823-seasonably-effective": [
+      "comedy",
+      "advice",
+      "banter",
+      "funny",
+      "mcelroy-brothers",
+      "absurdist",
+      "hang"
+    ],
+    "engines-of-our-ingenuity--3389-carlo-antonio-testore": [
+      "history",
+      "lutherie",
+      "craft",
+      "music-history",
+      "invention",
+      "technology",
+      "bite-sized"
+    ],
+    "this-week-in-startups--e2314-ai-watches-your-clicks": [
+      "startups",
+      "ai",
+      "venture-capital",
+      "cybersecurity",
+      "business",
+      "founders",
+      "interview"
+    ],
+    "good-hang-amy-poehler--john-cena": [
+      "comedy",
+      "interview",
+      "hang",
+      "celebrities",
+      "amy-poehler",
+      "banter",
+      "wrestling"
+    ],
+    "this-podcast-will-kill-you--216-cyclospora": [
+      "medicine",
+      "epidemiology",
+      "disease",
+      "biology",
+      "science",
+      "food-science",
+      "explainer"
+    ],
+    "switched-on-pop--justice-for-the-verse": [
+      "music",
+      "music-analysis",
+      "songwriting",
+      "music-theory",
+      "music-production",
+      "pop",
+      "interview"
+    ],
+    "99-percent-invisible--original-100-objects": [
+      "history",
+      "design",
+      "museums",
+      "archaeology",
+      "ancient-egypt",
+      "storytelling",
+      "documentary"
+    ],
+    "spycast--dgse-france-foreign-intelligence": [
+      "espionage",
+      "intelligence",
+      "history",
+      "geopolitics",
+      "cold-war",
+      "policy",
+      "interview"
+    ],
+    "hidden-brain--how-to-combat-pain": [
+      "psychology",
+      "neuroscience",
+      "medicine",
+      "health",
+      "brain",
+      "science",
+      "interview"
+    ],
+    "the-race-f1-podcast--driver-rankings-belgian-gp": [
+      "formula-1",
+      "racing",
+      "motorsport",
+      "sports",
+      "analysis",
+      "cars",
+      "panel"
+    ],
+    "volts--data-center-backlash": [
+      "energy",
+      "data-centers",
+      "policy",
+      "grid",
+      "infrastructure",
+      "climate",
+      "interview"
+    ],
+    "philosophy-bites--jing-hu-songzi-insults": [
+      "philosophy",
+      "ethics",
+      "ideas",
+      "ancient-history",
+      "china",
+      "bite-sized",
+      "interview"
+    ],
+    "masters-of-scale--ed-bastian-delta": [
+      "business",
+      "leadership",
+      "economics",
+      "aviation",
+      "markets",
+      "ai",
+      "interview"
+    ],
+    "we-have-ways-of-making-you-talk--1000th-episode-special": [
+      "world-war-2",
+      "military-history",
+      "history",
+      "milestone",
+      "retrospective",
+      "banter",
+      "panel"
+    ],
+    "unauthorized-history-pacific-war--609-bataan-last-charge": [
+      "world-war-2",
+      "military-history",
+      "pacific-war",
+      "history",
+      "philippines",
+      "american-history",
+      "panel"
+    ],
+    "history-of-wwii-podcast--640-blood-in-the-water": [
+      "world-war-2",
+      "military-history",
+      "pacific-war",
+      "guadalcanal",
+      "navy",
+      "history",
+      "narrative"
+    ],
+    "the-war-on-cars--final-book-tour-dispatches": [
+      "cities",
+      "urbanism",
+      "transit",
+      "road-safety",
+      "urban-planning",
+      "activism",
+      "banter"
+    ],
+    "shipwrecks-and-sea-dogs--hunting-of-the-bismarck": [
+      "world-war-2",
+      "naval-battle",
+      "military-history",
+      "navy",
+      "ships",
+      "history",
+      "narrative"
+    ],
+    "mwa-woodworking--616-peter-follansbee": [
+      "woodworking",
+      "craft",
+      "furniture-making",
+      "hand-tools",
+      "craftsmanship",
+      "history",
+      "interview"
+    ],
+    "zoe-science-nutrition--muscle-gain-vonda-wright": [
+      "nutrition",
+      "health",
+      "muscle",
+      "strength-training",
+      "longevity",
+      "aging",
+      "bite-sized"
+    ],
+    "sigma-nutrition-radio--614-human-skills-coaching": [
+      "nutrition",
+      "coaching",
+      "health",
+      "psychology",
+      "behavioral-science",
+      "evidence-based",
+      "interview"
+    ],
+    "good-inside-dr-becky--belle-burden-good-girl": [
+      "parenting",
+      "psychology",
+      "personal-story",
+      "becky-kennedy",
+      "family",
+      "identity",
+      "relationships"
+    ],
+    "ask-lisa-parenting--281-talk-to-your-boys": [
+      "parenting",
+      "psychology",
+      "teens",
+      "masculinity",
+      "family",
+      "lisa-damour",
+      "advice"
+    ],
+    "how-did-this-get-made--dirt-bike-kid-classic": [
+      "comedy",
+      "bad-movies",
+      "movie-riffing",
+      "movies",
+      "film-comedy",
+      "funny",
+      "panel"
+    ],
+    "handsome--michael-buble-selfless-acts": [
+      "comedy",
+      "hang",
+      "banter",
+      "celebrities",
+      "funny",
+      "casual",
+      "interview"
+    ],
+    "kill-tony--777": [
+      "comedy",
+      "stand-up",
+      "open-mic",
+      "live-show",
+      "funny",
+      "banter",
+      "panel"
+    ],
+    "dateline--slow-burn": [
+      "true-crime",
+      "investigation",
+      "dateline",
+      "reported-story",
+      "journalism",
+      "mystery",
+      "murder-investigation"
+    ],
+    "the-moth--walking-the-walk": [
+      "storytelling",
+      "live-storytelling",
+      "personal-story",
+      "moth-radio-hour",
+      "first-person",
+      "oral-history",
+      "everyday-people"
+    ],
+    "death-sex-money--quiet-storm-black-middle-class": [
+      "music-history",
+      "culture",
+      "broadcasting",
+      "storytelling",
+      "1970s",
+      "social-history",
+      "race"
+    ],
+    "we-can-do-hard-things--abortion-history-jessica-valenti": [
+      "history",
+      "politics",
+      "policy",
+      "social-history",
+      "health",
+      "activism",
+      "interview"
+    ],
+    "dissect--igor-last-song-standing": [
+      "music",
+      "music-analysis",
+      "cole-cuchna",
+      "songwriting",
+      "critique",
+      "pop",
+      "banter"
+    ],
+    "broken-record--daveed-diggs": [
+      "music",
+      "acting",
+      "creativity",
+      "broadway",
+      "culture",
+      "hollywood",
+      "interview"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-20T11:44:07.224Z",
+  "built_at": "2026-07-21T11:43:48.094Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -13922,6 +13922,542 @@
       ],
       "hook": "James Dyson on failure's role in invention and redesigning ordinary household appliances.",
       "explicit": false
+    },
+    {
+      "id": "stuff-you-should-know--tobacco-master-settlement",
+      "show": "Stuff You Should Know",
+      "title": "The Tobacco Master Settlement: That Time We Got Em",
+      "apple_collection_id": 278981407,
+      "apple_track_id": 1000777690632,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-tobacco-master-settlement-that-time-we-got-em/id278981407?i=1000777690632&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
+      "hook": "How 50 state attorneys general took on cigarette makers who spent a century denying addiction.",
+      "explicit": false
+    },
+    {
+      "id": "my-brother-my-brother-and-me--823-seasonably-effective",
+      "show": "My Brother, My Brother and Me",
+      "title": "MBMBaM 823: Seasonably Effective",
+      "apple_collection_id": 367330921,
+      "apple_track_id": 1000777584707,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mbmbam-823-seasonably-effective/id367330921?i=1000777584707&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "The brothers field questions on dishwasher repair cosplay, popcorn gif descriptions, and toilet dimensions.",
+      "explicit": true
+    },
+    {
+      "id": "engines-of-our-ingenuity--3389-carlo-antonio-testore",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 3389: Carlo Antonio Testore",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000777667095,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-3389-carlo-antonio-testore/id121493645?i=1000777667095&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "Carlo Antonio Testore's violins reveal a luthier working by a different set of rules.",
+      "explicit": false
+    },
+    {
+      "id": "this-week-in-startups--e2314-ai-watches-your-clicks",
+      "show": "This Week in Startups",
+      "title": "An AI that watches your every click may be the future of work | E2314",
+      "apple_collection_id": 315114957,
+      "apple_track_id": 1000777604951,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/an-ai-that-watches-your-every-click-may-be-the/id315114957?i=1000777604951&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/bf/ce/23/bfce2354-2548-00f0-d795-a34404946a6b/mza_10222213905677371023.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Ent founder Brandon Dixon raised a $100M seed to stop breaches before they happen.",
+      "explicit": false
+    },
+    {
+      "id": "good-hang-amy-poehler--john-cena",
+      "show": "Good Hang with Amy Poehler",
+      "title": "John Cena",
+      "apple_collection_id": 1795483480,
+      "apple_track_id": 1000777697435,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/john-cena/id1795483480?i=1000777697435&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 67,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "John Cena on building his mom a house, '80s wrestling, and morning stretching.",
+      "explicit": false
+    },
+    {
+      "id": "this-podcast-will-kill-you--216-cyclospora",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 216 Cyclospora: Explosive Diarrhea Everywhere",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000777677202,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-216-cyclospora-explosive-diarrhea-everywhere/id1299915173?i=1000777677202&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "What cyclosporiasis is, where it comes from, and whether raspberries deserve your suspicion.",
+      "explicit": false
+    },
+    {
+      "id": "switched-on-pop--justice-for-the-verse",
+      "show": "Switched on Pop",
+      "title": "Justice for the verse",
+      "apple_collection_id": 934552872,
+      "apple_track_id": 1000777658871,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/justice-for-the-verse/id934552872?i=1000777658871&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/4a/87/8c/4a878cc7-0b12-dc80-93b0-c2ce08d5dd0c/mza_8267236680144001404.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Tracing the verse from Shakespeare through opera to TikTok, with songwriter Audrey Hobert.",
+      "explicit": false
+    },
+    {
+      "id": "99-percent-invisible--original-100-objects",
+      "show": "99% Invisible",
+      "title": "The Original 100 Objects",
+      "apple_collection_id": 394775318,
+      "apple_track_id": 1000775826320,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-original-100-objects/id394775318?i=1000775826320&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/d0/35/79d035ea-9043-b43e-7380-33cd47bd968b/mza_2606971010425550919.jpg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "Neil MacGregor on building the series, plus the Rosetta Stone that unlocked ancient Egypt.",
+      "explicit": false
+    },
+    {
+      "id": "spycast--dgse-france-foreign-intelligence",
+      "show": "SpyCast",
+      "title": "The Triumphs and Failures of France's Foreign Intel Service",
+      "apple_collection_id": 201680433,
+      "apple_track_id": 1000777707146,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-triumphs-and-failures-of-frances-foreign-intel-service/id201680433?i=1000777707146&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8b/ef/54/8bef54df-87de-d35e-dffc-9e5b7a69a077/mza_1037153440664024317.jpg/600x600bb.jpg",
+      "topics": [
+        "espionage/cold-war-tech"
+      ],
+      "hook": "France's DGSE learned espionage the hard way, through a run of high-profile blunders.",
+      "explicit": false
+    },
+    {
+      "id": "hidden-brain--how-to-combat-pain",
+      "show": "Hidden Brain",
+      "title": "How to Combat Pain",
+      "apple_collection_id": 1028908750,
+      "apple_track_id": 1000777567360,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-combat-pain/id1028908750?i=1000777567360&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e2/18/b8/e218b838-b790-3a33-441f-c3772d9abbbf/mza_6896085647855199484.jpg/600x600bb.jpg",
+      "topics": [
+        "psychology/decision-making"
+      ],
+      "hook": "Psychologist Rachel Zoffness on how much the mind shapes what the body feels.",
+      "explicit": false
+    },
+    {
+      "id": "the-race-f1-podcast--driver-rankings-belgian-gp",
+      "show": "The Race F1 Podcast",
+      "title": "Driver Rankings: How did we rank Russell after his nightmare weekend?",
+      "apple_collection_id": 1495557562,
+      "apple_track_id": 1000777708772,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/driver-rankings-how-did-we-rank-russell-after-his-nightmare/id1495557562?i=1000777708772&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/40/7b/8c/407b8cbe-cd34-d818-ff69-a11bc1d6c690/mza_9877600709441097500.jpeg/600x600bb.jpg",
+      "topics": [
+        "automotive/racing"
+      ],
+      "hook": "Ranking the grid after Belgium, including Russell's race-ending contact with Hamilton.",
+      "explicit": false
+    },
+    {
+      "id": "volts--data-center-backlash",
+      "show": "Volts",
+      "title": "Making sense of the data center backlash",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000777587295,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/making-sense-of-the-data-center-backlash/id1548554104?i=1000777587295&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "Roughly 120 local moratoriums across 38 states, and proximity doesn't predict who objects.",
+      "explicit": true
+    },
+    {
+      "id": "philosophy-bites--jing-hu-songzi-insults",
+      "show": "Philosophy Bites",
+      "title": "Jing Hu on Songzi on Insults and Shame",
+      "apple_collection_id": 257042117,
+      "apple_track_id": 1000777694374,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jing-hu-on-songzi-on-insults-and-shame/id257042117?i=1000777694374&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 18,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/4b/46/9c/4b469ca0-6e1c-80fd-a654-09a21cfc0cc7/mza_14359361872834352420.jpg/600x600bb.jpg",
+      "topics": [
+        "philosophy/ideas"
+      ],
+      "hook": "Songzi argued indifference, not aggression, is the right answer to an insult.",
+      "explicit": false
+    },
+    {
+      "id": "masters-of-scale--ed-bastian-delta",
+      "show": "Masters of Scale",
+      "title": "Delta's Ed Bastian on spiking fuel, summer travel, and a blunt reality check on AI",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000777688067,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/deltas-ed-bastian-on-spiking-fuel-summer-travel-and/id1227971746?i=1000777688067&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 28,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Delta's CEO on what booking data shows and why AI hasn't moved revenue.",
+      "explicit": false
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--1000th-episode-special",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "1000th Episode Special",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000777580702,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/1000th-episode-special/id1457552694?i=1000777580702&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "Holland and Murray look back at 1000 episodes of spreading war waffle.",
+      "explicit": false
+    },
+    {
+      "id": "unauthorized-history-pacific-war--609-bataan-last-charge",
+      "show": "The Unauthorized History of the Pacific War",
+      "title": "The Last Charge and The Battle of the Points: Jan-Feb 1942 on Bataan – Episode 609",
+      "apple_collection_id": 1641383288,
+      "apple_track_id": 1000777689396,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-last-charge-and-the-battle-of-the-points-jan/id1641383288?i=1000777689396&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 101,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fb/ee/c8/fbeec8e6-3d1f-20b4-d8b4-025fc884959e/mza_7133861084749007820.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "I Corps on western Bataan, January 1942, and the 26th Cavalry's last horse charge.",
+      "explicit": false
+    },
+    {
+      "id": "history-of-wwii-podcast--640-blood-in-the-water",
+      "show": "The History of WWII Podcast",
+      "title": "Episode 640-Blood In The Water",
+      "apple_collection_id": 493253759,
+      "apple_track_id": 1000777563442,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-640-blood-in-the-water/id493253759?i=1000777563442&uo=4",
+      "release_date": "2026-07-20",
+      "duration_min": 24,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "Japanese submarines hunt the carriers shielding Henderson Field, thinning Nimitz's air arm.",
+      "explicit": false
+    },
+    {
+      "id": "the-war-on-cars--final-book-tour-dispatches",
+      "show": "The War on Cars",
+      "title": "Final Dispatches from Book Tour",
+      "apple_collection_id": 1437755068,
+      "apple_track_id": 1000777700950,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/final-dispatches-from-book-tour/id1437755068?i=1000777700950&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/ad/19/0bad19f8-b182-5020-a70f-85729285514a/mza_1833798207903169371.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Reports from Atlanta, Memphis, Chicago, Montréal and more, plus reverse Copenhagenization.",
+      "explicit": false
+    },
+    {
+      "id": "shipwrecks-and-sea-dogs--hunting-of-the-bismarck",
+      "show": "Shipwrecks and Sea Dogs",
+      "title": "The Hunting of the Bismarck",
+      "apple_collection_id": 1640165188,
+      "apple_track_id": 1000777616728,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-hunting-of-the-bismarck/id1640165188?i=1000777616728&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/6a/6e/a36a6eee-d6fa-4def-65b8-33304a949d54/mza_15180103104043645429.jpeg/600x600bb.jpg",
+      "topics": [
+        "transport/maritime"
+      ],
+      "hook": "Bismarck sank HMS Hood in minutes, then the Royal Navy chased it across the Atlantic.",
+      "explicit": false
+    },
+    {
+      "id": "mwa-woodworking--616-peter-follansbee",
+      "show": "MWA Podcast - Woodworking Conversations",
+      "title": "MWA616 - Peter Follansbee & the 17th-Century Essex County Cupboard",
+      "apple_collection_id": 502349432,
+      "apple_track_id": 1000777658927,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mwa616-peter-follansbee-the-17th-century-essex-county/id502349432?i=1000777658927&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 70,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/b8/f4/5db8f408-cb22-1835-9326-0ba4bca7e066/mza_15782888279691799407.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/woodworking"
+      ],
+      "hook": "Peter Follansbee on 17th-century New England furniture and his new Lost Art Press book.",
+      "explicit": false
+    },
+    {
+      "id": "zoe-science-nutrition--muscle-gain-vonda-wright",
+      "show": "ZOE Science & Nutrition",
+      "title": "Most replayed moment: Why muscle gain matters more than weight loss | Vonda Wright",
+      "apple_collection_id": 1611216298,
+      "apple_track_id": 1000777706514,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/most-replayed-moment-why-muscle-gain-matters-more-than/id1611216298?i=1000777706514&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 15,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/21/fa/8321fa07-c424-c95e-25f8-b99d952b074e/mza_11331013497668602482.jpeg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Vonda Wright on why muscle mass shapes metabolism and aging more than scale weight.",
+      "explicit": false
+    },
+    {
+      "id": "sigma-nutrition-radio--614-human-skills-coaching",
+      "show": "Sigma Nutrition Radio",
+      "title": "#614: The Human Skills of Nutrition Coaching – Krista Scott-Dixon, PhD",
+      "apple_collection_id": 857888327,
+      "apple_track_id": 1000777673197,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/614-the-human-skills-of-nutrition-coaching-krista/id857888327?i=1000777673197&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7d/ed/21/7ded21c8-f97e-982f-dcae-cff69d126da2/mza_7834073134319015021.png/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Krista Scott-Dixon on the coaching skills behind how people actually change behaviour.",
+      "explicit": true
+    },
+    {
+      "id": "good-inside-dr-becky--belle-burden-good-girl",
+      "show": "Good Inside with Dr. Becky",
+      "title": "Belle Burden: The Burden of Being the \"Good Girl\"",
+      "apple_collection_id": 1561689671,
+      "apple_track_id": 1000777668707,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/belle-burden-the-burden-of-being-the-good-girl/id1561689671?i=1000777668707&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ce/43/fd/ce43fdee-824d-b97c-3642-959e971579c2/mza_9334100872530662650.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Belle Burden was the compliant good girl until a stranger's voicemail ended her marriage.",
+      "explicit": false
+    },
+    {
+      "id": "ask-lisa-parenting--281-talk-to-your-boys",
+      "show": "Ask Lisa: The Psychology of Parenting",
+      "title": "281: ENCORE: Talk to Your Boys: Raising Confident, Caring Young Men",
+      "apple_collection_id": 1525689066,
+      "apple_track_id": 1000777677888,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/281-encore-talk-to-your-boys-raising-confident-caring/id1525689066?i=1000777677888&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/0b/78/ee0b7836-10e5-e534-6dc3-ed9e68b4a8bf/mza_17757739287205185539.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Joanna Schroeder and Christopher Pepper on reaching sons who have gone quiet.",
+      "explicit": false
+    },
+    {
+      "id": "how-did-this-get-made--dirt-bike-kid-classic",
+      "show": "How Did This Get Made?",
+      "title": "The Dirt Bike Kid (Classic)",
+      "apple_collection_id": 409287913,
+      "apple_track_id": 1000777658359,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-dirt-bike-kid-classic/id409287913?i=1000777658359&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/06/00/4b06006c-8936-1653-fc82-132b64441f4f/mza_5523773122723324139.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs",
+        "tv-film/reviews"
+      ],
+      "hook": "A magical flying dirt bike, a hot dog stand, and a skeevy 1985 banker.",
+      "explicit": true
+    },
+    {
+      "id": "handsome--michael-buble-selfless-acts",
+      "show": "Handsome",
+      "title": "Michael Bublé asks about selfless acts",
+      "apple_collection_id": 1702258458,
+      "apple_track_id": 1000777685521,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/michael-bubl%C3%A9-asks-about-selfless-acts/id1702258458?i=1000777685521&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/96/1b/e1961bc1-eae4-b488-3b0f-abdc52f06568/mza_18244201912816466457.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Michael Bublé brings a question he is afraid to answer himself, plus 007-inspired decor.",
+      "explicit": true
+    },
+    {
+      "id": "kill-tony--777",
+      "show": "KILL TONY",
+      "title": "KILL TONY #777",
+      "apple_collection_id": 1042361179,
+      "apple_track_id": 1000777642736,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/kill-tony-777/id1042361179?i=1000777642736&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 126,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a0/ad/df/a0addf99-adce-5a42-a138-81d9f8e4562e/mza_8301528492532104652.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/stand-up"
+      ],
+      "hook": "Open-mic comics get one minute each, then Hinchcliffe and the panel respond.",
+      "explicit": true
+    },
+    {
+      "id": "dateline--slow-burn",
+      "show": "Dateline NBC",
+      "title": "Slow Burn",
+      "apple_collection_id": 1464919521,
+      "apple_track_id": 1000777218387,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/slow-burn/id1464919521?i=1000777218387&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "A deadly New Jersey mansion fire links back to an earlier blaze.",
+      "explicit": false
+    },
+    {
+      "id": "the-moth--walking-the-walk",
+      "show": "The Moth",
+      "title": "Walking the Walk: The Moth Radio Hour",
+      "apple_collection_id": 275699983,
+      "apple_track_id": 1000777657481,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/walking-the-walk-the-moth-radio-hour/id275699983?i=1000777657481&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/39/63/1639632d-7ad2-d87b-d4f7-d0ec95eff386/mza_8915289722686017414.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling",
+        "culture/performing-arts"
+      ],
+      "hook": "Stories of finding your way through heartbreak, adolescence, crisis, and public nudity.",
+      "explicit": false
+    },
+    {
+      "id": "death-sex-money--quiet-storm-black-middle-class",
+      "show": "Death, Sex & Money",
+      "title": "The Sexy Soundtrack for the ‘New Black Middle Class’",
+      "apple_collection_id": 870688022,
+      "apple_track_id": 1000777679542,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-sexy-soundtrack-for-the-new-black-middle-class/id870688022?i=1000777679542&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/25/c8/ab25c89d-f0ff-b241-4432-1ef06521b765/mza_16562465962407518091.jpg/600x600bb.jpg",
+      "topics": [
+        "personal-journals",
+        "relationships"
+      ],
+      "hook": "A college radio show called The Quiet Storm grew into an entire genre.",
+      "explicit": false
+    },
+    {
+      "id": "we-can-do-hard-things--abortion-history-jessica-valenti",
+      "show": "We Can Do Hard Things",
+      "title": "The Wild, Untold Story of How They Made Abortion Political: Witches, Healers & Liars  | Amanda with Jessica Valenti",
+      "apple_collection_id": 1564530722,
+      "apple_track_id": 1000777659040,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-wild-untold-story-of-how-they-made/id1564530722?i=1000777659040&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 92,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/04/1c/25041c54-a94b-4c84-3d79-129f8f0bdc27/mza_10132198868361967560.jpeg/600x600bb.jpg",
+      "topics": [
+        "relationships",
+        "health/mental"
+      ],
+      "hook": "Jessica Valenti traces abortion in America from witches and healers to present politics.",
+      "explicit": true
+    },
+    {
+      "id": "dissect--igor-last-song-standing",
+      "show": "Dissect",
+      "title": "'IGOR' by Tyler The Creator | LAST SONG STANDING (E4)",
+      "apple_collection_id": 1143845868,
+      "apple_track_id": 1000777698572,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/igor-by-tyler-the-creator-last-song-standing-e4/id1143845868?i=1000777698572&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 110,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3e/d8/f5/3ed8f5f4-4113-9049-ddf9-6900d2d2969d/mza_6863756797238193337.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Cole and Charles revisit Tyler, The Creator's IGOR and nominate its best songs.",
+      "explicit": true
+    },
+    {
+      "id": "broken-record--daveed-diggs",
+      "show": "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+      "title": "Daveed Diggs on the Need for Artistic Expression | From Who's With Me? with W. Kamau Bell",
+      "apple_collection_id": 1311004083,
+      "apple_track_id": 1000777689798,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/daveed-diggs-on-the-need-for-artistic-expression-from/id1311004083?i=1000777689798&uo=4",
+      "release_date": "2026-07-21",
+      "duration_min": 78,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/e2/8e/e1e28ee7-c7ed-9a91-dbdf-0bac03b6fa38/mza_12090824434324250279.jpg/600x600bb.jpg",
+      "topics": [
+        "music"
+      ],
+      "hook": "Daveed Diggs on artistic expression, from W. Kamau Bell's new interview show.",
+      "explicit": true
     }
   ]
 }
